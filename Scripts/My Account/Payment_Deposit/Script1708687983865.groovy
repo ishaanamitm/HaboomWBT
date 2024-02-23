@@ -47,3 +47,5 @@ WebUI.click(findTestObject('Object Repository/My Account_Payment/Transaction pag
 
 WebUI.takeFullPageScreenshot()
 
+WebUI.closeBrowser()
+
