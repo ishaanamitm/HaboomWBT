@@ -35,6 +35,7 @@
 			</matcher>
 		</filter>
 		<filter>
+<<<<<<< HEAD
 			<id>1708680202093</id>
 			<name></name>
 			<type>10</type>
@@ -99,6 +100,18 @@
 		</filter>
 		<filter>
 			<id>1708688584153</id>
+=======
+			<id>1708680277322</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1708680277328</id>
+>>>>>>> branch 'main' of https://github.com/ishaanamitm/HaboomWBT.git
 			<name></name>
 			<type>6</type>
 			<matcher>

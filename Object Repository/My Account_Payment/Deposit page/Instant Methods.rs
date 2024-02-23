@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Instant Methods</name>
+   <tag></tag>
+   <elementGuidId>24316264-2fab-4dbe-a8bc-260ffd7ba96d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='sc-carousel']/a/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.long</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>e768196d-982e-4cb0-a401-66bbc5a8f10e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>long</value>
+      <webElementGuid>8b6aa243-1c52-4780-ac55-11213af83e0f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Instant Methods</value>
+      <webElementGuid>c493f83d-ce29-4785-a095-081578af2b60</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sc-carousel&quot;)/a[@class=&quot;card-tab selector visible left tablink_dep selected&quot;]/span[@class=&quot;long&quot;]</value>
+      <webElementGuid>759c9312-00ae-4a90-8be6-f32ea6f7e027</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/My Account_Payment/Deposit page/iframe_Refer and Earn_iframePage</value>
+      <webElementGuid>fdd035f2-1703-43a6-8968-1a8e82aa006a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='sc-carousel']/a/span</value>
+      <webElementGuid>6c222c47-0cfb-4faf-8356-c27409de2e20</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Deposit Funds'])[1]/following::span[1]</value>
+      <webElementGuid>45532f5b-51d4-422c-b0d6-1e15cf162baf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Help'])[1]/following::span[1]</value>
+      <webElementGuid>7d598314-9bdf-436d-b0bd-0151eeb77629</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Instant'])[1]/preceding::span[1]</value>
+      <webElementGuid>a78c94ab-bcb9-4735-bedb-f4cad94c4f59</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Bank Transfer'])[1]/preceding::span[2]</value>
+      <webElementGuid>521cbb3a-7dba-47f5-8d7e-02c21ec4714e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Instant Methods']/parent::*</value>
+      <webElementGuid>42bdfcf8-172f-47c9-8f29-9fe7c3fd06a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span</value>
+      <webElementGuid>8cd587ce-680a-4d7f-b06e-39c96263a98d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Instant Methods' or . = 'Instant Methods')]</value>
+      <webElementGuid>65ed6874-e7aa-434f-a480-41e159cabc00</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
