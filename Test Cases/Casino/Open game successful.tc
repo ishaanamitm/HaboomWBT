@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Expected Result - User should able to open the game, &#xd;
+Actual Result - User can able to play the game</description>
+   <name>Open game successful</name>
+   <tag>Open Game</tag>
+   <comment></comment>
+   <testCaseGuid>467dff02-167e-4345-8ea8-bb1c92bb13ba</testCaseGuid>
+</TestCaseEntity>
