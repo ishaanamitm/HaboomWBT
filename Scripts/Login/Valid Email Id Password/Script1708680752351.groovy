@@ -23,3 +23,5 @@ WebUI.click(findTestObject('Object Repository/Login Page/login button'))
 
 WebUI.verifyElementText(findTestObject('Object Repository/Login Page/My Account'), 'My Account')
 
+WebUI.closeBrowser()
+
