@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="HABOOM" time="16.621" tests="1" failures="0" errors="0">
+   <testsuite name="HABOOM" tests="1" failures="0" errors="0" time="16.621" skipped="0" timestamp="26-02-2024T15:24:06" hostname="Dhamodharan - LAPTOP-QCDUFDJE" id="Test Suites/HABOOM">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Dhamodharan\\git\\HaboomWBT\\Reports\\20240226_152403\\HABOOM\\20240226_152403"/>
+         <property name="logFiles" value="C:\\Users\\Dhamodharan\\git\\HaboomWBT\\Reports\\20240226_152403\\HABOOM\\20240226_152403\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Dhamodharan - LAPTOP-QCDUFDJE"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 122.0.0.0"/>
+         <property name="hostAddress" value="192.168.50.131"/>
+         <property name="sessionId" value="7b951c5d0afe900afcf9819536a3cc1f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/HOMEPAGE LOGIN/Login Invalid" time="16.443" classname="Test Cases/HOMEPAGE LOGIN/Login Invalid" status="PASSED">
+         <system-out><![CDATA[26-02-2024T15:24:06 - [TEST_CASE][PASSED] - Test Cases/HOMEPAGE LOGIN/Login Invalid: Test Cases/HOMEPAGE LOGIN/Login Invalid
+
+26-02-2024T15:24:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-02-2024T15:24:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-02-2024T15:24:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-02-2024T15:24:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-02-2024T15:24:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+26-02-2024T15:24:08 - [MESSAGE][PASSED] - Current window maximized
+
+26-02-2024T15:24:08 - [TEST_STEP][PASSED] - navigateToUrl("https://haboom.com/"): Navigate to 'https://haboom.com/' successfully
+
+26-02-2024T15:24:13 - [MESSAGE][PASSED] - Navigate to 'https://haboom.com/' successfully
+
+26-02-2024T15:24:13 - [TEST_STEP][PASSED] - setText(findTestObject("Login/Login_Valid/Username_Field"), "rock"): Text 'rock' is set on object 'Object Repository/Login/Login_Valid/Username_Field'
+
+26-02-2024T15:24:17 - [MESSAGE][PASSED] - Text 'rock' is set on object 'Object Repository/Login/Login_Valid/Username_Field'
+
+26-02-2024T15:24:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/Login_Valid/Password_Field"), "lhW90T3e44I="): Text ****** has been set on object 'Object Repository/Login/Login_Valid/Password_Field'
+
+26-02-2024T15:24:19 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Login_Valid/Password_Field'
+
+26-02-2024T15:24:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Login_Valid/Login_Button")): Object: 'Object Repository/Login/Login_Valid/Login_Button' is clicked on
+
+26-02-2024T15:24:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login_Valid/Login_Button' is clicked on
+
+26-02-2024T15:24:20 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+26-02-2024T15:24:21 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+26-02-2024T15:24:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login/Login_InValid/Errorpopup"), "Invalid email or password. Not to worry, you can try again or you can reset your password or contact us."): Actual text and expected text of test object 'Object Repository/Login/Login_InValid/Errorpopup' are matched.
+
+26-02-2024T15:24:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login/Login_InValid/Errorpopup' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-02-2024T15:24:06 - [TEST_SUITE][PASSED] - HABOOM: Test Cases/HOMEPAGE LOGIN/Login Invalid]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

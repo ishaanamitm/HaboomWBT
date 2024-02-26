@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="HABOOM" time="35.172" tests="2" failures="0" errors="0">
+   <testsuite name="HABOOM" tests="2" failures="0" errors="0" time="35.172" skipped="0" timestamp="26-02-2024T11:51:02" hostname="Dhamodharan - LAPTOP-QCDUFDJE" id="Test Suites/HABOOM">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Dhamodharan\\git\\HaboomWBT\\Reports\\20240226_115100\\HABOOM\\20240226_115100"/>
+         <property name="logFiles" value="C:\\Users\\Dhamodharan\\git\\HaboomWBT\\Reports\\20240226_115100\\HABOOM\\20240226_115100\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Dhamodharan\\git\\HaboomWBT\\Reports\\20240226_115100\\HABOOM\\20240226_115100\\1708928497603.png"/>
+         <property name="hostName" value="Dhamodharan - LAPTOP-QCDUFDJE"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 122.0.0.0"/>
+         <property name="hostAddress" value="192.168.50.131"/>
+         <property name="sessionId" value="613de23a222dc851ff45c1bb11fb52eb"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/JOINNOW/Joinnow valid" time="19.549" classname="Test Cases/JOINNOW/Joinnow valid" status="PASSED">
+         <system-out><![CDATA[26-02-2024T11:51:02 - [TEST_CASE][PASSED] - Test Cases/JOINNOW/Joinnow valid: Test Cases/JOINNOW/Joinnow valid
+
+26-02-2024T11:51:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-02-2024T11:51:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-02-2024T11:51:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-02-2024T11:51:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-02-2024T11:51:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+26-02-2024T11:51:04 - [MESSAGE][PASSED] - Current window maximized
+
+26-02-2024T11:51:04 - [TEST_STEP][PASSED] - navigateToUrl("https://haboom.com/"): Navigate to 'https://haboom.com/' successfully
+
+26-02-2024T11:51:10 - [MESSAGE][PASSED] - Navigate to 'https://haboom.com/' successfully
+
+26-02-2024T11:51:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/JOINNOW/Joinnow valid/Join Now_button")): Object: 'Object Repository/JOINNOW/Joinnow valid/Join Now_button' is clicked on
+
+26-02-2024T11:51:15 - [MESSAGE][PASSED] - Object: 'Object Repository/JOINNOW/Joinnow valid/Join Now_button' is clicked on
+
+26-02-2024T11:51:15 - [TEST_STEP][PASSED] - randomusername = RandomStringUtils.randomAlphabetic(10): null
+
+26-02-2024T11:51:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/JOINNOW/Joinnow valid/User name_Field"), randomusername): Text 'GapRvBWJgO' is set on object 'Object Repository/JOINNOW/Joinnow valid/User name_Field'
+
+26-02-2024T11:51:16 - [MESSAGE][PASSED] - Text 'GapRvBWJgO' is set on object 'Object Repository/JOINNOW/Joinnow valid/User name_Field'
+
+26-02-2024T11:51:16 - [TEST_STEP][PASSED] - randomemail = RandomStringUtils.randomAlphanumeric(10): null
+
+26-02-2024T11:51:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/JOINNOW/Joinnow valid/Email address_Field"), randomemail + "@gmail.com"): Text 'WowSOv6CMn@gmail.com' is set on object 'Object Repository/JOINNOW/Joinnow valid/Email address_Field'
+
+26-02-2024T11:51:16 - [MESSAGE][PASSED] - Text 'WowSOv6CMn@gmail.com' is set on object 'Object Repository/JOINNOW/Joinnow valid/Email address_Field'
+
+26-02-2024T11:51:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/JOINNOW/Joinnow valid/Password_Field"), "Ae2KZyjYBr3zjExtfoMITg=="): Text ****** has been set on object 'Object Repository/JOINNOW/Joinnow valid/Password_Field'
+
+26-02-2024T11:51:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/JOINNOW/Joinnow valid/Password_Field'
+
+26-02-2024T11:51:17 - [TEST_STEP][PASSED] - randomnumber = RandomStringUtils.randomNumeric(12): null
+
+26-02-2024T11:51:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/JOINNOW/Joinnow valid/Mobile number_Field"), randomnumber): Text '032839623779' is set on object 'Object Repository/JOINNOW/Joinnow valid/Mobile number_Field'
+
+26-02-2024T11:51:17 - [MESSAGE][PASSED] - Text '032839623779' is set on object 'Object Repository/JOINNOW/Joinnow valid/Mobile number_Field'
+
+26-02-2024T11:51:17 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+26-02-2024T11:51:19 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+26-02-2024T11:51:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/JOINNOW/Joinnow valid/Register_button")): Object: 'Object Repository/JOINNOW/Joinnow valid/Register_button' is clicked on
+
+26-02-2024T11:51:20 - [MESSAGE][PASSED] - Object: 'Object Repository/JOINNOW/Joinnow valid/Register_button' is clicked on
+
+26-02-2024T11:51:20 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+26-02-2024T11:51:22 - [MESSAGE][PASSED] - Delayed 2 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/JOINNOW/Joinnow invalid" time="15.499" classname="Test Cases/JOINNOW/Joinnow invalid" status="PASSED">
+         <system-out><![CDATA[26-02-2024T11:51:22 - [TEST_CASE][PASSED] - Test Cases/JOINNOW/Joinnow invalid: Test Cases/JOINNOW/Joinnow invalid
+
+26-02-2024T11:51:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-02-2024T11:51:22 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+26-02-2024T11:51:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-02-2024T11:51:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-02-2024T11:51:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-02-2024T11:51:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+26-02-2024T11:51:24 - [MESSAGE][PASSED] - Current window maximized
+
+26-02-2024T11:51:24 - [TEST_STEP][PASSED] - navigateToUrl("https://haboom.com/"): Navigate to 'https://haboom.com/' successfully
+
+26-02-2024T11:51:29 - [MESSAGE][PASSED] - Navigate to 'https://haboom.com/' successfully
+
+26-02-2024T11:51:29 - [TEST_STEP][PASSED] - click(findTestObject("JOINNOW/Joinnow Invalid/Join Now_button")): Object: 'Object Repository/JOINNOW/Joinnow Invalid/Join Now_button' is clicked on
+
+26-02-2024T11:51:31 - [MESSAGE][PASSED] - Object: 'Object Repository/JOINNOW/Joinnow Invalid/Join Now_button' is clicked on
+
+26-02-2024T11:51:31 - [TEST_STEP][PASSED] - randomusername = RandomStringUtils.randomAlphabetic(10): null
+
+26-02-2024T11:51:31 - [TEST_STEP][PASSED] - setText(findTestObject("JOINNOW/Joinnow Invalid/User name_Field"), randomusername): Text 'eTtEktZjLM' is set on object 'Object Repository/JOINNOW/Joinnow Invalid/User name_Field'
+
+26-02-2024T11:51:32 - [MESSAGE][PASSED] - Text 'eTtEktZjLM' is set on object 'Object Repository/JOINNOW/Joinnow Invalid/User name_Field'
+
+26-02-2024T11:51:32 - [TEST_STEP][PASSED] - randomemail = RandomStringUtils.randomAlphanumeric(10): null
+
+26-02-2024T11:51:32 - [TEST_STEP][PASSED] - setText(findTestObject("JOINNOW/Joinnow Invalid/Email address_Field"), randomemail + "gmail.com"): Text 'IKif0J2Hm2gmail.com' is set on object 'Object Repository/JOINNOW/Joinnow Invalid/Email address_Field'
+
+26-02-2024T11:51:33 - [MESSAGE][PASSED] - Text 'IKif0J2Hm2gmail.com' is set on object 'Object Repository/JOINNOW/Joinnow Invalid/Email address_Field'
+
+26-02-2024T11:51:33 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("JOINNOW/Joinnow Invalid/Password_Field"), "Ae2KZyjYBr3zjExtfoMITg=="): Text ****** has been set on object 'Object Repository/JOINNOW/Joinnow Invalid/Password_Field'
+
+26-02-2024T11:51:33 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/JOINNOW/Joinnow Invalid/Password_Field'
+
+26-02-2024T11:51:33 - [TEST_STEP][PASSED] - randomnumber = RandomStringUtils.randomNumeric(10): null
+
+26-02-2024T11:51:33 - [TEST_STEP][PASSED] - setText(findTestObject("JOINNOW/Joinnow Invalid/Mobile number_Field"), randomnumber): Text '0070412542' is set on object 'Object Repository/JOINNOW/Joinnow Invalid/Mobile number_Field'
+
+26-02-2024T11:51:34 - [MESSAGE][PASSED] - Text '0070412542' is set on object 'Object Repository/JOINNOW/Joinnow Invalid/Mobile number_Field'
+
+26-02-2024T11:51:34 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+26-02-2024T11:51:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+26-02-2024T11:51:36 - [TEST_STEP][PASSED] - click(findTestObject("JOINNOW/Joinnow Invalid/Register_button")): Object: 'Object Repository/JOINNOW/Joinnow Invalid/Register_button' is clicked on
+
+26-02-2024T11:51:36 - [MESSAGE][PASSED] - Object: 'Object Repository/JOINNOW/Joinnow Invalid/Register_button' is clicked on
+
+26-02-2024T11:51:36 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("JOINNOW/Joinnow Invalid/Error Invalid Phone Number"), 0): Object 'Object Repository/JOINNOW/Joinnow Invalid/Error Invalid Phone Number' is present
+
+26-02-2024T11:51:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+26-02-2024T11:51:37 - [MESSAGE][PASSED] - Object 'Object Repository/JOINNOW/Joinnow Invalid/Error Invalid Phone Number' is present
+
+26-02-2024T11:51:37 - [TEST_STEP][PASSED] - takeScreenshot(STOP_ON_FAILURE): Taking screenshot successfully
+
+26-02-2024T11:51:37 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Dhamodharan\\git\\HaboomWBT\\Reports\\20240226_115100\\HABOOM\\20240226_115100\\1708928497603.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-02-2024T11:51:02 - [TEST_SUITE][PASSED] - HABOOM: Test Cases/JOINNOW/Joinnow invalid]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

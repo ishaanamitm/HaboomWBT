@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+HABOOM,Chrome 122.0.0.0,,,26-02-2024 12:57:31,26-02-2024 12:58:01,30.048s,FAILED
+,,,,,,,
+Test Cases/HOMEPAGE LOGIN/Login valid,Chrome 122.0.0.0,"Expected: With valid credentials, the user should be able to log in to the homepage.
+Actual: With valid credentials, the user is logged in to the homepage.",Login,26-02-2024 12:57:31,26-02-2024 12:58:01,29.911s,FAILED
+"openBrowser("""")",Chrome 122.0.0.0,,,26-02-2024 12:57:31,26-02-2024 12:57:33,1.728s,PASSED
+"navigateToUrl(""https://haboom.com/"")",Chrome 122.0.0.0,,,26-02-2024 12:57:33,26-02-2024 12:57:46,13.105s,PASSED
+"setText(findTestObject(""Object Repository/Login/Login_Valid/Username_Field""), ""rock"")",Chrome 122.0.0.0,,,26-02-2024 12:57:46,26-02-2024 12:57:49,2.799s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/Login_Valid/Password_Field""), ""Ae2KZyjYBr3zjExtfoMITg=="")",Chrome 122.0.0.0,,,26-02-2024 12:57:49,26-02-2024 12:57:51,2.378s,PASSED
+"click(findTestObject(""Object Repository/Login/Login_Valid/Login_Button""))",Chrome 122.0.0.0,,,26-02-2024 12:57:51,26-02-2024 12:57:53,1.852s,PASSED
+"click(findTestObject(""Object Repository/Login/Login_Valid/My Account""))",Chrome 122.0.0.0,,,26-02-2024 12:57:53,26-02-2024 12:58:01,7.771s,PASSED
+"verifyElementPresent(findTestObject(""Page_Haboom - Trusted Online Casino and Spo_832508/a_ROCK""), 0)",Chrome 122.0.0.0,,,26-02-2024 12:58:01,26-02-2024 12:58:01,0.089s,FAILED

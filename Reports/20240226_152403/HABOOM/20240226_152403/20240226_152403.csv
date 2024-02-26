@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+HABOOM,Chrome 122.0.0.0,,,26-02-2024 15:24:06,26-02-2024 15:24:22,16.621s,PASSED
+,,,,,,,
+Test Cases/HOMEPAGE LOGIN/Login Invalid,Chrome 122.0.0.0,"Expected: With invalid credentials, the user should be redirected to another login page with an error popup message.
+Actual: With invalid credentials, the user is redirected to another login page with an error popup message.",Login Invalid,26-02-2024 15:24:06,26-02-2024 15:24:22,16.443s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,26-02-2024 15:24:06,26-02-2024 15:24:08,1.629s,PASSED
+maximizeWindow(),Chrome 122.0.0.0,,,26-02-2024 15:24:08,26-02-2024 15:24:08,0.146s,PASSED
+"navigateToUrl(""https://haboom.com/"")",Chrome 122.0.0.0,,,26-02-2024 15:24:08,26-02-2024 15:24:13,5.278s,PASSED
+"setText(findTestObject(""Login/Login_Valid/Username_Field""), ""rock"")",Chrome 122.0.0.0,,,26-02-2024 15:24:13,26-02-2024 15:24:17,3.419s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/Login_Valid/Password_Field""), ""lhW90T3e44I="")",Chrome 122.0.0.0,,,26-02-2024 15:24:17,26-02-2024 15:24:19,1.948s,PASSED
+"click(findTestObject(""Object Repository/Login/Login_Valid/Login_Button""))",Chrome 122.0.0.0,,,26-02-2024 15:24:19,26-02-2024 15:24:20,1.193s,PASSED
+delay(1),Chrome 122.0.0.0,,,26-02-2024 15:24:20,26-02-2024 15:24:21,1.038s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Login/Login_InValid/Errorpopup""), ""Invalid email or password. Not to worry, you can try again or you can reset your password or contact us."")",Chrome 122.0.0.0,,,26-02-2024 15:24:21,26-02-2024 15:24:22,1.543s,PASSED
