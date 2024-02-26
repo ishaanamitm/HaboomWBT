@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Chrome 121.0.0.0,login functionality suite,,23-02-2024 15:33:45,23-02-2024 15:34:02,17.578s,PASSED
+,,,,,,,
+Test Cases/Login/Valid Email Id Password,Chrome 121.0.0.0,"Expected Result :To valid login functionalitty
+Actual Result:The browser should sucessfully open the haboom webpage",login,23-02-2024 15:33:45,23-02-2024 15:34:02,17.461s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,23-02-2024 15:33:45,23-02-2024 15:33:46,1.147s,PASSED
+"navigateToUrl(""https://haboom.com/"")",Chrome 121.0.0.0,,,23-02-2024 15:33:46,23-02-2024 15:33:47,1.203s,PASSED
+"setText(findTestObject(""Object Repository/Login Page/Login email field""), ""jabbi"")",Chrome 121.0.0.0,,,23-02-2024 15:33:47,23-02-2024 15:33:54,6.933s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login Page/Login Password""), ""Ae2KZyjYBr0MQlyqU7ThAA=="")",Chrome 121.0.0.0,,,23-02-2024 15:33:54,23-02-2024 15:33:55,1.022s,PASSED
+"click(findTestObject(""Object Repository/Login Page/login button""))",Chrome 121.0.0.0,,,23-02-2024 15:33:55,23-02-2024 15:33:56,0.414s,PASSED
+"verifyElementText(findTestObject(""Object Repository/Login Page/My Account""), ""My Account"")",Chrome 121.0.0.0,,,23-02-2024 15:33:56,23-02-2024 15:34:02,6.580s,PASSED
