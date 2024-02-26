@@ -1,3 +1,64 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/My Account_Payment/Deposit page/Instant Methods",
+      "brokenLocator": "//div[@id\u003d\u0027sc-carousel\u0027]/a/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Help\u0027])[1]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/My Account_Payment/Deposit page/Instant Methods_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/My Account_Payment/Deposit Bank Transfer/Bank transfer page/div_Deposit request placed successfully",
+      "brokenLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Ok, I get it\u0027])[1]/following::div[5]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/My Account_Payment/Deposit Bank Transfer/Bank transfer page/div_Deposit request placed successfully_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/My Account_Payment/Deposit page/Instant amount entery field",
+      "brokenLocator": "//input[@id\u003d\u0027depositInstantamount\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/try/Page_Haboom - Trusted Online Casino and Spo_832508/span_My Account",
+      "brokenLocator": "//div[@id\u003d\u0027acco_arr\u0027]/a/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Help\u0027])[1]/following::span[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/try/Page_Haboom - Trusted Online Casino and Spo_832508/span_My Account_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/My Account_Payment/Deposit page/Deposit button",
+      "brokenLocator": "//button[@id\u003d\u0027continueButton\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//*/text()[normalize-space(.)\u003d\u0027Deposit\u0027]/parent::*",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/My Account_Payment/Deposit page/Amount entery field_w",
+      "brokenLocator": "//input[@id\u003d\u0027depositInstantamount\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    }
+  ]
 }

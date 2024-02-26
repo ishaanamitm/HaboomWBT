@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Transaction History</name>
+   <tag></tag>
+   <elementGuidId>563f2be4-23c0-4603-a565-e223cf0b3850</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>ul.dropdown-menu > li.selected</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='Betting_Activity']/ul/li[9]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>li</value>
+      <webElementGuid>3f9f89c5-a927-4328-bee9-5b3849480729</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>selected</value>
+      <webElementGuid>d3ec93c5-472c-4e31-a77c-40aecd9986a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Transaction History</value>
+      <webElementGuid>29ff4081-4e01-467b-8ebc-a3c3d810ddc2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Betting_Activity&quot;)/ul[@class=&quot;dropdown-menu&quot;]/li[@class=&quot;selected&quot;]</value>
+      <webElementGuid>56dc91ba-529f-4530-909b-64927e34207f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='Betting_Activity']/ul/li[9]</value>
+      <webElementGuid>7275c26f-9247-4b2c-9a41-0fd273b903ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tickets'])[1]/following::li[1]</value>
+      <webElementGuid>5e00e6c4-7c0f-4548-8e86-069c361823b6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Exchange Profit &amp; Loss'])[1]/following::li[2]</value>
+      <webElementGuid>c423e3d5-5e98-49f9-832f-9fc15b840dc7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Details'])[1]/preceding::li[1]</value>
+      <webElementGuid>1860a734-2b76-4743-bcff-7930a77abab1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[9]</value>
+      <webElementGuid>f4e7cb84-c2e7-4c35-820a-6387c59ffae9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//li[(text() = 'Transaction History' or . = 'Transaction History')]</value>
+      <webElementGuid>4425571d-e97b-4f29-8364-d15cd4ccb362</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

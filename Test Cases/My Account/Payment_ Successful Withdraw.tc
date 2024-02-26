@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Expected Result: To check whether the user is able to withdraw &#xd;
+Actual Result: The user is able to withdraw</description>
+   <name>Payment_ Successful Withdraw</name>
+   <tag>My Account</tag>
+   <comment></comment>
+   <testCaseGuid>afb7a5ce-5fb3-4ba8-84a3-16dcc3b21211</testCaseGuid>
+</TestCaseEntity>

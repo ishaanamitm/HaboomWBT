@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Checkbox</name>
+   <tag></tag>
+   <elementGuidId>ec896eab-fc58-4f8b-9716-504cd5980363</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>li > label</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='lightboxwithdrawal']/div/div/div[2]/div[2]/div/div/div/div/div/div/div[2]/div/li/label</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>57a399c7-079c-490d-90f8-9a52f98eea6f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>styled-checkbox_28</value>
+      <webElementGuid>127b0bc4-8f00-484e-9b25-1f7c3139ecee</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Checkbox</value>
+      <webElementGuid>6b540c82-03aa-412c-827d-3e484683edfb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;lightboxwithdrawal&quot;)/div[@class=&quot;form-section&quot;]/div[1]/div[@class=&quot;lightbox-content noselect&quot;]/div[@class=&quot;carousel-section&quot;]/div[@class=&quot;owl-carousel owl-theme cls_bankaccounts smr1 card_carousel d_flex owl-loaded owl-drag&quot;]/div[@class=&quot;owl-stage-outer&quot;]/div[@class=&quot;owl-stage&quot;]/div[@class=&quot;owl-item active&quot;]/div[@class=&quot;item&quot;]/div[@class=&quot;bank-details&quot;]/div[@class=&quot;info-detail&quot;]/div[@class=&quot;checkbox-section&quot;]/li[1]/label[1]</value>
+      <webElementGuid>56d7beec-2cb4-4134-8173-1beca783bf6f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='lightboxwithdrawal']/div/div/div[2]/div[2]/div/div/div/div/div/div/div[2]/div/li/label</value>
+      <webElementGuid>649a4dec-1272-4080-83d8-115f0415479f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='INR1000'])[1]/following::label[1]</value>
+      <webElementGuid>a78c9c03-68ec-4c63-93c5-ee615268a6b5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Withdraw request'])[1]/following::label[1]</value>
+      <webElementGuid>e1350a2b-3637-4caa-8830-6302859bf671</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Account Name'])[1]/preceding::label[1]</value>
+      <webElementGuid>318b6354-3d77-493d-a4e4-6f12a6fa2f24</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Account Number'])[1]/preceding::label[2]</value>
+      <webElementGuid>db3bbc28-433f-4baf-9634-339a976d1304</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Checkbox']/parent::*</value>
+      <webElementGuid>d7c5ad68-fee1-44c6-9271-ea263874fab5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/label</value>
+      <webElementGuid>7bc3ab3d-45e5-4a12-bde0-94cf0593b44f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'Checkbox' or . = 'Checkbox')]</value>
+      <webElementGuid>6ab304ed-ae5b-4d76-95dc-625ffd475dc0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
