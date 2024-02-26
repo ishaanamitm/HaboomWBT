@@ -21,6 +21,8 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://haboom.com/')
 
+WebUI.maximizeWindow()
+
 WebUI.setText(findTestObject('Login Page/Login email field'), 'jabbi')
 
 WebUI.click(findTestObject('Login Page/login button'))
