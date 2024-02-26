@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Casino,Chrome 121.0.0.0,Casino Suite,,26-02-2024 12:05:30,26-02-2024 12:13:18,7m - 48.657s,ERROR
+,,,,,,,
+Test Cases/Casino/Open game successful,Chrome 121.0.0.0,"Expected Result - User should able to open the game, 
+Actual Result - User can able to play the game",Open Game,26-02-2024 12:11:56,26-02-2024 12:13:18,1m - 21.972s,ERROR
+Start setup action : setupTestCase,Chrome 121.0.0.0,,,26-02-2024 12:11:56,26-02-2024 12:13:18,1m - 21.953s,ERROR
