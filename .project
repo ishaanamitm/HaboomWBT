@@ -17,7 +17,11 @@
 	</natures>
 	<filteredResources>
 		<filter>
+<<<<<<< HEAD
 			<id>1708922830014</id>
+=======
+			<id>1708922918166</id>
+>>>>>>> branch 'main' of https://github.com/ishaanamitm/HaboomWBT.git
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -26,7 +30,11 @@
 			</matcher>
 		</filter>
 		<filter>
+<<<<<<< HEAD
 			<id>1708922830016</id>
+=======
+			<id>1708922918175</id>
+>>>>>>> branch 'main' of https://github.com/ishaanamitm/HaboomWBT.git
 			<name></name>
 			<type>6</type>
 			<matcher>
