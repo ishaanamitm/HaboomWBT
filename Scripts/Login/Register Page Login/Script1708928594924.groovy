@@ -28,7 +28,7 @@ WebUI.click(findTestObject('Object Repository/Login Page/Register Page Login/Log
 WebUI.setText(findTestObject('Object Repository/Login Page/Register Page Login/Login Here Hyperlink/input_Username  Email  Phone_username'), 
     '6366763704')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Login Page/Register Page Login/Login Here Hyperlink/input_Password_password'), 
+WebUI.setText(findTestObject('Object Repository/Login Page/Register Page Login/Login Here Hyperlink/input_Password_password'), 
     'ukRzokRq1vE=')
 
 WebUI.click(findTestObject('Object Repository/Login Page/Register Page Login/Login Here Hyperlink/span_Password_password_show'))

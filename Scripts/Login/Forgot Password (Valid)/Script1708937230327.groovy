@@ -33,7 +33,7 @@ WebUI.setText(findTestObject('Object Repository/Login Page/Forgot Password (Vali
 
 WebUI.click(findTestObject('Object Repository/Login Page/Forgot Password (Valid)/Forgot Password Page/Check Button'))
 
-WebUI.verifyElementText(findTestObject('Login Page/Forgot Password (Valid)/Forgot Password Page/p_OTP sent successfully'), 
+WebUI.verifyElementText(findTestObject('Login Page/Forgot Password (Valid)/Forgot Password Page/OTP sent successfully'), 
     'OTP sent successfully')
 
 WebUI.delay(2)

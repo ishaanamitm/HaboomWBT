@@ -3,7 +3,7 @@
    <description></description>
    <name>p_OTP sent successfully</name>
    <tag></tag>
-   <elementGuidId>6936b0c1-ce78-45d2-b27a-6ed265f20242</elementGuidId>
+   <elementGuidId>f5cfa58e-2330-4ac0-a595-655abb6009b1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'content-login', '&quot;', ')')])[1]/following::p[1]</value>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[1]/following::p[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>6fcc7857-e041-4a85-82ba-75009b7242d1</webElementGuid>
+      <webElementGuid>e5de961b-1f87-42a3-8c37-a8970f835cc0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>text</name>
       <type>Main</type>
       <value>OTP sent successfully</value>
-      <webElementGuid>0afcabd7-ed32-4886-bc7a-c31c395a848d</webElementGuid>
+      <webElementGuid>bfc4c172-8e6b-4d78-b4b1-6ba13b82967b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,23 +38,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[@class=&quot;yui3-js-enabled&quot;]/body[@class=&quot;sso-content  betfair layout-page-poker1   ssc-footer jur-international GB&quot;]/div[@class=&quot;snackbar-container  snackbar-pos top-right&quot;]/p[1]</value>
-      <webElementGuid>56894444-481c-4ce5-b1fd-9d6458ec1e85</webElementGuid>
+      <webElementGuid>bac2482c-edb0-43df-ab2b-9aa422b03c7a</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'content-login', '&quot;', ')')])[1]/following::p[1]</value>
-      <webElementGuid>71d72d28-5b1e-4460-91a9-ef8f52760c23</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='`'])[1]/following::p[1]</value>
-      <webElementGuid>3cab7034-9327-4f0f-afd4-760a7e52543b</webElementGuid>
+      <webElementGuid>8d7014d2-113f-4517-8c55-3157b75196aa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +54,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='OTP sent successfully']/parent::*</value>
-      <webElementGuid>c03547c7-89b8-493d-a554-cafc9e8d9290</webElementGuid>
+      <webElementGuid>36dcd035-2acd-470e-b485-cb28811bbcd9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +62,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[8]/p</value>
-      <webElementGuid>7d7622f0-54f1-458a-99f5-21a60f1397c4</webElementGuid>
+      <webElementGuid>9b050e6a-41d2-40a8-a754-9e2abd98d7fc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,6 +70,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[(text() = 'OTP sent successfully' or . = 'OTP sent successfully')]</value>
-      <webElementGuid>358d34f5-3280-4a25-beb3-d85da204122b</webElementGuid>
+      <webElementGuid>72779014-4c98-4075-a57d-20074ca28fe1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
