@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+HomePage,,,,27-02-2024 16:00:13,27-02-2024 16:00:14,0.654s,FAILED
+,,,,,,,
+Test Cases/HomePage/Open recommended games successful,,,,27-02-2024 16:00:14,27-02-2024 16:00:14,0.034s,FAILED
+"click(findTestObject(""Object Repository/Home Page/Teenpatti image""))",,,,27-02-2024 16:00:14,27-02-2024 16:00:14,0.022s,FAILED
