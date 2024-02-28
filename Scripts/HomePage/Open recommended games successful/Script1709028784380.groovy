@@ -18,7 +18,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Object Repository/Home Page/Teenpatti image'))
+WebUI.click(findTestObject('Object Repository/Home Page/Recommendedgames_Teenpatti_image'))
 
 WebUI.switchToWindowIndex(1)
 

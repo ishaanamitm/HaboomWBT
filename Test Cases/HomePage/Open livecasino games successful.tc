@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Expected result - User should able to open the live casino game successfully&#xd;
+Actual result - User can able to open the live casino game successfully</description>
+   <name>Open livecasino games successful</name>
+   <tag>Live casino games</tag>
+   <comment></comment>
+   <testCaseGuid>f21ff951-4f50-4a3e-b933-504f9d3a19b6</testCaseGuid>
+</TestCaseEntity>

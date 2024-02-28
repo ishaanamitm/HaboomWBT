@@ -1,0 +1,30 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Chrome 121.0.0.0,login functionality suite,,26-02-2024 12:01:03,26-02-2024 12:02:08,1m - 5.360s,PASSED
+,,,,,,,
+Test Cases/Login/Register Page Login,Chrome 121.0.0.0,"Expected result : By entering valid credetnials user should redirect to the proper page.
+Actual result : After entering valid credentials user is redirecting to proper page.",,26-02-2024 12:01:03,26-02-2024 12:01:47,43.592s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,26-02-2024 12:01:04,26-02-2024 12:01:05,1.578s,PASSED
+"navigateToUrl(""https://haboom.com/"")",Chrome 121.0.0.0,,,26-02-2024 12:01:05,26-02-2024 12:01:23,17.512s,PASSED
+"click(findTestObject(""Object Repository/Login Page/Register Page Login/Home Page Join now/Join Now""))",Chrome 121.0.0.0,,,26-02-2024 12:01:23,26-02-2024 12:01:27,4.254s,PASSED
+"click(findTestObject(""Object Repository/Login Page/Register Page Login/Login Here Hyperlink/Log in here""))",Chrome 121.0.0.0,,,26-02-2024 12:01:27,26-02-2024 12:01:31,4.201s,PASSED
+"setText(findTestObject(""Object Repository/Login Page/Register Page Login/Login Here Hyperlink/input_Username  Email  Phone_username""), ""6366763704"")",Chrome 121.0.0.0,,,26-02-2024 12:01:31,26-02-2024 12:01:32,0.953s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login Page/Register Page Login/Login Here Hyperlink/input_Password_password""), ""ukRzokRq1vE="")",Chrome 121.0.0.0,,,26-02-2024 12:01:32,26-02-2024 12:01:33,0.598s,PASSED
+"click(findTestObject(""Object Repository/Login Page/Register Page Login/Login Here Hyperlink/span_Password_password_show""))",Chrome 121.0.0.0,,,26-02-2024 12:01:33,26-02-2024 12:01:33,0.312s,PASSED
+"click(findTestObject(""Object Repository/Login Page/Register Page Login/Login Here Hyperlink/button_Login""))",Chrome 121.0.0.0,,,26-02-2024 12:01:33,26-02-2024 12:01:33,0.346s,PASSED
+"click(findTestObject(""Object Repository/Login Page/Register Page Login/Dropdown Home page/My Account""))",Chrome 121.0.0.0,,,26-02-2024 12:01:33,26-02-2024 12:01:46,12.319s,PASSED
+takeFullPageScreenshot(),Chrome 121.0.0.0,,,26-02-2024 12:01:46,26-02-2024 12:01:46,0.580s,PASSED
+"click(findTestObject(""Object Repository/Login Page/Register Page Login/Dropdown Home page/ethanhunt24""))",Chrome 121.0.0.0,,,26-02-2024 12:01:46,26-02-2024 12:01:47,0.363s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,26-02-2024 12:01:47,26-02-2024 12:01:47,0.315s,PASSED
+,,,,,,,
+Test Cases/Login/Forgot Password,Chrome 121.0.0.0,"Expected result : if the user click the Forgot password hyperlink it should works porperly.
+Actual result :  when the user clicks the Forgot password hyperlink it works porperly.",Login,26-02-2024 12:01:47,26-02-2024 12:02:08,21.610s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,26-02-2024 12:01:47,26-02-2024 12:01:48,0.866s,PASSED
+"navigateToUrl(""https://haboom.com/"")",Chrome 121.0.0.0,,,26-02-2024 12:01:48,26-02-2024 12:01:58,10.117s,PASSED
+"click(findTestObject(""Object Repository/Login Page/Forgot Password/Login Page Forgot Password/a_Forgot Password""))",Chrome 121.0.0.0,,,26-02-2024 12:01:58,26-02-2024 12:02:01,3.014s,PASSED
+"switchToWindowTitle(""Haboom - Best #1 India's Online Sports Betting"")",Chrome 121.0.0.0,,,26-02-2024 12:02:01,26-02-2024 12:02:02,1.468s,PASSED
+"setText(findTestObject(""Object Repository/Login Page/Forgot Password/Forgot Password Page/Email or Username""), ""vipereagle0306@gmail.com"")",Chrome 121.0.0.0,,,26-02-2024 12:02:02,26-02-2024 12:02:03,0.883s,PASSED
+"setText(findTestObject(""Object Repository/Login Page/Forgot Password/Forgot Password Page/Phone Number""), ""6366763704"")",Chrome 121.0.0.0,,,26-02-2024 12:02:03,26-02-2024 12:02:04,0.958s,PASSED
+"click(findTestObject(""Object Repository/Login Page/Forgot Password/Forgot Password Page/Check Button""))",Chrome 121.0.0.0,,,26-02-2024 12:02:04,26-02-2024 12:02:05,0.319s,PASSED
+delay(3),Chrome 121.0.0.0,,,26-02-2024 12:02:05,26-02-2024 12:02:08,3.037s,PASSED
+takeFullPageScreenshot(),Chrome 121.0.0.0,,,26-02-2024 12:02:08,26-02-2024 12:02:08,0.486s,PASSED
+"click(findTestObject(""Object Repository/Login Page/Forgot Password/Forgot Password Page/OTP""))",Chrome 121.0.0.0,,,26-02-2024 12:02:08,26-02-2024 12:02:08,0.350s,PASSED

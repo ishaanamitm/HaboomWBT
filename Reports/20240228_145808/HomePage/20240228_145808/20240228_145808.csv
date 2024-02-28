@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+HomePage,Chrome 121.0.0.0,,,28-02-2024 14:58:10,28-02-2024 14:58:28,17.520s,FAILED
+,,,,,,,
+Test Cases/HomePage/Open topmatches games successful,Chrome 121.0.0.0,"Expected result - user should able to  open the top matches games successfully
+Actual result - user can able to  open the top matches games successfully",Top matches,28-02-2024 14:58:11,28-02-2024 14:58:28,17.375s,FAILED
+Start setup action : setupTestCase,Chrome 121.0.0.0,,,28-02-2024 14:58:11,28-02-2024 14:58:24,13.821s,PASSED
+"element = getWebDriver().findElement(By.xpath(""(//div[@id='cricketMatches']/div)[1]""))",Chrome 121.0.0.0,,,28-02-2024 14:58:25,28-02-2024 14:58:28,3.030s,PASSED
+Object = convertWebElementToTestObject(element),Chrome 121.0.0.0,,,28-02-2024 14:58:28,28-02-2024 14:58:28,0.011s,PASSED
+click(Object),Chrome 121.0.0.0,,,28-02-2024 14:58:28,28-02-2024 14:58:28,0.339s,PASSED
+actualtitle = getWindowTitle(),Chrome 121.0.0.0,,,28-02-2024 14:58:28,28-02-2024 14:58:28,0.016s,PASSED
+"expectedtitle = ""Casino""",Chrome 121.0.0.0,,,28-02-2024 14:58:28,28-02-2024 14:58:28,0.001s,PASSED
+"verifyMatch(actualtitle, expectedtitle, true)",Chrome 121.0.0.0,,,28-02-2024 14:58:28,28-02-2024 14:58:28,0.032s,FAILED

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Livecasinogames_Andarbahar_image</name>
+   <tag></tag>
+   <elementGuidId>96600ee2-65a2-4811-9174-f4df8271cbcc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>img.kd__bottom-0.kd__w-100.kd__left-0.kd__right-0.kd__mx-auto</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-wrapper']/div/ui-view/div/div/div/div/div/div/div[2]/div[6]/div/div/div/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>52d27a79-5862-4250-9efb-5463b120faec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>loading</name>
+      <type>Main</type>
+      <value>lazy</value>
+      <webElementGuid>6e2ff84c-6059-4d4f-abe2-9b220235f728</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onerror</name>
+      <type>Main</type>
+      <value>this.onerror=null; this.src='/images/rg_img/placeholders/2/live_casino.png';</value>
+      <webElementGuid>fc2ebea7-fb2c-452c-a3c1-e9873a9caae8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://d2g8jl9s27zu.cloudfront.net/uploads/109_64A3AC52208CC.png</value>
+      <webElementGuid>66c6a5b3-b202-4ea9-ab13-68127adc5357</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Andar Bahar</value>
+      <webElementGuid>fbe8aa5a-90da-456f-b824-9cb16dc37e26</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>kd__bottom-0 kd__w-100 kd__left-0 kd__right-0 kd__mx-auto</value>
+      <webElementGuid>3f0f3d68-8ed3-4f53-bbc9-c6da0394750e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-wrapper&quot;)/div[@class=&quot;container full-width-page scrollable-columns default-min-size-page&quot;]/ui-view[@class=&quot;ng-scope&quot;]/div[@class=&quot;page-content nested-scrollable-pane-parent front-pages ng-scope&quot;]/div[@class=&quot;bf-row no-bottom-gutter scrollable-panes-height-taker height-taker-helper&quot;]/div[@class=&quot;scrollable-panes-wrapper scrollable-panes-wrapper-helper&quot;]/div[@class=&quot;bf-row no-bottom-gutter scrollable-pane content-page-row&quot;]/div[@class=&quot;content-page-center-column homepage-center-column&quot;]/div[@class=&quot;no-bottom-gutter&quot;]/div[@class=&quot;kd__container-fluid kd__bg-col-1 kd__br-2 new_new_game_bg&quot;]/div[@class=&quot;kd__row kd__overflow-x-scroll kd__overflow-y-hidden kd__pb-1 livecasinogames&quot;]/div[@class=&quot;kd__col kd__pr-2 casinoLink&quot;]/div[@class=&quot;kd-w-192-px&quot;]/div[@class=&quot;kd__position-relative plcholder_pos plc_holder_live_cas&quot;]/img[@class=&quot;kd__bottom-0 kd__w-100 kd__left-0 kd__right-0 kd__mx-auto&quot;]</value>
+      <webElementGuid>22faec29-6339-4f5d-8ddc-0bccdfcaa859</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-wrapper']/div/ui-view/div/div/div/div/div/div/div[2]/div[6]/div/div/div/img</value>
+      <webElementGuid>f79f23ac-8a12-4c3d-a48b-784affaa18f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>(//img[@alt='Andar Bahar'])[6]</value>
+      <webElementGuid>909511f5-f692-481a-8954-57dad6dec834</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[6]/div/div/div/img</value>
+      <webElementGuid>6db9d689-d1dd-4dfb-aedc-cdc74e0a7ca9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'https://d2g8jl9s27zu.cloudfront.net/uploads/109_64A3AC52208CC.png' and @alt = 'Andar Bahar']</value>
+      <webElementGuid>7b153989-ede7-4ea6-9c28-41dfc2b43702</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

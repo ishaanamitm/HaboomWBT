@@ -1,0 +1,26 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+HomePage,Chrome 121.0.0.0,,,28-02-2024 18:20:44,28-02-2024 18:21:30,45.688s,PASSED
+,,,,,,,
+Test Cases/HomePage/Open Footer_help successful,Chrome 121.0.0.0,"Expected title - user should able to open the help menu successfully
+Actual - user can open the help menu",Help,28-02-2024 18:20:44,28-02-2024 18:21:00,15.462s,PASSED
+Start setup action : setupTestCase,Chrome 121.0.0.0,,,28-02-2024 18:20:44,28-02-2024 18:20:56,12.332s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Footerlink_Help""))",Chrome 121.0.0.0,,,28-02-2024 18:20:56,28-02-2024 18:20:59,3.020s,PASSED
+Expectedtitle = getWindowTitle(),Chrome 121.0.0.0,,,28-02-2024 18:20:59,28-02-2024 18:21:00,0.014s,PASSED
+"Actualtitle = ""Haboom - Helpdesk""",Chrome 121.0.0.0,,,28-02-2024 18:21:00,28-02-2024 18:21:00,0.001s,PASSED
+"verifyMatch(Expectedtitle, Actualtitle, true)",Chrome 121.0.0.0,,,28-02-2024 18:21:00,28-02-2024 18:21:00,0.019s,PASSED
+,,,,,,,
+Test Cases/HomePage/Open Footer_FAQ successfuk,Chrome 121.0.0.0,"Expected title - user should able to open the help menu successfully
+Actual - user can open the help menu",FAQ,28-02-2024 18:21:00,28-02-2024 18:21:16,16.367s,PASSED
+Start setup action : setupTestCase,Chrome 121.0.0.0,,,28-02-2024 18:21:00,28-02-2024 18:21:12,12.915s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Footerlink_FAQs""))",Chrome 121.0.0.0,,,28-02-2024 18:21:12,28-02-2024 18:21:16,3.397s,PASSED
+Expectedtitle = getWindowTitle(),Chrome 121.0.0.0,,,28-02-2024 18:21:16,28-02-2024 18:21:16,0.012s,PASSED
+"Actualtitle = ""Haboom - Quick Answers""",Chrome 121.0.0.0,,,28-02-2024 18:21:16,28-02-2024 18:21:16,0.001s,PASSED
+"verifyMatch(Expectedtitle, Actualtitle, true)",Chrome 121.0.0.0,,,28-02-2024 18:21:16,28-02-2024 18:21:16,0.001s,PASSED
+,,,,,,,
+Test Cases/HomePage/Open Footer_afflliates successful,Chrome 121.0.0.0,"Expected title - user should able to open the affliates menu successfully
+Actual - user can open the affliates menu",Affliates,28-02-2024 18:21:16,28-02-2024 18:21:30,13.719s,PASSED
+Start setup action : setupTestCase,Chrome 121.0.0.0,,,28-02-2024 18:21:16,28-02-2024 18:21:25,9.531s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Footerlink_Affiliates""))",Chrome 121.0.0.0,,,28-02-2024 18:21:25,28-02-2024 18:21:30,4.139s,PASSED
+Expectedtitle = getWindowTitle(),Chrome 121.0.0.0,,,28-02-2024 18:21:30,28-02-2024 18:21:30,0.007s,PASSED
+"Actualtitle = ""Haboom - Official Affiliate Program""",Chrome 121.0.0.0,,,28-02-2024 18:21:30,28-02-2024 18:21:30,0.001s,PASSED
+"verifyMatch(Expectedtitle, Actualtitle, true)",Chrome 121.0.0.0,,,28-02-2024 18:21:30,28-02-2024 18:21:30,0.001s,PASSED

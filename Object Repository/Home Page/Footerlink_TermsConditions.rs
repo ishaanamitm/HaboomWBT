@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Footerlink_TermsConditions</name>
+   <tag></tag>
+   <elementGuidId>b2144f5b-a481-4729-a955-00d678241a98</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='mod-footer-25265']/div[3]/div[6]/ul/li[5]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>9ce51a17-a035-4c42-9dda-389fb8c9c1a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://haboom.com/terms-and-conditions</value>
+      <webElementGuid>6f8f6bb1-195e-47fb-a11f-fcfe4e7a8040</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sscmw width(1000) height(600) autoscroll(true) ssc-termsAndConditions</value>
+      <webElementGuid>2bf12c8b-ebad-4f5e-abca-78b69411001d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Terms &amp; Conditions</value>
+      <webElementGuid>00195ee8-cecb-40c6-9a9e-f756a2591bab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-gtml</name>
+      <type>Main</type>
+      <value>termsAndConditions</value>
+      <webElementGuid>fe69788e-3813-4f6a-be23-1e89f32683be</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Terms &amp; Conditions</value>
+      <webElementGuid>a57fe6e2-18db-41ae-83f6-bbb64cb4edf3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mod-footer-25265&quot;)/div[@class=&quot;ssc-fw&quot;]/div[@class=&quot;ssc-flkh&quot;]/ul[@class=&quot;ssc-flnk&quot;]/li[@class=&quot;ssc-lw&quot;]/a[@class=&quot;sscmw width(1000) height(600) autoscroll(true) ssc-termsAndConditions&quot;]</value>
+      <webElementGuid>593b75d4-3dc9-418f-9dc8-ca0431813229</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mod-footer-25265']/div[3]/div[6]/ul/li[5]/a</value>
+      <webElementGuid>e40546cd-5408-4be8-a24b-f277c891eb30</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Terms &amp; Conditions')]</value>
+      <webElementGuid>8fd333b6-5cc1-45ae-8c2f-c8509e5f8ef5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Privacy Policy'])[1]/following::a[1]</value>
+      <webElementGuid>25482df6-a6d2-4dde-8461-cd0e1d420064</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Affiliates'])[1]/following::a[2]</value>
+      <webElementGuid>e95cdae9-9c70-4126-8388-28820841c3cc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Privacy Policy'])[2]/preceding::a[2]</value>
+      <webElementGuid>f1964fae-63c9-4786-9c80-53e10c780c7d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ok, I get it'])[1]/preceding::a[3]</value>
+      <webElementGuid>31cae2b1-59f3-44e1-8895-33cac7520f14</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Terms &amp; Conditions']/parent::*</value>
+      <webElementGuid>5f47982b-1a38-48d2-899a-e85a3975fcba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://haboom.com/terms-and-conditions')]</value>
+      <webElementGuid>74d89dad-e54d-44f9-8ca8-d84190785b69</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[6]/ul/li[5]/a</value>
+      <webElementGuid>e69718e8-bcb7-4a23-bf0e-7f3ca88d7660</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://haboom.com/terms-and-conditions' and @title = 'Terms &amp; Conditions' and (text() = 'Terms &amp; Conditions' or . = 'Terms &amp; Conditions')]</value>
+      <webElementGuid>9cc4a257-3064-43f0-b5ab-0a3cdf3d9155</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

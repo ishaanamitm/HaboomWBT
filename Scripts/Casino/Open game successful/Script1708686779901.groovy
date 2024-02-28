@@ -16,11 +16,13 @@ List<WebElement> provider= DriverFactory.getWebDriver().findElements(By.xpath("/
 
 println(provider.size())
 
-for (int i = 20; i < provider.size(); i++) {
+for (int i = 1; i < provider.size(); i++) {
 	
-	
-		      WebElement currentElement = provider.get(i)
+	          
+			  WebElement currentElement = provider.get(i)
 		      currentElement.click()
+			  
+			  WebUI.delay(30)
 			  
 			  WebUI.scrollToPosition(0, 250)
 			  
@@ -50,9 +52,9 @@ for (int i = 20; i < provider.size(); i++) {
 			  
 			  WebUI.delay(5)
 			  
-			  WebUI.scrollToPosition(0, 0)
+			  WebUI.scrollToPosition(0, 2000)
 			  
-			  WebUI.delay(10)
+			  WebUI.delay(5)
 		
 		      String providerwindow =  WebUI.getWindowTitle()
 		
@@ -62,7 +64,7 @@ for (int i = 20; i < provider.size(); i++) {
 			  
 			  
 			  
-		            for (int j = 0; j < allgames.size(); j++) {
+		            for (int j = 71; j < allgames.size(); j++) {
 			
 			             println(j)
 			
@@ -114,10 +116,24 @@ for (int i = 20; i < provider.size(); i++) {
 		 }
 		
           
-		WebUI.scrollToPosition(0, 50)
-		
-		WebUI.delay(20)
-	
+		      WebUI.scrollToPosition(0, 1000)
+			  
+			  WebUI.delay(5)
+			  
+			  WebUI.scrollToPosition(0, 750)
+			  
+			  WebUI.delay(5)
+			  
+			  WebUI.scrollToPosition(0, 500)
+			  
+			  WebUI.delay(5)
 	   
+			  WebUI.scrollToPosition(0, 250)
+			  
+			  WebUI.delay(5)
+			  
+			  WebUI.scrollToPosition(0, 50)
+			  
+			  WebUI.delay(5)
 		
 	}
