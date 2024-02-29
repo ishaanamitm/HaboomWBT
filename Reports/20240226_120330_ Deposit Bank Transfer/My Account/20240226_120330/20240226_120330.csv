@@ -1,0 +1,28 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+My Account,Chrome 121.0.0.0,,,26-02-2024 12:03:32,26-02-2024 12:04:07,34.944s,PASSED
+,,,,,,,
+Test Cases/My Account/Payment_Deposit successful in Bank Transfer,Chrome 121.0.0.0,"Expected Result: To check whether the user is able to deposit using bank transfer
+Actual result: The user is able to deposit using Bank transfer",,26-02-2024 12:03:32,26-02-2024 12:04:07,34.837s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,26-02-2024 12:03:32,26-02-2024 12:03:33,1.149s,PASSED
+"navigateToUrl(""https://haboom.com/"")",Chrome 121.0.0.0,,,26-02-2024 12:03:33,26-02-2024 12:03:40,6.406s,PASSED
+"setText(findTestObject(""Object Repository/My Account_Payment/Deposit Bank Transfer/login to My haboom account/Login username""), ""Sherlock"")",Chrome 121.0.0.0,,,26-02-2024 12:03:40,26-02-2024 12:03:42,2.642s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/My Account_Payment/Deposit Bank Transfer/login to My haboom account/Login password""), ""Ae2KZyjYBr0MQlyqU7ThAA=="")",Chrome 121.0.0.0,,,26-02-2024 12:03:42,26-02-2024 12:03:45,2.309s,PASSED
+"click(findTestObject(""Object Repository/My Account_Payment/Deposit Bank Transfer/login to My haboom account/Log Button""))",Chrome 121.0.0.0,,,26-02-2024 12:03:45,26-02-2024 12:03:46,1.140s,PASSED
+"click(findTestObject(""Object Repository/My Account_Payment/Deposit Bank Transfer/login to My haboom account/My Account""))",Chrome 121.0.0.0,,,26-02-2024 12:03:46,26-02-2024 12:03:49,3.003s,PASSED
+"click(findTestObject(""Object Repository/My Account_Payment/Deposit Bank Transfer/login to My haboom account/My Haboom Account""))",Chrome 121.0.0.0,,,26-02-2024 12:03:49,26-02-2024 12:03:52,2.680s,PASSED
+"click(findTestObject(""Object Repository/My Account_Payment/Deposit Bank Transfer/Bank transfer page/Payments""))",Chrome 121.0.0.0,,,26-02-2024 12:03:52,26-02-2024 12:03:52,0.625s,PASSED
+"click(findTestObject(""Object Repository/My Account_Payment/Deposit Bank Transfer/Bank transfer page/Deposit""))",Chrome 121.0.0.0,,,26-02-2024 12:03:52,26-02-2024 12:03:54,1.472s,PASSED
+"click(findTestObject(""Object Repository/My Account_Payment/Deposit Bank Transfer/Bank transfer page/Bank Transfer""))",Chrome 121.0.0.0,,,26-02-2024 12:03:54,26-02-2024 12:03:57,3.683s,PASSED
+"setText(findTestObject(""Object Repository/My Account_Payment/Deposit Bank Transfer/Bank transfer page/Amount input field""), ""1000"")",Chrome 121.0.0.0,,,26-02-2024 12:03:57,26-02-2024 12:03:58,0.379s,PASSED
+"click(findTestObject(""Object Repository/My Account_Payment/Deposit Bank Transfer/Bank transfer page/Pay button""))",Chrome 121.0.0.0,,,26-02-2024 12:03:58,26-02-2024 12:03:58,0.351s,PASSED
+"setText(findTestObject(""Object Repository/My Account_Payment/Deposit Bank Transfer/Bank transfer page/UTR number enter field""), ""54892179621539569"")",Chrome 121.0.0.0,,,26-02-2024 12:03:58,26-02-2024 12:03:58,0.365s,PASSED
+"click(findTestObject(""Object Repository/My Account_Payment/Deposit Bank Transfer/Bank transfer page/UTR Submit button""))",Chrome 121.0.0.0,,,26-02-2024 12:03:58,26-02-2024 12:03:59,0.363s,PASSED
+delay(2),Chrome 121.0.0.0,,,26-02-2024 12:03:59,26-02-2024 12:04:01,2.030s,PASSED
+takeFullPageScreenshot(),Chrome 121.0.0.0,,,26-02-2024 12:04:01,26-02-2024 12:04:01,0.601s,PASSED
+"click(findTestObject(""My Account_Payment/Transaction history page/Transaction page/Betting Activity""))",Chrome 121.0.0.0,,,26-02-2024 12:04:01,26-02-2024 12:04:02,0.310s,PASSED
+"click(findTestObject(""My Account_Payment/Transaction history page/Transaction page/Transaction History""))",Chrome 121.0.0.0,,,26-02-2024 12:04:02,26-02-2024 12:04:03,1.054s,PASSED
+"click(findTestObject(""My Account_Payment/Transaction history page/Transaction page/Transaction History (Options)""))",Chrome 121.0.0.0,,,26-02-2024 12:04:03,26-02-2024 12:04:04,0.751s,PASSED
+"click(findTestObject(""My Account_Payment/Transaction history page/Transaction page/Transactions filter""))",Chrome 121.0.0.0,,,26-02-2024 12:04:04,26-02-2024 12:04:04,0.605s,PASSED
+"click(findTestObject(""My Account_Payment/Transaction history page/Transaction page/Deposit Requests""))",Chrome 121.0.0.0,,,26-02-2024 12:04:04,26-02-2024 12:04:04,0.286s,PASSED
+delay(2),Chrome 121.0.0.0,,,26-02-2024 12:04:04,26-02-2024 12:04:06,2.010s,PASSED
+takeFullPageScreenshot(),Chrome 121.0.0.0,,,26-02-2024 12:04:06,26-02-2024 12:04:07,0.441s,PASSED

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Betting History</name>
+   <tag></tag>
+   <elementGuidId>34f781f1-07c7-47e1-a698-c6a11abe1ccf</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//*/text()[normalize-space(.)='Betting History']/parent::*</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.betting-history-header__title</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ac66369b-f228-4b79-a26d-ab90240fe7cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>betting-history-header__title</value>
+      <webElementGuid>2082a0b6-83bd-4350-8be3-7edd195c5464</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Betting History</value>
+      <webElementGuid>6afd931f-fca2-460b-9c64-57e6aafcc0e7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;betfair&quot;]/div[1]/div[@class=&quot;root-view&quot;]/betting-history-page[1]/div[@class=&quot;betting-history&quot;]/betting-history-header[1]/div[@class=&quot;betting-history-header&quot;]/div[@class=&quot;betting-history-header__title&quot;]</value>
+      <webElementGuid>930e2e19-43ed-44c6-a75e-aa2f04c6836d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/My Account_Payment/Betting Activity/Betting History/iframe_Refer and Earn_iframePage</value>
+      <webElementGuid>6cd8d8cd-8c58-4e51-afc1-abd7644afd8d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Betting History']/parent::*</value>
+      <webElementGuid>27d33aa8-a715-48de-ac48-6ba7dad3bffa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//betting-history-header/div/div</value>
+      <webElementGuid>660da53a-d392-428b-be21-8051366e0e2e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Betting History' or . = 'Betting History')]</value>
+      <webElementGuid>073dda9b-5a36-4f52-bee3-8fa803277d61</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

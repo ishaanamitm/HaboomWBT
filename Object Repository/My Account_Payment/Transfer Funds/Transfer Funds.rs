@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Transfer Funds</name>
+   <tag></tag>
+   <elementGuidId>07abad1b-91f9-4cc8-97ca-177b28f83878</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='Pay_ment']/ul/li[3]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>ul.dropdown-menu > li:nth-of-type(3) > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>05cbb704-1c26-422f-b8a6-0d18e4d2b3b3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://haboom.com/d/transferdetails</value>
+      <webElementGuid>7b5f0ab5-ebea-410a-b527-53cddea11c7c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Transfer Funds</value>
+      <webElementGuid>852a2c08-5eed-462e-8ae5-a511f29b6d05</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Pay_ment&quot;)/ul[@class=&quot;dropdown-menu&quot;]/li[3]/a[1]</value>
+      <webElementGuid>a05c023b-6d4b-4518-9632-145535efbe74</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='Pay_ment']/ul/li[3]/a</value>
+      <webElementGuid>3edd3f16-cfba-45c9-bc4b-7723dd627cdf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Transfer Funds')]</value>
+      <webElementGuid>3bfdaa81-b535-4d89-86fc-1d9c058f9267</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Withdraw'])[2]/following::a[1]</value>
+      <webElementGuid>1b18d9f4-1918-453e-9ab4-3bfeabb2a854</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Deposit'])[4]/following::a[2]</value>
+      <webElementGuid>bae10f73-2221-47ba-a5ca-7f5e88831797</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Betting Activity'])[1]/preceding::a[1]</value>
+      <webElementGuid>e591bc15-d406-4c21-8bdb-99781e05d98c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Exchange Bets'])[1]/preceding::a[2]</value>
+      <webElementGuid>15b7a7a3-87c6-4a1b-add4-19fbd6b8e6de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Transfer Funds']/parent::*</value>
+      <webElementGuid>45bbb171-a902-4732-97f4-ac31cbdb6013</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://haboom.com/d/transferdetails')]</value>
+      <webElementGuid>6b63a0a6-0ef2-47d1-8ce8-835d1fd188d9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/ul/li[3]/a</value>
+      <webElementGuid>5014c7b8-2ffb-4c8e-ad75-b42f995460a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://haboom.com/d/transferdetails' and (text() = 'Transfer Funds' or . = 'Transfer Funds')]</value>
+      <webElementGuid>8961ba49-bac8-478f-a84c-66ffe45db637</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

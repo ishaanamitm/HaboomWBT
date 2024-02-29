@@ -1,3 +1,37 @@
+<<<<<<< HEAD
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Haboom QA Environment</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://haboom.com/'</initValue>
+      <name>URL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Jabbi'</initValue>
+      <name>Username</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Eternals@123'</initValue>
+      <name>Password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'sherlock'</initValue>
+      <name>Usernamedeepa</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Eternals@123'</initValue>
+      <name>Passworddeepa</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
+=======
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
@@ -30,3 +64,4 @@
       <name>passwordthilak</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
+>>>>>>> branch 'main' of https://github.com/ishaanamitm/HaboomWBT.git
