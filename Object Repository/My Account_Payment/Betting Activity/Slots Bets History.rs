@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Slots Bets History</name>
+   <tag></tag>
+   <elementGuidId>b4db5bcf-3741-4940-9a7f-b92034828bcc</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//header[@id='ssc-header-placeholder']/div[15]/div/h2</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h2.tableHeader</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h2</value>
+      <webElementGuid>fe1e736f-1679-4428-9125-ce903d2522bf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>tableHeader</value>
+      <webElementGuid>192fb77a-eaba-447c-bd45-9e889e9c9fa3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Slots Bets History</value>
+      <webElementGuid>9a0b2d3e-d89a-49bd-9793-468805c79483</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ssc-header-placeholder&quot;)/div[@class=&quot;slot-bet-history-sec&quot;]/div[@class=&quot;bet-history-table-sec&quot;]/h2[@class=&quot;tableHeader&quot;]</value>
+      <webElementGuid>8d31ee11-1d8b-490f-993e-0144050b7cc9</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//header[@id='ssc-header-placeholder']/div[15]/div/h2</value>
+      <webElementGuid>1544073e-c765-41af-9608-e58ef4fad7ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Refer and Earn'])[1]/following::h2[1]</value>
+      <webElementGuid>fc608475-220f-4090-b8b1-0b0053338e3c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Promotions'])[1]/following::h2[1]</value>
+      <webElementGuid>cc5e86f2-18b9-4a1e-92c7-c4882e453ce0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Red Tiger'])[1]/preceding::h2[1]</value>
+      <webElementGuid>55aa3c2e-37f4-4a6f-abd9-5d87d5ea31ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NetEnt'])[1]/preceding::h2[1]</value>
+      <webElementGuid>3580007b-c3cb-41bf-9e14-90c5bd4a1d07</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Slots Bets History']/parent::*</value>
+      <webElementGuid>627d48e0-871f-4a3d-a5dc-0e9def9c4835</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[15]/div/h2</value>
+      <webElementGuid>bbd05c60-e498-4983-8168-b7b37ce73bbf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h2[(text() = 'Slots Bets History' or . = 'Slots Bets History')]</value>
+      <webElementGuid>2f3fed7c-c7db-40db-a3fd-23cf58ed4e35</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

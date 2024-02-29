@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Transaction History (Options)</name>
+   <tag></tag>
+   <elementGuidId>3880b234-278b-4c28-abbb-73aeb2715581</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@onclick='transactionsdetails(this)']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.right--side__cell.option__cell</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>456e6a55-20d8-4e63-9211-e0defd82bbbf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>right--side__cell option__cell</value>
+      <webElementGuid>1ec11d06-e0d7-4b45-b8f5-3112bf70046d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>transactionsdetails(this)</value>
+      <webElementGuid>11743a01-6fd5-4505-a9c0-3ee499536e4e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                                Options
+                                                
+                                             </value>
+      <webElementGuid>39129ecd-8965-4097-a8cc-93cdda6855a1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cnt_trans_pdf&quot;)/transactions-component[1]/div[@class=&quot;new-transactions&quot;]/div[@class=&quot;filters with-title filter-row&quot;]/div[@class=&quot;row options_row&quot;]/div[@class=&quot;filters-content col-xs-12 col-md-6&quot;]/div[@class=&quot;background margin&quot;]/div[@class=&quot;right--side__cell option__cell&quot;]</value>
+      <webElementGuid>c4131cc0-8c14-42c5-af88-7880c0143566</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@onclick='transactionsdetails(this)']</value>
+      <webElementGuid>78c47af5-ba87-415b-b29a-d222e5018bec</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cnt_trans_pdf']/transactions-component/div/div[2]/div/div[2]/div/div[2]</value>
+      <webElementGuid>59dfa92e-2038-4b39-bd52-1c4da7a31f7d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All transactions'])[1]/following::div[1]</value>
+      <webElementGuid>756b9cf7-c9cc-46f0-b646-b93737070514</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Filter by date'])[1]/preceding::div[2]</value>
+      <webElementGuid>9161d0eb-7a87-469b-8540-452f9adaf75a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Choose a date range'])[1]/preceding::div[2]</value>
+      <webElementGuid>1bed90d8-7ac4-4ddc-8485-2b08108bd493</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Options']/parent::*</value>
+      <webElementGuid>63936ca0-f50a-44cd-b084-9bd9dca23e26</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div[2]/div/div[2]</value>
+      <webElementGuid>761cb288-4b35-4ee3-995b-539dd2abe0a2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '
+                                                Options
+                                                
+                                             ' or . = '
+                                                Options
+                                                
+                                             ')]</value>
+      <webElementGuid>7f45e667-c636-4fb4-8d3e-e0dd529da9f7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Verify and Transfer button</name>
+   <tag></tag>
+   <elementGuidId>a5c23adb-e01a-427a-ac03-75ef979a7431</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='verifypwd']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#verifypwd</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>d44802c5-16f3-4986-b19f-2a97fb9e9af0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn--primary</value>
+      <webElementGuid>c03302fe-fca6-4ca9-a648-699f3ab656f6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>verifypwd</value>
+      <webElementGuid>836fc23a-444b-44b4-9469-db0ad7245e16</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Verify and Transfer</value>
+      <webElementGuid>12477256-5e41-447c-9fc0-720cbc457507</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;verifypwd&quot;)</value>
+      <webElementGuid>e662c79c-8fdd-4f2e-a091-fd1e7b664071</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='verifypwd']</value>
+      <webElementGuid>dcd32cf0-cc55-48f8-b9ec-6ba03aa9716d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='transfer-section']/div[2]/div[4]/button</value>
+      <webElementGuid>e4ac15ff-84eb-4fdc-bfba-dda231a0ec6d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Enter the Password'])[1]/following::button[1]</value>
+      <webElementGuid>a09a45ce-15f2-4ce5-88ff-fcf499024359</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=':'])[3]/following::button[1]</value>
+      <webElementGuid>8af69b21-cdd4-4be8-b9ed-3e0a20d0b5d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transfer'])[1]/preceding::button[1]</value>
+      <webElementGuid>c0e0078d-0527-45b4-b0b3-7a6f750d2d12</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Privacy Policy'])[1]/preceding::button[2]</value>
+      <webElementGuid>a1474341-8cd3-4e34-b942-1daf0a61e732</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Verify and Transfer']/parent::*</value>
+      <webElementGuid>1196a018-a653-44bb-888b-4e38f9ef5d84</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/button</value>
+      <webElementGuid>e2c36b94-8334-4a3f-86e3-03870088a1f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@id = 'verifypwd' and (text() = 'Verify and Transfer' or . = 'Verify and Transfer')]</value>
+      <webElementGuid>e00799fa-eaa7-453f-bd8b-e3d390f26c86</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Betting Profit Loss</name>
+   <tag></tag>
+   <elementGuidId>c1770935-3d51-47ba-8c62-af4814e4ee75</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='mod-iframe-52986']/div/div/div/div/div/h3</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h3.page-title</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h3</value>
+      <webElementGuid>15c53da1-d5a5-41b2-b5f3-3ff6cbba1052</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>page-title</value>
+      <webElementGuid>50385511-27bb-4bb6-a75a-d42b5363bea2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Betting Profit &amp; Loss</value>
+      <webElementGuid>ddb38a97-d7e7-45ca-8979-2e434ab6a505</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mod-iframe-52986&quot;)/div[1]/div[@class=&quot;root-view&quot;]/div[@class=&quot;betting-pandl-container&quot;]/div[1]/div[@class=&quot;heading&quot;]/h3[@class=&quot;page-title&quot;]</value>
+      <webElementGuid>eb5af0c2-74d8-4a3c-8ef5-bf1ec5ff588c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mod-iframe-52986']/div/div/div/div/div/h3</value>
+      <webElementGuid>67b13a79-5c2a-4e56-9a90-f54b5558cb37</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Refer and Earn'])[1]/following::h3[1]</value>
+      <webElementGuid>8178936a-cbb7-4535-ae90-e676de1be9de</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Promotions'])[1]/following::h3[1]</value>
+      <webElementGuid>52532875-faab-4543-a24c-35a9c265bdcc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Betting Profit &amp; Loss']/parent::*</value>
+      <webElementGuid>c62e7df3-e851-4c72-b621-120a9716089d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h3</value>
+      <webElementGuid>4e668e7d-00ca-4e57-ae38-3cbb44527da1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h3[(text() = 'Betting Profit &amp; Loss' or . = 'Betting Profit &amp; Loss')]</value>
+      <webElementGuid>0a673080-edcc-4b2f-81fc-4924d0ef29fe</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

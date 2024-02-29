@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>My Bets</name>
+   <tag></tag>
+   <elementGuidId>6d9da91d-969b-4fef-94f6-127fa940c67f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//header[@id='ssc-header-placeholder']/div[15]/div/h3</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>h3.hea</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h3</value>
+      <webElementGuid>fd71cc77-8f67-45f9-a24f-7a2529bb3702</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>hea</value>
+      <webElementGuid>dc74095a-d64f-4b40-9e48-9bf57df470d7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>My Bets</value>
+      <webElementGuid>6cf61dc4-6910-41bb-acdc-a85fc63a4f4c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ssc-header-placeholder&quot;)/div[@class=&quot;exchange_bets_wrapper&quot;]/div[@class=&quot;wrapper--content bets_table ds_history_table&quot;]/h3[@class=&quot;hea&quot;]</value>
+      <webElementGuid>4621d302-92d6-43b3-a5cc-ae4c8b767568</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//header[@id='ssc-header-placeholder']/div[15]/div/h3</value>
+      <webElementGuid>6e2db2b9-38dd-44d2-a340-8a0877ad3814</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Refer and Earn'])[1]/following::h3[1]</value>
+      <webElementGuid>8a8cb8cf-0f05-49cb-8004-132d28b2c3e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Promotions'])[1]/following::h3[1]</value>
+      <webElementGuid>b47f6715-3d01-4a03-aba0-34bf61433e32</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All'])[1]/preceding::h3[1]</value>
+      <webElementGuid>603c00ae-387d-4eaa-9ea9-8378a33b63cd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Open Bets'])[1]/preceding::h3[1]</value>
+      <webElementGuid>7580b758-4df0-4922-bc2f-8a82a9a07947</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h3</value>
+      <webElementGuid>ecac8a64-826d-4e82-924a-f467ae91454d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h3[(text() = 'My Bets' or . = 'My Bets')]</value>
+      <webElementGuid>78f8ed3a-2ff7-4aac-b75b-496ae0fe981f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
