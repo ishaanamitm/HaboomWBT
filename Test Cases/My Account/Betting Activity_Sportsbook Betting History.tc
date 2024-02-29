@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Expected Result: To check the user is able to redirect to the Sportsbook Betting History&#xd;
+Actual Result: The user is redirected to the Sportsbook Betting History</description>
+   <name>Betting Activity_Sportsbook Betting History</name>
+   <tag>My Account</tag>
+   <comment></comment>
+   <testCaseGuid>90c3205d-df30-4314-8d31-c070c1d4a32d</testCaseGuid>
+</TestCaseEntity>

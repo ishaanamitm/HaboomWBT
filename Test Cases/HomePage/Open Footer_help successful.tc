@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Expected title - user should able to open the help menu successfully&#xd;
+Actual - user can open the help menu</description>
+   <name>Open Footer_help successful</name>
+   <tag>Help</tag>
+   <comment></comment>
+   <testCaseGuid>eca741f0-39d0-4acd-9105-2cc24cbbe29c</testCaseGuid>
+</TestCaseEntity>

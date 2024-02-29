@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Expected Result:To check whether the user get a error message for non-haboom player details when they try to transfer money using Transfer funds&#xd;
+Actual Result:The user gets the error message when they try to transfer money to the non-haboom player</description>
+   <name>Payments_Transfer Funds to non Haboom player</name>
+   <tag>My Account</tag>
+   <comment></comment>
+   <testCaseGuid>faa7a78d-e608-4c74-9744-dc9c660dddd5</testCaseGuid>
+</TestCaseEntity>

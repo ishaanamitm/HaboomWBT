@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Expected Result: To check the the user get a error message if they try to deposit amount less than the minimum&#xd;
+Actual Result: The user get a error message for inappropriate deposit</description>
+   <name>Payment_Deposit Error message for depositing less than minimum amount</name>
+   <tag>My Account</tag>
+   <comment></comment>
+   <testCaseGuid>280e3861-3854-4abe-b541-248c076a2716</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,5 @@
+{"testCaseName":"Test Cases/My Account/Payment_Deposit successful in Bank Transfer","testCaseId":"Test Cases/My Account/Payment_Deposit successful in Bank Transfer","iterationVariableName":""}
+{"testCaseName":"Test Cases/My Account/Payment_Deposit failure in Instant method","testCaseId":"Test Cases/My Account/Payment_Deposit failure in Instant method","iterationVariableName":""}
+{"testCaseName":"Test Cases/My Account/Payment_Deposit Error message for depositing less than minimum amount","testCaseId":"Test Cases/My Account/Payment_Deposit Error message for depositing less than minimum amount","iterationVariableName":""}
+{"testCaseName":"Test Cases/My Account/Payment_ Successful Withdraw","testCaseId":"Test Cases/My Account/Payment_ Successful Withdraw","iterationVariableName":""}
+{"testCaseName":"Test Cases/My Account/payment_ withdraw Error display for insufficient funds","testCaseId":"Test Cases/My Account/payment_ withdraw Error display for insufficient funds","iterationVariableName":""}

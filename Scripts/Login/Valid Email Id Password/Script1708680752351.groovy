@@ -17,18 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://haboom.com/')
-
-WebUI.setText(findTestObject('Object Repository/Login Page/Login email field'), 
-    'jabbi')
-
-WebUI.setEncryptedText(findTestObject('Object Repository/Login Page/Login Password'), 
-    'Ae2KZyjYBr0MQlyqU7ThAA==')
+CustomKeywords.'openbrowser.Openthebrowser.openbrowserandmaxwindow'(GlobalVariable.URL)
 
 WebUI.click(findTestObject('Object Repository/Login Page/login button'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Login Page/My Account'), 
-    'My Account')
+WebUI.verifyElementText(findTestObject('Object Repository/Login Page/My Account'), 'My Account')
+
+WebUI.closeBrowser()
 
