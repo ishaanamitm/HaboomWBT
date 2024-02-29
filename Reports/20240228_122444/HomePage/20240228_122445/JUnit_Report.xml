@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="HomePage" time="19.252" tests="1" failures="0" errors="0">
+   <testsuite name="HomePage" tests="1" failures="0" errors="0" time="19.252" skipped="0" timestamp="28-02-2024T12:24:47" hostname="M Gokul Jayanth - LAPTOP-QCN9K3GM" id="Test Suites/HomePage">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\M Gokul Jayanth\\git\\KatalonAutomation\\HaboomWBT\\Reports\\20240228_122444\\HomePage\\20240228_122445"/>
+         <property name="logFiles" value="C:\\Users\\M Gokul Jayanth\\git\\KatalonAutomation\\HaboomWBT\\Reports\\20240228_122444\\HomePage\\20240228_122445\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="M Gokul Jayanth - LAPTOP-QCN9K3GM"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.50.148"/>
+         <property name="sessionId" value="a678e373dd5e892072e114b4dc2497ba"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/HomePage/Open livecasino games successful" time="19.117" classname="Test Cases/HomePage/Open livecasino games successful" status="PASSED">
+         <system-out><![CDATA[28-02-2024T12:24:47 - [TEST_CASE][PASSED] - Test Cases/HomePage/Open livecasino games successful: Test Cases/HomePage/Open livecasino games successful
+
+28-02-2024T12:24:47 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+28-02-2024T12:24:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-02-2024T12:24:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-02-2024T12:24:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-02-2024T12:24:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-02-2024T12:24:49 - [TEST_STEP][PASSED] - navigateToUrl("https://haboom.com/"): Navigate to 'https://haboom.com/' successfully
+
+28-02-2024T12:24:55 - [MESSAGE][PASSED] - Navigate to 'https://haboom.com/' successfully
+
+28-02-2024T12:24:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+28-02-2024T12:24:55 - [MESSAGE][PASSED] - Current window maximized
+
+28-02-2024T12:24:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page/Login email field"), "MartinGarrix"): Text 'MartinGarrix' is set on object 'Object Repository/Login Page/Login email field'
+
+28-02-2024T12:24:57 - [MESSAGE][PASSED] - Text 'MartinGarrix' is set on object 'Object Repository/Login Page/Login email field'
+
+28-02-2024T12:24:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page/Login Password"), "Test@1234"): Text 'Test@1234' is set on object 'Object Repository/Login Page/Login Password'
+
+28-02-2024T12:24:59 - [MESSAGE][PASSED] - Text 'Test@1234' is set on object 'Object Repository/Login Page/Login Password'
+
+28-02-2024T12:24:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page/login button")): Object: 'Object Repository/Login Page/login button' is clicked on
+
+28-02-2024T12:24:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/login button' is clicked on
+
+28-02-2024T12:24:59 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+28-02-2024T12:24:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home Page/Livecasinogames_Andarbahar_image")): Object: 'Object Repository/Home Page/Livecasinogames_Andarbahar_image' is clicked on
+
+28-02-2024T12:25:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Livecasinogames_Andarbahar_image' is clicked on
+
+28-02-2024T12:25:02 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+28-02-2024T12:25:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+28-02-2024T12:25:07 - [TEST_STEP][PASSED] - Actualtitle = getWindowTitle(): Current window's title is: 'Haboom - Trusted Online Casino and Sports Betting Platform'
+
+28-02-2024T12:25:07 - [MESSAGE][PASSED] - Current window's title is: 'Haboom - Trusted Online Casino and Sports Betting Platform'
+
+28-02-2024T12:25:07 - [TEST_STEP][PASSED] - println(Actualtitle): null
+
+28-02-2024T12:25:07 - [TEST_STEP][PASSED] - Expectedtitle = "Haboom - Trusted Online Casino and Sports Betting Platform": null
+
+28-02-2024T12:25:07 - [TEST_STEP][PASSED] - verifyMatch(Actualtitle, Expectedtitle, true): Actual text 'Haboom - Trusted Online Casino and Sports Betting Platform' and expected text 'Haboom - Trusted Online Casino and Sports Betting Platform' are matched  using regular expression
+
+28-02-2024T12:25:07 - [MESSAGE][PASSED] - Actual text 'Haboom - Trusted Online Casino and Sports Betting Platform' and expected text 'Haboom - Trusted Online Casino and Sports Betting Platform' are matched  using regular expression]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[28-02-2024T12:24:47 - [TEST_SUITE][PASSED] - HomePage: Test Cases/HomePage/Open livecasino games successful]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

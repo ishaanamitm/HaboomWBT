@@ -19,4 +19,14 @@
       <initValue>'Eternals@123'</initValue>
       <name>Password</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'6366763704'</initValue>
+      <name>Usernamethilak</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'123Qwe@'</initValue>
+      <name>passwordthilak</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

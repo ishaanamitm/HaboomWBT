@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+HomePage,Chrome 121.0.0.0,,,27-02-2024 16:08:37,27-02-2024 16:09:23,46.020s,PASSED
+,,,,,,,
+Test Cases/HomePage/Open recommended games successful,Chrome 121.0.0.0,,,27-02-2024 16:08:37,27-02-2024 16:09:23,45.888s,PASSED
+Start setup action : setupTestCase,Chrome 121.0.0.0,,,27-02-2024 16:08:37,27-02-2024 16:08:48,11.506s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Teenpatti image""))",Chrome 121.0.0.0,,,27-02-2024 16:08:48,27-02-2024 16:09:17,28.996s,PASSED
+switchToWindowIndex(1),Chrome 121.0.0.0,,,27-02-2024 16:09:17,27-02-2024 16:09:17,0.041s,PASSED
+actualtitle = getWindowTitle(),Chrome 121.0.0.0,,,27-02-2024 16:09:17,27-02-2024 16:09:22,5.207s,PASSED
+"expectedtitle = ""Three Card Poker""",Chrome 121.0.0.0,,,27-02-2024 16:09:22,27-02-2024 16:09:22,0.009s,PASSED
+"verifyMatch(actualtitle, expectedtitle, true)",Chrome 121.0.0.0,,,27-02-2024 16:09:22,27-02-2024 16:09:23,0.040s,PASSED
