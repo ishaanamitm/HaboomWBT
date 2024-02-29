@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+HomePage,Chrome 121.0.0.0,,,29-02-2024 10:15:32,29-02-2024 10:15:51,18.851s,FAILED
+,,,,,,,
+Test Cases/HomePage/Open Footer_privacypolicy successful,Chrome 121.0.0.0,"Expected title - user should able to open the privacy policy link successfully
+
+Actual - user can open the privacy policy link",Privacy policy,29-02-2024 10:15:32,29-02-2024 10:15:51,18.717s,FAILED
+Start setup action : setupTestCase,Chrome 121.0.0.0,,,29-02-2024 10:15:32,29-02-2024 10:15:43,10.470s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Footerlink_PrivacyPolicy""))",Chrome 121.0.0.0,,,29-02-2024 10:15:43,29-02-2024 10:15:51,8.087s,PASSED
+Expectedtitle = getWindowTitle(),Chrome 121.0.0.0,,,29-02-2024 10:15:51,29-02-2024 10:15:51,0.020s,PASSED
+"Actualtitle = ""Haboom - Privacy Polic""",Chrome 121.0.0.0,,,29-02-2024 10:15:51,29-02-2024 10:15:51,0.000s,PASSED
+"verifyMatch(Expectedtitle, Actualtitle, true)",Chrome 121.0.0.0,,,29-02-2024 10:15:51,29-02-2024 10:15:51,0.041s,FAILED

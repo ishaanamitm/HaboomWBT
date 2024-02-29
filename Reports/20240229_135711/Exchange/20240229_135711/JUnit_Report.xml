@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Exchange" time="43.782" tests="1" failures="0" errors="1">
+   <testsuite name="Exchange" tests="1" failures="0" errors="1" time="43.782" skipped="0" timestamp="29-02-2024T13:57:13" hostname="M Gokul Jayanth - LAPTOP-QCN9K3GM" id="Test Suites/Exchange">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\M Gokul Jayanth\\git\\KatalonAutomation\\HaboomWBT\\Reports\\20240229_135711\\Exchange\\20240229_135711"/>
+         <property name="logFiles" value="C:\\Users\\M Gokul Jayanth\\git\\KatalonAutomation\\HaboomWBT\\Reports\\20240229_135711\\Exchange\\20240229_135711\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="M Gokul Jayanth - LAPTOP-QCN9K3GM"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.50.148"/>
+         <property name="sessionId" value="2832691fb23ef4a58dc0813454ae0f30"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Exchange/Place exchange_cricket bet" time="43.665" classname="Test Cases/Exchange/Place exchange_cricket bet" status="ERROR">
+         <error type="ERROR" message="Test Cases/Exchange/Place exchange_cricket bet FAILED.&#xa;Reason:&#xa;groovy.lang.MissingMethodException: No signature of method: org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.plus() is applicable for argument types: (BigDecimal) values: [0.10]&#xa;Possible solutions: use([Ljava.lang.Object;), split(groovy.lang.Closure), is(java.lang.Object), wait(), clear(), click()&#xa;	at Place exchange_cricket bet.run(Place exchange_cricket bet:33)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1709195231261.run(TempTestSuite1709195231261.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[29-02-2024T13:57:13 - [TEST_CASE][ERROR] - Test Cases/Exchange/Place exchange_cricket bet: Test Cases/Exchange/Place exchange_cricket bet FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.plus() is applicable for argument types: (BigDecimal) values: [0.10]
+Possible solutions: use([Ljava.lang.Object;), split(groovy.lang.Closure), is(java.lang.Object), wait(), clear(), click()
+	at Place exchange_cricket bet.run(Place exchange_cricket bet:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709195231261.run(TempTestSuite1709195231261.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+29-02-2024T13:57:13 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+29-02-2024T13:57:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-02-2024T13:57:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-02-2024T13:57:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-02-2024T13:57:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-02-2024T13:57:14 - [TEST_STEP][PASSED] - navigateToUrl("https://haboom.com/"): Navigate to 'https://haboom.com/' successfully
+
+29-02-2024T13:57:22 - [MESSAGE][PASSED] - Navigate to 'https://haboom.com/' successfully
+
+29-02-2024T13:57:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+29-02-2024T13:57:23 - [MESSAGE][PASSED] - Current window maximized
+
+29-02-2024T13:57:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page/Login email field"), "MartinGarrix"): Text 'MartinGarrix' is set on object 'Object Repository/Login Page/Login email field'
+
+29-02-2024T13:57:26 - [MESSAGE][PASSED] - Text 'MartinGarrix' is set on object 'Object Repository/Login Page/Login email field'
+
+29-02-2024T13:57:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page/Login Password"), "Test@1234"): Text 'Test@1234' is set on object 'Object Repository/Login Page/Login Password'
+
+29-02-2024T13:57:29 - [MESSAGE][PASSED] - Text 'Test@1234' is set on object 'Object Repository/Login Page/Login Password'
+
+29-02-2024T13:57:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page/login button")): Object: 'Object Repository/Login Page/login button' is clicked on
+
+29-02-2024T13:57:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/login button' is clicked on
+
+29-02-2024T13:57:30 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+29-02-2024T13:57:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Exchange Page/Exchange_menu")): Object: 'Object Repository/Exchange Page/Exchange_menu' is clicked on
+
+29-02-2024T13:57:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Exchange Page/Exchange_menu' is clicked on
+
+29-02-2024T13:57:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Exchange Page/Cricket_menu")): Object: 'Object Repository/Exchange Page/Cricket_menu' is clicked on
+
+29-02-2024T13:57:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Exchange Page/Cricket_menu' is clicked on
+
+29-02-2024T13:57:43 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+29-02-2024T13:57:48 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+29-02-2024T13:57:48 - [TEST_STEP][PASSED] - game1 = getWebDriver().findElement(By.xpath("(//section[@class='mod-event-line ng-scope ng-isolate-scope'])[1]/ul[1]/li[1]")): null
+
+29-02-2024T13:57:48 - [TEST_STEP][PASSED] - game1.click(): null
+
+29-02-2024T13:57:50 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+29-02-2024T13:57:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+29-02-2024T13:57:55 - [TEST_STEP][PASSED] - teamAback = getWebDriver().findElement(By.xpath("(//tr[@class='runner-line ng-scope'])[1]/td[4]/button")): null
+
+29-02-2024T13:57:56 - [TEST_STEP][PASSED] - teamAback.click(): null
+
+29-02-2024T13:57:56 - [TEST_STEP][PASSED] - getvalue = getWebDriver().findElement(By.xpath("(//tr[@class='runner-line ng-scope'])[1]/td[4]/button/div/span[1]")): null
+
+29-02-2024T13:57:57 - [TEST_STEP][PASSED] - println(getvalue.getText()): null
+
+29-02-2024T13:57:57 - [TEST_STEP][ERROR] - passvalue = getvalue + 0.10: Test Cases/Exchange/Place exchange_cricket bet FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.plus() is applicable for argument types: (BigDecimal) values: [0.10]
+Possible solutions: use([Ljava.lang.Object;), split(groovy.lang.Closure), is(java.lang.Object), wait(), clear(), click()
+	at Place exchange_cricket bet.run(Place exchange_cricket bet:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709195231261.run(TempTestSuite1709195231261.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+29-02-2024T13:57:57 - [MESSAGE][ERROR] - Test Cases/Exchange/Place exchange_cricket bet FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.plus() is applicable for argument types: (BigDecimal) values: [0.10]
+Possible solutions: use([Ljava.lang.Object;), split(groovy.lang.Closure), is(java.lang.Object), wait(), clear(), click()
+	at Place exchange_cricket bet.run(Place exchange_cricket bet:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709195231261.run(TempTestSuite1709195231261.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[29-02-2024T13:57:13 - [TEST_CASE][ERROR] - Test Cases/Exchange/Place exchange_cricket bet: Test Cases/Exchange/Place exchange_cricket bet FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.plus() is applicable for argument types: (BigDecimal) values: [0.10]
+Possible solutions: use([Ljava.lang.Object;), split(groovy.lang.Closure), is(java.lang.Object), wait(), clear(), click()
+	at Place exchange_cricket bet.run(Place exchange_cricket bet:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709195231261.run(TempTestSuite1709195231261.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[29-02-2024T13:57:13 - [TEST_SUITE][ERROR] - Exchange: Test Cases/Exchange/Place exchange_cricket bet FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.plus() is applicable for argument types: (BigDecimal) values: [0.10]
+Possible solutions: use([Ljava.lang.Object;), split(groovy.lang.Closure), is(java.lang.Object), wait(), clear(), click()
+	at Place exchange_cricket bet.run(Place exchange_cricket bet:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709195231261.run(TempTestSuite1709195231261.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+      <system-err><![CDATA[29-02-2024T13:57:13 - [TEST_SUITE][ERROR] - Exchange: Test Cases/Exchange/Place exchange_cricket bet FAILED.
+Reason:
+groovy.lang.MissingMethodException: No signature of method: org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.plus() is applicable for argument types: (BigDecimal) values: [0.10]
+Possible solutions: use([Ljava.lang.Object;), split(groovy.lang.Closure), is(java.lang.Object), wait(), clear(), click()
+	at Place exchange_cricket bet.run(Place exchange_cricket bet:33)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709195231261.run(TempTestSuite1709195231261.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+   </testsuite>
+</testsuites>
