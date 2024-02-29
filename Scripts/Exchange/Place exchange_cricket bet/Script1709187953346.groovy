@@ -32,6 +32,8 @@ String oddvalue = getvalue.getText()
 
 println(oddvalue)
 
+WebUI.closeBrowser()
+
 //int oddvalueint = oddvalue.toInteger()
 
 
