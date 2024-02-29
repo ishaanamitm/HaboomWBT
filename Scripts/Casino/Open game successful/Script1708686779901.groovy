@@ -22,6 +22,8 @@ for (int i = 1; i < provider.size(); i++) {
 			  WebElement currentElement = provider.get(i)
 		      currentElement.click()
 			  
+			  
+			  
 			  WebUI.delay(30)
 			  
 			  WebUI.scrollToPosition(0, 250)

@@ -1,0 +1,93 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+HomePage,Chrome 121.0.0.0,,,29-02-2024 10:10:54,29-02-2024 10:14:39,3m - 45.268s,PASSED
+,,,,,,,
+Test Cases/HomePage/Open recommended games successful,Chrome 121.0.0.0,"Expected Result - User should able to open the Recommeded games successfully
+Actual Result - User can able to open the Recommeded games successfully",Recommeded games,29-02-2024 10:10:54,29-02-2024 10:11:12,18.518s,PASSED
+Start setup action : setupTestCase,Chrome 121.0.0.0,,,29-02-2024 10:10:54,29-02-2024 10:11:09,14.688s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Recommendedgames_Teenpatti_image""))",Chrome 121.0.0.0,,,29-02-2024 10:11:09,29-02-2024 10:11:11,2.605s,PASSED
+switchToWindowIndex(1),Chrome 121.0.0.0,,,29-02-2024 10:11:11,29-02-2024 10:11:11,0.025s,PASSED
+actualtitle = getWindowTitle(),Chrome 121.0.0.0,,,29-02-2024 10:11:11,29-02-2024 10:11:12,1.091s,PASSED
+"expectedtitle = ""Three Card Poker""",Chrome 121.0.0.0,,,29-02-2024 10:11:12,29-02-2024 10:11:12,0.001s,PASSED
+"verifyMatch(actualtitle, expectedtitle, true)",Chrome 121.0.0.0,,,29-02-2024 10:11:12,29-02-2024 10:11:12,0.022s,PASSED
+,,,,,,,
+Test Cases/HomePage/Open top10 games successful,Chrome 121.0.0.0,"Expected Result - User should able to open the Recommeded games
+Actual Result - User can able to open the Recommeded games",Recommended games,29-02-2024 10:11:12,29-02-2024 10:11:30,17.798s,PASSED
+Start setup action : setupTestCase,Chrome 121.0.0.0,,,29-02-2024 10:11:12,29-02-2024 10:11:25,12.904s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Top10games_Roulette_image""))",Chrome 121.0.0.0,,,29-02-2024 10:11:25,29-02-2024 10:11:28,2.573s,PASSED
+switchToWindowIndex(1),Chrome 121.0.0.0,,,29-02-2024 10:11:28,29-02-2024 10:11:28,0.012s,PASSED
+actualtitle = getWindowTitle(),Chrome 121.0.0.0,,,29-02-2024 10:11:28,29-02-2024 10:11:30,2.262s,PASSED
+"expectedtitle = ""Casino""",Chrome 121.0.0.0,,,29-02-2024 10:11:30,29-02-2024 10:11:30,0.001s,PASSED
+"verifyMatch(actualtitle, expectedtitle, true)",Chrome 121.0.0.0,,,29-02-2024 10:11:30,29-02-2024 10:11:30,0.002s,PASSED
+,,,,,,,
+Test Cases/HomePage/Open exchange_cricket game successfull,Chrome 121.0.0.0,"Expected result - User should able to open the exchange cricket game successfully
+Actual result - User can able to open the exchange cricket game successfully",Exchange cricket,29-02-2024 10:11:30,29-02-2024 10:12:04,33.336s,PASSED
+Start setup action : setupTestCase,Chrome 121.0.0.0,,,29-02-2024 10:11:30,29-02-2024 10:11:44,13.665s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Exchange_cricket""))",Chrome 121.0.0.0,,,29-02-2024 10:11:44,29-02-2024 10:11:59,14.539s,PASSED
+delay(5),Chrome 121.0.0.0,,,29-02-2024 10:11:59,29-02-2024 10:12:04,5.019s,PASSED
+Actualtitle = getWindowTitle(),Chrome 121.0.0.0,,,29-02-2024 10:12:04,29-02-2024 10:12:04,0.015s,PASSED
+println(Actualtitle),Chrome 121.0.0.0,,,29-02-2024 10:12:04,29-02-2024 10:12:04,0.008s,PASSED
+"Expectedtitle = ""Cricket Betting Exchange & Cricket Best Odds » Haboom™ Exchange""",Chrome 121.0.0.0,,,29-02-2024 10:12:04,29-02-2024 10:12:04,0.001s,PASSED
+"verifyMatch(Actualtitle, Expectedtitle, true)",Chrome 121.0.0.0,,,29-02-2024 10:12:04,29-02-2024 10:12:04,0.023s,PASSED
+,,,,,,,
+Test Cases/HomePage/Open exchange_soccer game successful,Chrome 121.0.0.0,"Expected result - User should able to open the exchange soccer game successfully
+Actual result - User can able to open the exchange soccer game successfully",Exchange soccer,29-02-2024 10:12:04,29-02-2024 10:12:41,37.225s,PASSED
+Start setup action : setupTestCase,Chrome 121.0.0.0,,,29-02-2024 10:12:04,29-02-2024 10:12:18,14.813s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Exchange_soccer""))",Chrome 121.0.0.0,,,29-02-2024 10:12:18,29-02-2024 10:12:36,17.328s,PASSED
+delay(5),Chrome 121.0.0.0,,,29-02-2024 10:12:36,29-02-2024 10:12:41,5.015s,PASSED
+Actualtitle = getWindowTitle(),Chrome 121.0.0.0,,,29-02-2024 10:12:41,29-02-2024 10:12:41,0.013s,PASSED
+println(Actualtitle),Chrome 121.0.0.0,,,29-02-2024 10:12:41,29-02-2024 10:12:41,0.000s,PASSED
+"Expectedtitle = ""Football Betting Exchange & Football Best Odds » Haboom™ Exchange""",Chrome 121.0.0.0,,,29-02-2024 10:12:41,29-02-2024 10:12:41,0.007s,PASSED
+"verifyMatch(Actualtitle, Expectedtitle, true)",Chrome 121.0.0.0,,,29-02-2024 10:12:41,29-02-2024 10:12:41,0.001s,PASSED
+,,,,,,,
+Test Cases/HomePage/Open livecasino games successful,Chrome 121.0.0.0,"Expected result - User should able to open the live casino game successfully
+Actual result - User can able to open the live casino game successfully",Live casino games,29-02-2024 10:12:41,29-02-2024 10:13:00,19.131s,PASSED
+Start setup action : setupTestCase,Chrome 121.0.0.0,,,29-02-2024 10:12:41,29-02-2024 10:12:52,11.269s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Livecasinogames_Andarbahar_image""))",Chrome 121.0.0.0,,,29-02-2024 10:12:52,29-02-2024 10:12:55,2.753s,PASSED
+delay(5),Chrome 121.0.0.0,,,29-02-2024 10:12:55,29-02-2024 10:13:00,5.019s,PASSED
+Actualtitle = getWindowTitle(),Chrome 121.0.0.0,,,29-02-2024 10:13:00,29-02-2024 10:13:00,0.010s,PASSED
+println(Actualtitle),Chrome 121.0.0.0,,,29-02-2024 10:13:00,29-02-2024 10:13:00,0.002s,PASSED
+"Expectedtitle = ""Haboom - Trusted Online Casino and Sports Betting Platform""",Chrome 121.0.0.0,,,29-02-2024 10:13:00,29-02-2024 10:13:00,0.001s,PASSED
+"verifyMatch(Actualtitle, Expectedtitle, true)",Chrome 121.0.0.0,,,29-02-2024 10:13:00,29-02-2024 10:13:00,0.003s,PASSED
+,,,,,,,
+Test Cases/HomePage/Open topmatches games successful,Chrome 121.0.0.0,"Expected result - user should able to  open the top matches games successfully
+Actual result - user can able to  open the top matches games successfully",Top matches,29-02-2024 10:13:00,29-02-2024 10:13:22,21.637s,PASSED
+Start setup action : setupTestCase,Chrome 121.0.0.0,,,29-02-2024 10:13:00,29-02-2024 10:13:13,12.732s,PASSED
+"element = getWebDriver().findElement(By.xpath(""(//div[@id='cricketMatches']/div)[1]""))",Chrome 121.0.0.0,,,29-02-2024 10:13:13,29-02-2024 10:13:21,8.400s,PASSED
+Object = convertWebElementToTestObject(element),Chrome 121.0.0.0,,,29-02-2024 10:13:21,29-02-2024 10:13:21,0.014s,PASSED
+click(Object),Chrome 121.0.0.0,,,29-02-2024 10:13:21,29-02-2024 10:13:22,0.317s,PASSED
+actualtitle = getWindowTitle(),Chrome 121.0.0.0,,,29-02-2024 10:13:22,29-02-2024 10:13:22,0.055s,PASSED
+expectedtitle = getWindowTitle(),Chrome 121.0.0.0,,,29-02-2024 10:13:22,29-02-2024 10:13:22,0.034s,PASSED
+"verifyMatch(actualtitle, expectedtitle, true)",Chrome 121.0.0.0,,,29-02-2024 10:13:22,29-02-2024 10:13:22,0.001s,PASSED
+,,,,,,,
+Test Cases/HomePage/Open Footer_help successful,Chrome 121.0.0.0,"Expected title - user should able to open the help menu successfully
+Actual - user can open the help menu",Help,29-02-2024 10:13:22,29-02-2024 10:13:40,18.223s,PASSED
+Start setup action : setupTestCase,Chrome 121.0.0.0,,,29-02-2024 10:13:22,29-02-2024 10:13:34,12.345s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Footerlink_Help""))",Chrome 121.0.0.0,,,29-02-2024 10:13:34,29-02-2024 10:13:40,5.798s,PASSED
+Expectedtitle = getWindowTitle(),Chrome 121.0.0.0,,,29-02-2024 10:13:40,29-02-2024 10:13:40,0.032s,PASSED
+"Actualtitle = ""Haboom - Helpdesk""",Chrome 121.0.0.0,,,29-02-2024 10:13:40,29-02-2024 10:13:40,0.002s,PASSED
+"verifyMatch(Expectedtitle, Actualtitle, true)",Chrome 121.0.0.0,,,29-02-2024 10:13:40,29-02-2024 10:13:40,0.001s,PASSED
+,,,,,,,
+Test Cases/HomePage/Open Footer_FAQ successfuk,Chrome 121.0.0.0,"Expected title - user should able to open the FAQ menu successfully
+Actual - user can open the FAQ menu",FAQ,29-02-2024 10:13:40,29-02-2024 10:13:59,19.053s,PASSED
+Start setup action : setupTestCase,Chrome 121.0.0.0,,,29-02-2024 10:13:40,29-02-2024 10:13:52,12.459s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Footerlink_FAQs""))",Chrome 121.0.0.0,,,29-02-2024 10:13:52,29-02-2024 10:13:59,6.531s,PASSED
+Expectedtitle = getWindowTitle(),Chrome 121.0.0.0,,,29-02-2024 10:13:59,29-02-2024 10:13:59,0.009s,PASSED
+"Actualtitle = ""Haboom - Quick Answers""",Chrome 121.0.0.0,,,29-02-2024 10:13:59,29-02-2024 10:13:59,0.001s,PASSED
+"verifyMatch(Expectedtitle, Actualtitle, true)",Chrome 121.0.0.0,,,29-02-2024 10:13:59,29-02-2024 10:13:59,0.002s,PASSED
+,,,,,,,
+Test Cases/HomePage/Open Footer_afflliates successful,Chrome 121.0.0.0,"Expected title - user should able to open the affliates menu successfully
+Actual - user can open the affliates menu",Affliates,29-02-2024 10:13:59,29-02-2024 10:14:22,23.248s,PASSED
+Start setup action : setupTestCase,Chrome 121.0.0.0,,,29-02-2024 10:13:59,29-02-2024 10:14:12,13.241s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Footerlink_Affiliates""))",Chrome 121.0.0.0,,,29-02-2024 10:14:12,29-02-2024 10:14:22,9.954s,PASSED
+Expectedtitle = getWindowTitle(),Chrome 121.0.0.0,,,29-02-2024 10:14:22,29-02-2024 10:14:22,0.006s,PASSED
+"Actualtitle = ""Haboom - Official Affiliate Program""",Chrome 121.0.0.0,,,29-02-2024 10:14:22,29-02-2024 10:14:22,0.002s,PASSED
+"verifyMatch(Expectedtitle, Actualtitle, true)",Chrome 121.0.0.0,,,29-02-2024 10:14:22,29-02-2024 10:14:22,0.001s,PASSED
+,,,,,,,
+Test Cases/HomePage/Open Footer_privacypolicy successful,Chrome 121.0.0.0,"Expected title - user should able to open the privacy policy link successfully
+
+Actual - user can open the privacy policy link",Privacy policy,29-02-2024 10:14:22,29-02-2024 10:14:39,16.936s,PASSED
+Start setup action : setupTestCase,Chrome 121.0.0.0,,,29-02-2024 10:14:22,29-02-2024 10:14:35,12.941s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Footerlink_PrivacyPolicy""))",Chrome 121.0.0.0,,,29-02-2024 10:14:35,29-02-2024 10:14:39,3.941s,PASSED
+Expectedtitle = getWindowTitle(),Chrome 121.0.0.0,,,29-02-2024 10:14:39,29-02-2024 10:14:39,0.008s,PASSED
+"Actualtitle = ""Haboom - Privacy Policy""",Chrome 121.0.0.0,,,29-02-2024 10:14:39,29-02-2024 10:14:39,0.001s,PASSED
+"verifyMatch(Expectedtitle, Actualtitle, true)",Chrome 121.0.0.0,,,29-02-2024 10:14:39,29-02-2024 10:14:39,0.002s,PASSED
