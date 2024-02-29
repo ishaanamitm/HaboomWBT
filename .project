@@ -363,6 +363,7 @@
 			</matcher>
 		</filter>
 		<filter>
+<<<<<<< HEAD
 			<id>1708680278393</id>
 			<name></name>
 			<type>10</type>
@@ -913,6 +914,18 @@
 		</filter>
 		<filter>
 			<id>1709208689501</id>
+=======
+			<id>1709179562900</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1709179562908</id>
+>>>>>>> branch 'main' of https://github.com/ishaanamitm/HaboomWBT.git
 			<name></name>
 			<type>6</type>
 			<matcher>

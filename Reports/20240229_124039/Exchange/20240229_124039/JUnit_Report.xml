@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Exchange" time="46.981" tests="1" failures="0" errors="0">
+   <testsuite name="Exchange" tests="1" failures="0" errors="0" time="46.981" skipped="0" timestamp="29-02-2024T12:40:41" hostname="M Gokul Jayanth - LAPTOP-QCN9K3GM" id="Test Suites/Exchange">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\M Gokul Jayanth\\git\\KatalonAutomation\\HaboomWBT\\Reports\\20240229_124039\\Exchange\\20240229_124039"/>
+         <property name="logFiles" value="C:\\Users\\M Gokul Jayanth\\git\\KatalonAutomation\\HaboomWBT\\Reports\\20240229_124039\\Exchange\\20240229_124039\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="M Gokul Jayanth - LAPTOP-QCN9K3GM"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.50.148"/>
+         <property name="sessionId" value="4186ad63a523c0b626c07002ce694394"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Exchange/Place exchange_cricket bet" time="46.855" classname="Test Cases/Exchange/Place exchange_cricket bet" status="PASSED">
+         <system-out><![CDATA[29-02-2024T12:40:41 - [TEST_CASE][PASSED] - Test Cases/Exchange/Place exchange_cricket bet: Test Cases/Exchange/Place exchange_cricket bet
+
+29-02-2024T12:40:41 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+29-02-2024T12:40:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-02-2024T12:40:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-02-2024T12:40:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-02-2024T12:40:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-02-2024T12:40:42 - [TEST_STEP][PASSED] - navigateToUrl("https://haboom.com/"): Navigate to 'https://haboom.com/' successfully
+
+29-02-2024T12:40:55 - [MESSAGE][PASSED] - Navigate to 'https://haboom.com/' successfully
+
+29-02-2024T12:40:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+29-02-2024T12:40:55 - [MESSAGE][PASSED] - Current window maximized
+
+29-02-2024T12:40:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page/Login email field"), "MartinGarrix"): Text 'MartinGarrix' is set on object 'Object Repository/Login Page/Login email field'
+
+29-02-2024T12:40:57 - [MESSAGE][PASSED] - Text 'MartinGarrix' is set on object 'Object Repository/Login Page/Login email field'
+
+29-02-2024T12:40:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page/Login Password"), "Test@1234"): Text 'Test@1234' is set on object 'Object Repository/Login Page/Login Password'
+
+29-02-2024T12:41:00 - [MESSAGE][PASSED] - Text 'Test@1234' is set on object 'Object Repository/Login Page/Login Password'
+
+29-02-2024T12:41:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page/login button")): Object: 'Object Repository/Login Page/login button' is clicked on
+
+29-02-2024T12:41:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/login button' is clicked on
+
+29-02-2024T12:41:02 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+29-02-2024T12:41:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Exchange Page/Exchange_menu")): Object: 'Object Repository/Exchange Page/Exchange_menu' is clicked on
+
+29-02-2024T12:41:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Exchange Page/Exchange_menu' is clicked on
+
+29-02-2024T12:41:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Exchange Page/Cricket_menu")): Object: 'Object Repository/Exchange Page/Cricket_menu' is clicked on
+
+29-02-2024T12:41:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Exchange Page/Cricket_menu' is clicked on
+
+29-02-2024T12:41:12 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+29-02-2024T12:41:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+29-02-2024T12:41:17 - [TEST_STEP][PASSED] - element = getWebDriver().findElement(By.xpath("(//section[@class='mod-event-line ng-scope ng-isolate-scope'])[1]/ul[1]/li[1]")): null
+
+29-02-2024T12:41:18 - [TEST_STEP][PASSED] - element.click(): null
+
+29-02-2024T12:41:23 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+29-02-2024T12:41:28 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[29-02-2024T12:40:41 - [TEST_SUITE][PASSED] - Exchange: Test Cases/Exchange/Place exchange_cricket bet]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

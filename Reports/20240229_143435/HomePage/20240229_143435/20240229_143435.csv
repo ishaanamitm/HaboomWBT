@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+HomePage,Chrome 121.0.0.0,,,29-02-2024 14:34:37,29-02-2024 14:35:19,41.882s,PASSED
+,,,,,,,
+Test Cases/HomePage/Open Footer_FAQ successfuk,Chrome 121.0.0.0,"Expected title - user should able to open the FAQ menu successfully
+Actual - user can open the FAQ menu",FAQ,29-02-2024 14:34:37,29-02-2024 14:34:53,15.819s,PASSED
+Start setup action : setupTestCase,Chrome 121.0.0.0,,,29-02-2024 14:34:37,29-02-2024 14:34:50,12.797s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Footerlink_FAQs""))",Chrome 121.0.0.0,,,29-02-2024 14:34:50,29-02-2024 14:34:53,2.922s,PASSED
+Expectedtitle = getWindowTitle(),Chrome 121.0.0.0,,,29-02-2024 14:34:53,29-02-2024 14:34:53,0.012s,PASSED
+"Actualtitle = ""Haboom - Quick Answers""",Chrome 121.0.0.0,,,29-02-2024 14:34:53,29-02-2024 14:34:53,0.000s,PASSED
+"verifyMatch(Expectedtitle, Actualtitle, true)",Chrome 121.0.0.0,,,29-02-2024 14:34:53,29-02-2024 14:34:53,0.014s,PASSED
+,,,,,,,
+Test Cases/HomePage/Open Footer_help successful,Chrome 121.0.0.0,"Expected title - user should able to open the help menu successfully
+Actual - user can open the help menu",Help,29-02-2024 14:34:53,29-02-2024 14:35:05,12.347s,PASSED
+Start setup action : setupTestCase,Chrome 121.0.0.0,,,29-02-2024 14:34:53,29-02-2024 14:35:03,9.427s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Footerlink_Help""))",Chrome 121.0.0.0,,,29-02-2024 14:35:03,29-02-2024 14:35:05,2.858s,PASSED
+Expectedtitle = getWindowTitle(),Chrome 121.0.0.0,,,29-02-2024 14:35:05,29-02-2024 14:35:05,0.020s,PASSED
+"Actualtitle = ""Haboom - Helpdesk""",Chrome 121.0.0.0,,,29-02-2024 14:35:05,29-02-2024 14:35:05,0.001s,PASSED
+"verifyMatch(Expectedtitle, Actualtitle, true)",Chrome 121.0.0.0,,,29-02-2024 14:35:05,29-02-2024 14:35:05,0.001s,PASSED
+,,,,,,,
+Test Cases/HomePage/Open Footer_privacypolicy successful,Chrome 121.0.0.0,"Expected title - user should able to open the privacy policy link successfully
+
+Actual - user can open the privacy policy link",Privacy policy,29-02-2024 14:35:05,29-02-2024 14:35:19,13.573s,PASSED
+Start setup action : setupTestCase,Chrome 121.0.0.0,,,29-02-2024 14:35:05,29-02-2024 14:35:15,9.093s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Footerlink_PrivacyPolicy""))",Chrome 121.0.0.0,,,29-02-2024 14:35:15,29-02-2024 14:35:19,4.427s,PASSED
+Expectedtitle = getWindowTitle(),Chrome 121.0.0.0,,,29-02-2024 14:35:19,29-02-2024 14:35:19,0.026s,PASSED
+"Actualtitle = ""Haboom - Privacy Policy""",Chrome 121.0.0.0,,,29-02-2024 14:35:19,29-02-2024 14:35:19,0.000s,PASSED
+"verifyMatch(Expectedtitle, Actualtitle, true)",Chrome 121.0.0.0,,,29-02-2024 14:35:19,29-02-2024 14:35:19,0.000s,PASSED

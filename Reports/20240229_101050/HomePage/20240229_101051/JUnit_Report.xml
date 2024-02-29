@@ -1,0 +1,573 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="HomePage" time="225.268" tests="10" failures="0" errors="0">
+   <testsuite name="HomePage" tests="10" failures="0" errors="0" time="225.268" skipped="0" timestamp="29-02-2024T10:10:54" hostname="M Gokul Jayanth - LAPTOP-QCN9K3GM" id="Test Suites/HomePage">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\M Gokul Jayanth\\git\\KatalonAutomation\\HaboomWBT\\Reports\\20240229_101050\\HomePage\\20240229_101051"/>
+         <property name="logFiles" value="C:\\Users\\M Gokul Jayanth\\git\\KatalonAutomation\\HaboomWBT\\Reports\\20240229_101050\\HomePage\\20240229_101051\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="M Gokul Jayanth - LAPTOP-QCN9K3GM"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.50.148"/>
+         <property name="sessionId" value="fb01bbd9aba1e71df45e951b0001eff6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/HomePage/Open recommended games successful" time="18.518" classname="Test Cases/HomePage/Open recommended games successful" status="PASSED">
+         <system-out><![CDATA[29-02-2024T10:10:54 - [TEST_CASE][PASSED] - Test Cases/HomePage/Open recommended games successful: Test Cases/HomePage/Open recommended games successful
+
+29-02-2024T10:10:54 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+29-02-2024T10:10:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-02-2024T10:10:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-02-2024T10:10:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-02-2024T10:10:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-02-2024T10:10:56 - [TEST_STEP][PASSED] - navigateToUrl("https://haboom.com/"): Navigate to 'https://haboom.com/' successfully
+
+29-02-2024T10:11:02 - [MESSAGE][PASSED] - Navigate to 'https://haboom.com/' successfully
+
+29-02-2024T10:11:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+29-02-2024T10:11:02 - [MESSAGE][PASSED] - Current window maximized
+
+29-02-2024T10:11:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page/Login email field"), "MartinGarrix"): Text 'MartinGarrix' is set on object 'Object Repository/Login Page/Login email field'
+
+29-02-2024T10:11:06 - [MESSAGE][PASSED] - Text 'MartinGarrix' is set on object 'Object Repository/Login Page/Login email field'
+
+29-02-2024T10:11:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page/Login Password"), "Test@1234"): Text 'Test@1234' is set on object 'Object Repository/Login Page/Login Password'
+
+29-02-2024T10:11:08 - [MESSAGE][PASSED] - Text 'Test@1234' is set on object 'Object Repository/Login Page/Login Password'
+
+29-02-2024T10:11:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page/login button")): Object: 'Object Repository/Login Page/login button' is clicked on
+
+29-02-2024T10:11:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/login button' is clicked on
+
+29-02-2024T10:11:09 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+29-02-2024T10:11:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home Page/Recommendedgames_Teenpatti_image")): Object: 'Object Repository/Home Page/Recommendedgames_Teenpatti_image' is clicked on
+
+29-02-2024T10:11:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Recommendedgames_Teenpatti_image' is clicked on
+
+29-02-2024T10:11:11 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+29-02-2024T10:11:11 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+29-02-2024T10:11:11 - [TEST_STEP][PASSED] - actualtitle = getWindowTitle(): Current window's title is: 'Three Card Poker'
+
+29-02-2024T10:11:12 - [MESSAGE][PASSED] - Current window's title is: 'Three Card Poker'
+
+29-02-2024T10:11:12 - [TEST_STEP][PASSED] - expectedtitle = "Three Card Poker": null
+
+29-02-2024T10:11:12 - [TEST_STEP][PASSED] - verifyMatch(actualtitle, expectedtitle, true): Actual text 'Three Card Poker' and expected text 'Three Card Poker' are matched  using regular expression
+
+29-02-2024T10:11:12 - [MESSAGE][PASSED] - Actual text 'Three Card Poker' and expected text 'Three Card Poker' are matched  using regular expression]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HomePage/Open top10 games successful" time="17.798" classname="Test Cases/HomePage/Open top10 games successful" status="PASSED">
+         <system-out><![CDATA[29-02-2024T10:11:12 - [TEST_CASE][PASSED] - Test Cases/HomePage/Open top10 games successful: Test Cases/HomePage/Open top10 games successful
+
+29-02-2024T10:11:12 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+29-02-2024T10:11:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-02-2024T10:11:12 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+29-02-2024T10:11:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-02-2024T10:11:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-02-2024T10:11:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-02-2024T10:11:13 - [TEST_STEP][PASSED] - navigateToUrl("https://haboom.com/"): Navigate to 'https://haboom.com/' successfully
+
+29-02-2024T10:11:19 - [MESSAGE][PASSED] - Navigate to 'https://haboom.com/' successfully
+
+29-02-2024T10:11:19 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+29-02-2024T10:11:19 - [MESSAGE][PASSED] - Current window maximized
+
+29-02-2024T10:11:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page/Login email field"), "MartinGarrix"): Text 'MartinGarrix' is set on object 'Object Repository/Login Page/Login email field'
+
+29-02-2024T10:11:23 - [MESSAGE][PASSED] - Text 'MartinGarrix' is set on object 'Object Repository/Login Page/Login email field'
+
+29-02-2024T10:11:23 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page/Login Password"), "Test@1234"): Text 'Test@1234' is set on object 'Object Repository/Login Page/Login Password'
+
+29-02-2024T10:11:24 - [MESSAGE][PASSED] - Text 'Test@1234' is set on object 'Object Repository/Login Page/Login Password'
+
+29-02-2024T10:11:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page/login button")): Object: 'Object Repository/Login Page/login button' is clicked on
+
+29-02-2024T10:11:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/login button' is clicked on
+
+29-02-2024T10:11:25 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+29-02-2024T10:11:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home Page/Top10games_Roulette_image")): Object: 'Object Repository/Home Page/Top10games_Roulette_image' is clicked on
+
+29-02-2024T10:11:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Top10games_Roulette_image' is clicked on
+
+29-02-2024T10:11:28 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+29-02-2024T10:11:28 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+29-02-2024T10:11:28 - [TEST_STEP][PASSED] - actualtitle = getWindowTitle(): Current window's title is: 'Casino'
+
+29-02-2024T10:11:30 - [MESSAGE][PASSED] - Current window's title is: 'Casino'
+
+29-02-2024T10:11:30 - [TEST_STEP][PASSED] - expectedtitle = "Casino": null
+
+29-02-2024T10:11:30 - [TEST_STEP][PASSED] - verifyMatch(actualtitle, expectedtitle, true): Actual text 'Casino' and expected text 'Casino' are matched  using regular expression
+
+29-02-2024T10:11:30 - [MESSAGE][PASSED] - Actual text 'Casino' and expected text 'Casino' are matched  using regular expression]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HomePage/Open exchange_cricket game successfull" time="33.336" classname="Test Cases/HomePage/Open exchange_cricket game successfull" status="PASSED">
+         <system-out><![CDATA[29-02-2024T10:11:30 - [TEST_CASE][PASSED] - Test Cases/HomePage/Open exchange_cricket game successfull: Test Cases/HomePage/Open exchange_cricket game successfull
+
+29-02-2024T10:11:30 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+29-02-2024T10:11:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-02-2024T10:11:30 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+29-02-2024T10:11:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-02-2024T10:11:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-02-2024T10:11:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-02-2024T10:11:31 - [TEST_STEP][PASSED] - navigateToUrl("https://haboom.com/"): Navigate to 'https://haboom.com/' successfully
+
+29-02-2024T10:11:35 - [MESSAGE][PASSED] - Navigate to 'https://haboom.com/' successfully
+
+29-02-2024T10:11:35 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+29-02-2024T10:11:36 - [MESSAGE][PASSED] - Current window maximized
+
+29-02-2024T10:11:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page/Login email field"), "MartinGarrix"): Text 'MartinGarrix' is set on object 'Object Repository/Login Page/Login email field'
+
+29-02-2024T10:11:40 - [MESSAGE][PASSED] - Text 'MartinGarrix' is set on object 'Object Repository/Login Page/Login email field'
+
+29-02-2024T10:11:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page/Login Password"), "Test@1234"): Text 'Test@1234' is set on object 'Object Repository/Login Page/Login Password'
+
+29-02-2024T10:11:43 - [MESSAGE][PASSED] - Text 'Test@1234' is set on object 'Object Repository/Login Page/Login Password'
+
+29-02-2024T10:11:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page/login button")): Object: 'Object Repository/Login Page/login button' is clicked on
+
+29-02-2024T10:11:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/login button' is clicked on
+
+29-02-2024T10:11:44 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+29-02-2024T10:11:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home Page/Exchange_cricket")): Object: 'Object Repository/Home Page/Exchange_cricket' is clicked on
+
+29-02-2024T10:11:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Exchange_cricket' is clicked on
+
+29-02-2024T10:11:59 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+29-02-2024T10:12:04 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+29-02-2024T10:12:04 - [TEST_STEP][PASSED] - Actualtitle = getWindowTitle(): Current window's title is: 'Cricket Betting Exchange & Cricket Best Odds » Haboom™ Exchange'
+
+29-02-2024T10:12:04 - [MESSAGE][PASSED] - Current window's title is: 'Cricket Betting Exchange & Cricket Best Odds » Haboom™ Exchange'
+
+29-02-2024T10:12:04 - [TEST_STEP][PASSED] - println(Actualtitle): null
+
+29-02-2024T10:12:04 - [TEST_STEP][PASSED] - Expectedtitle = "Cricket Betting Exchange & Cricket Best Odds » Haboom™ Exchange": null
+
+29-02-2024T10:12:04 - [TEST_STEP][PASSED] - verifyMatch(Actualtitle, Expectedtitle, true): Actual text 'Cricket Betting Exchange & Cricket Best Odds » Haboom™ Exchange' and expected text 'Cricket Betting Exchange & Cricket Best Odds » Haboom™ Exchange' are matched  using regular expression
+
+29-02-2024T10:12:04 - [MESSAGE][PASSED] - Actual text 'Cricket Betting Exchange & Cricket Best Odds » Haboom™ Exchange' and expected text 'Cricket Betting Exchange & Cricket Best Odds » Haboom™ Exchange' are matched  using regular expression]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HomePage/Open exchange_soccer game successful" time="37.225" classname="Test Cases/HomePage/Open exchange_soccer game successful" status="PASSED">
+         <system-out><![CDATA[29-02-2024T10:12:04 - [TEST_CASE][PASSED] - Test Cases/HomePage/Open exchange_soccer game successful: Test Cases/HomePage/Open exchange_soccer game successful
+
+29-02-2024T10:12:04 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+29-02-2024T10:12:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-02-2024T10:12:04 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+29-02-2024T10:12:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-02-2024T10:12:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-02-2024T10:12:05 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-02-2024T10:12:05 - [TEST_STEP][PASSED] - navigateToUrl("https://haboom.com/"): Navigate to 'https://haboom.com/' successfully
+
+29-02-2024T10:12:11 - [MESSAGE][PASSED] - Navigate to 'https://haboom.com/' successfully
+
+29-02-2024T10:12:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+29-02-2024T10:12:11 - [MESSAGE][PASSED] - Current window maximized
+
+29-02-2024T10:12:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page/Login email field"), "MartinGarrix"): Text 'MartinGarrix' is set on object 'Object Repository/Login Page/Login email field'
+
+29-02-2024T10:12:14 - [MESSAGE][PASSED] - Text 'MartinGarrix' is set on object 'Object Repository/Login Page/Login email field'
+
+29-02-2024T10:12:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page/Login Password"), "Test@1234"): Text 'Test@1234' is set on object 'Object Repository/Login Page/Login Password'
+
+29-02-2024T10:12:17 - [MESSAGE][PASSED] - Text 'Test@1234' is set on object 'Object Repository/Login Page/Login Password'
+
+29-02-2024T10:12:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page/login button")): Object: 'Object Repository/Login Page/login button' is clicked on
+
+29-02-2024T10:12:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/login button' is clicked on
+
+29-02-2024T10:12:18 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+29-02-2024T10:12:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home Page/Exchange_soccer")): Object: 'Object Repository/Home Page/Exchange_soccer' is clicked on
+
+29-02-2024T10:12:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Exchange_soccer' is clicked on
+
+29-02-2024T10:12:36 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+29-02-2024T10:12:41 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+29-02-2024T10:12:41 - [TEST_STEP][PASSED] - Actualtitle = getWindowTitle(): Current window's title is: 'Football Betting Exchange & Football Best Odds » Haboom™ Exchange'
+
+29-02-2024T10:12:41 - [MESSAGE][PASSED] - Current window's title is: 'Football Betting Exchange & Football Best Odds » Haboom™ Exchange'
+
+29-02-2024T10:12:41 - [TEST_STEP][PASSED] - println(Actualtitle): null
+
+29-02-2024T10:12:41 - [TEST_STEP][PASSED] - Expectedtitle = "Football Betting Exchange & Football Best Odds » Haboom™ Exchange": null
+
+29-02-2024T10:12:41 - [TEST_STEP][PASSED] - verifyMatch(Actualtitle, Expectedtitle, true): Actual text 'Football Betting Exchange & Football Best Odds » Haboom™ Exchange' and expected text 'Football Betting Exchange & Football Best Odds » Haboom™ Exchange' are matched  using regular expression
+
+29-02-2024T10:12:41 - [MESSAGE][PASSED] - Actual text 'Football Betting Exchange & Football Best Odds » Haboom™ Exchange' and expected text 'Football Betting Exchange & Football Best Odds » Haboom™ Exchange' are matched  using regular expression]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HomePage/Open livecasino games successful" time="19.131" classname="Test Cases/HomePage/Open livecasino games successful" status="PASSED">
+         <system-out><![CDATA[29-02-2024T10:12:41 - [TEST_CASE][PASSED] - Test Cases/HomePage/Open livecasino games successful: Test Cases/HomePage/Open livecasino games successful
+
+29-02-2024T10:12:41 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+29-02-2024T10:12:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-02-2024T10:12:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+29-02-2024T10:12:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-02-2024T10:12:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-02-2024T10:12:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-02-2024T10:12:43 - [TEST_STEP][PASSED] - navigateToUrl("https://haboom.com/"): Navigate to 'https://haboom.com/' successfully
+
+29-02-2024T10:12:46 - [MESSAGE][PASSED] - Navigate to 'https://haboom.com/' successfully
+
+29-02-2024T10:12:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+29-02-2024T10:12:47 - [MESSAGE][PASSED] - Current window maximized
+
+29-02-2024T10:12:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page/Login email field"), "MartinGarrix"): Text 'MartinGarrix' is set on object 'Object Repository/Login Page/Login email field'
+
+29-02-2024T10:12:49 - [MESSAGE][PASSED] - Text 'MartinGarrix' is set on object 'Object Repository/Login Page/Login email field'
+
+29-02-2024T10:12:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page/Login Password"), "Test@1234"): Text 'Test@1234' is set on object 'Object Repository/Login Page/Login Password'
+
+29-02-2024T10:12:51 - [MESSAGE][PASSED] - Text 'Test@1234' is set on object 'Object Repository/Login Page/Login Password'
+
+29-02-2024T10:12:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page/login button")): Object: 'Object Repository/Login Page/login button' is clicked on
+
+29-02-2024T10:12:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/login button' is clicked on
+
+29-02-2024T10:12:52 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+29-02-2024T10:12:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home Page/Livecasinogames_Andarbahar_image")): Object: 'Object Repository/Home Page/Livecasinogames_Andarbahar_image' is clicked on
+
+29-02-2024T10:12:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Livecasinogames_Andarbahar_image' is clicked on
+
+29-02-2024T10:12:55 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+29-02-2024T10:13:00 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+29-02-2024T10:13:00 - [TEST_STEP][PASSED] - Actualtitle = getWindowTitle(): Current window's title is: 'Haboom - Trusted Online Casino and Sports Betting Platform'
+
+29-02-2024T10:13:00 - [MESSAGE][PASSED] - Current window's title is: 'Haboom - Trusted Online Casino and Sports Betting Platform'
+
+29-02-2024T10:13:00 - [TEST_STEP][PASSED] - println(Actualtitle): null
+
+29-02-2024T10:13:00 - [TEST_STEP][PASSED] - Expectedtitle = "Haboom - Trusted Online Casino and Sports Betting Platform": null
+
+29-02-2024T10:13:00 - [TEST_STEP][PASSED] - verifyMatch(Actualtitle, Expectedtitle, true): Actual text 'Haboom - Trusted Online Casino and Sports Betting Platform' and expected text 'Haboom - Trusted Online Casino and Sports Betting Platform' are matched  using regular expression
+
+29-02-2024T10:13:00 - [MESSAGE][PASSED] - Actual text 'Haboom - Trusted Online Casino and Sports Betting Platform' and expected text 'Haboom - Trusted Online Casino and Sports Betting Platform' are matched  using regular expression]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HomePage/Open topmatches games successful" time="21.637" classname="Test Cases/HomePage/Open topmatches games successful" status="PASSED">
+         <system-out><![CDATA[29-02-2024T10:13:00 - [TEST_CASE][PASSED] - Test Cases/HomePage/Open topmatches games successful: Test Cases/HomePage/Open topmatches games successful
+
+29-02-2024T10:13:00 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+29-02-2024T10:13:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-02-2024T10:13:00 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+29-02-2024T10:13:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-02-2024T10:13:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-02-2024T10:13:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-02-2024T10:13:01 - [TEST_STEP][PASSED] - navigateToUrl("https://haboom.com/"): Navigate to 'https://haboom.com/' successfully
+
+29-02-2024T10:13:06 - [MESSAGE][PASSED] - Navigate to 'https://haboom.com/' successfully
+
+29-02-2024T10:13:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+29-02-2024T10:13:07 - [MESSAGE][PASSED] - Current window maximized
+
+29-02-2024T10:13:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page/Login email field"), "MartinGarrix"): Text 'MartinGarrix' is set on object 'Object Repository/Login Page/Login email field'
+
+29-02-2024T10:13:09 - [MESSAGE][PASSED] - Text 'MartinGarrix' is set on object 'Object Repository/Login Page/Login email field'
+
+29-02-2024T10:13:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page/Login Password"), "Test@1234"): Text 'Test@1234' is set on object 'Object Repository/Login Page/Login Password'
+
+29-02-2024T10:13:11 - [MESSAGE][PASSED] - Text 'Test@1234' is set on object 'Object Repository/Login Page/Login Password'
+
+29-02-2024T10:13:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page/login button")): Object: 'Object Repository/Login Page/login button' is clicked on
+
+29-02-2024T10:13:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/login button' is clicked on
+
+29-02-2024T10:13:13 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+29-02-2024T10:13:13 - [TEST_STEP][PASSED] - element = getWebDriver().findElement(By.xpath("(//div[@id='cricketMatches']/div)[1]")): null
+
+29-02-2024T10:13:21 - [TEST_STEP][PASSED] - Object = convertWebElementToTestObject(element): null
+
+29-02-2024T10:13:21 - [TEST_STEP][PASSED] - click(Object): Object: '' is clicked on
+
+29-02-2024T10:13:22 - [MESSAGE][PASSED] - Object: '' is clicked on
+
+29-02-2024T10:13:22 - [TEST_STEP][PASSED] - actualtitle = getWindowTitle(): Current window's title is: 'Haboom - Trusted Online Casino and Sports Betting Platform'
+
+29-02-2024T10:13:22 - [MESSAGE][PASSED] - Current window's title is: 'Haboom - Trusted Online Casino and Sports Betting Platform'
+
+29-02-2024T10:13:22 - [TEST_STEP][PASSED] - expectedtitle = getWindowTitle(): Current window's title is: 'Haboom - Trusted Online Casino and Sports Betting Platform'
+
+29-02-2024T10:13:22 - [MESSAGE][PASSED] - Current window's title is: 'Haboom - Trusted Online Casino and Sports Betting Platform'
+
+29-02-2024T10:13:22 - [TEST_STEP][PASSED] - verifyMatch(actualtitle, expectedtitle, true): Actual text 'Haboom - Trusted Online Casino and Sports Betting Platform' and expected text 'Haboom - Trusted Online Casino and Sports Betting Platform' are matched  using regular expression
+
+29-02-2024T10:13:22 - [MESSAGE][PASSED] - Actual text 'Haboom - Trusted Online Casino and Sports Betting Platform' and expected text 'Haboom - Trusted Online Casino and Sports Betting Platform' are matched  using regular expression]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HomePage/Open Footer_help successful" time="18.223" classname="Test Cases/HomePage/Open Footer_help successful" status="PASSED">
+         <system-out><![CDATA[29-02-2024T10:13:22 - [TEST_CASE][PASSED] - Test Cases/HomePage/Open Footer_help successful: Test Cases/HomePage/Open Footer_help successful
+
+29-02-2024T10:13:22 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+29-02-2024T10:13:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-02-2024T10:13:22 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+29-02-2024T10:13:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-02-2024T10:13:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-02-2024T10:13:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-02-2024T10:13:24 - [TEST_STEP][PASSED] - navigateToUrl("https://haboom.com/"): Navigate to 'https://haboom.com/' successfully
+
+29-02-2024T10:13:27 - [MESSAGE][PASSED] - Navigate to 'https://haboom.com/' successfully
+
+29-02-2024T10:13:27 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+29-02-2024T10:13:28 - [MESSAGE][PASSED] - Current window maximized
+
+29-02-2024T10:13:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page/Login email field"), "MartinGarrix"): Text 'MartinGarrix' is set on object 'Object Repository/Login Page/Login email field'
+
+29-02-2024T10:13:31 - [MESSAGE][PASSED] - Text 'MartinGarrix' is set on object 'Object Repository/Login Page/Login email field'
+
+29-02-2024T10:13:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page/Login Password"), "Test@1234"): Text 'Test@1234' is set on object 'Object Repository/Login Page/Login Password'
+
+29-02-2024T10:13:33 - [MESSAGE][PASSED] - Text 'Test@1234' is set on object 'Object Repository/Login Page/Login Password'
+
+29-02-2024T10:13:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page/login button")): Object: 'Object Repository/Login Page/login button' is clicked on
+
+29-02-2024T10:13:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/login button' is clicked on
+
+29-02-2024T10:13:34 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+29-02-2024T10:13:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home Page/Footerlink_Help")): Object: 'Object Repository/Home Page/Footerlink_Help' is clicked on
+
+29-02-2024T10:13:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Footerlink_Help' is clicked on
+
+29-02-2024T10:13:40 - [TEST_STEP][PASSED] - Expectedtitle = getWindowTitle(): Current window's title is: 'Haboom - Helpdesk'
+
+29-02-2024T10:13:40 - [MESSAGE][PASSED] - Current window's title is: 'Haboom - Helpdesk'
+
+29-02-2024T10:13:40 - [TEST_STEP][PASSED] - Actualtitle = "Haboom - Helpdesk": null
+
+29-02-2024T10:13:40 - [TEST_STEP][PASSED] - verifyMatch(Expectedtitle, Actualtitle, true): Actual text 'Haboom - Helpdesk' and expected text 'Haboom - Helpdesk' are matched  using regular expression
+
+29-02-2024T10:13:40 - [MESSAGE][PASSED] - Actual text 'Haboom - Helpdesk' and expected text 'Haboom - Helpdesk' are matched  using regular expression]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HomePage/Open Footer_FAQ successfuk" time="19.053" classname="Test Cases/HomePage/Open Footer_FAQ successfuk" status="PASSED">
+         <system-out><![CDATA[29-02-2024T10:13:40 - [TEST_CASE][PASSED] - Test Cases/HomePage/Open Footer_FAQ successfuk: Test Cases/HomePage/Open Footer_FAQ successfuk
+
+29-02-2024T10:13:40 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+29-02-2024T10:13:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-02-2024T10:13:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+29-02-2024T10:13:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-02-2024T10:13:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-02-2024T10:13:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-02-2024T10:13:42 - [TEST_STEP][PASSED] - navigateToUrl("https://haboom.com/"): Navigate to 'https://haboom.com/' successfully
+
+29-02-2024T10:13:46 - [MESSAGE][PASSED] - Navigate to 'https://haboom.com/' successfully
+
+29-02-2024T10:13:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+29-02-2024T10:13:46 - [MESSAGE][PASSED] - Current window maximized
+
+29-02-2024T10:13:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page/Login email field"), "MartinGarrix"): Text 'MartinGarrix' is set on object 'Object Repository/Login Page/Login email field'
+
+29-02-2024T10:13:49 - [MESSAGE][PASSED] - Text 'MartinGarrix' is set on object 'Object Repository/Login Page/Login email field'
+
+29-02-2024T10:13:49 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page/Login Password"), "Test@1234"): Text 'Test@1234' is set on object 'Object Repository/Login Page/Login Password'
+
+29-02-2024T10:13:51 - [MESSAGE][PASSED] - Text 'Test@1234' is set on object 'Object Repository/Login Page/Login Password'
+
+29-02-2024T10:13:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page/login button")): Object: 'Object Repository/Login Page/login button' is clicked on
+
+29-02-2024T10:13:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/login button' is clicked on
+
+29-02-2024T10:13:52 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+29-02-2024T10:13:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home Page/Footerlink_FAQs")): Object: 'Object Repository/Home Page/Footerlink_FAQs' is clicked on
+
+29-02-2024T10:13:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Footerlink_FAQs' is clicked on
+
+29-02-2024T10:13:59 - [TEST_STEP][PASSED] - Expectedtitle = getWindowTitle(): Current window's title is: 'Haboom - Quick Answers'
+
+29-02-2024T10:13:59 - [MESSAGE][PASSED] - Current window's title is: 'Haboom - Quick Answers'
+
+29-02-2024T10:13:59 - [TEST_STEP][PASSED] - Actualtitle = "Haboom - Quick Answers": null
+
+29-02-2024T10:13:59 - [TEST_STEP][PASSED] - verifyMatch(Expectedtitle, Actualtitle, true): Actual text 'Haboom - Quick Answers' and expected text 'Haboom - Quick Answers' are matched  using regular expression
+
+29-02-2024T10:13:59 - [MESSAGE][PASSED] - Actual text 'Haboom - Quick Answers' and expected text 'Haboom - Quick Answers' are matched  using regular expression]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HomePage/Open Footer_afflliates successful" time="23.248" classname="Test Cases/HomePage/Open Footer_afflliates successful" status="PASSED">
+         <system-out><![CDATA[29-02-2024T10:13:59 - [TEST_CASE][PASSED] - Test Cases/HomePage/Open Footer_afflliates successful: Test Cases/HomePage/Open Footer_afflliates successful
+
+29-02-2024T10:13:59 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+29-02-2024T10:13:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-02-2024T10:13:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+29-02-2024T10:13:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-02-2024T10:13:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-02-2024T10:14:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-02-2024T10:14:01 - [TEST_STEP][PASSED] - navigateToUrl("https://haboom.com/"): Navigate to 'https://haboom.com/' successfully
+
+29-02-2024T10:14:05 - [MESSAGE][PASSED] - Navigate to 'https://haboom.com/' successfully
+
+29-02-2024T10:14:05 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+29-02-2024T10:14:05 - [MESSAGE][PASSED] - Current window maximized
+
+29-02-2024T10:14:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page/Login email field"), "MartinGarrix"): Text 'MartinGarrix' is set on object 'Object Repository/Login Page/Login email field'
+
+29-02-2024T10:14:08 - [MESSAGE][PASSED] - Text 'MartinGarrix' is set on object 'Object Repository/Login Page/Login email field'
+
+29-02-2024T10:14:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page/Login Password"), "Test@1234"): Text 'Test@1234' is set on object 'Object Repository/Login Page/Login Password'
+
+29-02-2024T10:14:10 - [MESSAGE][PASSED] - Text 'Test@1234' is set on object 'Object Repository/Login Page/Login Password'
+
+29-02-2024T10:14:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page/login button")): Object: 'Object Repository/Login Page/login button' is clicked on
+
+29-02-2024T10:14:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/login button' is clicked on
+
+29-02-2024T10:14:12 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+29-02-2024T10:14:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home Page/Footerlink_Affiliates")): Object: 'Object Repository/Home Page/Footerlink_Affiliates' is clicked on
+
+29-02-2024T10:14:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Footerlink_Affiliates' is clicked on
+
+29-02-2024T10:14:22 - [TEST_STEP][PASSED] - Expectedtitle = getWindowTitle(): Current window's title is: 'Haboom - Official Affiliate Program'
+
+29-02-2024T10:14:22 - [MESSAGE][PASSED] - Current window's title is: 'Haboom - Official Affiliate Program'
+
+29-02-2024T10:14:22 - [TEST_STEP][PASSED] - Actualtitle = "Haboom - Official Affiliate Program": null
+
+29-02-2024T10:14:22 - [TEST_STEP][PASSED] - verifyMatch(Expectedtitle, Actualtitle, true): Actual text 'Haboom - Official Affiliate Program' and expected text 'Haboom - Official Affiliate Program' are matched  using regular expression
+
+29-02-2024T10:14:22 - [MESSAGE][PASSED] - Actual text 'Haboom - Official Affiliate Program' and expected text 'Haboom - Official Affiliate Program' are matched  using regular expression]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HomePage/Open Footer_privacypolicy successful" time="16.936" classname="Test Cases/HomePage/Open Footer_privacypolicy successful" status="PASSED">
+         <system-out><![CDATA[29-02-2024T10:14:22 - [TEST_CASE][PASSED] - Test Cases/HomePage/Open Footer_privacypolicy successful: Test Cases/HomePage/Open Footer_privacypolicy successful
+
+29-02-2024T10:14:22 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+29-02-2024T10:14:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+29-02-2024T10:14:22 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+29-02-2024T10:14:22 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+29-02-2024T10:14:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+29-02-2024T10:14:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+29-02-2024T10:14:24 - [TEST_STEP][PASSED] - navigateToUrl("https://haboom.com/"): Navigate to 'https://haboom.com/' successfully
+
+29-02-2024T10:14:28 - [MESSAGE][PASSED] - Navigate to 'https://haboom.com/' successfully
+
+29-02-2024T10:14:28 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+29-02-2024T10:14:28 - [MESSAGE][PASSED] - Current window maximized
+
+29-02-2024T10:14:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page/Login email field"), "MartinGarrix"): Text 'MartinGarrix' is set on object 'Object Repository/Login Page/Login email field'
+
+29-02-2024T10:14:32 - [MESSAGE][PASSED] - Text 'MartinGarrix' is set on object 'Object Repository/Login Page/Login email field'
+
+29-02-2024T10:14:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page/Login Password"), "Test@1234"): Text 'Test@1234' is set on object 'Object Repository/Login Page/Login Password'
+
+29-02-2024T10:14:34 - [MESSAGE][PASSED] - Text 'Test@1234' is set on object 'Object Repository/Login Page/Login Password'
+
+29-02-2024T10:14:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page/login button")): Object: 'Object Repository/Login Page/login button' is clicked on
+
+29-02-2024T10:14:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/login button' is clicked on
+
+29-02-2024T10:14:35 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+29-02-2024T10:14:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home Page/Footerlink_PrivacyPolicy")): Object: 'Object Repository/Home Page/Footerlink_PrivacyPolicy' is clicked on
+
+29-02-2024T10:14:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Footerlink_PrivacyPolicy' is clicked on
+
+29-02-2024T10:14:39 - [TEST_STEP][PASSED] - Expectedtitle = getWindowTitle(): Current window's title is: 'Haboom - Privacy Policy'
+
+29-02-2024T10:14:39 - [MESSAGE][PASSED] - Current window's title is: 'Haboom - Privacy Policy'
+
+29-02-2024T10:14:39 - [TEST_STEP][PASSED] - Actualtitle = "Haboom - Privacy Policy": null
+
+29-02-2024T10:14:39 - [TEST_STEP][PASSED] - verifyMatch(Expectedtitle, Actualtitle, true): Actual text 'Haboom - Privacy Policy' and expected text 'Haboom - Privacy Policy' are matched  using regular expression
+
+29-02-2024T10:14:39 - [MESSAGE][PASSED] - Actual text 'Haboom - Privacy Policy' and expected text 'Haboom - Privacy Policy' are matched  using regular expression]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[29-02-2024T10:10:54 - [TEST_SUITE][PASSED] - HomePage: Test Cases/HomePage/Open Footer_privacypolicy successful]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
