@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/sportsbook/Cricket Bets/span_Jinnah Brescia",
+      "brokenLocator": "//div[@id\u003d\u0027mod-minimarketview-1056\u0027]/div[2]/ul/li/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//li/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240229_095003/HABOOM/20240229_095003/Object Repository/sportsbook/Cricket Bets/span_Jinnah Brescia_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/sportsbook/Soccer/span_Prachuap FC",
+      "brokenLocator": "//div[@id\u003d\u0027mod-inplaysports-1002\u0027]/div[3]/div/div[2]/div/div/li[2]/ul/li[3]/div/div[2]/div[2]/a/span[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Soccer\u0027])[6]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20240229_095003/HABOOM/20240229_095003/Object Repository/sportsbook/Soccer/span_Prachuap FC_neighbor.png"
+    }
+  ]
+}

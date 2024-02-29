@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Betslip_slip_lft betslip_toggle_arrow b_22464f</name>
+   <tag></tag>
+   <elementGuidId>bc0b261b-ce9e-4e52-978e-7b1849157dc0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-wrapper']/div/div/div[7]/div/div/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.slip_lft.betslip_toggle_arrow.bets_toggle_close</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>58968313-53c4-4e4d-8bcb-6806edaf39da</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>slip_lft betslip_toggle_arrow bets_toggle_close</value>
+      <webElementGuid>eb0521fc-aa0c-4b4c-a87f-1014f6d8d0b1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-wrapper&quot;)/div[@class=&quot;container full-width-page scrollable-columns default-min-size-page&quot;]/div[@class=&quot;top&quot;]/div[@class=&quot;bet_slip_section  betslip_logged_in&quot;]/div[@class=&quot;bet_slip_toggle_sec desktp_bet_slip open&quot;]/div[@class=&quot;bet_slip_toggle_body bet_slip_open&quot;]/div[@class=&quot;bet_slip_head&quot;]/div[@class=&quot;slip_lft betslip_toggle_arrow bets_toggle_close&quot;]</value>
+      <webElementGuid>890e6168-f439-4601-88b7-74599b31cfe3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-wrapper']/div/div/div[7]/div/div/div/div[2]</value>
+      <webElementGuid>d72c3f0a-379b-47e7-bd64-786b6e5be3bf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Betslip'])[1]/following::div[1]</value>
+      <webElementGuid>e0f4a7a9-cffb-40d4-89ca-83c9e844deed</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ok, I get it'])[1]/following::div[9]</value>
+      <webElementGuid>2c906d64-1986-41d4-88f7-955fb548baad</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='₹'])[1]/preceding::div[15]</value>
+      <webElementGuid>f4d5b02e-5bd2-4046-bd06-90371abedc2e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='POTENTIAL WIN:'])[1]/preceding::div[17]</value>
+      <webElementGuid>eb151ec0-7b13-42dc-b3f7-6123698a3cb0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/div/div/div/div[2]</value>
+      <webElementGuid>cb01060d-bf9a-4aff-9233-d06b9c370167</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

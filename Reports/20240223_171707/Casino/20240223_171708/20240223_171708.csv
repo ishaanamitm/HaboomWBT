@@ -1,6 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-Casino,,Casino Suite,,23-02-2024 17:17:10,23-02-2024 17:17:11,0.702s,FAILED
-,,,,,,,
-Test Cases/Casino/Open game successful,,"Expected Result - User should able to open the game, 
-Actual Result - User can able to play the game",Open Game,23-02-2024 17:17:11,23-02-2024 17:17:11,0.040s,FAILED
-"click(findTestObject(""Object Repository/Casino Page/CasinoMenu""))",,,,23-02-2024 17:17:11,23-02-2024 17:17:11,0.030s,FAILED
