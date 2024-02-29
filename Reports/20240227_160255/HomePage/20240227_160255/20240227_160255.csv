@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+HomePage,Chrome 121.0.0.0,,,27-02-2024 16:02:57,27-02-2024 16:03:23,25.956s,ERROR
+,,,,,,,
+Test Cases/HomePage/Open recommended games successful,Chrome 121.0.0.0,,,27-02-2024 16:03:15,27-02-2024 16:03:23,7.520s,ERROR
+Start setup action : setupTestCase,Chrome 121.0.0.0,,,27-02-2024 16:03:15,27-02-2024 16:03:23,7.507s,ERROR

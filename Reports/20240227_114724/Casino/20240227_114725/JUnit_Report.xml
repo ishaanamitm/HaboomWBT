@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Casino" time="68.675" tests="1" failures="0" errors="0">
+   <testsuite name="Casino" tests="1" failures="0" errors="0" time="68.675" skipped="0" timestamp="27-02-2024T11:47:28" hostname="M Gokul Jayanth - LAPTOP-QCN9K3GM" id="Test Suites/Casino">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\M Gokul Jayanth\\git\\KatalonAutomation\\HaboomWBT\\Reports\\20240227_114724\\Casino\\20240227_114725"/>
+         <property name="logFiles" value="C:\\Users\\M Gokul Jayanth\\git\\KatalonAutomation\\HaboomWBT\\Reports\\20240227_114724\\Casino\\20240227_114725\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="M Gokul Jayanth - LAPTOP-QCN9K3GM"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.50.148"/>
+         <property name="sessionId" value="9814029e496fbddfe18dbc833feeb384"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Casino/Open game successful" time="68.497" classname="Test Cases/Casino/Open game successful" status="INCOMPLETE">
+         <system-out><![CDATA[27-02-2024T11:47:28 - [TEST_CASE][INCOMPLETE] - Test Cases/Casino/Open game successful: null
+
+27-02-2024T11:47:28 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+27-02-2024T11:47:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+27-02-2024T11:47:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+27-02-2024T11:47:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-02-2024T11:47:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+27-02-2024T11:47:30 - [TEST_STEP][PASSED] - navigateToUrl("https://haboom.com/"): Navigate to 'https://haboom.com/' successfully
+
+27-02-2024T11:47:43 - [MESSAGE][PASSED] - Navigate to 'https://haboom.com/' successfully
+
+27-02-2024T11:47:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+27-02-2024T11:47:44 - [MESSAGE][PASSED] - Current window maximized
+
+27-02-2024T11:47:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page/Login email field"), "MartinGarrix"): Text 'MartinGarrix' is set on object 'Object Repository/Login Page/Login email field'
+
+27-02-2024T11:47:46 - [MESSAGE][PASSED] - Text 'MartinGarrix' is set on object 'Object Repository/Login Page/Login email field'
+
+27-02-2024T11:47:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page/Login Password"), "Test@1234"): Text 'Test@1234' is set on object 'Object Repository/Login Page/Login Password'
+
+27-02-2024T11:47:48 - [MESSAGE][PASSED] - Text 'Test@1234' is set on object 'Object Repository/Login Page/Login Password'
+
+27-02-2024T11:47:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page/login button")): Object: 'Object Repository/Login Page/login button' is clicked on
+
+27-02-2024T11:47:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/login button' is clicked on
+
+27-02-2024T11:47:49 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login Page/My Account"), "My Account"): Actual text and expected text of test object 'Object Repository/Login Page/My Account' are matched.
+
+27-02-2024T11:47:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login Page/My Account' are matched.
+
+27-02-2024T11:47:58 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+27-02-2024T11:47:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Casino Page/CasinoMenu")): Object: 'Object Repository/Casino Page/CasinoMenu' is clicked on
+
+27-02-2024T11:48:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Casino Page/CasinoMenu' is clicked on
+
+27-02-2024T11:48:03 - [TEST_STEP][PASSED] - provider = getWebDriver().findElements(By.xpath("//input[@name='provider_list']")): null
+
+27-02-2024T11:48:04 - [TEST_STEP][PASSED] - println(provider.size()): null
+
+27-02-2024T11:48:04 - [TEST_STEP][INCOMPLETE] - for ([i = 1, i < provider.size(), (i++)]): null
+
+27-02-2024T11:48:04 - [TEST_STEP][PASSED] - currentElement = provider.get(i): null
+
+27-02-2024T11:48:04 - [TEST_STEP][PASSED] - currentElement.click(): null
+
+27-02-2024T11:48:04 - [TEST_STEP][PASSED] - providerwindow = getWindowTitle(): Current window's title is: 'Haboom - Best Online Casino Games for Real Money'
+
+27-02-2024T11:48:04 - [MESSAGE][PASSED] - Current window's title is: 'Haboom - Best Online Casino Games for Real Money'
+
+27-02-2024T11:48:04 - [TEST_STEP][PASSED] - allgames = getWebDriver().findElements(By.xpath("//div[@class='tile default-layout casinoLink' and @data-type='casino' and@data-provider='ezugi']")): null
+
+27-02-2024T11:48:07 - [TEST_STEP][PASSED] - println(allgames.size()): null
+
+27-02-2024T11:48:07 - [TEST_STEP][INCOMPLETE] - for ([j = 0, j < allgames.size(), (j++)]): null
+
+27-02-2024T11:48:07 - [TEST_STEP][PASSED] - println(j): null
+
+27-02-2024T11:48:07 - [TEST_STEP][PASSED] - playgame = allgames.get(j): null
+
+27-02-2024T11:48:07 - [TEST_STEP][PASSED] - Object = convertWebElementToTestObject(playgame): null
+
+27-02-2024T11:48:07 - [TEST_STEP][PASSED] - scrollToElement(Object, 10): Scroll to object '' successfully
+
+27-02-2024T11:48:07 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+27-02-2024T11:48:07 - [TEST_STEP][PASSED] - playgame.click(): null
+
+27-02-2024T11:48:07 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-02-2024T11:48:09 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-02-2024T11:48:09 - [TEST_STEP][PASSED] - title = getUrl(): Current window's url is: 'https://haboom.com/d/casino/casino'
+
+27-02-2024T11:48:09 - [MESSAGE][PASSED] - Current window's url is: 'https://haboom.com/d/casino/casino'
+
+27-02-2024T11:48:09 - [TEST_STEP][PASSED] - if (title.contains("notavailable")): null
+
+27-02-2024T11:48:09 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+27-02-2024T11:48:09 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+27-02-2024T11:48:09 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+27-02-2024T11:48:09 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+27-02-2024T11:48:09 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+27-02-2024T11:48:09 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+27-02-2024T11:48:09 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-02-2024T11:48:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-02-2024T11:48:11 - [TEST_STEP][PASSED] - println(j): null
+
+27-02-2024T11:48:11 - [TEST_STEP][PASSED] - playgame = allgames.get(j): null
+
+27-02-2024T11:48:11 - [TEST_STEP][PASSED] - Object = convertWebElementToTestObject(playgame): null
+
+27-02-2024T11:48:11 - [TEST_STEP][PASSED] - scrollToElement(Object, 10): Scroll to object '' successfully
+
+27-02-2024T11:48:11 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+27-02-2024T11:48:11 - [TEST_STEP][PASSED] - playgame.click(): null
+
+27-02-2024T11:48:11 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-02-2024T11:48:13 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-02-2024T11:48:13 - [TEST_STEP][PASSED] - title = getUrl(): Current window's url is: 'https://haboom.com/d/casino/casino'
+
+27-02-2024T11:48:13 - [MESSAGE][PASSED] - Current window's url is: 'https://haboom.com/d/casino/casino'
+
+27-02-2024T11:48:13 - [TEST_STEP][PASSED] - if (title.contains("notavailable")): null
+
+27-02-2024T11:48:13 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+27-02-2024T11:48:13 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+27-02-2024T11:48:13 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+27-02-2024T11:48:13 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+27-02-2024T11:48:13 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+27-02-2024T11:48:13 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+27-02-2024T11:48:13 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-02-2024T11:48:15 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-02-2024T11:48:15 - [TEST_STEP][PASSED] - println(j): null
+
+27-02-2024T11:48:15 - [TEST_STEP][PASSED] - playgame = allgames.get(j): null
+
+27-02-2024T11:48:15 - [TEST_STEP][PASSED] - Object = convertWebElementToTestObject(playgame): null
+
+27-02-2024T11:48:15 - [TEST_STEP][PASSED] - scrollToElement(Object, 10): Scroll to object '' successfully
+
+27-02-2024T11:48:16 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+27-02-2024T11:48:16 - [TEST_STEP][PASSED] - playgame.click(): null
+
+27-02-2024T11:48:16 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-02-2024T11:48:18 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-02-2024T11:48:18 - [TEST_STEP][PASSED] - title = getUrl(): Current window's url is: 'https://haboom.com/d/casino/casino'
+
+27-02-2024T11:48:18 - [MESSAGE][PASSED] - Current window's url is: 'https://haboom.com/d/casino/casino'
+
+27-02-2024T11:48:18 - [TEST_STEP][PASSED] - if (title.contains("notavailable")): null
+
+27-02-2024T11:48:18 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+27-02-2024T11:48:18 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+27-02-2024T11:48:18 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+27-02-2024T11:48:18 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+27-02-2024T11:48:18 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+27-02-2024T11:48:18 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+27-02-2024T11:48:18 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-02-2024T11:48:20 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-02-2024T11:48:20 - [TEST_STEP][PASSED] - println(j): null
+
+27-02-2024T11:48:20 - [TEST_STEP][PASSED] - playgame = allgames.get(j): null
+
+27-02-2024T11:48:20 - [TEST_STEP][PASSED] - Object = convertWebElementToTestObject(playgame): null
+
+27-02-2024T11:48:20 - [TEST_STEP][PASSED] - scrollToElement(Object, 10): Scroll to object '' successfully
+
+27-02-2024T11:48:20 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+27-02-2024T11:48:20 - [TEST_STEP][PASSED] - playgame.click(): null
+
+27-02-2024T11:48:20 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-02-2024T11:48:22 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-02-2024T11:48:22 - [TEST_STEP][PASSED] - title = getUrl(): Current window's url is: 'https://haboom.com/d/casino/casino'
+
+27-02-2024T11:48:22 - [MESSAGE][PASSED] - Current window's url is: 'https://haboom.com/d/casino/casino'
+
+27-02-2024T11:48:22 - [TEST_STEP][PASSED] - if (title.contains("notavailable")): null
+
+27-02-2024T11:48:22 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+27-02-2024T11:48:22 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+27-02-2024T11:48:22 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+27-02-2024T11:48:22 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+27-02-2024T11:48:22 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+27-02-2024T11:48:22 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+27-02-2024T11:48:22 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-02-2024T11:48:24 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-02-2024T11:48:24 - [TEST_STEP][PASSED] - println(j): null
+
+27-02-2024T11:48:24 - [TEST_STEP][PASSED] - playgame = allgames.get(j): null
+
+27-02-2024T11:48:24 - [TEST_STEP][PASSED] - Object = convertWebElementToTestObject(playgame): null
+
+27-02-2024T11:48:24 - [TEST_STEP][PASSED] - scrollToElement(Object, 10): Scroll to object '' successfully
+
+27-02-2024T11:48:24 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+27-02-2024T11:48:24 - [TEST_STEP][PASSED] - playgame.click(): null
+
+27-02-2024T11:48:24 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-02-2024T11:48:26 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-02-2024T11:48:26 - [TEST_STEP][PASSED] - title = getUrl(): Current window's url is: 'https://haboom.com/d/casino/casino'
+
+27-02-2024T11:48:26 - [MESSAGE][PASSED] - Current window's url is: 'https://haboom.com/d/casino/casino'
+
+27-02-2024T11:48:26 - [TEST_STEP][PASSED] - if (title.contains("notavailable")): null
+
+27-02-2024T11:48:26 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+27-02-2024T11:48:26 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+27-02-2024T11:48:26 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+27-02-2024T11:48:26 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+27-02-2024T11:48:26 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+27-02-2024T11:48:26 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+27-02-2024T11:48:26 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-02-2024T11:48:28 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-02-2024T11:48:28 - [TEST_STEP][PASSED] - println(j): null
+
+27-02-2024T11:48:28 - [TEST_STEP][PASSED] - playgame = allgames.get(j): null
+
+27-02-2024T11:48:28 - [TEST_STEP][PASSED] - Object = convertWebElementToTestObject(playgame): null
+
+27-02-2024T11:48:28 - [TEST_STEP][PASSED] - scrollToElement(Object, 10): Scroll to object '' successfully
+
+27-02-2024T11:48:28 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+27-02-2024T11:48:28 - [TEST_STEP][PASSED] - playgame.click(): null
+
+27-02-2024T11:48:28 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-02-2024T11:48:30 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-02-2024T11:48:30 - [TEST_STEP][PASSED] - title = getUrl(): Current window's url is: 'https://haboom.com/d/casino/casino'
+
+27-02-2024T11:48:30 - [MESSAGE][PASSED] - Current window's url is: 'https://haboom.com/d/casino/casino'
+
+27-02-2024T11:48:30 - [TEST_STEP][PASSED] - if (title.contains("notavailable")): null
+
+27-02-2024T11:48:30 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+27-02-2024T11:48:30 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+27-02-2024T11:48:30 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+27-02-2024T11:48:30 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+27-02-2024T11:48:30 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+27-02-2024T11:48:30 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+27-02-2024T11:48:30 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-02-2024T11:48:32 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-02-2024T11:48:32 - [TEST_STEP][PASSED] - println(j): null
+
+27-02-2024T11:48:32 - [TEST_STEP][PASSED] - playgame = allgames.get(j): null
+
+27-02-2024T11:48:32 - [TEST_STEP][PASSED] - Object = convertWebElementToTestObject(playgame): null
+
+27-02-2024T11:48:32 - [TEST_STEP][PASSED] - scrollToElement(Object, 10): Scroll to object '' successfully
+
+27-02-2024T11:48:32 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+27-02-2024T11:48:32 - [TEST_STEP][PASSED] - playgame.click(): null
+
+27-02-2024T11:48:32 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-02-2024T11:48:34 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-02-2024T11:48:34 - [TEST_STEP][PASSED] - title = getUrl(): Current window's url is: 'https://haboom.com/d/casino/casino'
+
+27-02-2024T11:48:34 - [MESSAGE][PASSED] - Current window's url is: 'https://haboom.com/d/casino/casino'
+
+27-02-2024T11:48:34 - [TEST_STEP][PASSED] - if (title.contains("notavailable")): null
+
+27-02-2024T11:48:34 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+27-02-2024T11:48:34 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+27-02-2024T11:48:34 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+27-02-2024T11:48:34 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+27-02-2024T11:48:34 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+27-02-2024T11:48:35 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+27-02-2024T11:48:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+27-02-2024T11:48:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+27-02-2024T11:48:37 - [TEST_STEP][PASSED] - println(j): null
+
+27-02-2024T11:48:37 - [TEST_STEP][PASSED] - playgame = allgames.get(j): null
+
+27-02-2024T11:48:37 - [TEST_STEP][PASSED] - Object = convertWebElementToTestObject(playgame): null
+
+27-02-2024T11:48:37 - [TEST_STEP][PASSED] - scrollToElement(Object, 10): Scroll to object '' successfully
+
+27-02-2024T11:48:37 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+27-02-2024T11:48:37 - [TEST_STEP][PASSED] - playgame.click(): null
+
+27-02-2024T11:48:37 - [TEST_STEP][INCOMPLETE] - delay(2): null]]></system-out>
+         <system-err><![CDATA[27-02-2024T11:47:28 - [TEST_CASE][INCOMPLETE] - Test Cases/Casino/Open game successful: null]]></system-err>
+      </testcase>
+      <system-out><![CDATA[27-02-2024T11:47:28 - [TEST_SUITE][INCOMPLETE] - Casino: null]]></system-out>
+      <system-err><![CDATA[27-02-2024T11:47:28 - [TEST_SUITE][INCOMPLETE] - Casino: null]]></system-err>
+   </testsuite>
+</testsuites>
