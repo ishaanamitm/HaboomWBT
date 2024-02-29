@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Casino" time="230.23" tests="1" failures="1" errors="0">
+   <testsuite name="Casino" tests="1" failures="1" errors="0" time="230.23" skipped="0" timestamp="28-02-2024T10:16:41" hostname="M Gokul Jayanth - LAPTOP-QCN9K3GM" id="Test Suites/Casino">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\M Gokul Jayanth\\git\\KatalonAutomation\\HaboomWBT\\Reports\\20240228_101638\\Casino\\20240228_101639"/>
+         <property name="logFiles" value="C:\\Users\\M Gokul Jayanth\\git\\KatalonAutomation\\HaboomWBT\\Reports\\20240228_101638\\Casino\\20240228_101639\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="M Gokul Jayanth - LAPTOP-QCN9K3GM"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.50.148"/>
+         <property name="sessionId" value="f2125c33bf25307f6016ce89bacd3bdc"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Casino/Open game successful" time="230.112" classname="Test Cases/Casino/Open game successful" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Casino/Open game successful FAILED.&#xa;Reason:&#xa;com.kms.katalon.core.exception.StepFailedException: Unable to scroll to position x = 0, y = 1500&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ScrollToPositionKeyword.scrollToPosition(ScrollToPositionKeyword.groovy:85)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ScrollToPositionKeyword.execute(ScrollToPositionKeyword.groovy:68)&#xa;	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)&#xa;	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToPosition(WebUiBuiltInKeywords.groovy:4581)&#xa;	at Open game successful.run(Open game successful:47)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1709095599518.run(TempTestSuite1709095599518.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed&#xa;from unknown error: web view not found&#xa;  (Session info: chrome=121.0.6167.187)&#xa;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'&#xa;System info: host: 'LAPTOP-QCN9K3GM', ip: '192.168.50.148', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'&#xa;Driver info: com.kms.katalon.selenium.driver.CChromeDriver&#xa;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.187, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\MGOKUL~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58152}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#xa;Session ID: f2125c33bf25307f6016ce89bacd3bdc&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)&#xa;	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)&#xa;	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)&#xa;	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)&#xa;	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)&#xa;	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)&#xa;	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)&#xa;	at jdk.proxy2/jdk.proxy2.$Proxy23.executeScript(Unknown Source)&#xa;	at org.openqa.selenium.support.events.EventFiringWebDriver.executeScript(EventFiringWebDriver.java:229)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ScrollToPositionKeyword$_scrollToPosition_closure1.doCall(ScrollToPositionKeyword.groovy:83)&#xa;	at com.kms.katalon.core.webui.keyword.builtin.ScrollToPositionKeyword$_scrollToPosition_closure1.call(ScrollToPositionKeyword.groovy)&#xa;	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)&#xa;	... 20 more&#xa;"/>
+         <system-out><![CDATA[28-02-2024T10:16:41 - [TEST_CASE][FAILED] - Test Cases/Casino/Open game successful: Test Cases/Casino/Open game successful FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to scroll to position x = 0, y = 1500
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToPositionKeyword.scrollToPosition(ScrollToPositionKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToPositionKeyword.execute(ScrollToPositionKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToPosition(WebUiBuiltInKeywords.groovy:4581)
+	at Open game successful.run(Open game successful:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709095599518.run(TempTestSuite1709095599518.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.187)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-QCN9K3GM', ip: '192.168.50.148', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.187, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\MGOKUL~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58152}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f2125c33bf25307f6016ce89bacd3bdc
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.executeScript(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.executeScript(EventFiringWebDriver.java:229)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToPositionKeyword$_scrollToPosition_closure1.doCall(ScrollToPositionKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToPositionKeyword$_scrollToPosition_closure1.call(ScrollToPositionKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more
+
+
+28-02-2024T10:16:41 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+28-02-2024T10:16:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+28-02-2024T10:16:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+28-02-2024T10:16:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+28-02-2024T10:16:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+28-02-2024T10:16:43 - [TEST_STEP][PASSED] - navigateToUrl("https://haboom.com/"): Navigate to 'https://haboom.com/' successfully
+
+28-02-2024T10:16:59 - [MESSAGE][PASSED] - Navigate to 'https://haboom.com/' successfully
+
+28-02-2024T10:16:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+28-02-2024T10:17:00 - [MESSAGE][PASSED] - Current window maximized
+
+28-02-2024T10:17:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page/Login email field"), "MartinGarrix"): Text 'MartinGarrix' is set on object 'Object Repository/Login Page/Login email field'
+
+28-02-2024T10:17:01 - [MESSAGE][PASSED] - Text 'MartinGarrix' is set on object 'Object Repository/Login Page/Login email field'
+
+28-02-2024T10:17:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page/Login Password"), "Test@1234"): Text 'Test@1234' is set on object 'Object Repository/Login Page/Login Password'
+
+28-02-2024T10:17:03 - [MESSAGE][PASSED] - Text 'Test@1234' is set on object 'Object Repository/Login Page/Login Password'
+
+28-02-2024T10:17:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page/login button")): Object: 'Object Repository/Login Page/login button' is clicked on
+
+28-02-2024T10:17:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/login button' is clicked on
+
+28-02-2024T10:17:04 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login Page/My Account"), "My Account"): Actual text and expected text of test object 'Object Repository/Login Page/My Account' are matched.
+
+28-02-2024T10:17:07 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login Page/My Account' are matched.
+
+28-02-2024T10:17:07 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+28-02-2024T10:17:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Casino Page/CasinoMenu")): Object: 'Object Repository/Casino Page/CasinoMenu' is clicked on
+
+28-02-2024T10:17:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Casino Page/CasinoMenu' is clicked on
+
+28-02-2024T10:17:10 - [TEST_STEP][PASSED] - provider = getWebDriver().findElements(By.xpath("//input[@name='provider_list']")): null
+
+28-02-2024T10:17:11 - [TEST_STEP][PASSED] - println(provider.size()): null
+
+28-02-2024T10:17:11 - [TEST_STEP][FAILED] - for ([i = 1, i < provider.size(), (i++)]): Unable to scroll to position x = 0, y = 1500 (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to scroll to position x = 0, y = 1500
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToPositionKeyword.scrollToPosition(ScrollToPositionKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToPositionKeyword.execute(ScrollToPositionKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToPosition(WebUiBuiltInKeywords.groovy:4581)
+	at Open game successful.run(Open game successful:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709095599518.run(TempTestSuite1709095599518.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.187)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-QCN9K3GM', ip: '192.168.50.148', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.187, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\MGOKUL~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58152}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f2125c33bf25307f6016ce89bacd3bdc
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.executeScript(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.executeScript(EventFiringWebDriver.java:229)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToPositionKeyword$_scrollToPosition_closure1.doCall(ScrollToPositionKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToPositionKeyword$_scrollToPosition_closure1.call(ScrollToPositionKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToPositionKeyword.scrollToPosition(ScrollToPositionKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToPositionKeyword.execute(ScrollToPositionKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToPosition(WebUiBuiltInKeywords.groovy:4581)
+	at Script1708686779901.run(Script1708686779901.groovy:47)
+	... 15 more
+)
+
+28-02-2024T10:17:11 - [TEST_STEP][PASSED] - currentElement = provider.get(i): null
+
+28-02-2024T10:17:11 - [TEST_STEP][PASSED] - currentElement.click(): null
+
+28-02-2024T10:17:11 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+28-02-2024T10:17:41 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+28-02-2024T10:17:41 - [TEST_STEP][PASSED] - scrollToPosition(0, 250): Browser is scrolled to position x = 0, y = 250
+
+28-02-2024T10:17:41 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 250
+
+28-02-2024T10:17:41 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+28-02-2024T10:17:46 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+28-02-2024T10:17:46 - [TEST_STEP][PASSED] - scrollToPosition(0, 500): Browser is scrolled to position x = 0, y = 500
+
+28-02-2024T10:17:46 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 500
+
+28-02-2024T10:17:46 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+28-02-2024T10:17:51 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+28-02-2024T10:17:51 - [TEST_STEP][PASSED] - scrollToPosition(0, 750): Browser is scrolled to position x = 0, y = 750
+
+28-02-2024T10:17:51 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 750
+
+28-02-2024T10:17:51 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+28-02-2024T10:17:56 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+28-02-2024T10:17:56 - [TEST_STEP][PASSED] - scrollToPosition(0, 1000): Browser is scrolled to position x = 0, y = 1000
+
+28-02-2024T10:17:56 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 1000
+
+28-02-2024T10:17:56 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+28-02-2024T10:18:01 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+28-02-2024T10:18:01 - [TEST_STEP][PASSED] - scrollToPosition(0, 1250): Browser is scrolled to position x = 0, y = 1250
+
+28-02-2024T10:18:01 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 1250
+
+28-02-2024T10:18:01 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+28-02-2024T10:18:07 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+28-02-2024T10:18:07 - [TEST_STEP][PASSED] - scrollToPosition(0, 1500): Browser is scrolled to position x = 0, y = 1500
+
+28-02-2024T10:18:07 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 1500
+
+28-02-2024T10:18:07 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+28-02-2024T10:18:12 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+28-02-2024T10:18:12 - [TEST_STEP][PASSED] - scrollToPosition(0, 1750): Browser is scrolled to position x = 0, y = 1750
+
+28-02-2024T10:18:12 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 1750
+
+28-02-2024T10:18:12 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+28-02-2024T10:18:17 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+28-02-2024T10:18:17 - [TEST_STEP][PASSED] - scrollToPosition(0, 2000): Browser is scrolled to position x = 0, y = 2000
+
+28-02-2024T10:18:17 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 2000
+
+28-02-2024T10:18:17 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+28-02-2024T10:18:22 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+28-02-2024T10:18:22 - [TEST_STEP][PASSED] - providerwindow = getWindowTitle(): Current window's title is: 'Haboom - Best Online Casino Games for Real Money'
+
+28-02-2024T10:18:22 - [MESSAGE][PASSED] - Current window's title is: 'Haboom - Best Online Casino Games for Real Money'
+
+28-02-2024T10:18:22 - [TEST_STEP][PASSED] - allgames = getWebDriver().findElements(By.xpath("//div[@class='tile-container' and @bis_skin_checked='1']")): null
+
+28-02-2024T10:18:22 - [TEST_STEP][PASSED] - println(allgames.size()): null
+
+28-02-2024T10:18:22 - [TEST_STEP][PASSED] - for ([j = 71, j < allgames.size(), (j++)]): null
+
+28-02-2024T10:18:22 - [TEST_STEP][PASSED] - println(j): null
+
+28-02-2024T10:18:22 - [TEST_STEP][PASSED] - playgame = allgames.get(j): null
+
+28-02-2024T10:18:22 - [TEST_STEP][PASSED] - Object = convertWebElementToTestObject(playgame): null
+
+28-02-2024T10:18:22 - [TEST_STEP][PASSED] - scrollToElement(Object, 10): Scroll to object '' successfully
+
+28-02-2024T10:18:22 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+28-02-2024T10:18:22 - [TEST_STEP][PASSED] - mouseOver(Object): Object: '' is hovered
+
+28-02-2024T10:18:22 - [MESSAGE][PASSED] - Object: '' is hovered
+
+28-02-2024T10:18:22 - [TEST_STEP][PASSED] - if (verifyElementClickable(Object)): null
+
+28-02-2024T10:18:22 - [MESSAGE][PASSED] - Object '' is clickable
+
+28-02-2024T10:18:22 - [TEST_STEP][PASSED] - playgame.click(): null
+
+28-02-2024T10:18:22 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+28-02-2024T10:18:27 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+28-02-2024T10:18:27 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+28-02-2024T10:18:27 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+28-02-2024T10:18:27 - [TEST_STEP][PASSED] - title = getUrl(): Current window's url is: 'https://play.livetables.io/blackjack/?table_id=225&game_id=1&identifier=10437004610318ad-9383-43e8-897a-db0f28cd57c2&limit_id=&language=en&operatorId=10437004'
+
+28-02-2024T10:18:50 - [MESSAGE][PASSED] - Current window's url is: 'https://play.livetables.io/blackjack/?table_id=225&game_id=1&identifier=10437004610318ad-9383-43e8-897a-db0f28cd57c2&limit_id=&language=en&operatorId=10437004'
+
+28-02-2024T10:18:50 - [TEST_STEP][PASSED] - println(title): null
+
+28-02-2024T10:18:50 - [TEST_STEP][PASSED] - if (title.contains("notavailable")): null
+
+28-02-2024T10:18:50 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+28-02-2024T10:18:50 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+28-02-2024T10:18:50 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+28-02-2024T10:18:50 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+28-02-2024T10:18:50 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+28-02-2024T10:18:50 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+28-02-2024T10:18:50 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+28-02-2024T10:18:52 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+28-02-2024T10:18:52 - [TEST_STEP][PASSED] - println(j): null
+
+28-02-2024T10:18:52 - [TEST_STEP][PASSED] - playgame = allgames.get(j): null
+
+28-02-2024T10:18:52 - [TEST_STEP][PASSED] - Object = convertWebElementToTestObject(playgame): null
+
+28-02-2024T10:18:52 - [TEST_STEP][PASSED] - scrollToElement(Object, 10): Scroll to object '' successfully
+
+28-02-2024T10:18:52 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+28-02-2024T10:18:52 - [TEST_STEP][PASSED] - mouseOver(Object): Object: '' is hovered
+
+28-02-2024T10:18:52 - [MESSAGE][PASSED] - Object: '' is hovered
+
+28-02-2024T10:18:52 - [TEST_STEP][PASSED] - if (verifyElementClickable(Object)): null
+
+28-02-2024T10:18:52 - [MESSAGE][PASSED] - Object '' is clickable
+
+28-02-2024T10:18:52 - [TEST_STEP][PASSED] - playgame.click(): null
+
+28-02-2024T10:18:53 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+28-02-2024T10:18:58 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+28-02-2024T10:18:58 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+28-02-2024T10:18:58 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+28-02-2024T10:18:58 - [TEST_STEP][PASSED] - title = getUrl(): Current window's url is: 'https://play.livetables.io/blackjack/?table_id=224&game_id=1&identifier=10437004610318ad-9383-43e8-897a-db0f28cd57c2&limit_id=&language=en&operatorId=10437004'
+
+28-02-2024T10:19:02 - [MESSAGE][PASSED] - Current window's url is: 'https://play.livetables.io/blackjack/?table_id=224&game_id=1&identifier=10437004610318ad-9383-43e8-897a-db0f28cd57c2&limit_id=&language=en&operatorId=10437004'
+
+28-02-2024T10:19:02 - [TEST_STEP][PASSED] - println(title): null
+
+28-02-2024T10:19:02 - [TEST_STEP][PASSED] - if (title.contains("notavailable")): null
+
+28-02-2024T10:19:02 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+28-02-2024T10:19:02 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+28-02-2024T10:19:02 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+28-02-2024T10:19:02 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+28-02-2024T10:19:02 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+28-02-2024T10:19:02 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+28-02-2024T10:19:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+28-02-2024T10:19:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+28-02-2024T10:19:04 - [TEST_STEP][PASSED] - println(j): null
+
+28-02-2024T10:19:04 - [TEST_STEP][PASSED] - playgame = allgames.get(j): null
+
+28-02-2024T10:19:04 - [TEST_STEP][PASSED] - Object = convertWebElementToTestObject(playgame): null
+
+28-02-2024T10:19:04 - [TEST_STEP][PASSED] - scrollToElement(Object, 10): Scroll to object '' successfully
+
+28-02-2024T10:19:04 - [MESSAGE][PASSED] - Scroll to object '' successfully
+
+28-02-2024T10:19:04 - [TEST_STEP][PASSED] - mouseOver(Object): Object: '' is hovered
+
+28-02-2024T10:19:04 - [MESSAGE][PASSED] - Object: '' is hovered
+
+28-02-2024T10:19:04 - [TEST_STEP][PASSED] - if (verifyElementClickable(Object)): null
+
+28-02-2024T10:19:04 - [MESSAGE][PASSED] - Object '' is clickable
+
+28-02-2024T10:19:04 - [TEST_STEP][PASSED] - playgame.click(): null
+
+28-02-2024T10:19:04 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+28-02-2024T10:19:09 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+28-02-2024T10:19:09 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+28-02-2024T10:19:09 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+28-02-2024T10:19:09 - [TEST_STEP][PASSED] - title = getUrl(): Current window's url is: 'https://ezugi.evo-games.com/frontend/evo/r2/#provider=evolution&ua_launch_id=17b7ed86817360f75ac61c25&game=roulette&table_id=01rb77cq1gtenhmo&app='
+
+28-02-2024T10:19:09 - [MESSAGE][PASSED] - Current window's url is: 'https://ezugi.evo-games.com/frontend/evo/r2/#provider=evolution&ua_launch_id=17b7ed86817360f75ac61c25&game=roulette&table_id=01rb77cq1gtenhmo&app='
+
+28-02-2024T10:19:09 - [TEST_STEP][PASSED] - println(title): null
+
+28-02-2024T10:19:09 - [TEST_STEP][PASSED] - if (title.contains("notavailable")): null
+
+28-02-2024T10:19:09 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+28-02-2024T10:19:09 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+28-02-2024T10:19:09 - [TEST_STEP][PASSED] - closeWindowIndex(1): Window with index 1 is closed
+
+28-02-2024T10:19:09 - [MESSAGE][PASSED] - Window with index 1 is closed
+
+28-02-2024T10:19:09 - [TEST_STEP][PASSED] - switchToWindowIndex(0): Switched to window with index: '0'
+
+28-02-2024T10:19:09 - [MESSAGE][PASSED] - Switched to window with index: '0'
+
+28-02-2024T10:19:09 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+28-02-2024T10:19:11 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+28-02-2024T10:19:11 - [TEST_STEP][PASSED] - scrollToPosition(0, 1000): Browser is scrolled to position x = 0, y = 1000
+
+28-02-2024T10:19:11 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 1000
+
+28-02-2024T10:19:11 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+28-02-2024T10:19:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+28-02-2024T10:19:16 - [TEST_STEP][PASSED] - scrollToPosition(0, 750): Browser is scrolled to position x = 0, y = 750
+
+28-02-2024T10:19:16 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 750
+
+28-02-2024T10:19:16 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+28-02-2024T10:19:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+28-02-2024T10:19:21 - [TEST_STEP][PASSED] - scrollToPosition(0, 500): Browser is scrolled to position x = 0, y = 500
+
+28-02-2024T10:19:21 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 500
+
+28-02-2024T10:19:21 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+28-02-2024T10:19:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+28-02-2024T10:19:26 - [TEST_STEP][PASSED] - scrollToPosition(0, 250): Browser is scrolled to position x = 0, y = 250
+
+28-02-2024T10:19:26 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 250
+
+28-02-2024T10:19:26 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+28-02-2024T10:19:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+28-02-2024T10:19:31 - [TEST_STEP][PASSED] - scrollToPosition(0, 50): Browser is scrolled to position x = 0, y = 50
+
+28-02-2024T10:19:31 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 50
+
+28-02-2024T10:19:31 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+28-02-2024T10:19:36 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+28-02-2024T10:19:36 - [TEST_STEP][PASSED] - currentElement = provider.get(i): null
+
+28-02-2024T10:19:36 - [TEST_STEP][PASSED] - currentElement.click(): null
+
+28-02-2024T10:19:36 - [TEST_STEP][PASSED] - delay(30): Delayed 30 second(s)
+
+28-02-2024T10:20:06 - [MESSAGE][PASSED] - Delayed 30 second(s)
+
+28-02-2024T10:20:06 - [TEST_STEP][PASSED] - scrollToPosition(0, 250): Browser is scrolled to position x = 0, y = 250
+
+28-02-2024T10:20:06 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 250
+
+28-02-2024T10:20:06 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+28-02-2024T10:20:11 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+28-02-2024T10:20:11 - [TEST_STEP][PASSED] - scrollToPosition(0, 500): Browser is scrolled to position x = 0, y = 500
+
+28-02-2024T10:20:11 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 500
+
+28-02-2024T10:20:11 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+28-02-2024T10:20:16 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+28-02-2024T10:20:16 - [TEST_STEP][PASSED] - scrollToPosition(0, 750): Browser is scrolled to position x = 0, y = 750
+
+28-02-2024T10:20:16 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 750
+
+28-02-2024T10:20:16 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+28-02-2024T10:20:21 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+28-02-2024T10:20:21 - [TEST_STEP][PASSED] - scrollToPosition(0, 1000): Browser is scrolled to position x = 0, y = 1000
+
+28-02-2024T10:20:21 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 1000
+
+28-02-2024T10:20:21 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+28-02-2024T10:20:26 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+28-02-2024T10:20:26 - [TEST_STEP][PASSED] - scrollToPosition(0, 1250): Browser is scrolled to position x = 0, y = 1250
+
+28-02-2024T10:20:26 - [MESSAGE][PASSED] - Browser is scrolled to position x = 0, y = 1250
+
+28-02-2024T10:20:26 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+28-02-2024T10:20:31 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+28-02-2024T10:20:31 - [TEST_STEP][FAILED] - scrollToPosition(0, 1500): Unable to scroll to position x = 0, y = 1500 (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to scroll to position x = 0, y = 1500
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToPositionKeyword.scrollToPosition(ScrollToPositionKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToPositionKeyword.execute(ScrollToPositionKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToPosition(WebUiBuiltInKeywords.groovy:4581)
+	at Open game successful.run(Open game successful:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709095599518.run(TempTestSuite1709095599518.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.187)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-QCN9K3GM', ip: '192.168.50.148', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.187, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\MGOKUL~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58152}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f2125c33bf25307f6016ce89bacd3bdc
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.executeScript(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.executeScript(EventFiringWebDriver.java:229)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToPositionKeyword$_scrollToPosition_closure1.doCall(ScrollToPositionKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToPositionKeyword$_scrollToPosition_closure1.call(ScrollToPositionKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToPositionKeyword.scrollToPosition(ScrollToPositionKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToPositionKeyword.execute(ScrollToPositionKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToPosition(WebUiBuiltInKeywords.groovy:4581)
+	at Script1708686779901.run(Script1708686779901.groovy:47)
+	... 15 more
+)
+
+28-02-2024T10:20:31 - [MESSAGE][WARNING] - Cannot take screenshot
+
+28-02-2024T10:20:31 - [MESSAGE][FAILED] - Unable to scroll to position x = 0, y = 1500 (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to scroll to position x = 0, y = 1500
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToPositionKeyword.scrollToPosition(ScrollToPositionKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToPositionKeyword.execute(ScrollToPositionKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToPosition(WebUiBuiltInKeywords.groovy:4581)
+	at Open game successful.run(Open game successful:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709095599518.run(TempTestSuite1709095599518.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.187)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-QCN9K3GM', ip: '192.168.50.148', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.187, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\MGOKUL~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58152}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f2125c33bf25307f6016ce89bacd3bdc
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.executeScript(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.executeScript(EventFiringWebDriver.java:229)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToPositionKeyword$_scrollToPosition_closure1.doCall(ScrollToPositionKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToPositionKeyword$_scrollToPosition_closure1.call(ScrollToPositionKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToPositionKeyword.scrollToPosition(ScrollToPositionKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToPositionKeyword.execute(ScrollToPositionKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToPosition(WebUiBuiltInKeywords.groovy:4581)
+	at Script1708686779901.run(Script1708686779901.groovy:47)
+	... 15 more
+)]]></system-out>
+         <system-err><![CDATA[28-02-2024T10:16:41 - [TEST_CASE][FAILED] - Test Cases/Casino/Open game successful: Test Cases/Casino/Open game successful FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to scroll to position x = 0, y = 1500
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToPositionKeyword.scrollToPosition(ScrollToPositionKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToPositionKeyword.execute(ScrollToPositionKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToPosition(WebUiBuiltInKeywords.groovy:4581)
+	at Open game successful.run(Open game successful:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709095599518.run(TempTestSuite1709095599518.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.187)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-QCN9K3GM', ip: '192.168.50.148', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.187, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\MGOKUL~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58152}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f2125c33bf25307f6016ce89bacd3bdc
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.executeScript(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.executeScript(EventFiringWebDriver.java:229)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToPositionKeyword$_scrollToPosition_closure1.doCall(ScrollToPositionKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToPositionKeyword$_scrollToPosition_closure1.call(ScrollToPositionKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[28-02-2024T10:16:41 - [TEST_SUITE][FAILED] - Casino: Test Cases/Casino/Open game successful FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to scroll to position x = 0, y = 1500
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToPositionKeyword.scrollToPosition(ScrollToPositionKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToPositionKeyword.execute(ScrollToPositionKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToPosition(WebUiBuiltInKeywords.groovy:4581)
+	at Open game successful.run(Open game successful:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709095599518.run(TempTestSuite1709095599518.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.187)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-QCN9K3GM', ip: '192.168.50.148', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.187, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\MGOKUL~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58152}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f2125c33bf25307f6016ce89bacd3bdc
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.executeScript(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.executeScript(EventFiringWebDriver.java:229)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToPositionKeyword$_scrollToPosition_closure1.doCall(ScrollToPositionKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToPositionKeyword$_scrollToPosition_closure1.call(ScrollToPositionKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[28-02-2024T10:16:41 - [TEST_SUITE][FAILED] - Casino: Test Cases/Casino/Open game successful FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to scroll to position x = 0, y = 1500
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToPositionKeyword.scrollToPosition(ScrollToPositionKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToPositionKeyword.execute(ScrollToPositionKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.scrollToPosition(WebUiBuiltInKeywords.groovy:4581)
+	at Open game successful.run(Open game successful:47)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1709095599518.run(TempTestSuite1709095599518.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=121.0.6167.187)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
+System info: host: 'LAPTOP-QCN9K3GM', ip: '192.168.50.148', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 121.0.6167.187, chrome: {chromedriverVersion: 121.0.6167.85 (3f98d690ad7e..., userDataDir: C:\Users\MGOKUL~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58152}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: f2125c33bf25307f6016ce89bacd3bdc
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at com.kms.katalon.selenium.driver.CChromeDriver.execute(CChromeDriver.java:19)
+	at org.openqa.selenium.remote.RemoteWebDriver.executeScript(RemoteWebDriver.java:489)
+	at jdk.internal.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+	at jdk.proxy2/jdk.proxy2.$Proxy23.executeScript(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver.executeScript(EventFiringWebDriver.java:229)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToPositionKeyword$_scrollToPosition_closure1.doCall(ScrollToPositionKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.ScrollToPositionKeyword$_scrollToPosition_closure1.call(ScrollToPositionKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

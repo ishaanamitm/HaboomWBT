@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+HomePage,Chrome 121.0.0.0,,,28-02-2024 16:18:18,28-02-2024 16:19:14,55.749s,ERROR
+,,,,,,,
+Test Cases/HomePage/Access footer link,Chrome 121.0.0.0,"Expected result - clicking the footer link should take user to the respective result page
+Actual result - works as expected",Footer link,28-02-2024 16:18:18,28-02-2024 16:19:14,55.599s,ERROR
+Start setup action : setupTestCase,Chrome 121.0.0.0,,,28-02-2024 16:18:18,28-02-2024 16:18:28,9.543s,PASSED
+"footerlink1 = getWebDriver().findElements(By.xpath(""//li[@class='ssc-lw']""))",Chrome 121.0.0.0,,,28-02-2024 16:18:28,28-02-2024 16:18:30,1.986s,PASSED
+"for ([i = 1, i < footerlink1.size(), (i++)])",Chrome 121.0.0.0,,,28-02-2024 16:18:30,28-02-2024 16:19:14,43.937s,ERROR

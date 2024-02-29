@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Transaction History</name>
+   <tag></tag>
+   <elementGuidId>4a521efb-ce35-4cf1-91a2-468bbb1c34ed</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='Betting_Activity']/ul/li[9]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li:nth-of-type(9) > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>8ae90e21-cf98-433e-ab9c-bafefb32944f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://haboom.com/d/transaction</value>
+      <webElementGuid>7058f5e2-4d07-48c6-83a9-1059326b9503</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Transaction History</value>
+      <webElementGuid>4bfc84ec-e226-4799-8ac7-76444f2e6d3c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Betting_Activity&quot;)/ul[@class=&quot;dropdown-menu&quot;]/li[9]/a[1]</value>
+      <webElementGuid>194d20df-6a64-4909-818f-f1864ebfef8b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='Betting_Activity']/ul/li[9]/a</value>
+      <webElementGuid>a083ca81-33aa-43bb-bcf5-03ecffb39c76</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Transaction History')]</value>
+      <webElementGuid>128426aa-c75a-4c4c-833a-d451794ee5be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tickets'])[1]/following::a[1]</value>
+      <webElementGuid>0e199ef1-22e1-4390-926d-133fac9e2db7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Exchange Profit &amp; Loss'])[1]/following::a[2]</value>
+      <webElementGuid>75f65019-52ab-43f7-8e19-fd05a22ade36</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Details'])[1]/preceding::a[1]</value>
+      <webElementGuid>289e8975-d70d-4d31-bdbb-2c9b9b705ec9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Account Details'])[1]/preceding::a[2]</value>
+      <webElementGuid>f72d6764-868f-4ccf-a6c3-bc738a858460</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Transaction History']/parent::*</value>
+      <webElementGuid>a61620e7-9e35-46e0-a586-7def02dcacc7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://haboom.com/d/transaction')]</value>
+      <webElementGuid>7fd83490-523a-4e73-89e9-e755ad560721</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[9]/a</value>
+      <webElementGuid>47a28f30-8eb5-49bc-aac3-02e0f0fd3d47</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://haboom.com/d/transaction' and (text() = 'Transaction History' or . = 'Transaction History')]</value>
+      <webElementGuid>3b238968-ad05-423f-94a9-800f37375949</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

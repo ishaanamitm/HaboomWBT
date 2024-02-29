@@ -1,0 +1,10 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Casino,Chrome 121.0.0.0,Casino Suite,,26-02-2024 14:31:54,26-02-2024 14:35:56,4m - 1.546s,ERROR
+,,,,,,,
+Test Cases/Casino/Open game successful,Chrome 121.0.0.0,"Expected Result - User should able to open the game, 
+Actual Result - User can able to play the game",Open Game,26-02-2024 14:31:54,26-02-2024 14:35:56,4m - 1.308s,ERROR
+Start setup action : setupTestCase,Chrome 121.0.0.0,,,26-02-2024 14:31:55,26-02-2024 14:32:09,14.157s,PASSED
+"click(findTestObject(""Object Repository/Casino Page/CasinoMenu""))",Chrome 121.0.0.0,,,26-02-2024 14:32:09,26-02-2024 14:32:11,1.909s,PASSED
+"provider = getWebDriver().findElements(By.xpath(""//input[@name='provider_list']""))",Chrome 121.0.0.0,,,26-02-2024 14:32:11,26-02-2024 14:32:12,0.884s,PASSED
+println(provider.size()),Chrome 121.0.0.0,,,26-02-2024 14:32:12,26-02-2024 14:32:12,0.010s,PASSED
+"for ([i = 0, i < provider.size(), (i++)])",Chrome 121.0.0.0,,,26-02-2024 14:32:12,26-02-2024 14:35:56,3m - 44.026s,ERROR

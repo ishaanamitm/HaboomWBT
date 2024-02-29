@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Expected result: To check the presence of error message for insufficient funds&#xd;
+Actual result: The error message display for insufficient funds</description>
+   <name>payment_ withdraw Error display for insufficient funds</name>
+   <tag>My Account</tag>
+   <comment></comment>
+   <testCaseGuid>a1f3c1d4-38d3-4dcb-b4f9-ea12cafd7ef9</testCaseGuid>
+</TestCaseEntity>

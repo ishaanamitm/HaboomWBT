@@ -1,0 +1,7 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+HomePage,Chrome 121.0.0.0,,,28-02-2024 14:48:36,28-02-2024 14:48:49,13.240s,ERROR
+,,,,,,,
+Test Cases/HomePage/Open topmatches games successful,Chrome 121.0.0.0,"Expected result - user should able to  open the top matches games successfully
+Actual result - user can able to  open the top matches games successfully",Top matches,28-02-2024 14:48:36,28-02-2024 14:48:49,13.096s,ERROR
+Start setup action : setupTestCase,Chrome 121.0.0.0,,,28-02-2024 14:48:36,28-02-2024 14:48:46,10.596s,PASSED
+"element = getWebDriver().findElement(By.xpath(""(//div[@class='kd__col kd_top_matches datalist market_container main_market'])[1]""))",Chrome 121.0.0.0,,,28-02-2024 14:48:47,28-02-2024 14:48:49,2.386s,ERROR

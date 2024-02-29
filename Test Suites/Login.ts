@@ -12,10 +12,17 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>47e0a2e1-fcce-4f5e-8e94-eb2605a541a6</testSuiteGuid>
    <testCaseLink>
-      <guid>4c8a08da-6c42-4cfc-86a6-d95c19dfd6a4</guid>
+      <guid>ff2e2744-4423-4b5a-8c72-d689d3c2d960</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login/Valid Email Id Password</testCaseId>
+      <testCaseId>Test Cases/Login/Register Page Login</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>fe55b929-92b0-4ea5-bfa4-ae2c59c00769</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Login/Forgot Password (Valid)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

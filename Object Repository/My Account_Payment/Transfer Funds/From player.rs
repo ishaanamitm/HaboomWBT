@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>From player</name>
+   <tag></tag>
+   <elementGuidId>b93c95e7-1be7-4672-ae63-c75897cadf48</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='transfer-from']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#transfer-from</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>131f7395-3067-40fc-b7fb-0ad9ca24a512</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>transfer-from</value>
+      <webElementGuid>f9cce7db-c730-46da-8b7a-b90065452a29</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-fancy-select</name>
+      <type>Main</type>
+      <value>on</value>
+      <webElementGuid>b09355cf-e4f2-49ef-8816-6f34faff0d74</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>s-hidden fancy-select</value>
+      <webElementGuid>1396a774-a632-4655-8235-d044e68a6de7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                             Main Wallet (₹ 300.00)
+                                          </value>
+      <webElementGuid>94def07d-5e07-4b82-8525-2212b34b6533</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;transfer-from&quot;)</value>
+      <webElementGuid>554e1b58-d7b9-44ca-8575-859466fef810</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='transfer-from']</value>
+      <webElementGuid>149a8cf4-6bbc-4fc9-ab4a-0e4cd92e7ca0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='transfer-section']/div[2]/ul/li/select</value>
+      <webElementGuid>43834369-12bf-4d54-a3f7-16990e0627ac</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='From'])[1]/following::select[1]</value>
+      <webElementGuid>acbca9fc-7cbc-4258-a94c-37688eb26dab</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='₹0.00'])[3]/following::select[1]</value>
+      <webElementGuid>1785c07e-245b-42f7-9581-f5ea2292668d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='To'])[1]/preceding::select[1]</value>
+      <webElementGuid>6ea3e963-3352-489e-a1c7-adcccb8a04ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transfer'])[1]/preceding::select[1]</value>
+      <webElementGuid>9770b543-1dda-4191-a55b-dc447334ac33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//select</value>
+      <webElementGuid>a66e40f4-af57-4c36-a295-23517c69da6f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@id = 'transfer-from' and (text() = '
+                                             Main Wallet (₹ 300.00)
+                                          ' or . = '
+                                             Main Wallet (₹ 300.00)
+                                          ')]</value>
+      <webElementGuid>6073df21-492c-4944-a8dd-ae420c279515</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

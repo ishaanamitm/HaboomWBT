@@ -1,0 +1,46 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+My Account,Chrome 121.0.0.0,,,26-02-2024 13:48:13,26-02-2024 13:49:22,1m - 8.780s,PASSED
+,,,,,,,
+Test Cases/My Account/Payment_Deposit successful in Bank Transfer,Chrome 121.0.0.0,"Expected Result: To check whether the user is able to deposit using bank transfer
+Actual result: The user is able to deposit using Bank transfer",,26-02-2024 13:48:13,26-02-2024 13:48:51,38.524s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,26-02-2024 13:48:13,26-02-2024 13:48:14,1.156s,PASSED
+"navigateToUrl(""https://haboom.com/"")",Chrome 121.0.0.0,,,26-02-2024 13:48:14,26-02-2024 13:48:19,5.150s,PASSED
+"setText(findTestObject(""Object Repository/My Account_Payment/Deposit Bank Transfer/login to My haboom account/Login username""), ""Sherlock"")",Chrome 121.0.0.0,,,26-02-2024 13:48:19,26-02-2024 13:48:22,2.760s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/My Account_Payment/Deposit Bank Transfer/login to My haboom account/Login password""), ""Ae2KZyjYBr0MQlyqU7ThAA=="")",Chrome 121.0.0.0,,,26-02-2024 13:48:22,26-02-2024 13:48:24,1.683s,PASSED
+"click(findTestObject(""Object Repository/My Account_Payment/Deposit Bank Transfer/login to My haboom account/Log Button""))",Chrome 121.0.0.0,,,26-02-2024 13:48:24,26-02-2024 13:48:25,1.358s,PASSED
+"click(findTestObject(""Object Repository/My Account_Payment/Deposit Bank Transfer/login to My haboom account/My Account""))",Chrome 121.0.0.0,,,26-02-2024 13:48:25,26-02-2024 13:48:28,3.031s,PASSED
+"click(findTestObject(""Object Repository/My Account_Payment/Deposit Bank Transfer/login to My haboom account/My Haboom Account""))",Chrome 121.0.0.0,,,26-02-2024 13:48:28,26-02-2024 13:48:35,6.855s,PASSED
+"click(findTestObject(""Object Repository/My Account_Payment/Deposit Bank Transfer/Bank transfer page/Payments""))",Chrome 121.0.0.0,,,26-02-2024 13:48:35,26-02-2024 13:48:36,0.528s,PASSED
+"click(findTestObject(""Object Repository/My Account_Payment/Deposit Bank Transfer/Bank transfer page/Deposit""))",Chrome 121.0.0.0,,,26-02-2024 13:48:36,26-02-2024 13:48:37,1.820s,PASSED
+"click(findTestObject(""Object Repository/My Account_Payment/Deposit Bank Transfer/Bank transfer page/Bank Transfer""))",Chrome 121.0.0.0,,,26-02-2024 13:48:37,26-02-2024 13:48:42,4.675s,PASSED
+"setText(findTestObject(""Object Repository/My Account_Payment/Deposit Bank Transfer/Bank transfer page/Amount input field""), ""1000"")",Chrome 121.0.0.0,,,26-02-2024 13:48:42,26-02-2024 13:48:43,0.397s,PASSED
+"click(findTestObject(""Object Repository/My Account_Payment/Deposit Bank Transfer/Bank transfer page/Pay button""))",Chrome 121.0.0.0,,,26-02-2024 13:48:43,26-02-2024 13:48:43,0.372s,PASSED
+"setText(findTestObject(""Object Repository/My Account_Payment/Deposit Bank Transfer/Bank transfer page/UTR number enter field""), ""54892179621539569"")",Chrome 121.0.0.0,,,26-02-2024 13:48:43,26-02-2024 13:48:43,0.418s,PASSED
+"click(findTestObject(""Object Repository/My Account_Payment/Deposit Bank Transfer/Bank transfer page/UTR Submit button""))",Chrome 121.0.0.0,,,26-02-2024 13:48:43,26-02-2024 13:48:44,0.365s,PASSED
+delay(2),Chrome 121.0.0.0,,,26-02-2024 13:48:44,26-02-2024 13:48:46,2.032s,PASSED
+takeFullPageScreenshot(),Chrome 121.0.0.0,,,26-02-2024 13:48:46,26-02-2024 13:48:46,0.656s,PASSED
+"click(findTestObject(""My Account_Payment/Transaction history page/Transaction page/Betting Activity""))",Chrome 121.0.0.0,,,26-02-2024 13:48:46,26-02-2024 13:48:47,0.282s,PASSED
+"click(findTestObject(""My Account_Payment/Transaction history page/Transaction page/Transaction History""))",Chrome 121.0.0.0,,,26-02-2024 13:48:47,26-02-2024 13:48:48,0.887s,PASSED
+"click(findTestObject(""My Account_Payment/Transaction history page/Transaction page/Transaction History (Options)""))",Chrome 121.0.0.0,,,26-02-2024 13:48:48,26-02-2024 13:48:48,0.859s,PASSED
+"click(findTestObject(""My Account_Payment/Transaction history page/Transaction page/Transactions filter""))",Chrome 121.0.0.0,,,26-02-2024 13:48:48,26-02-2024 13:48:49,0.294s,PASSED
+"click(findTestObject(""My Account_Payment/Transaction history page/Transaction page/Deposit Requests""))",Chrome 121.0.0.0,,,26-02-2024 13:48:49,26-02-2024 13:48:49,0.285s,PASSED
+delay(2),Chrome 121.0.0.0,,,26-02-2024 13:48:49,26-02-2024 13:48:51,2.006s,PASSED
+takeFullPageScreenshot(),Chrome 121.0.0.0,,,26-02-2024 13:48:51,26-02-2024 13:48:51,0.469s,PASSED
+,,,,,,,
+Test Cases/My Account/Payment_Deposit failure in Instant method,Chrome 121.0.0.0,"Expected Result: To check the user is able to cancel the deposit
+Actual Result: The user is able to cancel the deposit in  the Instant method",My Account,26-02-2024 13:48:51,26-02-2024 13:49:22,30.148s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,26-02-2024 13:48:52,26-02-2024 13:48:53,1.076s,PASSED
+"navigateToUrl(""https://haboom.com/"")",Chrome 121.0.0.0,,,26-02-2024 13:48:53,26-02-2024 13:48:57,4.219s,PASSED
+"setText(findTestObject(""My Account_Payment/My Account page/Login Username""), ""Sherlock"")",Chrome 121.0.0.0,,,26-02-2024 13:48:57,26-02-2024 13:49:00,3.582s,PASSED
+"setText(findTestObject(""My Account_Payment/My Account page/Login Password""), ""Eternals@123"")",Chrome 121.0.0.0,,,26-02-2024 13:49:00,26-02-2024 13:49:03,2.410s,PASSED
+"click(findTestObject(""My Account_Payment/My Account page/Login Button""))",Chrome 121.0.0.0,,,26-02-2024 13:49:03,26-02-2024 13:49:04,1.356s,PASSED
+"click(findTestObject(""My Account_Payment/My Account page/My Account""))",Chrome 121.0.0.0,,,26-02-2024 13:49:04,26-02-2024 13:49:12,7.308s,PASSED
+"click(findTestObject(""My Account_Payment/My Account page/My Haboom Account""))",Chrome 121.0.0.0,,,26-02-2024 13:49:12,26-02-2024 13:49:13,1.797s,PASSED
+"click(findTestObject(""My Account_Payment/Deposit page/Payments""))",Chrome 121.0.0.0,,,26-02-2024 13:49:13,26-02-2024 13:49:14,0.841s,PASSED
+"click(findTestObject(""My Account_Payment/Deposit page/Deposit""))",Chrome 121.0.0.0,,,26-02-2024 13:49:14,26-02-2024 13:49:16,1.734s,PASSED
+"setText(findTestObject(""My Account_Payment/Deposit page/Page_Haboom - Best 1 Indias Online Sports Betting/Deposit amount entry""), ""1000"")",Chrome 121.0.0.0,,,26-02-2024 13:49:16,26-02-2024 13:49:17,0.931s,PASSED
+"click(findTestObject(""My Account_Payment/Deposit page/Page_Haboom - Best 1 Indias Online Sports Betting/button_Deposit""))",Chrome 121.0.0.0,,,26-02-2024 13:49:17,26-02-2024 13:49:18,0.794s,PASSED
+"switchToWindowTitle("""")",Chrome 121.0.0.0,,,26-02-2024 13:49:18,26-02-2024 13:49:18,0.833s,PASSED
+"click(findTestObject(""My Account_Payment/Transaction page/Page_/Transaction_failure""))",Chrome 121.0.0.0,,,26-02-2024 13:49:18,26-02-2024 13:49:19,0.929s,PASSED
+delay(2),Chrome 121.0.0.0,,,26-02-2024 13:49:19,26-02-2024 13:49:21,2.004s,PASSED
+takeFullPageScreenshot(),Chrome 121.0.0.0,,,26-02-2024 13:49:21,26-02-2024 13:49:22,0.271s,PASSED

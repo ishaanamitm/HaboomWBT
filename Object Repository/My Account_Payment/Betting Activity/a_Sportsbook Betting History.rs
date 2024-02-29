@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Sportsbook Betting History</name>
+   <tag></tag>
+   <elementGuidId>d318c1dd-8dbd-4970-9cbe-b6a48febf3d5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='Betting_Activity']/ul/li[2]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#Betting_Activity > ul.dropdown-menu > li:nth-of-type(2) > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>ceb04402-3b57-44bd-b2a1-0e2fb8489e70</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://haboom.com/sportsbook/history</value>
+      <webElementGuid>7b309cfe-083a-4e66-b4ba-cb061d1dddfa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Sportsbook Betting History</value>
+      <webElementGuid>8d9f941e-44db-43bf-906d-767dc9ae0579</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Betting_Activity&quot;)/ul[@class=&quot;dropdown-menu&quot;]/li[2]/a[1]</value>
+      <webElementGuid>ae4c452a-8b33-43bf-80f8-21c08504dd85</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='Betting_Activity']/ul/li[2]/a</value>
+      <webElementGuid>4632cd80-7980-4fcf-8526-5eebc8f39b8d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Sportsbook Betting History')]</value>
+      <webElementGuid>3b937aa7-912f-44b5-a43b-cbf6fa73e9a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Exchange Bets'])[1]/following::a[1]</value>
+      <webElementGuid>f8374a26-605d-42fd-9c84-c67831bf186a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Betting Activity'])[1]/following::a[2]</value>
+      <webElementGuid>0671ba13-f381-4649-aaed-c036ece8725b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Casino Bets'])[1]/preceding::a[1]</value>
+      <webElementGuid>ecf8a151-f52d-49ed-992e-cbc236152c98</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Slots Bets'])[1]/preceding::a[2]</value>
+      <webElementGuid>2f9b0d0a-74e5-4be0-a3da-50c99aaebfc7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Sportsbook Betting History']/parent::*</value>
+      <webElementGuid>89f80a91-335a-474a-aaba-a70d5ddc58ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'https://haboom.com/sportsbook/history')])[2]</value>
+      <webElementGuid>4986d31f-a6ab-40f8-b8dd-43bdf42ec661</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/ul/li[2]/a</value>
+      <webElementGuid>ec94c78b-6370-4111-b3d6-e426c5f815a7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://haboom.com/sportsbook/history' and (text() = 'Sportsbook Betting History' or . = 'Sportsbook Betting History')]</value>
+      <webElementGuid>f7d6cc77-0ebf-4702-a2e3-bab20c4b1234</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

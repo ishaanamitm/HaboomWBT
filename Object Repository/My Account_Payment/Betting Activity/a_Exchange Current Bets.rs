@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Exchange Current Bets</name>
+   <tag></tag>
+   <elementGuidId>97fda7bd-ee9b-49cc-b6e1-7f7da7a5d0fe</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='Betting_Activity']/ul/li[5]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>ul.dropdown-menu > li:nth-of-type(5) > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>da7a17af-b0a8-4df7-b26e-c7d760e6c418</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://haboom.com/d/exchangeCurrentBets</value>
+      <webElementGuid>bec1003c-5f2d-45ff-8126-6f6493e32724</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Exchange Current Bets</value>
+      <webElementGuid>818fbcad-d448-4352-af24-df6bd5e41644</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Betting_Activity&quot;)/ul[@class=&quot;dropdown-menu&quot;]/li[5]/a[1]</value>
+      <webElementGuid>1bfcb15e-f3db-4d8a-89ef-55e9d4f6bbc2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='Betting_Activity']/ul/li[5]/a</value>
+      <webElementGuid>4b37643e-9251-4d3a-b494-681241138168</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Exchange Current Bets')]</value>
+      <webElementGuid>b0a64ce8-1c63-49dd-9484-1c0b85c4cba9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Slots Bets'])[1]/following::a[1]</value>
+      <webElementGuid>bf8f3df0-5fdf-41c7-ab53-b1851f953309</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Casino Bets'])[1]/following::a[2]</value>
+      <webElementGuid>ec522048-7195-486d-841a-0b6d8913414b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Exchange Betting History'])[1]/preceding::a[1]</value>
+      <webElementGuid>96921c3d-aa24-4b8e-b9cb-737b04e55dc0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Exchange Profit &amp; Loss'])[1]/preceding::a[2]</value>
+      <webElementGuid>f660054f-1d69-4e6d-a48e-8a38d0aaad8e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Exchange Current Bets']/parent::*</value>
+      <webElementGuid>fcc431d6-0468-4a4e-8643-5d3305704999</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://haboom.com/d/exchangeCurrentBets')]</value>
+      <webElementGuid>f6e4d965-b7f1-4708-a585-319a622ddb2d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/ul/li[5]/a</value>
+      <webElementGuid>28814b38-3165-4ba7-aa90-591ef2ebdfb2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://haboom.com/d/exchangeCurrentBets' and (text() = 'Exchange Current Bets' or . = 'Exchange Current Bets')]</value>
+      <webElementGuid>6f5f6eb0-3013-48dd-a916-d850d74db8a4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

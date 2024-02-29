@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="HomePage" time="46.02" tests="1" failures="0" errors="0">
+   <testsuite name="HomePage" tests="1" failures="0" errors="0" time="46.02" skipped="0" timestamp="27-02-2024T16:08:37" hostname="M Gokul Jayanth - LAPTOP-QCN9K3GM" id="Test Suites/HomePage">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\M Gokul Jayanth\\git\\KatalonAutomation\\HaboomWBT\\Reports\\20240227_160833\\HomePage\\20240227_160834"/>
+         <property name="logFiles" value="C:\\Users\\M Gokul Jayanth\\git\\KatalonAutomation\\HaboomWBT\\Reports\\20240227_160833\\HomePage\\20240227_160834\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="M Gokul Jayanth - LAPTOP-QCN9K3GM"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.50.148"/>
+         <property name="sessionId" value="fa0bba4873b606c09165ed10eb11f15f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/HomePage/Open recommended games successful" time="45.888" classname="Test Cases/HomePage/Open recommended games successful" status="PASSED">
+         <system-out><![CDATA[27-02-2024T16:08:37 - [TEST_CASE][PASSED] - Test Cases/HomePage/Open recommended games successful: Test Cases/HomePage/Open recommended games successful
+
+27-02-2024T16:08:37 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+27-02-2024T16:08:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+27-02-2024T16:08:37 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+27-02-2024T16:08:37 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-02-2024T16:08:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+27-02-2024T16:08:38 - [TEST_STEP][PASSED] - navigateToUrl("https://haboom.com/"): Navigate to 'https://haboom.com/' successfully
+
+27-02-2024T16:08:39 - [MESSAGE][PASSED] - Navigate to 'https://haboom.com/' successfully
+
+27-02-2024T16:08:39 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+27-02-2024T16:08:45 - [MESSAGE][PASSED] - Current window maximized
+
+27-02-2024T16:08:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page/Login email field"), "MartinGarrix"): Text 'MartinGarrix' is set on object 'Object Repository/Login Page/Login email field'
+
+27-02-2024T16:08:47 - [MESSAGE][PASSED] - Text 'MartinGarrix' is set on object 'Object Repository/Login Page/Login email field'
+
+27-02-2024T16:08:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page/Login Password"), "Test@1234"): Text 'Test@1234' is set on object 'Object Repository/Login Page/Login Password'
+
+27-02-2024T16:08:48 - [MESSAGE][PASSED] - Text 'Test@1234' is set on object 'Object Repository/Login Page/Login Password'
+
+27-02-2024T16:08:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page/login button")): Object: 'Object Repository/Login Page/login button' is clicked on
+
+27-02-2024T16:08:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/login button' is clicked on
+
+27-02-2024T16:08:48 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+27-02-2024T16:08:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Home Page/Teenpatti image")): Object: 'Object Repository/Home Page/Teenpatti image' is clicked on
+
+27-02-2024T16:09:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Home Page/Teenpatti image' is clicked on
+
+27-02-2024T16:09:17 - [TEST_STEP][PASSED] - switchToWindowIndex(1): Switched to window with index: '1'
+
+27-02-2024T16:09:17 - [MESSAGE][PASSED] - Switched to window with index: '1'
+
+27-02-2024T16:09:17 - [TEST_STEP][PASSED] - actualtitle = getWindowTitle(): Current window's title is: 'Three Card Poker'
+
+27-02-2024T16:09:22 - [MESSAGE][PASSED] - Current window's title is: 'Three Card Poker'
+
+27-02-2024T16:09:22 - [TEST_STEP][PASSED] - expectedtitle = "Three Card Poker": null
+
+27-02-2024T16:09:22 - [TEST_STEP][PASSED] - verifyMatch(actualtitle, expectedtitle, true): Actual text 'Three Card Poker' and expected text 'Three Card Poker' are matched  using regular expression
+
+27-02-2024T16:09:23 - [MESSAGE][PASSED] - Actual text 'Three Card Poker' and expected text 'Three Card Poker' are matched  using regular expression]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[27-02-2024T16:08:37 - [TEST_SUITE][PASSED] - HomePage: Test Cases/HomePage/Open recommended games successful]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

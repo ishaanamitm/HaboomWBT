@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>tickets</name>
+   <tag></tag>
+   <elementGuidId>ac6c86d4-98a8-48fc-a4c1-d713316396c7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//header[@id='ssc-header-placeholder']/div[15]/div/div/h2</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.cls-page-header.d-flex > h2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h2</value>
+      <webElementGuid>0a1e1e3f-b08e-4e9c-acef-6110a4cf1d80</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>tickets</value>
+      <webElementGuid>014cd78f-0df5-4f1b-9b58-7c89a6ae678c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ssc-header-placeholder&quot;)/div[@class=&quot;raise-your-ticket-sec&quot;]/div[@class=&quot;ticket-section ticket_sec1&quot;]/div[@class=&quot;cls-page-header d-flex&quot;]/h2[1]</value>
+      <webElementGuid>8ca9017b-968b-47ee-abf0-fca70f5e3454</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//header[@id='ssc-header-placeholder']/div[15]/div/div/h2</value>
+      <webElementGuid>ab823799-2539-44ff-bfea-b61c88066a33</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Refer and Earn'])[1]/following::h2[1]</value>
+      <webElementGuid>51fb623a-bcb1-4b56-bac0-d6111a36660d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Promotions'])[1]/following::h2[1]</value>
+      <webElementGuid>3ec17006-5a4c-4f71-9be0-bdeecbe92f81</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add new query'])[1]/preceding::h2[1]</value>
+      <webElementGuid>07c40286-12ec-4080-a695-af56769ff1c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Issue'])[1]/preceding::h2[1]</value>
+      <webElementGuid>92cfd49b-01a4-48ad-9338-50ba55bffb5f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='tickets']/parent::*</value>
+      <webElementGuid>773e9b2f-5724-43ec-a75d-a1492882fe7f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[15]/div/div/h2</value>
+      <webElementGuid>e3a2bf73-7075-46fd-8eeb-475cfd5f6937</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h2[(text() = 'tickets' or . = 'tickets')]</value>
+      <webElementGuid>c52f9c05-02eb-4ab4-a3bf-c69b394e5edd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

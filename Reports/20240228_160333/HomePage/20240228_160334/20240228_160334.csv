@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+HomePage,Chrome 121.0.0.0,,,28-02-2024 16:03:36,28-02-2024 16:03:49,12.579s,ERROR
+,,,,,,,
+Test Cases/HomePage/Access footer link,Chrome 121.0.0.0,"Expected result - clicking the footer link should take user to the respective result page
+Actual result - works as expected",Footer link,28-02-2024 16:03:36,28-02-2024 16:03:49,12.455s,ERROR
+Start setup action : setupTestCase,Chrome 121.0.0.0,,,28-02-2024 16:03:36,28-02-2024 16:03:49,12.322s,PASSED

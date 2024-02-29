@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Expected title - user should able to open the affliates menu successfully&#xd;
+Actual - user can open the affliates menu</description>
+   <name>Open Footer_afflliates successful</name>
+   <tag>Affliates</tag>
+   <comment></comment>
+   <testCaseGuid>50d23566-06cf-4e7a-832a-eb512b235172</testCaseGuid>
+</TestCaseEntity>
