@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Expected result: When the user enters an invalid username or email ID, they should be redirected to the error page.</description>
+   <name>Invalid username page redirection</name>
+   <tag>Login</tag>
+   <comment></comment>
+   <testCaseGuid>0a69932a-bfd4-4b59-9a01-0d804ff82718</testCaseGuid>
+</TestCaseEntity>
