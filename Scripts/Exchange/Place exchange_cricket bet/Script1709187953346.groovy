@@ -37,14 +37,14 @@ println(oddvalue)
 
  
  
-int value = oddvalue as Integer
+//int value = oddvalue as Integer
    
    
-println(value)
+//println(value)
  
-int passvalue = value + 0.10
+//int passvalue = value + 0.10
 
-println(passvalue)
+//println(passvalue)
 
 //println(passvalue)
 
