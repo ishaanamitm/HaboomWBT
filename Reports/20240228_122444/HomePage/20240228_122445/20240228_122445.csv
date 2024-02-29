@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+HomePage,Chrome 121.0.0.0,,,28-02-2024 12:24:47,28-02-2024 12:25:07,19.252s,PASSED
+,,,,,,,
+Test Cases/HomePage/Open livecasino games successful,Chrome 121.0.0.0,"Expected result - User should able to open the live casino game successfully
+Actual result - User can able to open the live casino game successfully",Live casino games,28-02-2024 12:24:47,28-02-2024 12:25:07,19.117s,PASSED
+Start setup action : setupTestCase,Chrome 121.0.0.0,,,28-02-2024 12:24:47,28-02-2024 12:24:59,11.670s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Livecasinogames_Andarbahar_image""))",Chrome 121.0.0.0,,,28-02-2024 12:24:59,28-02-2024 12:25:02,2.310s,PASSED
+delay(5),Chrome 121.0.0.0,,,28-02-2024 12:25:02,28-02-2024 12:25:07,5.024s,PASSED
+Actualtitle = getWindowTitle(),Chrome 121.0.0.0,,,28-02-2024 12:25:07,28-02-2024 12:25:07,0.014s,PASSED
+println(Actualtitle),Chrome 121.0.0.0,,,28-02-2024 12:25:07,28-02-2024 12:25:07,0.004s,PASSED
+"Expectedtitle = ""Haboom - Trusted Online Casino and Sports Betting Platform""",Chrome 121.0.0.0,,,28-02-2024 12:25:07,28-02-2024 12:25:07,0.001s,PASSED
+"verifyMatch(Actualtitle, Expectedtitle, true)",Chrome 121.0.0.0,,,28-02-2024 12:25:07,28-02-2024 12:25:07,0.014s,PASSED

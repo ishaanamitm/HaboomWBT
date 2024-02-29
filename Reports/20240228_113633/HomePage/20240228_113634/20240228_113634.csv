@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+HomePage,Chrome 121.0.0.0,,,28-02-2024 11:36:37,28-02-2024 11:38:06,1m - 29.239s,FAILED
+,,,,,,,
+Test Cases/HomePage/Open recommended games successful,Chrome 121.0.0.0,"Expected Result - User should able to open the Recommeded games successfully
+Actual Result - User can able to open the Recommeded games successfully",Recommeded games,28-02-2024 11:36:37,28-02-2024 11:36:54,16.748s,PASSED
+Start setup action : setupTestCase,Chrome 121.0.0.0,,,28-02-2024 11:36:37,28-02-2024 11:36:49,12.227s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Recommendedgames_Teenpatti_image""))",Chrome 121.0.0.0,,,28-02-2024 11:36:49,28-02-2024 11:36:52,3.057s,PASSED
+switchToWindowIndex(1),Chrome 121.0.0.0,,,28-02-2024 11:36:52,28-02-2024 11:36:52,0.028s,PASSED
+actualtitle = getWindowTitle(),Chrome 121.0.0.0,,,28-02-2024 11:36:52,28-02-2024 11:36:54,1.338s,PASSED
+"expectedtitle = ""Three Card Poker""",Chrome 121.0.0.0,,,28-02-2024 11:36:54,28-02-2024 11:36:54,0.001s,PASSED
+"verifyMatch(actualtitle, expectedtitle, true)",Chrome 121.0.0.0,,,28-02-2024 11:36:54,28-02-2024 11:36:54,0.021s,PASSED
+,,,,,,,
+Test Cases/HomePage/Open top10 games successful,Chrome 121.0.0.0,"Expected Result - User should able to open the Recommeded games
+Actual Result - User can able to open the Recommeded games",Recommended games,28-02-2024 11:37:48,28-02-2024 11:38:06,17.870s,FAILED
+Start setup action : setupTestCase,Chrome 121.0.0.0,,,28-02-2024 11:37:48,28-02-2024 11:38:01,12.914s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Top10games_Roulette_image""))",Chrome 121.0.0.0,,,28-02-2024 11:38:01,28-02-2024 11:38:03,2.390s,PASSED
+switchToWindowIndex(1),Chrome 121.0.0.0,,,28-02-2024 11:38:03,28-02-2024 11:38:04,0.014s,PASSED
+actualtitle = getWindowTitle(),Chrome 121.0.0.0,,,28-02-2024 11:38:04,28-02-2024 11:38:06,2.541s,PASSED
+"expectedtitle = ""Three Card Poker""",Chrome 121.0.0.0,,,28-02-2024 11:38:06,28-02-2024 11:38:06,0.000s,PASSED
+"verifyMatch(actualtitle, expectedtitle, true)",Chrome 121.0.0.0,,,28-02-2024 11:38:06,28-02-2024 11:38:06,0.003s,FAILED

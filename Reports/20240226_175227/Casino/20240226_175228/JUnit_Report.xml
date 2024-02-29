@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Casino" time="22.062" tests="1" failures="0" errors="1">
+   <testsuite name="Casino" tests="1" failures="0" errors="1" time="22.062" skipped="0" timestamp="26-02-2024T17:52:30" hostname="M Gokul Jayanth - LAPTOP-QCN9K3GM" id="Test Suites/Casino">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\M Gokul Jayanth\\git\\KatalonAutomation\\HaboomWBT\\Reports\\20240226_175227\\Casino\\20240226_175228"/>
+         <property name="logFiles" value="C:\\Users\\M Gokul Jayanth\\git\\KatalonAutomation\\HaboomWBT\\Reports\\20240226_175227\\Casino\\20240226_175228\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="M Gokul Jayanth - LAPTOP-QCN9K3GM"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.50.148"/>
+         <property name="sessionId" value="82f532c8174c3949f34b545cedffbd0c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Casino/Open game successful" time="21.904" classname="Test Cases/Casino/Open game successful" status="ERROR">
+         <error type="ERROR" message="Test Cases/Casino/Open game successful FAILED.&#xa;Reason:&#xa;org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:&#xa;file:/C:/Users/M%20Gokul%20Jayanth/git/KatalonAutomation/HaboomWBT/Scripts/Casino/Open%20game%20successful/Script1708686779901.groovy: 40: unable to resolve class TestObject&#xa; @ line 40, column 18.&#xa;   		    TestObject Object = WebUI.convertWebElementToTestObject(playgame)&#xa;                    ^&#xa;&#xa;file:/C:/Users/M%20Gokul%20Jayanth/git/KatalonAutomation/HaboomWBT/Scripts/Casino/Open%20game%20successful/Script1708686779901.groovy: 95: unable to resolve class TestObject&#xa; @ line 95, column 14.&#xa;   		TestObject Object2 = WebUI.convertWebElementToTestObject(currentElement)&#xa;                ^&#xa;&#xa;2 errors&#xa;&#xa;	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)&#xa;	at TempTestSuite1708950148609.run(TempTestSuite1708950148609.groovy:36)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[26-02-2024T17:52:30 - [TEST_CASE][ERROR] - Test Cases/Casino/Open game successful: Test Cases/Casino/Open game successful FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/M%20Gokul%20Jayanth/git/KatalonAutomation/HaboomWBT/Scripts/Casino/Open%20game%20successful/Script1708686779901.groovy: 40: unable to resolve class TestObject
+ @ line 40, column 18.
+   		    TestObject Object = WebUI.convertWebElementToTestObject(playgame)
+                    ^
+
+file:/C:/Users/M%20Gokul%20Jayanth/git/KatalonAutomation/HaboomWBT/Scripts/Casino/Open%20game%20successful/Script1708686779901.groovy: 95: unable to resolve class TestObject
+ @ line 95, column 14.
+   		TestObject Object2 = WebUI.convertWebElementToTestObject(currentElement)
+                ^
+
+2 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1708950148609.run(TempTestSuite1708950148609.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+26-02-2024T17:52:31 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+26-02-2024T17:52:31 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-02-2024T17:52:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-02-2024T17:52:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-02-2024T17:52:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-02-2024T17:52:32 - [TEST_STEP][PASSED] - navigateToUrl("https://haboom.com/"): Navigate to 'https://haboom.com/' successfully
+
+26-02-2024T17:52:45 - [MESSAGE][PASSED] - Navigate to 'https://haboom.com/' successfully
+
+26-02-2024T17:52:45 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+26-02-2024T17:52:45 - [MESSAGE][PASSED] - Current window maximized
+
+26-02-2024T17:52:45 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page/Login email field"), "MartinGarrix"): Text 'MartinGarrix' is set on object 'Object Repository/Login Page/Login email field'
+
+26-02-2024T17:52:47 - [MESSAGE][PASSED] - Text 'MartinGarrix' is set on object 'Object Repository/Login Page/Login email field'
+
+26-02-2024T17:52:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page/Login Password"), "Test@1234"): Text 'Test@1234' is set on object 'Object Repository/Login Page/Login Password'
+
+26-02-2024T17:52:49 - [MESSAGE][PASSED] - Text 'Test@1234' is set on object 'Object Repository/Login Page/Login Password'
+
+26-02-2024T17:52:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page/login button")): Object: 'Object Repository/Login Page/login button' is clicked on
+
+26-02-2024T17:52:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/login button' is clicked on
+
+26-02-2024T17:52:50 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/Login Page/My Account"), "My Account"): Actual text and expected text of test object 'Object Repository/Login Page/My Account' are matched.
+
+26-02-2024T17:52:52 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Login Page/My Account' are matched.
+
+26-02-2024T17:52:52 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully]]></system-out>
+         <system-err><![CDATA[26-02-2024T17:52:30 - [TEST_CASE][ERROR] - Test Cases/Casino/Open game successful: Test Cases/Casino/Open game successful FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/M%20Gokul%20Jayanth/git/KatalonAutomation/HaboomWBT/Scripts/Casino/Open%20game%20successful/Script1708686779901.groovy: 40: unable to resolve class TestObject
+ @ line 40, column 18.
+   		    TestObject Object = WebUI.convertWebElementToTestObject(playgame)
+                    ^
+
+file:/C:/Users/M%20Gokul%20Jayanth/git/KatalonAutomation/HaboomWBT/Scripts/Casino/Open%20game%20successful/Script1708686779901.groovy: 95: unable to resolve class TestObject
+ @ line 95, column 14.
+   		TestObject Object2 = WebUI.convertWebElementToTestObject(currentElement)
+                ^
+
+2 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1708950148609.run(TempTestSuite1708950148609.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-02-2024T17:52:30 - [TEST_SUITE][ERROR] - Casino: Test Cases/Casino/Open game successful FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/M%20Gokul%20Jayanth/git/KatalonAutomation/HaboomWBT/Scripts/Casino/Open%20game%20successful/Script1708686779901.groovy: 40: unable to resolve class TestObject
+ @ line 40, column 18.
+   		    TestObject Object = WebUI.convertWebElementToTestObject(playgame)
+                    ^
+
+file:/C:/Users/M%20Gokul%20Jayanth/git/KatalonAutomation/HaboomWBT/Scripts/Casino/Open%20game%20successful/Script1708686779901.groovy: 95: unable to resolve class TestObject
+ @ line 95, column 14.
+   		TestObject Object2 = WebUI.convertWebElementToTestObject(currentElement)
+                ^
+
+2 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1708950148609.run(TempTestSuite1708950148609.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+      <system-err><![CDATA[26-02-2024T17:52:30 - [TEST_SUITE][ERROR] - Casino: Test Cases/Casino/Open game successful FAILED.
+Reason:
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+file:/C:/Users/M%20Gokul%20Jayanth/git/KatalonAutomation/HaboomWBT/Scripts/Casino/Open%20game%20successful/Script1708686779901.groovy: 40: unable to resolve class TestObject
+ @ line 40, column 18.
+   		    TestObject Object = WebUI.convertWebElementToTestObject(playgame)
+                    ^
+
+file:/C:/Users/M%20Gokul%20Jayanth/git/KatalonAutomation/HaboomWBT/Scripts/Casino/Open%20game%20successful/Script1708686779901.groovy: 95: unable to resolve class TestObject
+ @ line 95, column 14.
+   		TestObject Object2 = WebUI.convertWebElementToTestObject(currentElement)
+                ^
+
+2 errors
+
+	at com.kms.katalon.core.main.ScriptEngine.getScript(ScriptEngine.java:199)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1708950148609.run(TempTestSuite1708950148609.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+   </testsuite>
+</testsuites>

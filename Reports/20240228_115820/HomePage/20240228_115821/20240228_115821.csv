@@ -1,0 +1,38 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+HomePage,Chrome 121.0.0.0,,,28-02-2024 11:58:23,28-02-2024 11:59:38,1m - 14.505s,PASSED
+,,,,,,,
+Test Cases/HomePage/Open recommended games successful,Chrome 121.0.0.0,"Expected Result - User should able to open the Recommeded games successfully
+Actual Result - User can able to open the Recommeded games successfully",Recommeded games,28-02-2024 11:58:23,28-02-2024 11:58:38,14.739s,PASSED
+Start setup action : setupTestCase,Chrome 121.0.0.0,,,28-02-2024 11:58:23,28-02-2024 11:58:34,11.080s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Recommendedgames_Teenpatti_image""))",Chrome 121.0.0.0,,,28-02-2024 11:58:34,28-02-2024 11:58:37,2.405s,PASSED
+switchToWindowIndex(1),Chrome 121.0.0.0,,,28-02-2024 11:58:37,28-02-2024 11:58:37,0.025s,PASSED
+actualtitle = getWindowTitle(),Chrome 121.0.0.0,,,28-02-2024 11:58:37,28-02-2024 11:58:38,1.140s,PASSED
+"expectedtitle = ""Three Card Poker""",Chrome 121.0.0.0,,,28-02-2024 11:58:38,28-02-2024 11:58:38,0.001s,PASSED
+"verifyMatch(actualtitle, expectedtitle, true)",Chrome 121.0.0.0,,,28-02-2024 11:58:38,28-02-2024 11:58:38,0.016s,PASSED
+,,,,,,,
+Test Cases/HomePage/Open top10 games successful,Chrome 121.0.0.0,"Expected Result - User should able to open the Recommeded games
+Actual Result - User can able to open the Recommeded games",Recommended games,28-02-2024 11:58:38,28-02-2024 11:58:53,15.040s,PASSED
+Start setup action : setupTestCase,Chrome 121.0.0.0,,,28-02-2024 11:58:38,28-02-2024 11:58:49,10.524s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Top10games_Roulette_image""))",Chrome 121.0.0.0,,,28-02-2024 11:58:49,28-02-2024 11:58:51,2.434s,PASSED
+switchToWindowIndex(1),Chrome 121.0.0.0,,,28-02-2024 11:58:51,28-02-2024 11:58:51,0.015s,PASSED
+actualtitle = getWindowTitle(),Chrome 121.0.0.0,,,28-02-2024 11:58:51,28-02-2024 11:58:53,2.024s,PASSED
+"expectedtitle = ""Casino""",Chrome 121.0.0.0,,,28-02-2024 11:58:53,28-02-2024 11:58:53,0.001s,PASSED
+"verifyMatch(actualtitle, expectedtitle, true)",Chrome 121.0.0.0,,,28-02-2024 11:58:53,28-02-2024 11:58:53,0.001s,PASSED
+,,,,,,,
+Test Cases/HomePage/open exchange_cricket game successfull,Chrome 121.0.0.0,,,28-02-2024 11:58:53,28-02-2024 11:59:17,23.709s,PASSED
+Start setup action : setupTestCase,Chrome 121.0.0.0,,,28-02-2024 11:58:53,28-02-2024 11:59:07,14.304s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Exchange_cricket""))",Chrome 121.0.0.0,,,28-02-2024 11:59:07,28-02-2024 11:59:12,4.316s,PASSED
+delay(5),Chrome 121.0.0.0,,,28-02-2024 11:59:12,28-02-2024 11:59:17,5.020s,PASSED
+Actualtitle = getWindowTitle(),Chrome 121.0.0.0,,,28-02-2024 11:59:17,28-02-2024 11:59:17,0.000s,PASSED
+println(Actualtitle),Chrome 121.0.0.0,,,28-02-2024 11:59:17,28-02-2024 11:59:17,0.015s,PASSED
+"Expectedtitle = ""Cricket Betting Exchange & Cricket Best Odds » Haboom™ Exchange""",Chrome 121.0.0.0,,,28-02-2024 11:59:17,28-02-2024 11:59:17,0.000s,PASSED
+"verifyMatch(Actualtitle, Expectedtitle, true)",Chrome 121.0.0.0,,,28-02-2024 11:59:17,28-02-2024 11:59:17,0.002s,PASSED
+,,,,,,,
+Test Cases/HomePage/open exchange_soccer game successfull,Chrome 121.0.0.0,,,28-02-2024 11:59:17,28-02-2024 11:59:38,20.887s,PASSED
+Start setup action : setupTestCase,Chrome 121.0.0.0,,,28-02-2024 11:59:17,28-02-2024 11:59:25,8.045s,PASSED
+"click(findTestObject(""Object Repository/Home Page/Exchange_soccer""))",Chrome 121.0.0.0,,,28-02-2024 11:59:25,28-02-2024 11:59:33,7.780s,PASSED
+delay(5),Chrome 121.0.0.0,,,28-02-2024 11:59:33,28-02-2024 11:59:38,5.016s,PASSED
+Actualtitle = getWindowTitle(),Chrome 121.0.0.0,,,28-02-2024 11:59:38,28-02-2024 11:59:38,0.004s,PASSED
+println(Actualtitle),Chrome 121.0.0.0,,,28-02-2024 11:59:38,28-02-2024 11:59:38,0.006s,PASSED
+"Expectedtitle = ""Football Betting Exchange & Football Best Odds » Haboom™ Exchange""",Chrome 121.0.0.0,,,28-02-2024 11:59:38,28-02-2024 11:59:38,0.000s,PASSED
+"verifyMatch(Actualtitle, Expectedtitle, true)",Chrome 121.0.0.0,,,28-02-2024 11:59:38,28-02-2024 11:59:38,0.000s,PASSED

@@ -53,11 +53,13 @@ def setupTestCase() {
 
 WebUI.navigateToUrl('https://haboom.com/')
 
-WebUI.setText(findTestObject('Object Repository/Login Page/Login email field'), 
-    'jabbi')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Login Page/Login Password'), 
-    'Ae2KZyjYBr0MQlyqU7ThAA==')
+WebUI.maximizeWindow()
+WebUI.setText(findTestObject('Object Repository/Login Page/Login email field'), 
+    'MartinGarrix')
+
+WebUI.setText(findTestObject('Object Repository/Login Page/Login Password'), 
+    'Test@1234')
 
 WebUI.click(findTestObject('Object Repository/Login Page/login button'))
 

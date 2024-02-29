@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>C%%Users%megan%git%HaboomWBT%HaboomWBT.prj</name>
+	<name>C%%Users%M Gokul Jayanth%git%KatalonAutomation%HaboomWBT%HaboomWBT.prj</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -17,7 +17,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1708679887299</id>
+			<id>1709091834950</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -26,7 +26,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1708679887312</id>
+			<id>1709091834952</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -35,8 +35,7 @@
 			</matcher>
 		</filter>
 		<filter>
-<<<<<<< HEAD
-			<id>1708680202093</id>
+			<id>1709100671765</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -45,7 +44,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1708680202095</id>
+			<id>1709100671766</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -54,7 +53,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1708681686578</id>
+			<id>1709100933688</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -63,7 +62,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1708681686588</id>
+			<id>1709100933692</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -72,7 +71,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1708686974588</id>
+			<id>1709101424623</id>
 			<name></name>
 			<type>10</type>
 			<matcher>
@@ -81,37 +80,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1708686974591</id>
-			<name></name>
-			<type>6</type>
-			<matcher>
-				<id>org.eclipse.core.resources.regexFilterMatcher</id>
-				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1708688584151</id>
-			<name></name>
-			<type>10</type>
-			<matcher>
-				<id>org.eclipse.core.resources.regexFilterMatcher</id>
-				<arguments>.*\.svn$</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1708688584153</id>
-=======
-			<id>1708680277322</id>
-			<name></name>
-			<type>10</type>
-			<matcher>
-				<id>org.eclipse.core.resources.regexFilterMatcher</id>
-				<arguments>.*\.svn$</arguments>
-			</matcher>
-		</filter>
-		<filter>
-			<id>1708680277328</id>
->>>>>>> branch 'main' of https://github.com/ishaanamitm/HaboomWBT.git
+			<id>1709101424631</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
