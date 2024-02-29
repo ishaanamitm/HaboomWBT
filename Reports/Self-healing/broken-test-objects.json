@@ -59,6 +59,66 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/My Account_Payment/Withdraw/Withdraw page/Withdraw page",
+      "brokenLocator": "//iframe[@id\u003d\u0027iframePage\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//iframe",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/My Account_Payment/Withdraw/Withdraw page/Withdraw page_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/My Account_Payment/Transfer Funds/Transfer Funds Error message/error message/Invalid Payee details",
+      "brokenLocator": "//p[(text() \u003d \u0027Invalid Payee details\u0027 or . \u003d \u0027Invalid Payee details\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "div.snackbar-container.snackbar-pos.top-right \u003e p",
+      "proposedLocatorMethod": "CSS",
+      "recoveryMethod": "CSS",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/My Account_Payment/Transfer Funds/Transfer Funds Error message/error message/Invalid Payee details_CSS.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/My Account_Payment/My Account page/My Account",
+      "brokenLocator": "//div[@id\u003d\u0027acco_arr\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Help\u0027])[1]/following::div[15]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/My Account_Payment/My Account page/My Account_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/My Account_Payment/My Account page/My Haboom Account",
+      "brokenLocator": "//div[@id\u003d\u0027acco_arr_Drop\u0027]/div/div/div/a[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/div/div/div/div/a[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/My Account_Payment/My Account page/My Haboom Account_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/My Account_Payment/New Folder/Page_Haboom - Best 1 Indias Online Sports Betting/iframe_Refer and Earn_iframePage",
+      "brokenLocator": "//iframe[@id\u003d\u0027iframePage\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//iframe",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/My Account_Payment/New Folder/Page_Haboom - Best 1 Indias Online Sports Betting/iframe_Refer and Earn_iframePage_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/My Account_Payment/Betting Activity_Tickets/Page_Haboom - Best 1 Indias Online Sports Betting/div_The issue field is required",
+      "brokenLocator": "/div[(text() \u003d \u0027The issue field is required.\u0027 or . \u003d \u0027The issue field is required.\u0027)]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/My Account_Payment/Betting Activity_Tickets/Page_Haboom - Best 1 Indias Online Sports Betting/div_The issue field is required_position.png"
     }
   ]
 }

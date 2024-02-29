@@ -1,0 +1,100 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+My Account,Chrome 121.0.0.0,,,26-02-2024 17:38:47,26-02-2024 17:41:35,2m - 48.303s,PASSED
+,,,,,,,
+Test Cases/My Account/Payment_Deposit successful in Bank Transfer,Chrome 121.0.0.0,"Expected Result: To check whether the user is able to deposit using bank transfer
+Actual result: The user is able to deposit using Bank transfer",,26-02-2024 17:38:47,26-02-2024 17:39:29,42.464s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,26-02-2024 17:38:47,26-02-2024 17:38:49,1.750s,PASSED
+"navigateToUrl(""https://haboom.com/"")",Chrome 121.0.0.0,,,26-02-2024 17:38:49,26-02-2024 17:38:53,4.069s,PASSED
+"setText(findTestObject(""Object Repository/My Account_Payment/Deposit Bank Transfer/login to My haboom account/Login username""), ""Sherlock"")",Chrome 121.0.0.0,,,26-02-2024 17:38:53,26-02-2024 17:38:58,4.941s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/My Account_Payment/Deposit Bank Transfer/login to My haboom account/Login password""), ""Ae2KZyjYBr0MQlyqU7ThAA=="")",Chrome 121.0.0.0,,,26-02-2024 17:38:58,26-02-2024 17:39:00,2.325s,PASSED
+"click(findTestObject(""Object Repository/My Account_Payment/Deposit Bank Transfer/login to My haboom account/Log Button""))",Chrome 121.0.0.0,,,26-02-2024 17:39:00,26-02-2024 17:39:02,1.921s,PASSED
+"click(findTestObject(""Object Repository/My Account_Payment/Deposit Bank Transfer/login to My haboom account/My Account""))",Chrome 121.0.0.0,,,26-02-2024 17:39:02,26-02-2024 17:39:07,4.272s,PASSED
+"click(findTestObject(""Object Repository/My Account_Payment/Deposit Bank Transfer/login to My haboom account/My Haboom Account""))",Chrome 121.0.0.0,,,26-02-2024 17:39:07,26-02-2024 17:39:09,2.424s,PASSED
+"click(findTestObject(""Object Repository/My Account_Payment/Deposit Bank Transfer/Bank transfer page/Payments""))",Chrome 121.0.0.0,,,26-02-2024 17:39:09,26-02-2024 17:39:10,0.718s,PASSED
+"click(findTestObject(""Object Repository/My Account_Payment/Deposit Bank Transfer/Bank transfer page/Deposit""))",Chrome 121.0.0.0,,,26-02-2024 17:39:10,26-02-2024 17:39:12,2.360s,PASSED
+"click(findTestObject(""Object Repository/My Account_Payment/Deposit Bank Transfer/Bank transfer page/Bank Transfer""))",Chrome 121.0.0.0,,,26-02-2024 17:39:12,26-02-2024 17:39:16,3.741s,PASSED
+"setText(findTestObject(""Object Repository/My Account_Payment/Deposit Bank Transfer/Bank transfer page/Amount input field""), ""1000"")",Chrome 121.0.0.0,,,26-02-2024 17:39:16,26-02-2024 17:39:17,0.833s,PASSED
+"click(findTestObject(""Object Repository/My Account_Payment/Deposit Bank Transfer/Bank transfer page/Pay button""))",Chrome 121.0.0.0,,,26-02-2024 17:39:17,26-02-2024 17:39:17,0.681s,PASSED
+"setText(findTestObject(""Object Repository/My Account_Payment/Deposit Bank Transfer/Bank transfer page/UTR number enter field""), ""54892179621539569"")",Chrome 121.0.0.0,,,26-02-2024 17:39:17,26-02-2024 17:39:18,0.785s,PASSED
+"click(findTestObject(""Object Repository/My Account_Payment/Deposit Bank Transfer/Bank transfer page/UTR Submit button""))",Chrome 121.0.0.0,,,26-02-2024 17:39:18,26-02-2024 17:39:19,0.673s,PASSED
+delay(2),Chrome 121.0.0.0,,,26-02-2024 17:39:19,26-02-2024 17:39:21,2.078s,PASSED
+takeFullPageScreenshot(),Chrome 121.0.0.0,,,26-02-2024 17:39:21,26-02-2024 17:39:22,1.494s,PASSED
+"click(findTestObject(""My Account_Payment/Transaction history page/Transaction page/Betting Activity""))",Chrome 121.0.0.0,,,26-02-2024 17:39:22,26-02-2024 17:39:23,0.414s,PASSED
+"click(findTestObject(""My Account_Payment/Transaction history page/Transaction page/Transaction History""))",Chrome 121.0.0.0,,,26-02-2024 17:39:23,26-02-2024 17:39:25,1.820s,PASSED
+"click(findTestObject(""My Account_Payment/Transaction history page/Transaction page/Transaction History (Options)""))",Chrome 121.0.0.0,,,26-02-2024 17:39:25,26-02-2024 17:39:25,0.654s,PASSED
+"click(findTestObject(""My Account_Payment/Transaction history page/Transaction page/Transactions filter""))",Chrome 121.0.0.0,,,26-02-2024 17:39:25,26-02-2024 17:39:26,0.789s,PASSED
+"click(findTestObject(""My Account_Payment/Transaction history page/Transaction page/Deposit Requests""))",Chrome 121.0.0.0,,,26-02-2024 17:39:26,26-02-2024 17:39:27,0.479s,PASSED
+delay(2),Chrome 121.0.0.0,,,26-02-2024 17:39:27,26-02-2024 17:39:29,2.017s,PASSED
+takeFullPageScreenshot(),Chrome 121.0.0.0,,,26-02-2024 17:39:29,26-02-2024 17:39:29,0.913s,PASSED
+,,,,,,,
+Test Cases/My Account/Payment_Deposit failure in Instant method,Chrome 121.0.0.0,"Expected Result: To check the user is able to cancel the deposit
+Actual Result: The user is able to cancel the deposit in  the Instant method",My Account,26-02-2024 17:39:29,26-02-2024 17:40:05,35.381s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,26-02-2024 17:39:30,26-02-2024 17:39:31,1.172s,PASSED
+"navigateToUrl(""https://haboom.com/"")",Chrome 121.0.0.0,,,26-02-2024 17:39:31,26-02-2024 17:39:38,6.759s,PASSED
+"setText(findTestObject(""My Account_Payment/My Account page/Login Username""), ""Sherlock"")",Chrome 121.0.0.0,,,26-02-2024 17:39:38,26-02-2024 17:39:42,4.438s,PASSED
+"setText(findTestObject(""My Account_Payment/My Account page/Login Password""), ""Eternals@123"")",Chrome 121.0.0.0,,,26-02-2024 17:39:42,26-02-2024 17:39:45,2.690s,PASSED
+"click(findTestObject(""My Account_Payment/My Account page/Login Button""))",Chrome 121.0.0.0,,,26-02-2024 17:39:45,26-02-2024 17:39:47,1.831s,PASSED
+"click(findTestObject(""My Account_Payment/My Account page/My Account""))",Chrome 121.0.0.0,,,26-02-2024 17:39:47,26-02-2024 17:39:51,4.191s,PASSED
+"click(findTestObject(""My Account_Payment/My Account page/My Haboom Account""))",Chrome 121.0.0.0,,,26-02-2024 17:39:51,26-02-2024 17:39:53,2.637s,PASSED
+"click(findTestObject(""My Account_Payment/Deposit page/Payments""))",Chrome 121.0.0.0,,,26-02-2024 17:39:53,26-02-2024 17:39:54,0.621s,PASSED
+"click(findTestObject(""My Account_Payment/Deposit page/Deposit""))",Chrome 121.0.0.0,,,26-02-2024 17:39:54,26-02-2024 17:39:56,2.167s,PASSED
+"setText(findTestObject(""My Account_Payment/Deposit page/Payment link/Deposit amount entry""), ""1000"")",Chrome 121.0.0.0,,,26-02-2024 17:39:56,26-02-2024 17:39:57,1.037s,PASSED
+"click(findTestObject(""My Account_Payment/Deposit page/Payment link/button_Deposit""))",Chrome 121.0.0.0,,,26-02-2024 17:39:57,26-02-2024 17:39:58,0.964s,PASSED
+"switchToWindowTitle("""")",Chrome 121.0.0.0,,,26-02-2024 17:39:58,26-02-2024 17:40:00,2.308s,PASSED
+"click(findTestObject(""My Account_Payment/Transaction page/Page_/Transaction_failure""))",Chrome 121.0.0.0,,,26-02-2024 17:40:00,26-02-2024 17:40:02,1.911s,PASSED
+delay(2),Chrome 121.0.0.0,,,26-02-2024 17:40:02,26-02-2024 17:40:04,2.015s,PASSED
+takeFullPageScreenshot(),Chrome 121.0.0.0,,,26-02-2024 17:40:04,26-02-2024 17:40:05,0.475s,PASSED
+,,,,,,,
+Test Cases/My Account/Payment_Deposit Error message for depositing less than minimum amount,Chrome 121.0.0.0,"Expected Result: To check the the user get a error message if they try to deposit amount less than the minimum
+Actual Result: The user get a error message for inappropriate deposit",My Account,26-02-2024 17:40:05,26-02-2024 17:40:32,27.388s,PASSED
+"openBrowser(""https://haboom.com/"")",Chrome 121.0.0.0,,,26-02-2024 17:40:05,26-02-2024 17:40:10,5.561s,PASSED
+"setText(findTestObject(""My Account_Payment/My Account page/Login Username""), ""Sherlock"")",Chrome 121.0.0.0,,,26-02-2024 17:40:10,26-02-2024 17:40:14,3.697s,PASSED
+"setText(findTestObject(""My Account_Payment/My Account page/Login Password""), ""Eternals@123"")",Chrome 121.0.0.0,,,26-02-2024 17:40:14,26-02-2024 17:40:18,3.601s,PASSED
+"click(findTestObject(""My Account_Payment/My Account page/Login Button""))",Chrome 121.0.0.0,,,26-02-2024 17:40:18,26-02-2024 17:40:19,1.595s,PASSED
+"click(findTestObject(""My Account_Payment/My Account page/My Account""))",Chrome 121.0.0.0,,,26-02-2024 17:40:19,26-02-2024 17:40:23,4.053s,PASSED
+"click(findTestObject(""My Account_Payment/My Account page/My Haboom Account""))",Chrome 121.0.0.0,,,26-02-2024 17:40:23,26-02-2024 17:40:27,3.109s,PASSED
+"click(findTestObject(""My Account_Payment/Deposit page/Payments""))",Chrome 121.0.0.0,,,26-02-2024 17:40:27,26-02-2024 17:40:27,0.963s,PASSED
+"click(findTestObject(""My Account_Payment/Deposit page/Deposit""))",Chrome 121.0.0.0,,,26-02-2024 17:40:27,26-02-2024 17:40:30,2.037s,PASSED
+"setText(findTestObject(""My Account_Payment/Deposit page/Payment link/Deposit amount entry""), ""10"")",Chrome 121.0.0.0,,,26-02-2024 17:40:30,26-02-2024 17:40:31,1.017s,PASSED
+"click(findTestObject(""My Account_Payment/Deposit page/Payment link/button_Deposit""))",Chrome 121.0.0.0,,,26-02-2024 17:40:31,26-02-2024 17:40:31,0.708s,PASSED
+takeFullPageScreenshot(),Chrome 121.0.0.0,,,26-02-2024 17:40:31,26-02-2024 17:40:32,0.748s,PASSED
+closeBrowser(),Chrome 121.0.0.0,,,26-02-2024 17:40:32,26-02-2024 17:40:32,0.228s,PASSED
+,,,,,,,
+Test Cases/My Account/Payment_ Successful Withdraw,Chrome 121.0.0.0,"Expected Result: To check whether the user is able to withdraw 
+Actual Result: The user is able to withdraw",My Account,26-02-2024 17:40:32,26-02-2024 17:41:03,30.540s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,26-02-2024 17:40:32,26-02-2024 17:40:34,1.560s,PASSED
+"navigateToUrl(""https://haboom.com/"")",Chrome 121.0.0.0,,,26-02-2024 17:40:34,26-02-2024 17:40:37,2.833s,PASSED
+"setText(findTestObject(""My Account_Payment/My Account page/Login Username""), ""Sherlock"")",Chrome 121.0.0.0,,,26-02-2024 17:40:37,26-02-2024 17:40:41,4.262s,PASSED
+"setText(findTestObject(""My Account_Payment/My Account page/Login Password""), ""Eternals@123"")",Chrome 121.0.0.0,,,26-02-2024 17:40:41,26-02-2024 17:40:45,3.946s,PASSED
+"click(findTestObject(""My Account_Payment/My Account page/Login Button""))",Chrome 121.0.0.0,,,26-02-2024 17:40:45,26-02-2024 17:40:46,1.460s,PASSED
+"click(findTestObject(""My Account_Payment/My Account page/My Account""))",Chrome 121.0.0.0,,,26-02-2024 17:40:46,26-02-2024 17:40:51,4.396s,PASSED
+"click(findTestObject(""My Account_Payment/My Account page/My Haboom Account""))",Chrome 121.0.0.0,,,26-02-2024 17:40:51,26-02-2024 17:40:53,2.606s,PASSED
+"click(findTestObject(""My Account_Payment/Deposit page/Payments""))",Chrome 121.0.0.0,,,26-02-2024 17:40:53,26-02-2024 17:40:54,0.853s,PASSED
+"click(findTestObject(""My Account_Payment/Withdraw/Withdraw page/Withdraw""))",Chrome 121.0.0.0,,,26-02-2024 17:40:54,26-02-2024 17:40:56,2.074s,PASSED
+"setText(findTestObject(""My Account_Payment/Withdraw/Withdraw page/Withdraw amount entery field""), ""100"")",Chrome 121.0.0.0,,,26-02-2024 17:40:56,26-02-2024 17:40:57,1.143s,PASSED
+"click(findTestObject(""My Account_Payment/Withdraw/Withdraw page/Withdraw button""))",Chrome 121.0.0.0,,,26-02-2024 17:40:57,26-02-2024 17:40:58,0.598s,PASSED
+"setText(findTestObject(""My Account_Payment/Withdraw/Withdraw page/Account holder name""), ""Sherlock"")",Chrome 121.0.0.0,,,26-02-2024 17:40:58,26-02-2024 17:40:59,0.866s,PASSED
+"setText(findTestObject(""My Account_Payment/Withdraw/Withdraw page/Account number""), ""5896478963245187"")",Chrome 121.0.0.0,,,26-02-2024 17:40:59,26-02-2024 17:41:00,0.832s,PASSED
+"setText(findTestObject(""My Account_Payment/Withdraw/Withdraw page/Account IFSC code""), ""SBIN0000800"")",Chrome 121.0.0.0,,,26-02-2024 17:41:00,26-02-2024 17:41:01,0.847s,PASSED
+"click(findTestObject(""My Account_Payment/Withdraw/Withdraw page/Withdraw Submit button""))",Chrome 121.0.0.0,,,26-02-2024 17:41:01,26-02-2024 17:41:01,0.426s,PASSED
+delay(1),Chrome 121.0.0.0,,,26-02-2024 17:41:01,26-02-2024 17:41:02,1.015s,PASSED
+takeFullPageScreenshot(),Chrome 121.0.0.0,,,26-02-2024 17:41:02,26-02-2024 17:41:03,0.736s,PASSED
+,,,,,,,
+Test Cases/My Account/payment_ withdraw Error display for insufficient funds,Chrome 121.0.0.0,"Expected result: To check the presence of error message for insufficient funds
+Actual result: The error message display for insufficient funds",My Account,26-02-2024 17:41:03,26-02-2024 17:41:35,32.331s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,26-02-2024 17:41:03,26-02-2024 17:41:04,1.222s,PASSED
+"navigateToUrl(""https://haboom.com/"")",Chrome 121.0.0.0,,,26-02-2024 17:41:04,26-02-2024 17:41:08,3.903s,PASSED
+"setText(findTestObject(""My Account_Payment/My Account page/Login Username""), ""Sherlock"")",Chrome 121.0.0.0,,,26-02-2024 17:41:08,26-02-2024 17:41:14,5.690s,PASSED
+"setText(findTestObject(""My Account_Payment/My Account page/Login Password""), ""Eternals@123"")",Chrome 121.0.0.0,,,26-02-2024 17:41:14,26-02-2024 17:41:18,4.670s,PASSED
+"click(findTestObject(""My Account_Payment/My Account page/Login Button""))",Chrome 121.0.0.0,,,26-02-2024 17:41:18,26-02-2024 17:41:20,1.494s,PASSED
+"click(findTestObject(""My Account_Payment/My Account page/My Account""))",Chrome 121.0.0.0,,,26-02-2024 17:41:20,26-02-2024 17:41:24,4.465s,PASSED
+"click(findTestObject(""My Account_Payment/My Account page/My Haboom Account""))",Chrome 121.0.0.0,,,26-02-2024 17:41:24,26-02-2024 17:41:27,2.344s,PASSED
+"click(findTestObject(""My Account_Payment/Deposit page/Payments""))",Chrome 121.0.0.0,,,26-02-2024 17:41:27,26-02-2024 17:41:28,0.926s,PASSED
+"click(findTestObject(""My Account_Payment/Withdraw/Withdraw page/Withdraw""))",Chrome 121.0.0.0,,,26-02-2024 17:41:28,26-02-2024 17:41:30,1.928s,PASSED
+"setText(findTestObject(""My Account_Payment/Withdraw/Withdraw page/Withdraw amount entery field""), ""1000"")",Chrome 121.0.0.0,,,26-02-2024 17:41:30,26-02-2024 17:41:30,0.811s,PASSED
+"click(findTestObject(""My Account_Payment/Withdraw/Withdraw page/Withdraw button""))",Chrome 121.0.0.0,,,26-02-2024 17:41:30,26-02-2024 17:41:31,0.888s,PASSED
+"setText(findTestObject(""My Account_Payment/Withdraw/Withdraw page/Account holder name""), ""Sherlock"")",Chrome 121.0.0.0,,,26-02-2024 17:41:31,26-02-2024 17:41:32,0.937s,PASSED
+"setText(findTestObject(""My Account_Payment/Withdraw/Withdraw page/Account number""), ""5896478963245187"")",Chrome 121.0.0.0,,,26-02-2024 17:41:32,26-02-2024 17:41:33,0.854s,PASSED
+"setText(findTestObject(""My Account_Payment/Withdraw/Withdraw page/Account IFSC code""), ""SBIN0000800"")",Chrome 121.0.0.0,,,26-02-2024 17:41:33,26-02-2024 17:41:34,0.884s,PASSED
+"click(findTestObject(""My Account_Payment/Withdraw/Withdraw page/Withdraw Submit button""))",Chrome 121.0.0.0,,,26-02-2024 17:41:34,26-02-2024 17:41:34,0.429s,PASSED
+"verifyElementText(findTestObject(""My Account_Payment/Withdraw/Withdraw page/Insufficient error message/Insufficient Funds""), ""Insufficient Funds"")",Chrome 121.0.0.0,,,26-02-2024 17:41:34,26-02-2024 17:41:35,0.783s,PASSED

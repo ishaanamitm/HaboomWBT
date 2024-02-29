@@ -21,47 +21,47 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl('https://haboom.com/')
 
-WebUI.setText(findTestObject('Object Repository/My Account_Payment/Deposit Bank Transfer/login to My haboom account/Login username'), 
+WebUI.setText(findTestObject('Object Repository/My Account_Payment/Deposit Bank Transfer/Login username'), 
     'Sherlock')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/My Account_Payment/Deposit Bank Transfer/login to My haboom account/Login password'), 
+WebUI.setEncryptedText(findTestObject('Object Repository/My Account_Payment/Deposit Bank Transfer/Login password'), 
     'Ae2KZyjYBr0MQlyqU7ThAA==')
 
-WebUI.click(findTestObject('Object Repository/My Account_Payment/Deposit Bank Transfer/login to My haboom account/Log Button'))
+WebUI.click(findTestObject('Object Repository/My Account_Payment/Deposit Bank Transfer/Log Button'))
 
-WebUI.click(findTestObject('Object Repository/My Account_Payment/Deposit Bank Transfer/login to My haboom account/My Account'))
+WebUI.click(findTestObject('Object Repository/My Account_Payment/Deposit Bank Transfer/My Account'))
 
-WebUI.click(findTestObject('Object Repository/My Account_Payment/Deposit Bank Transfer/login to My haboom account/My Haboom Account'))
+WebUI.click(findTestObject('Object Repository/My Account_Payment/Deposit Bank Transfer/My Haboom Account'))
 
-WebUI.click(findTestObject('Object Repository/My Account_Payment/Deposit Bank Transfer/Bank transfer page/Payments'))
+WebUI.click(findTestObject('Object Repository/My Account_Payment/Deposit Bank Transfer/Payments'))
 
-WebUI.click(findTestObject('Object Repository/My Account_Payment/Deposit Bank Transfer/Bank transfer page/Deposit'))
+WebUI.click(findTestObject('Object Repository/My Account_Payment/Deposit Bank Transfer/Deposit'))
 
-WebUI.click(findTestObject('Object Repository/My Account_Payment/Deposit Bank Transfer/Bank transfer page/Bank Transfer'))
+WebUI.click(findTestObject('Object Repository/My Account_Payment/Deposit Bank Transfer/Bank Transfer'))
 
-WebUI.setText(findTestObject('Object Repository/My Account_Payment/Deposit Bank Transfer/Bank transfer page/Amount input field'), 
+WebUI.setText(findTestObject('Object Repository/My Account_Payment/Deposit Bank Transfer/Amount input field'), 
     '1000')
 
-WebUI.click(findTestObject('Object Repository/My Account_Payment/Deposit Bank Transfer/Bank transfer page/Pay button'))
+WebUI.click(findTestObject('Object Repository/My Account_Payment/Deposit Bank Transfer/Pay button'))
 
-WebUI.setText(findTestObject('Object Repository/My Account_Payment/Deposit Bank Transfer/Bank transfer page/UTR number enter field'), 
+WebUI.setText(findTestObject('Object Repository/My Account_Payment/Deposit Bank Transfer/UTR number enter field'), 
     '54892179621539569')
 
-WebUI.click(findTestObject('Object Repository/My Account_Payment/Deposit Bank Transfer/Bank transfer page/UTR Submit button'))
+WebUI.click(findTestObject('Object Repository/My Account_Payment/Deposit Bank Transfer/UTR Submit button'))
 
 WebUI.delay(2)
 
 WebUI.takeFullPageScreenshot()
 
-WebUI.click(findTestObject('My Account_Payment/Transaction history page/Transaction page/Betting Activity'))
+WebUI.click(findTestObject('My Account_Payment/Transaction history page/Betting Activity'))
 
-WebUI.click(findTestObject('My Account_Payment/Transaction history page/Transaction page/Transaction History'))
+WebUI.click(findTestObject('My Account_Payment/Transaction history page/Transaction History'))
 
-WebUI.click(findTestObject('My Account_Payment/Transaction history page/Transaction page/Transaction History (Options)'))
+WebUI.click(findTestObject('My Account_Payment/Transaction history page/Transaction History (Options)'))
 
-WebUI.click(findTestObject('My Account_Payment/Transaction history page/Transaction page/Transactions filter'))
+WebUI.click(findTestObject('My Account_Payment/Transaction history page/Transactions filter'))
 
-WebUI.click(findTestObject('My Account_Payment/Transaction history page/Transaction page/Deposit Requests'))
+WebUI.click(findTestObject('My Account_Payment/Transaction history page/Deposit Requests'))
 
 WebUI.delay(2)
 

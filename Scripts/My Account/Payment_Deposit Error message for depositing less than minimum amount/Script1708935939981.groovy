@@ -35,17 +35,17 @@ WebUI.click(findTestObject('My Account_Payment/My Account page/My Account'))
 WebUI.click(findTestObject('My Account_Payment/My Account page/My Haboom Account'))
 
 //click payments
-WebUI.click(findTestObject('My Account_Payment/Deposit page/Payments'))
+WebUI.click(findTestObject('My Account_Payment/Deposit page/Payments (1) (1)'))
 
 //Click Deposit
 WebUI.click(findTestObject('My Account_Payment/Deposit page/Deposit'))
 
 //Enter the amount
-WebUI.setText(findTestObject('My Account_Payment/Deposit page/Page_Haboom - Best 1 Indias Online Sports Betting/Deposit amount entry'), 
+WebUI.setText(findTestObject('My Account_Payment/Deposit page/Deposit amount entry'), 
     '10')
 
 //click deposit button
-WebUI.click(findTestObject('My Account_Payment/Deposit page/Page_Haboom - Best 1 Indias Online Sports Betting/button_Deposit'))
+WebUI.click(findTestObject('My Account_Payment/Deposit page/button_Deposit (1)'))
 
 //screenshot
 WebUI.takeFullPageScreenshot()

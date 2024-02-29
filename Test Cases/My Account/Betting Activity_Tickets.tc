@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Expected Result: To check the user is able to redirect toTickets&#xd;
+Actual Result: The user is redirected toTickets</description>
+   <name>Betting Activity_Tickets</name>
+   <tag>My Accounts</tag>
+   <comment></comment>
+   <testCaseGuid>5d4fc8a8-358e-4404-adea-5e6f36ef9ebd</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Expected result:To check whether the user get error message if they try to pay without entering the details&#xd;
+Actual result:The user gets the error message when they try to pay without entering the details</description>
+   <name>Payments_Transfer Funds empty amount entery field</name>
+   <tag>My Account</tag>
+   <comment></comment>
+   <testCaseGuid>fd698f99-5538-4047-a1dd-16eb80e042ef</testCaseGuid>
+</TestCaseEntity>

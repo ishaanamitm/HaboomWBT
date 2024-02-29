@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Expected Result: To check the user is able to redirect to Exchange profit and loss&#xd;
+Actual Result: The user is redirected toExchange profit and loss</description>
+   <name>Betting Activity_Exchange profit and loss</name>
+   <tag>My Account</tag>
+   <comment></comment>
+   <testCaseGuid>ffa78c66-92d4-4ca8-b7e3-9b95b47f72cd</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Expected Result: To check the user is able to redirect to Transaction History&#xd;
+Actual Result: The user is redirected to Transaction History</description>
+   <name>Betting Activity_Transaction History</name>
+   <tag>My Account</tag>
+   <comment></comment>
+   <testCaseGuid>ef0c01bf-c00d-411c-8ddd-025b67cd9dff</testCaseGuid>
+</TestCaseEntity>

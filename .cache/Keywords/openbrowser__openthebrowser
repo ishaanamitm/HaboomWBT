@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "AC1B6BD2D1D2DB629BAF3AE53173941B",
+  "keywordClasses": [
+    {
+      "name": "openbrowser.Openthebrowser",
+      "keywordMethods": [
+        {
+          "name": "openbrowserandmaxwindow",
+          "parameters": [
+            {
+              "name": "url",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

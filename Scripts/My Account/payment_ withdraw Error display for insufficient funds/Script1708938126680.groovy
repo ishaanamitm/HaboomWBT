@@ -31,25 +31,25 @@ WebUI.click(findTestObject('My Account_Payment/My Account page/My Account'))
 
 WebUI.click(findTestObject('My Account_Payment/My Account page/My Haboom Account'))
 
-WebUI.click(findTestObject('My Account_Payment/Deposit page/Payments'))
+WebUI.click(findTestObject('My Account_Payment/Deposit page/Payments (1) (1)'))
 
-WebUI.click(findTestObject('My Account_Payment/Withdraw/Page_Haboom - Best 1 Indias Online Sports Betting/Withdraw'))
+WebUI.click(findTestObject('My Account_Payment/Withdraw/Withdraw'))
 
-WebUI.setText(findTestObject('My Account_Payment/Withdraw/Page_Haboom - Best 1 Indias Online Sports Betting/Withdraw amount entery field'), 
-    '1000')
+WebUI.setText(findTestObject('My Account_Payment/Withdraw/Withdraw amount entery field'), '10000')
 
-WebUI.click(findTestObject('My Account_Payment/Withdraw/Page_Haboom - Best 1 Indias Online Sports Betting/Withdraw button'))
+WebUI.click(findTestObject('My Account_Payment/Withdraw/Withdraw button'))
 
-WebUI.setText(findTestObject('My Account_Payment/Withdraw/Page_Haboom - Best 1 Indias Online Sports Betting/Account holder name'), 
-    'Sherlock')
+WebUI.setText(findTestObject('My Account_Payment/Withdraw/Account holder name'), 'Sherlock')
 
-WebUI.setText(findTestObject('My Account_Payment/Withdraw/Page_Haboom - Best 1 Indias Online Sports Betting/Account number'), 
-    '5896478963245187')
+WebUI.setText(findTestObject('My Account_Payment/Withdraw/Account number'), '5896478963245187')
 
-WebUI.setText(findTestObject('My Account_Payment/Withdraw/Page_Haboom - Best 1 Indias Online Sports Betting/Account IFSC code'), 
-    'SBIN0000800')
+WebUI.setText(findTestObject('My Account_Payment/Withdraw/Account IFSC code'), 'SBIN0000800')
 
-WebUI.click(findTestObject('My Account_Payment/Withdraw/Page_Haboom - Best 1 Indias Online Sports Betting/Withdraw Submit button'))
+WebUI.click(findTestObject('My Account_Payment/Withdraw/Withdraw Submit button'))
 
-WebUI.verifyElementText(findTestObject('Page_Haboom - Best 1 Indias Online Sports Betting/p_Insufficient Funds'), 'Insufficient Funds')
+WebUI.verifyElementText(findTestObject('My Account_Payment/Withdraw/Insufficient Funds'), 'Insufficient Funds')
+
+WebUI.delay(2)
+
+WebUI.takeFullPageScreenshot()
 

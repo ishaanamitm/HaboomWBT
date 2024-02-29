@@ -31,19 +31,19 @@ WebUI.click(findTestObject('Object Repository/My Account_Payment/My Account page
 
 WebUI.click(findTestObject('Object Repository/My Account_Payment/My Account page/My Haboom Account'))
 
-WebUI.click(findTestObject('Object Repository/My Account_Payment/Deposit page/Payments'))
+WebUI.click(findTestObject('Object Repository/My Account_Payment/Deposit page/Payments (1) (1)'))
 
-WebUI.click(findTestObject('Object Repository/My Account_Payment/Deposit page/Deposit'))
+WebUI.click(findTestObject('My Account_Payment/Deposit Bank Transfer/Deposit'))
 
-WebUI.click(findTestObject('Object Repository/My Account_Payment/Deposit page/Instant Methods'))
+WebUI.click(findTestObject('My Account_Payment/Deposit page/Instant Methods (1)'))
 
-WebUI.setText(findTestObject('Object Repository/My Account_Payment/Deposit page/Instant amount entery field'), '1000')
+WebUI.setText(findTestObject('My Account_Payment/Deposit page/input instant method'), '1000')
 
-WebUI.click(findTestObject('Object Repository/My Account_Payment/Deposit page/Deposit button'))
+WebUI.click(findTestObject('My Account_Payment/Deposit page/button_Deposit'))
 
 WebUI.switchToWindowTitle('')
 
-WebUI.click(findTestObject('Object Repository/My Account_Payment/Transaction page/Transaction success button'))
+WebUI.click(findTestObject('Object Repository/My Account_Payment/Transaction page/Transaction success button (1)'))
 
 WebUI.takeFullPageScreenshot()
 

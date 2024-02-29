@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="My Account" time="168.303" tests="5" failures="0" errors="0">
+   <testsuite name="My Account" tests="5" failures="0" errors="0" time="168.303" skipped="0" timestamp="26-02-2024T17:38:47" hostname="Deepa V - LAPTOP-KJGS4LH5" id="Test Suites/My Account">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Deepa V\\git\\HaboomWBT\\Reports\\20240226_173843\\My Account\\20240226_173843"/>
+         <property name="logFiles" value="C:\\Users\\Deepa V\\git\\HaboomWBT\\Reports\\20240226_173843\\My Account\\20240226_173843\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Deepa V\\git\\HaboomWBT\\Reports\\20240226_173843\\My Account\\20240226_173843\\1708949361410.png, C:\\Users\\Deepa V\\git\\HaboomWBT\\Reports\\20240226_173843\\My Account\\20240226_173843\\1708949369042.png, C:\\Users\\Deepa V\\git\\HaboomWBT\\Reports\\20240226_173843\\My Account\\20240226_173843\\1708949404869.png, C:\\Users\\Deepa V\\git\\HaboomWBT\\Reports\\20240226_173843\\My Account\\20240226_173843\\1708949431762.png, C:\\Users\\Deepa V\\git\\HaboomWBT\\Reports\\20240226_173843\\My Account\\20240226_173843\\1708949462550.png"/>
+         <property name="hostName" value="Deepa V - LAPTOP-KJGS4LH5"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.50.146"/>
+         <property name="sessionId" value="c746578c5a0daac0c406699febb07c7f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/My Account/Payment_Deposit successful in Bank Transfer" time="42.464" classname="Test Cases/My Account/Payment_Deposit successful in Bank Transfer" status="PASSED">
+         <system-out><![CDATA[26-02-2024T17:38:47 - [TEST_CASE][PASSED] - Test Cases/My Account/Payment_Deposit successful in Bank Transfer: Test Cases/My Account/Payment_Deposit successful in Bank Transfer
+
+26-02-2024T17:38:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-02-2024T17:38:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-02-2024T17:38:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-02-2024T17:38:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-02-2024T17:38:49 - [TEST_STEP][PASSED] - navigateToUrl("https://haboom.com/"): Navigate to 'https://haboom.com/' successfully
+
+26-02-2024T17:38:53 - [MESSAGE][PASSED] - Navigate to 'https://haboom.com/' successfully
+
+26-02-2024T17:38:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/My Account_Payment/Deposit Bank Transfer/login to My haboom account/Login username"), "Sherlock"): Text 'Sherlock' is set on object 'Object Repository/My Account_Payment/Deposit Bank Transfer/login to My haboom account/Login username'
+
+26-02-2024T17:38:58 - [MESSAGE][PASSED] - Text 'Sherlock' is set on object 'Object Repository/My Account_Payment/Deposit Bank Transfer/login to My haboom account/Login username'
+
+26-02-2024T17:38:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/My Account_Payment/Deposit Bank Transfer/login to My haboom account/Login password"), "Ae2KZyjYBr0MQlyqU7ThAA=="): Text ****** has been set on object 'Object Repository/My Account_Payment/Deposit Bank Transfer/login to My haboom account/Login password'
+
+26-02-2024T17:39:00 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/My Account_Payment/Deposit Bank Transfer/login to My haboom account/Login password'
+
+26-02-2024T17:39:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My Account_Payment/Deposit Bank Transfer/login to My haboom account/Log Button")): Object: 'Object Repository/My Account_Payment/Deposit Bank Transfer/login to My haboom account/Log Button' is clicked on
+
+26-02-2024T17:39:02 - [MESSAGE][PASSED] - Object: 'Object Repository/My Account_Payment/Deposit Bank Transfer/login to My haboom account/Log Button' is clicked on
+
+26-02-2024T17:39:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My Account_Payment/Deposit Bank Transfer/login to My haboom account/My Account")): Object: 'Object Repository/My Account_Payment/Deposit Bank Transfer/login to My haboom account/My Account' is clicked on
+
+26-02-2024T17:39:07 - [MESSAGE][PASSED] - Object: 'Object Repository/My Account_Payment/Deposit Bank Transfer/login to My haboom account/My Account' is clicked on
+
+26-02-2024T17:39:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My Account_Payment/Deposit Bank Transfer/login to My haboom account/My Haboom Account")): Object: 'Object Repository/My Account_Payment/Deposit Bank Transfer/login to My haboom account/My Haboom Account' is clicked on
+
+26-02-2024T17:39:09 - [MESSAGE][PASSED] - Object: 'Object Repository/My Account_Payment/Deposit Bank Transfer/login to My haboom account/My Haboom Account' is clicked on
+
+26-02-2024T17:39:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My Account_Payment/Deposit Bank Transfer/Bank transfer page/Payments")): Object: 'Object Repository/My Account_Payment/Deposit Bank Transfer/Bank transfer page/Payments' is clicked on
+
+26-02-2024T17:39:10 - [MESSAGE][PASSED] - Object: 'Object Repository/My Account_Payment/Deposit Bank Transfer/Bank transfer page/Payments' is clicked on
+
+26-02-2024T17:39:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My Account_Payment/Deposit Bank Transfer/Bank transfer page/Deposit")): Object: 'Object Repository/My Account_Payment/Deposit Bank Transfer/Bank transfer page/Deposit' is clicked on
+
+26-02-2024T17:39:12 - [MESSAGE][PASSED] - Object: 'Object Repository/My Account_Payment/Deposit Bank Transfer/Bank transfer page/Deposit' is clicked on
+
+26-02-2024T17:39:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My Account_Payment/Deposit Bank Transfer/Bank transfer page/Bank Transfer")): Object: 'Object Repository/My Account_Payment/Deposit Bank Transfer/Bank transfer page/Bank Transfer' is clicked on
+
+26-02-2024T17:39:16 - [MESSAGE][PASSED] - Object: 'Object Repository/My Account_Payment/Deposit Bank Transfer/Bank transfer page/Bank Transfer' is clicked on
+
+26-02-2024T17:39:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/My Account_Payment/Deposit Bank Transfer/Bank transfer page/Amount input field"), "1000"): Text '1000' is set on object 'Object Repository/My Account_Payment/Deposit Bank Transfer/Bank transfer page/Amount input field'
+
+26-02-2024T17:39:17 - [MESSAGE][PASSED] - Text '1000' is set on object 'Object Repository/My Account_Payment/Deposit Bank Transfer/Bank transfer page/Amount input field'
+
+26-02-2024T17:39:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My Account_Payment/Deposit Bank Transfer/Bank transfer page/Pay button")): Object: 'Object Repository/My Account_Payment/Deposit Bank Transfer/Bank transfer page/Pay button' is clicked on
+
+26-02-2024T17:39:17 - [MESSAGE][PASSED] - Object: 'Object Repository/My Account_Payment/Deposit Bank Transfer/Bank transfer page/Pay button' is clicked on
+
+26-02-2024T17:39:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/My Account_Payment/Deposit Bank Transfer/Bank transfer page/UTR number enter field"), "54892179621539569"): Text '54892179621539569' is set on object 'Object Repository/My Account_Payment/Deposit Bank Transfer/Bank transfer page/UTR number enter field'
+
+26-02-2024T17:39:18 - [MESSAGE][PASSED] - Text '54892179621539569' is set on object 'Object Repository/My Account_Payment/Deposit Bank Transfer/Bank transfer page/UTR number enter field'
+
+26-02-2024T17:39:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My Account_Payment/Deposit Bank Transfer/Bank transfer page/UTR Submit button")): Object: 'Object Repository/My Account_Payment/Deposit Bank Transfer/Bank transfer page/UTR Submit button' is clicked on
+
+26-02-2024T17:39:19 - [MESSAGE][PASSED] - Object: 'Object Repository/My Account_Payment/Deposit Bank Transfer/Bank transfer page/UTR Submit button' is clicked on
+
+26-02-2024T17:39:19 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+26-02-2024T17:39:21 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+26-02-2024T17:39:21 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+26-02-2024T17:39:22 - [MESSAGE][INFO] - 0 hidden object(s)
+
+26-02-2024T17:39:22 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Deepa V\\git\\HaboomWBT\\Reports\\20240226_173843\\My Account\\20240226_173843\\1708949361410.png]]
+
+26-02-2024T17:39:22 - [TEST_STEP][PASSED] - click(findTestObject("My Account_Payment/Transaction history page/Transaction page/Betting Activity")): Object: 'Object Repository/My Account_Payment/Transaction history page/Transaction page/Betting Activity' is clicked on
+
+26-02-2024T17:39:23 - [MESSAGE][PASSED] - Object: 'Object Repository/My Account_Payment/Transaction history page/Transaction page/Betting Activity' is clicked on
+
+26-02-2024T17:39:23 - [TEST_STEP][PASSED] - click(findTestObject("My Account_Payment/Transaction history page/Transaction page/Transaction History")): Object: 'Object Repository/My Account_Payment/Transaction history page/Transaction page/Transaction History' is clicked on
+
+26-02-2024T17:39:25 - [MESSAGE][PASSED] - Object: 'Object Repository/My Account_Payment/Transaction history page/Transaction page/Transaction History' is clicked on
+
+26-02-2024T17:39:25 - [TEST_STEP][PASSED] - click(findTestObject("My Account_Payment/Transaction history page/Transaction page/Transaction History (Options)")): Object: 'Object Repository/My Account_Payment/Transaction history page/Transaction page/Transaction History (Options)' is clicked on
+
+26-02-2024T17:39:25 - [MESSAGE][PASSED] - Object: 'Object Repository/My Account_Payment/Transaction history page/Transaction page/Transaction History (Options)' is clicked on
+
+26-02-2024T17:39:25 - [TEST_STEP][PASSED] - click(findTestObject("My Account_Payment/Transaction history page/Transaction page/Transactions filter")): Object: 'Object Repository/My Account_Payment/Transaction history page/Transaction page/Transactions filter' is clicked on
+
+26-02-2024T17:39:26 - [MESSAGE][PASSED] - Object: 'Object Repository/My Account_Payment/Transaction history page/Transaction page/Transactions filter' is clicked on
+
+26-02-2024T17:39:26 - [TEST_STEP][PASSED] - click(findTestObject("My Account_Payment/Transaction history page/Transaction page/Deposit Requests")): Object: 'Object Repository/My Account_Payment/Transaction history page/Transaction page/Deposit Requests' is clicked on
+
+26-02-2024T17:39:27 - [MESSAGE][PASSED] - Object: 'Object Repository/My Account_Payment/Transaction history page/Transaction page/Deposit Requests' is clicked on
+
+26-02-2024T17:39:27 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+26-02-2024T17:39:29 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+26-02-2024T17:39:29 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+26-02-2024T17:39:29 - [MESSAGE][INFO] - 0 hidden object(s)
+
+26-02-2024T17:39:29 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Deepa V\\git\\HaboomWBT\\Reports\\20240226_173843\\My Account\\20240226_173843\\1708949369042.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/My Account/Payment_Deposit failure in Instant method" time="35.381" classname="Test Cases/My Account/Payment_Deposit failure in Instant method" status="PASSED">
+         <system-out><![CDATA[26-02-2024T17:39:29 - [TEST_CASE][PASSED] - Test Cases/My Account/Payment_Deposit failure in Instant method: Test Cases/My Account/Payment_Deposit failure in Instant method
+
+26-02-2024T17:39:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-02-2024T17:39:30 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+26-02-2024T17:39:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-02-2024T17:39:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-02-2024T17:39:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-02-2024T17:39:31 - [TEST_STEP][PASSED] - navigateToUrl("https://haboom.com/"): Navigate to 'https://haboom.com/' successfully
+
+26-02-2024T17:39:38 - [MESSAGE][PASSED] - Navigate to 'https://haboom.com/' successfully
+
+26-02-2024T17:39:38 - [TEST_STEP][PASSED] - setText(findTestObject("My Account_Payment/My Account page/Login Username"), "Sherlock"): Text 'Sherlock' is set on object 'Object Repository/My Account_Payment/My Account page/Login Username'
+
+26-02-2024T17:39:42 - [MESSAGE][PASSED] - Text 'Sherlock' is set on object 'Object Repository/My Account_Payment/My Account page/Login Username'
+
+26-02-2024T17:39:42 - [TEST_STEP][PASSED] - setText(findTestObject("My Account_Payment/My Account page/Login Password"), "Eternals@123"): Text 'Eternals@123' is set on object 'Object Repository/My Account_Payment/My Account page/Login Password'
+
+26-02-2024T17:39:45 - [MESSAGE][PASSED] - Text 'Eternals@123' is set on object 'Object Repository/My Account_Payment/My Account page/Login Password'
+
+26-02-2024T17:39:45 - [TEST_STEP][PASSED] - click(findTestObject("My Account_Payment/My Account page/Login Button")): Object: 'Object Repository/My Account_Payment/My Account page/Login Button' is clicked on
+
+26-02-2024T17:39:47 - [MESSAGE][PASSED] - Object: 'Object Repository/My Account_Payment/My Account page/Login Button' is clicked on
+
+26-02-2024T17:39:47 - [TEST_STEP][PASSED] - click(findTestObject("My Account_Payment/My Account page/My Account")): Object: 'Object Repository/My Account_Payment/My Account page/My Account' is clicked on
+
+26-02-2024T17:39:51 - [MESSAGE][PASSED] - Object: 'Object Repository/My Account_Payment/My Account page/My Account' is clicked on
+
+26-02-2024T17:39:51 - [TEST_STEP][PASSED] - click(findTestObject("My Account_Payment/My Account page/My Haboom Account")): Object: 'Object Repository/My Account_Payment/My Account page/My Haboom Account' is clicked on
+
+26-02-2024T17:39:53 - [MESSAGE][PASSED] - Object: 'Object Repository/My Account_Payment/My Account page/My Haboom Account' is clicked on
+
+26-02-2024T17:39:53 - [TEST_STEP][PASSED] - click(findTestObject("My Account_Payment/Deposit page/Payments")): Object: 'Object Repository/My Account_Payment/Deposit page/Payments' is clicked on
+
+26-02-2024T17:39:54 - [MESSAGE][PASSED] - Object: 'Object Repository/My Account_Payment/Deposit page/Payments' is clicked on
+
+26-02-2024T17:39:54 - [TEST_STEP][PASSED] - click(findTestObject("My Account_Payment/Deposit page/Deposit")): Object: 'Object Repository/My Account_Payment/Deposit page/Deposit' is clicked on
+
+26-02-2024T17:39:56 - [MESSAGE][PASSED] - Object: 'Object Repository/My Account_Payment/Deposit page/Deposit' is clicked on
+
+26-02-2024T17:39:56 - [TEST_STEP][PASSED] - setText(findTestObject("My Account_Payment/Deposit page/Payment link/Deposit amount entry"), "1000"): Text '1000' is set on object 'Object Repository/My Account_Payment/Deposit page/Payment link/Deposit amount entry'
+
+26-02-2024T17:39:57 - [MESSAGE][PASSED] - Text '1000' is set on object 'Object Repository/My Account_Payment/Deposit page/Payment link/Deposit amount entry'
+
+26-02-2024T17:39:57 - [TEST_STEP][PASSED] - click(findTestObject("My Account_Payment/Deposit page/Payment link/button_Deposit")): Object: 'Object Repository/My Account_Payment/Deposit page/Payment link/button_Deposit' is clicked on
+
+26-02-2024T17:39:58 - [MESSAGE][PASSED] - Object: 'Object Repository/My Account_Payment/Deposit page/Payment link/button_Deposit' is clicked on
+
+26-02-2024T17:39:58 - [TEST_STEP][PASSED] - switchToWindowTitle(""): Switched to window with title: ''
+
+26-02-2024T17:40:00 - [MESSAGE][PASSED] - Switched to window with title: ''
+
+26-02-2024T17:40:00 - [TEST_STEP][PASSED] - click(findTestObject("My Account_Payment/Transaction page/Page_/Transaction_failure")): Object: 'Object Repository/My Account_Payment/Transaction page/Page_/Transaction_failure' is clicked on
+
+26-02-2024T17:40:02 - [MESSAGE][PASSED] - Object: 'Object Repository/My Account_Payment/Transaction page/Page_/Transaction_failure' is clicked on
+
+26-02-2024T17:40:02 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+26-02-2024T17:40:04 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+26-02-2024T17:40:04 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+26-02-2024T17:40:05 - [MESSAGE][INFO] - 0 hidden object(s)
+
+26-02-2024T17:40:05 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Deepa V\\git\\HaboomWBT\\Reports\\20240226_173843\\My Account\\20240226_173843\\1708949404869.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/My Account/Payment_Deposit Error message for depositing less than minimum amount" time="27.388" classname="Test Cases/My Account/Payment_Deposit Error message for depositing less than minimum amount" status="PASSED">
+         <system-out><![CDATA[26-02-2024T17:40:05 - [TEST_CASE][PASSED] - Test Cases/My Account/Payment_Deposit Error message for depositing less than minimum amount: Test Cases/My Account/Payment_Deposit Error message for depositing less than minimum amount
+
+26-02-2024T17:40:05 - [TEST_STEP][PASSED] - openBrowser("https://haboom.com/"): Browser is opened with url: 'https://haboom.com/'
+
+26-02-2024T17:40:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+26-02-2024T17:40:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-02-2024T17:40:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-02-2024T17:40:10 - [MESSAGE][PASSED] - Browser is opened with url: 'https://haboom.com/'
+
+26-02-2024T17:40:10 - [TEST_STEP][PASSED] - setText(findTestObject("My Account_Payment/My Account page/Login Username"), "Sherlock"): Text 'Sherlock' is set on object 'Object Repository/My Account_Payment/My Account page/Login Username'
+
+26-02-2024T17:40:14 - [MESSAGE][PASSED] - Text 'Sherlock' is set on object 'Object Repository/My Account_Payment/My Account page/Login Username'
+
+26-02-2024T17:40:14 - [TEST_STEP][PASSED] - setText(findTestObject("My Account_Payment/My Account page/Login Password"), "Eternals@123"): Text 'Eternals@123' is set on object 'Object Repository/My Account_Payment/My Account page/Login Password'
+
+26-02-2024T17:40:18 - [MESSAGE][PASSED] - Text 'Eternals@123' is set on object 'Object Repository/My Account_Payment/My Account page/Login Password'
+
+26-02-2024T17:40:18 - [TEST_STEP][PASSED] - click(findTestObject("My Account_Payment/My Account page/Login Button")): Object: 'Object Repository/My Account_Payment/My Account page/Login Button' is clicked on
+
+26-02-2024T17:40:19 - [MESSAGE][PASSED] - Object: 'Object Repository/My Account_Payment/My Account page/Login Button' is clicked on
+
+26-02-2024T17:40:19 - [TEST_STEP][PASSED] - click(findTestObject("My Account_Payment/My Account page/My Account")): Object: 'Object Repository/My Account_Payment/My Account page/My Account' is clicked on
+
+26-02-2024T17:40:23 - [MESSAGE][PASSED] - Object: 'Object Repository/My Account_Payment/My Account page/My Account' is clicked on
+
+26-02-2024T17:40:23 - [TEST_STEP][PASSED] - click(findTestObject("My Account_Payment/My Account page/My Haboom Account")): Object: 'Object Repository/My Account_Payment/My Account page/My Haboom Account' is clicked on
+
+26-02-2024T17:40:27 - [MESSAGE][PASSED] - Object: 'Object Repository/My Account_Payment/My Account page/My Haboom Account' is clicked on
+
+26-02-2024T17:40:27 - [TEST_STEP][PASSED] - click(findTestObject("My Account_Payment/Deposit page/Payments")): Object: 'Object Repository/My Account_Payment/Deposit page/Payments' is clicked on
+
+26-02-2024T17:40:27 - [MESSAGE][PASSED] - Object: 'Object Repository/My Account_Payment/Deposit page/Payments' is clicked on
+
+26-02-2024T17:40:27 - [TEST_STEP][PASSED] - click(findTestObject("My Account_Payment/Deposit page/Deposit")): Object: 'Object Repository/My Account_Payment/Deposit page/Deposit' is clicked on
+
+26-02-2024T17:40:30 - [MESSAGE][PASSED] - Object: 'Object Repository/My Account_Payment/Deposit page/Deposit' is clicked on
+
+26-02-2024T17:40:30 - [TEST_STEP][PASSED] - setText(findTestObject("My Account_Payment/Deposit page/Payment link/Deposit amount entry"), "10"): Text '10' is set on object 'Object Repository/My Account_Payment/Deposit page/Payment link/Deposit amount entry'
+
+26-02-2024T17:40:31 - [MESSAGE][PASSED] - Text '10' is set on object 'Object Repository/My Account_Payment/Deposit page/Payment link/Deposit amount entry'
+
+26-02-2024T17:40:31 - [TEST_STEP][PASSED] - click(findTestObject("My Account_Payment/Deposit page/Payment link/button_Deposit")): Object: 'Object Repository/My Account_Payment/Deposit page/Payment link/button_Deposit' is clicked on
+
+26-02-2024T17:40:31 - [MESSAGE][PASSED] - Object: 'Object Repository/My Account_Payment/Deposit page/Payment link/button_Deposit' is clicked on
+
+26-02-2024T17:40:31 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+26-02-2024T17:40:32 - [MESSAGE][INFO] - 0 hidden object(s)
+
+26-02-2024T17:40:32 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Deepa V\\git\\HaboomWBT\\Reports\\20240226_173843\\My Account\\20240226_173843\\1708949431762.png]]
+
+26-02-2024T17:40:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-02-2024T17:40:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/My Account/Payment_ Successful Withdraw" time="30.54" classname="Test Cases/My Account/Payment_ Successful Withdraw" status="PASSED">
+         <system-out><![CDATA[26-02-2024T17:40:32 - [TEST_CASE][PASSED] - Test Cases/My Account/Payment_ Successful Withdraw: Test Cases/My Account/Payment_ Successful Withdraw
+
+26-02-2024T17:40:32 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-02-2024T17:40:32 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-02-2024T17:40:32 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-02-2024T17:40:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-02-2024T17:40:34 - [TEST_STEP][PASSED] - navigateToUrl("https://haboom.com/"): Navigate to 'https://haboom.com/' successfully
+
+26-02-2024T17:40:37 - [MESSAGE][PASSED] - Navigate to 'https://haboom.com/' successfully
+
+26-02-2024T17:40:37 - [TEST_STEP][PASSED] - setText(findTestObject("My Account_Payment/My Account page/Login Username"), "Sherlock"): Text 'Sherlock' is set on object 'Object Repository/My Account_Payment/My Account page/Login Username'
+
+26-02-2024T17:40:41 - [MESSAGE][PASSED] - Text 'Sherlock' is set on object 'Object Repository/My Account_Payment/My Account page/Login Username'
+
+26-02-2024T17:40:41 - [TEST_STEP][PASSED] - setText(findTestObject("My Account_Payment/My Account page/Login Password"), "Eternals@123"): Text 'Eternals@123' is set on object 'Object Repository/My Account_Payment/My Account page/Login Password'
+
+26-02-2024T17:40:45 - [MESSAGE][PASSED] - Text 'Eternals@123' is set on object 'Object Repository/My Account_Payment/My Account page/Login Password'
+
+26-02-2024T17:40:45 - [TEST_STEP][PASSED] - click(findTestObject("My Account_Payment/My Account page/Login Button")): Object: 'Object Repository/My Account_Payment/My Account page/Login Button' is clicked on
+
+26-02-2024T17:40:46 - [MESSAGE][PASSED] - Object: 'Object Repository/My Account_Payment/My Account page/Login Button' is clicked on
+
+26-02-2024T17:40:46 - [TEST_STEP][PASSED] - click(findTestObject("My Account_Payment/My Account page/My Account")): Object: 'Object Repository/My Account_Payment/My Account page/My Account' is clicked on
+
+26-02-2024T17:40:51 - [MESSAGE][PASSED] - Object: 'Object Repository/My Account_Payment/My Account page/My Account' is clicked on
+
+26-02-2024T17:40:51 - [TEST_STEP][PASSED] - click(findTestObject("My Account_Payment/My Account page/My Haboom Account")): Object: 'Object Repository/My Account_Payment/My Account page/My Haboom Account' is clicked on
+
+26-02-2024T17:40:53 - [MESSAGE][PASSED] - Object: 'Object Repository/My Account_Payment/My Account page/My Haboom Account' is clicked on
+
+26-02-2024T17:40:53 - [TEST_STEP][PASSED] - click(findTestObject("My Account_Payment/Deposit page/Payments")): Object: 'Object Repository/My Account_Payment/Deposit page/Payments' is clicked on
+
+26-02-2024T17:40:54 - [MESSAGE][PASSED] - Object: 'Object Repository/My Account_Payment/Deposit page/Payments' is clicked on
+
+26-02-2024T17:40:54 - [TEST_STEP][PASSED] - click(findTestObject("My Account_Payment/Withdraw/Withdraw page/Withdraw")): Object: 'Object Repository/My Account_Payment/Withdraw/Withdraw page/Withdraw' is clicked on
+
+26-02-2024T17:40:56 - [MESSAGE][PASSED] - Object: 'Object Repository/My Account_Payment/Withdraw/Withdraw page/Withdraw' is clicked on
+
+26-02-2024T17:40:56 - [TEST_STEP][PASSED] - setText(findTestObject("My Account_Payment/Withdraw/Withdraw page/Withdraw amount entery field"), "100"): Text '100' is set on object 'Object Repository/My Account_Payment/Withdraw/Withdraw page/Withdraw amount entery field'
+
+26-02-2024T17:40:57 - [MESSAGE][PASSED] - Text '100' is set on object 'Object Repository/My Account_Payment/Withdraw/Withdraw page/Withdraw amount entery field'
+
+26-02-2024T17:40:57 - [TEST_STEP][PASSED] - click(findTestObject("My Account_Payment/Withdraw/Withdraw page/Withdraw button")): Object: 'Object Repository/My Account_Payment/Withdraw/Withdraw page/Withdraw button' is clicked on
+
+26-02-2024T17:40:58 - [MESSAGE][PASSED] - Object: 'Object Repository/My Account_Payment/Withdraw/Withdraw page/Withdraw button' is clicked on
+
+26-02-2024T17:40:58 - [TEST_STEP][PASSED] - setText(findTestObject("My Account_Payment/Withdraw/Withdraw page/Account holder name"), "Sherlock"): Text 'Sherlock' is set on object 'Object Repository/My Account_Payment/Withdraw/Withdraw page/Account holder name'
+
+26-02-2024T17:40:59 - [MESSAGE][PASSED] - Text 'Sherlock' is set on object 'Object Repository/My Account_Payment/Withdraw/Withdraw page/Account holder name'
+
+26-02-2024T17:40:59 - [TEST_STEP][PASSED] - setText(findTestObject("My Account_Payment/Withdraw/Withdraw page/Account number"), "5896478963245187"): Text '5896478963245187' is set on object 'Object Repository/My Account_Payment/Withdraw/Withdraw page/Account number'
+
+26-02-2024T17:41:00 - [MESSAGE][PASSED] - Text '5896478963245187' is set on object 'Object Repository/My Account_Payment/Withdraw/Withdraw page/Account number'
+
+26-02-2024T17:41:00 - [TEST_STEP][PASSED] - setText(findTestObject("My Account_Payment/Withdraw/Withdraw page/Account IFSC code"), "SBIN0000800"): Text 'SBIN0000800' is set on object 'Object Repository/My Account_Payment/Withdraw/Withdraw page/Account IFSC code'
+
+26-02-2024T17:41:01 - [MESSAGE][PASSED] - Text 'SBIN0000800' is set on object 'Object Repository/My Account_Payment/Withdraw/Withdraw page/Account IFSC code'
+
+26-02-2024T17:41:01 - [TEST_STEP][PASSED] - click(findTestObject("My Account_Payment/Withdraw/Withdraw page/Withdraw Submit button")): Object: 'Object Repository/My Account_Payment/Withdraw/Withdraw page/Withdraw Submit button' is clicked on
+
+26-02-2024T17:41:01 - [MESSAGE][PASSED] - Object: 'Object Repository/My Account_Payment/Withdraw/Withdraw page/Withdraw Submit button' is clicked on
+
+26-02-2024T17:41:01 - [TEST_STEP][PASSED] - delay(1): Delayed 1 second(s)
+
+26-02-2024T17:41:02 - [MESSAGE][PASSED] - Delayed 1 second(s)
+
+26-02-2024T17:41:02 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+26-02-2024T17:41:03 - [MESSAGE][INFO] - 0 hidden object(s)
+
+26-02-2024T17:41:03 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Deepa V\\git\\HaboomWBT\\Reports\\20240226_173843\\My Account\\20240226_173843\\1708949462550.png]]]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/My Account/payment_ withdraw Error display for insufficient funds" time="32.331" classname="Test Cases/My Account/payment_ withdraw Error display for insufficient funds" status="PASSED">
+         <system-out><![CDATA[26-02-2024T17:41:03 - [TEST_CASE][PASSED] - Test Cases/My Account/payment_ withdraw Error display for insufficient funds: Test Cases/My Account/payment_ withdraw Error display for insufficient funds
+
+26-02-2024T17:41:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+26-02-2024T17:41:03 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+26-02-2024T17:41:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-02-2024T17:41:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-02-2024T17:41:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+26-02-2024T17:41:04 - [TEST_STEP][PASSED] - navigateToUrl("https://haboom.com/"): Navigate to 'https://haboom.com/' successfully
+
+26-02-2024T17:41:08 - [MESSAGE][PASSED] - Navigate to 'https://haboom.com/' successfully
+
+26-02-2024T17:41:08 - [TEST_STEP][PASSED] - setText(findTestObject("My Account_Payment/My Account page/Login Username"), "Sherlock"): Text 'Sherlock' is set on object 'Object Repository/My Account_Payment/My Account page/Login Username'
+
+26-02-2024T17:41:14 - [MESSAGE][PASSED] - Text 'Sherlock' is set on object 'Object Repository/My Account_Payment/My Account page/Login Username'
+
+26-02-2024T17:41:14 - [TEST_STEP][PASSED] - setText(findTestObject("My Account_Payment/My Account page/Login Password"), "Eternals@123"): Text 'Eternals@123' is set on object 'Object Repository/My Account_Payment/My Account page/Login Password'
+
+26-02-2024T17:41:18 - [MESSAGE][PASSED] - Text 'Eternals@123' is set on object 'Object Repository/My Account_Payment/My Account page/Login Password'
+
+26-02-2024T17:41:18 - [TEST_STEP][PASSED] - click(findTestObject("My Account_Payment/My Account page/Login Button")): Object: 'Object Repository/My Account_Payment/My Account page/Login Button' is clicked on
+
+26-02-2024T17:41:20 - [MESSAGE][PASSED] - Object: 'Object Repository/My Account_Payment/My Account page/Login Button' is clicked on
+
+26-02-2024T17:41:20 - [TEST_STEP][PASSED] - click(findTestObject("My Account_Payment/My Account page/My Account")): Object: 'Object Repository/My Account_Payment/My Account page/My Account' is clicked on
+
+26-02-2024T17:41:24 - [MESSAGE][PASSED] - Object: 'Object Repository/My Account_Payment/My Account page/My Account' is clicked on
+
+26-02-2024T17:41:24 - [TEST_STEP][PASSED] - click(findTestObject("My Account_Payment/My Account page/My Haboom Account")): Object: 'Object Repository/My Account_Payment/My Account page/My Haboom Account' is clicked on
+
+26-02-2024T17:41:27 - [MESSAGE][PASSED] - Object: 'Object Repository/My Account_Payment/My Account page/My Haboom Account' is clicked on
+
+26-02-2024T17:41:27 - [TEST_STEP][PASSED] - click(findTestObject("My Account_Payment/Deposit page/Payments")): Object: 'Object Repository/My Account_Payment/Deposit page/Payments' is clicked on
+
+26-02-2024T17:41:28 - [MESSAGE][PASSED] - Object: 'Object Repository/My Account_Payment/Deposit page/Payments' is clicked on
+
+26-02-2024T17:41:28 - [TEST_STEP][PASSED] - click(findTestObject("My Account_Payment/Withdraw/Withdraw page/Withdraw")): Object: 'Object Repository/My Account_Payment/Withdraw/Withdraw page/Withdraw' is clicked on
+
+26-02-2024T17:41:30 - [MESSAGE][PASSED] - Object: 'Object Repository/My Account_Payment/Withdraw/Withdraw page/Withdraw' is clicked on
+
+26-02-2024T17:41:30 - [TEST_STEP][PASSED] - setText(findTestObject("My Account_Payment/Withdraw/Withdraw page/Withdraw amount entery field"), "1000"): Text '1000' is set on object 'Object Repository/My Account_Payment/Withdraw/Withdraw page/Withdraw amount entery field'
+
+26-02-2024T17:41:30 - [MESSAGE][PASSED] - Text '1000' is set on object 'Object Repository/My Account_Payment/Withdraw/Withdraw page/Withdraw amount entery field'
+
+26-02-2024T17:41:30 - [TEST_STEP][PASSED] - click(findTestObject("My Account_Payment/Withdraw/Withdraw page/Withdraw button")): Object: 'Object Repository/My Account_Payment/Withdraw/Withdraw page/Withdraw button' is clicked on
+
+26-02-2024T17:41:31 - [MESSAGE][PASSED] - Object: 'Object Repository/My Account_Payment/Withdraw/Withdraw page/Withdraw button' is clicked on
+
+26-02-2024T17:41:31 - [TEST_STEP][PASSED] - setText(findTestObject("My Account_Payment/Withdraw/Withdraw page/Account holder name"), "Sherlock"): Text 'Sherlock' is set on object 'Object Repository/My Account_Payment/Withdraw/Withdraw page/Account holder name'
+
+26-02-2024T17:41:32 - [MESSAGE][PASSED] - Text 'Sherlock' is set on object 'Object Repository/My Account_Payment/Withdraw/Withdraw page/Account holder name'
+
+26-02-2024T17:41:32 - [TEST_STEP][PASSED] - setText(findTestObject("My Account_Payment/Withdraw/Withdraw page/Account number"), "5896478963245187"): Text '5896478963245187' is set on object 'Object Repository/My Account_Payment/Withdraw/Withdraw page/Account number'
+
+26-02-2024T17:41:33 - [MESSAGE][PASSED] - Text '5896478963245187' is set on object 'Object Repository/My Account_Payment/Withdraw/Withdraw page/Account number'
+
+26-02-2024T17:41:33 - [TEST_STEP][PASSED] - setText(findTestObject("My Account_Payment/Withdraw/Withdraw page/Account IFSC code"), "SBIN0000800"): Text 'SBIN0000800' is set on object 'Object Repository/My Account_Payment/Withdraw/Withdraw page/Account IFSC code'
+
+26-02-2024T17:41:34 - [MESSAGE][PASSED] - Text 'SBIN0000800' is set on object 'Object Repository/My Account_Payment/Withdraw/Withdraw page/Account IFSC code'
+
+26-02-2024T17:41:34 - [TEST_STEP][PASSED] - click(findTestObject("My Account_Payment/Withdraw/Withdraw page/Withdraw Submit button")): Object: 'Object Repository/My Account_Payment/Withdraw/Withdraw page/Withdraw Submit button' is clicked on
+
+26-02-2024T17:41:34 - [MESSAGE][PASSED] - Object: 'Object Repository/My Account_Payment/Withdraw/Withdraw page/Withdraw Submit button' is clicked on
+
+26-02-2024T17:41:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("My Account_Payment/Withdraw/Withdraw page/Insufficient error message/Insufficient Funds"), "Insufficient Funds"): Actual text and expected text of test object 'Object Repository/My Account_Payment/Withdraw/Withdraw page/Insufficient error message/Insufficient Funds' are matched.
+
+26-02-2024T17:41:35 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/My Account_Payment/Withdraw/Withdraw page/Insufficient error message/Insufficient Funds' are matched.]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-02-2024T17:38:47 - [TEST_SUITE][PASSED] - My Account: Test Cases/My Account/payment_ withdraw Error display for insufficient funds]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
