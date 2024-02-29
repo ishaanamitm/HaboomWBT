@@ -22,27 +22,27 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://haboom.com/')
 
-WebUI.click(findTestObject('JOINNOW/Joinnow Invalid/Join Now_button'))
+WebUI.click(findTestObject('JOINNOW/Join Now_button'))
 
 def randomusername = RandomStringUtils.randomAlphabetic(10)
 
-WebUI.setText(findTestObject('JOINNOW/Joinnow Invalid/User name_Field'), randomusername)
+WebUI.setText(findTestObject('JOINNOW/User name_Field'), randomusername)
 
 def randomemail = RandomStringUtils.randomAlphanumeric(10)
 
-WebUI.setText(findTestObject('JOINNOW/Joinnow Invalid/Email address_Field'), randomemail + 'gmail.com')
+WebUI.setText(findTestObject('JOINNOW/Email address_Field'), randomemail + 'gmail.com')
 
-WebUI.setEncryptedText(findTestObject('JOINNOW/Joinnow Invalid/Password_Field'), 'Ae2KZyjYBr3zjExtfoMITg==')
+WebUI.setEncryptedText(findTestObject('JOINNOW/Password_Field'), 'Ae2KZyjYBr3zjExtfoMITg==')
 
 def randomnumber = RandomStringUtils.randomNumeric(10)
 
-WebUI.setText(findTestObject('JOINNOW/Joinnow Invalid/Mobile number_Field'), randomnumber)
+WebUI.setText(findTestObject('JOINNOW/Mobile number_Field'), randomnumber)
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('JOINNOW/Joinnow Invalid/Register_button'))
+WebUI.click(findTestObject('JOINNOW/Register_button'))
 
-WebUI.verifyElementPresent(findTestObject('JOINNOW/Joinnow Invalid/Error Invalid Phone Number'), 0)
+WebUI.verifyElementPresent(findTestObject('JOINNOW/Error Invalid Phone Number'), 0)
 
 WebUI.takeScreenshot(FailureHandling.STOP_ON_FAILURE)
 

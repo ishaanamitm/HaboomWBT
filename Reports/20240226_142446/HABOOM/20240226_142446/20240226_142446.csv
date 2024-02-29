@@ -1,9 +1,0 @@
-Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
-HABOOM,Chrome 122.0.0.0,,,26-02-2024 14:24:51,26-02-2024 14:27:02,2m - 11.213s,FAILED
-,,,,,,,
-Test Cases/HOMEPAGE LOGIN/Login Invalid,Chrome 122.0.0.0,"Expected: With invalid credentials, the user should be redirected to another login page with an error popup message.
-Actual: With invalid credentials, the user is redirected to another login page with an error popup message.",Login Invalid,26-02-2024 14:24:51,26-02-2024 14:27:02,2m - 10.982s,FAILED
-"openBrowser("""")",Chrome 122.0.0.0,,,26-02-2024 14:24:51,26-02-2024 14:24:54,2.305s,PASSED
-maximizeWindow(),Chrome 122.0.0.0,,,26-02-2024 14:24:54,26-02-2024 14:24:54,0.164s,PASSED
-"navigateToUrl(""https://haboom.com/"")",Chrome 122.0.0.0,,,26-02-2024 14:24:54,26-02-2024 14:26:48,1m - 53.843s,PASSED
-"setText(findTestObject(""Login/Login_Valid/Username_Field""), ""rock"")",Chrome 122.0.0.0,,,26-02-2024 14:26:48,26-02-2024 14:27:02,14.269s,FAILED

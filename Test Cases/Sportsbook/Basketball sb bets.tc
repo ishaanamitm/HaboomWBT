@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Expected Result -  The user should be able to place Basketball bets successfully.&#xd;
+Actual Result -The user is able to place Basketball bets successfully.</description>
+   <name>Basketball sb bets</name>
+   <tag>Basketball Sb Bets</tag>
+   <comment></comment>
+   <testCaseGuid>01a24475-ec69-4491-92c7-130686502c61</testCaseGuid>
+</TestCaseEntity>

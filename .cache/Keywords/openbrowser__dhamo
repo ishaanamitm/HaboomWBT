@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "A41E42AEF70DB0644FD137CEF65137C4",
+  "keywordClasses": [
+    {
+      "name": "openbrowser.dhamo",
+      "keywordMethods": [
+        {
+          "name": "openbrowserandmaxwindow",
+          "parameters": [
+            {
+              "name": "url",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

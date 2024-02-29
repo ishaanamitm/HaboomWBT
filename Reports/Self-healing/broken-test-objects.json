@@ -1,3 +1,134 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/sportsbook/Page_Haboom - Online Sportsbook with Exciting Odds/div_Minimum stake allowed is 10",
+      "brokenLocator": "//body[@id\u003d\u0027yui_3_5_0_1_1608199694213_5961\u0027]/div[13]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[13]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/sportsbook/Page_Haboom - Online Sportsbook with Exciting Odds/div_Minimum stake allowed is 10_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/sportsbook/Cricket Bets/Page_Haboom - Most Reliable Online Betting _dd6da2/span_Jinnah Brescia",
+      "brokenLocator": "//div[@id\u003d\u0027mod-minimarketview-1056\u0027]/div[2]/ul/li/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027In-Play\u0027])[2]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/sportsbook/Cricket Bets/Page_Haboom - Most Reliable Online Betting _dd6da2/span_Jinnah Brescia_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/sportsbook/Cricket Bets/Page_Haboom - Most Reliable Online Betting _dd6da2/span_Rajasthan Royals SRL",
+      "brokenLocator": "//div[@id\u003d\u0027mod-minimarketview-1056\u0027]/div[2]/ul/li/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027In-Play\u0027])[2]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/sportsbook/Cricket Bets/Page_Haboom - Most Reliable Online Betting _dd6da2/span_Rajasthan Royals SRL_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/sportsbook/Tennis/span_Prasutnawin A  Sriporn Y - Copy",
+      "brokenLocator": "//div[@id\u003d\u0027mod-inplaysports-1002\u0027]/div[3]/div/div[2]/div/div/li[8]/ul/li[2]/div/div[2]/div[2]/a/span[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Yao X / Zheng W\u0027])[1]/following::span[10]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/sportsbook/Tennis/span_Prasutnawin A  Sriporn Y",
+      "brokenLocator": "//div[@id\u003d\u0027mod-minimarketview-1056\u0027]/div[2]/ul/li/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027In-Play\u0027])[2]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/sportsbook/Tennis/span_Prasutnawin A  Sriporn Y_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/sportsbook/Tennis/span_Nagdalyan, Yuriy",
+      "brokenLocator": "//div[@id\u003d\u0027mod-inplaysports-1002\u0027]/div[3]/div/div[2]/div/div/li[15]/ul/li[2]/div/div[2]/div[2]/a/span[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Bresciani, Lorenzo\u0027])[1]/following::span[10]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/sportsbook/Tennis/span_Nagdalyan, Yuriy_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/sportsbook/Tennis/span_Nagdalyan, Yuriy",
+      "brokenLocator": "//div[@id\u003d\u0027mod-inplaysports-1002\u0027]/div[3]/div/div[2]/div/div/li[15]/ul/li[2]/div/div[2]/div[2]/a/span[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Milev, Yanaki\u0027])[1]/preceding::span[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/sportsbook/Tennis/span_Nagdalyan, Yuriy_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/sportsbook/Tennis/span_Nagdalyan, Yuriy - Copy",
+      "brokenLocator": "//div[@id\u003d\u0027mod-minimarketview-1056\u0027]/div[2]/ul/li/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027In-Play\u0027])[2]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/sportsbook/Tennis/span_Nagdalyan, Yuriy - Copy_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/sportsbook/Tennis/span_Szajrych, Jasza",
+      "brokenLocator": "//div[@id\u003d\u0027mod-inplaysports-1002\u0027]/div[3]/div/div[2]/div/div/li[2]/ul/li[3]/div/div[2]/div[2]/a/span[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Tennis\u0027])[6]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/sportsbook/Tennis/span_Szajrych, Jasza_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/sportsbook/Basketball/span_BK Liepaja",
+      "brokenLocator": "//div[@id\u003d\u0027mod-minimarketview-1056\u0027]/div[2]/ul/li/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027In-Play\u0027])[2]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/sportsbook/Basketball/span_BK Liepaja_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/sportsbook/Cricket Bets/span_Jinnah Brescia",
+      "brokenLocator": "//div[@id\u003d\u0027mod-minimarketview-1056\u0027]/div[2]/ul/li/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//li/span",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/sportsbook/Cricket Bets/span_Jinnah Brescia_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/sportsbook/Soccer/span_Prachuap FC",
+      "brokenLocator": "//div[@id\u003d\u0027mod-inplaysports-1002\u0027]/div[3]/div/div[2]/div/div/li[2]/ul/li[3]/div/div[2]/div[2]/a/span[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Soccer\u0027])[6]/following::span[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/sportsbook/Soccer/span_Prachuap FC_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/sportsbook/Basketball/li_Today",
+      "brokenLocator": "//div[@id\u003d\u0027mod-inplaysports-1002\u0027]/div[3]/div/div/div/ul/li[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027In-Play\u0027])[2]/following::li[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/sportsbook/Basketball/li_Today_neighbor.png"
+    }
+  ]
 }

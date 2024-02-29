@@ -23,13 +23,11 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://haboom.com/')
 
-WebUI.setText(findTestObject('Login/Login_Valid/Username_Field'), 'rock')
+WebUI.setText(findTestObject('Login/Login_objects/Username_Field'), 'rock')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Login/Login_Valid/Password_Field'), 'Ae2KZyjYBr3zjExtfoMITg==')
+WebUI.setEncryptedText(findTestObject('Login/Login_objects/Password_Field'), 'Ae2KZyjYBr3zjExtfoMITg==')
 
-WebUI.click(findTestObject('Object Repository/Login/Login_Valid/Login_Button'))
+WebUI.click(findTestObject('Login/Login_objects/Login_Button'))
 
-WebUI.click(findTestObject('Object Repository/Login/Login_Valid/My Account'))
-
-WebUI.verifyElementPresent(findTestObject('Login/Login_Valid/UserName'), 0)
+WebUI.verifyElementPresent(findTestObject('Login/Login_objects/My Account'), 0)
 

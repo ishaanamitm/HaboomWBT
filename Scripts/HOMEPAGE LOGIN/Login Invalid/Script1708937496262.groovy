@@ -23,13 +23,13 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://haboom.com/')
 
-WebUI.setText(findTestObject('Login/Login_Valid/Username_Field'), 'rock')
+WebUI.setText(findTestObject('null'), 'rock')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Login/Login_Valid/Password_Field'), 'lhW90T3e44I=')
+WebUI.setEncryptedText(findTestObject('null'), 'lhW90T3e44I=')
 
-WebUI.click(findTestObject('Object Repository/Login/Login_Valid/Login_Button'))
+WebUI.click(findTestObject('null'))
 
 WebUI.delay(1)
 
-WebUI.verifyElementText(findTestObject('Object Repository/Login/Login_InValid/Errorpopup'), 'Invalid email or password. Not to worry, you can try again or you can reset your password or contact us.')
+WebUI.verifyElementText(findTestObject('Object Repository/Login/Login_objects/Errorpopup'), 'Invalid email or password. Not to worry, you can try again or you can reset your password or contact us.')
 

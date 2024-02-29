@@ -24,25 +24,28 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://haboom.com/')
 
-WebUI.click(findTestObject('Object Repository/JOINNOW/Joinnow valid/Join Now_button'))
+WebUI.click(findTestObject('Object Repository/JOINNOW/Join Now_button'))
 
 def randomusername = RandomStringUtils.randomAlphabetic(10)
 
-WebUI.setText(findTestObject('Object Repository/JOINNOW/Joinnow valid/User name_Field'), randomusername)
+WebUI.setText(findTestObject('Object Repository/JOINNOW/User name_Field'), randomusername)
 
 def randomemail = RandomStringUtils.randomAlphanumeric(10)
 
-WebUI.setText(findTestObject('Object Repository/JOINNOW/Joinnow valid/Email address_Field'), randomemail + '@gmail.com')
+WebUI.setText(findTestObject('Object Repository/JOINNOW/Email address_Field'), randomemail + '@gmail.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/JOINNOW/Joinnow valid/Password_Field'), 'Ae2KZyjYBr3zjExtfoMITg==')
+WebUI.setEncryptedText(findTestObject('Object Repository/JOINNOW/Password_Field'), 'Ae2KZyjYBr3zjExtfoMITg==')
 
 def randomnumber = RandomStringUtils.randomNumeric(14)
 
-WebUI.setText(findTestObject('Object Repository/JOINNOW/Joinnow valid/Mobile number_Field'), randomnumber)
+WebUI.setText(findTestObject('Object Repository/JOINNOW/Mobile number_Field'), randomnumber)
 
 WebUI.delay(2)
 
-WebUI.click(findTestObject('Object Repository/JOINNOW/Joinnow valid/Register_button'))
+WebUI.click(findTestObject('Object Repository/JOINNOW/Register_button'))
 
-WebUI.delay(2)
+WebUI.verifyElementPresent(findTestObject('null'), 
+    0)
+
+WebUI.takeScreenshot()
 
