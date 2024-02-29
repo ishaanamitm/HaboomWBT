@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Expected: The user should be able to place long-term bets successfully.&#xd;
+Actual: The user is able to place long-term bets successfully.</description>
+   <name>Long term Bets</name>
+   <tag>Long term Bets</tag>
+   <comment></comment>
+   <testCaseGuid>ee137950-710a-49eb-8b55-71b0dc4a6186</testCaseGuid>
+</TestCaseEntity>

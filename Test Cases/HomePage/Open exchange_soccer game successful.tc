@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Expected result - User should able to open the exchange soccer game successfully&#xd;
+Actual result - User can able to open the exchange soccer game successfully</description>
+   <name>Open exchange_soccer game successful</name>
+   <tag>Exchange soccer</tag>
+   <comment></comment>
+   <testCaseGuid>9d6b9022-db61-4ea4-a396-b828b2b6b3ff</testCaseGuid>
+</TestCaseEntity>

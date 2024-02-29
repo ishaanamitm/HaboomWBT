@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Place Bet</name>
+   <tag></tag>
+   <elementGuidId>724b0d85-6f2f-44b9-98ca-0f209ee4d115</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[4]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.slip_placebet.cl_slip-place</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>9b2b0245-9fbe-4aeb-acdf-dab505ec89aa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>adda33d2-33a4-4131-af88-0ab3161e4f62</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>slip_placebet cl_slip-place</value>
+      <webElementGuid>9292accb-2e97-4797-9564-5af0ca79cf34</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Place Bet</value>
+      <webElementGuid>04f3b169-62fe-4358-87ba-a3296bb2a25f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-wrapper&quot;)/div[@class=&quot;container full-width-page scrollable-columns default-min-size-page&quot;]/div[@class=&quot;top&quot;]/div[@class=&quot;bet_slip_section  betslip_logged_in&quot;]/div[@class=&quot;bet_slip_toggle_sec desktp_bet_slip open&quot;]/div[@class=&quot;bet_slip_toggle_body bet_slip_open&quot;]/div[@class=&quot;tab_overflow&quot;]/div[@class=&quot;slip_tab_content&quot;]/div[@class=&quot;tab-content active slip_contents&quot;]/div[@class=&quot;bet_slip_cnt_main_sec&quot;]/div[@class=&quot;place_bet_sec&quot;]/ul[1]/li[2]/button[@class=&quot;slip_placebet cl_slip-place&quot;]</value>
+      <webElementGuid>9b806b4e-44ef-4b9b-9e45-033a83be82b2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[4]</value>
+      <webElementGuid>95928ecd-9d3f-42cf-964b-29403bf2f53d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-wrapper']/div/div/div[7]/div/div/div[2]/div/div/div[2]/div[2]/ul/li[2]/button</value>
+      <webElementGuid>2fae7d64-dafc-41d6-a823-c7c6e6483d3c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remove All'])[1]/following::button[1]</value>
+      <webElementGuid>1eac4c8b-dc1a-4d0b-8c86-1c9bd73d1870</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='₹'])[2]/following::button[2]</value>
+      <webElementGuid>51153c4a-b16f-4ed7-a0df-201031f23b3f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Place Bet']/parent::*</value>
+      <webElementGuid>4475357f-3f22-4fe3-9bb1-0157a4bc0034</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/ul/li[2]/button</value>
+      <webElementGuid>7c615ae5-3bcc-41aa-a57e-4406665f307d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Place Bet' or . = 'Place Bet')]</value>
+      <webElementGuid>217b4300-cbcc-4879-bb6a-4ce915dff3aa</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

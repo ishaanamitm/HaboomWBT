@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Expected Result: To check whether the user get any error message if they try to submit the ticket withe some field empty&#xd;
+Actual Result: The user get a error message</description>
+   <name>Betting Activity_Tickets field empty error message</name>
+   <tag>My Account</tag>
+   <comment></comment>
+   <testCaseGuid>94935be2-ee56-4cda-8bb7-717486f4b965</testCaseGuid>
+</TestCaseEntity>

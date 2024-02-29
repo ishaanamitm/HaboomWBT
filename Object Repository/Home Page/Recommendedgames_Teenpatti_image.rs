@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Recommendedgames_Teenpatti_image</name>
+   <tag></tag>
+   <elementGuidId>b94f2718-6be4-4799-a82f-36a9955201a0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>img.kd__position-absolute.kd__shadow-1.kd__br-1.kd__w-100</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-wrapper']/div/ui-view/div/div/div/div/div/div/div[2]/div[2]/div/div/div/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>d3d5d380-c4df-4164-b30b-f73580666126</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>loading</name>
+      <type>Main</type>
+      <value>lazy</value>
+      <webElementGuid>12396e49-57b3-4d50-91b5-82ef9f9d8cd7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onerror</name>
+      <type>Main</type>
+      <value>this.onerror=null; this.src='/images/rg_img/placeholders/2/shape25.png';</value>
+      <webElementGuid>c2488015-8cba-44c3-baea-0fdca591c862</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://d2g8jl9s27zu.cloudfront.net/uploads/alt_banners/haboom_landing_new_game/42_64F5CE1131E17.png</value>
+      <webElementGuid>a2042cdb-4c53-429e-9ec2-5fcdfa1b46a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Teen Patti</value>
+      <webElementGuid>14a71f96-1b8f-4263-9f39-4906c14150cd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>kd__position-absolute kd__shadow-1 kd__br-1 kd__w-100</value>
+      <webElementGuid>f47ce8d5-aeee-4ec0-a612-7e54aa7a459f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-wrapper&quot;)/div[@class=&quot;container full-width-page scrollable-columns default-min-size-page&quot;]/ui-view[@class=&quot;ng-scope&quot;]/div[@class=&quot;page-content nested-scrollable-pane-parent front-pages ng-scope&quot;]/div[@class=&quot;bf-row no-bottom-gutter scrollable-panes-height-taker height-taker-helper&quot;]/div[@class=&quot;scrollable-panes-wrapper scrollable-panes-wrapper-helper&quot;]/div[@class=&quot;bf-row no-bottom-gutter scrollable-pane content-page-row&quot;]/div[@class=&quot;content-page-center-column homepage-center-column&quot;]/div[@class=&quot;no-bottom-gutter&quot;]/div[@class=&quot;kd__container-fluid kd__bg-col-1 kd__br-2 new_new_game_bg&quot;]/div[@class=&quot;kd__row kd__overflow-x-scroll kd__overflow-y-hidden new_games&quot;]/div[@class=&quot;kd__col casinoLink&quot;]/div[@class=&quot;kd-w-295-px&quot;]/div[@class=&quot;kd__position-relative kd__h-195 plcholder_pos plc_holder_img_newgame&quot;]/img[@class=&quot;kd__position-absolute kd__shadow-1 kd__br-1 kd__w-100&quot;]</value>
+      <webElementGuid>4a10dee0-42ba-4846-810a-3e6907e1a931</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-wrapper']/div/ui-view/div/div/div/div/div/div/div[2]/div[2]/div/div/div/img</value>
+      <webElementGuid>c7bbdce0-d4a2-4215-ab4e-1dce775aef7b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='Teen Patti']</value>
+      <webElementGuid>31aae06f-4eb7-4fc0-93cd-d4695e7bdbc3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div/div/img</value>
+      <webElementGuid>207c06c0-cfd2-4d0f-b782-7f1615395f10</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'https://d2g8jl9s27zu.cloudfront.net/uploads/alt_banners/haboom_landing_new_game/42_64F5CE1131E17.png' and @alt = 'Teen Patti']</value>
+      <webElementGuid>341fde01-2191-400a-a3fa-bb77154fa0d4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

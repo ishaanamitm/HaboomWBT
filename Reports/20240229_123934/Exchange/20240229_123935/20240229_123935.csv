@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Exchange,Chrome 121.0.0.0,,,29-02-2024 12:39:38,29-02-2024 12:40:23,45.965s,PASSED
+,,,,,,,
+Test Cases/Exchange/Place exchange_cricket bet,Chrome 121.0.0.0,,,29-02-2024 12:39:38,29-02-2024 12:40:23,45.838s,PASSED
+Start setup action : setupTestCase,Chrome 121.0.0.0,,,29-02-2024 12:39:38,29-02-2024 12:39:59,21.776s,PASSED
+"click(findTestObject(""Object Repository/Exchange Page/Exchange_menu""))",Chrome 121.0.0.0,,,29-02-2024 12:39:59,29-02-2024 12:40:07,7.040s,PASSED
+"click(findTestObject(""Object Repository/Exchange Page/Cricket_menu""))",Chrome 121.0.0.0,,,29-02-2024 12:40:07,29-02-2024 12:40:10,3.302s,PASSED
+delay(5),Chrome 121.0.0.0,,,29-02-2024 12:40:10,29-02-2024 12:40:15,5.022s,PASSED
+"element = getWebDriver().findElement(By.xpath(""(//section[@class='mod-event-line ng-scope ng-isolate-scope'])[1]/ul[1]/li[1]""))",Chrome 121.0.0.0,,,29-02-2024 12:40:15,29-02-2024 12:40:15,0.264s,PASSED
+element.click(),Chrome 121.0.0.0,,,29-02-2024 12:40:15,29-02-2024 12:40:18,3.347s,PASSED
+delay(5),Chrome 121.0.0.0,,,29-02-2024 12:40:18,29-02-2024 12:40:23,5.008s,PASSED

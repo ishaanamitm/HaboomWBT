@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Expected result : if the user tries to login via facebook, gmail, OTP it should allow user to login successfully.&#xd;
+Actual result :  when user tries to login via facebook, gmail, OTP it allow user to login successfully.</description>
+   <name>Other Login Options</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cd47e20e-7df7-48eb-8422-536fb5dcf34a</testCaseGuid>
+</TestCaseEntity>

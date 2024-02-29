@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Expected Result - User should able to open the Recommeded games&#xd;
+Actual Result - User can able to open the Recommeded games</description>
+   <name>Open top10 games successful</name>
+   <tag>Recommended games</tag>
+   <comment></comment>
+   <testCaseGuid>27ecbb11-631a-4f3d-b455-3df15a4dd2dc</testCaseGuid>
+</TestCaseEntity>

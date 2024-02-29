@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Expected result:To check whether the user get error message if they try to pay without entering the  &quot;To&quot; player&#xd;
+Actual Result:The user gets the error message when they try to pay without entering the  &quot;To&quot; player</description>
+   <name>Payment_Transfer Funds with to player field empty</name>
+   <tag>My Account</tag>
+   <comment></comment>
+   <testCaseGuid>9067e36e-d92e-41bc-8c3d-280fc75aa1d7</testCaseGuid>
+</TestCaseEntity>

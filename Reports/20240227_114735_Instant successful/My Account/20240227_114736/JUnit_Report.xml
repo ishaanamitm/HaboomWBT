@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="My Account" time="60.312" tests="1" failures="0" errors="0">
+   <testsuite name="My Account" tests="1" failures="0" errors="0" time="60.312" skipped="0" timestamp="27-02-2024T11:47:39" hostname="Deepa V - LAPTOP-KJGS4LH5" id="Test Suites/My Account">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\Deepa V\\git\\HaboomWBT\\Reports\\20240227_114735\\My Account\\20240227_114736"/>
+         <property name="logFiles" value="C:\\Users\\Deepa V\\git\\HaboomWBT\\Reports\\20240227_114735\\My Account\\20240227_114736\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\Deepa V\\git\\HaboomWBT\\Reports\\20240227_114735\\My Account\\20240227_114736\\1709014719257.png"/>
+         <property name="hostName" value="Deepa V - LAPTOP-KJGS4LH5"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 122.0.0.0"/>
+         <property name="hostAddress" value="192.168.50.146"/>
+         <property name="sessionId" value="e67ab5c346d220ce641dc32a842398c7"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/My Account/Payment_Deposit successful in Instant method" time="60.177" classname="Test Cases/My Account/Payment_Deposit successful in Instant method" status="PASSED">
+         <system-out><![CDATA[27-02-2024T11:47:39 - [TEST_CASE][PASSED] - Test Cases/My Account/Payment_Deposit successful in Instant method: Test Cases/My Account/Payment_Deposit successful in Instant method
+
+27-02-2024T11:47:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+27-02-2024T11:47:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+27-02-2024T11:47:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-02-2024T11:47:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+27-02-2024T11:47:41 - [TEST_STEP][PASSED] - navigateToUrl("https://haboom.com/"): Navigate to 'https://haboom.com/' successfully
+
+27-02-2024T11:47:57 - [MESSAGE][PASSED] - Navigate to 'https://haboom.com/' successfully
+
+27-02-2024T11:47:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/My Account_Payment/My Account page/Login Username"), "Sherlock"): Text 'Sherlock' is set on object 'Object Repository/My Account_Payment/My Account page/Login Username'
+
+27-02-2024T11:48:01 - [MESSAGE][PASSED] - Text 'Sherlock' is set on object 'Object Repository/My Account_Payment/My Account page/Login Username'
+
+27-02-2024T11:48:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/My Account_Payment/My Account page/Login Password"), "Ae2KZyjYBr0MQlyqU7ThAA=="): Text ****** has been set on object 'Object Repository/My Account_Payment/My Account page/Login Password'
+
+27-02-2024T11:48:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/My Account_Payment/My Account page/Login Password'
+
+27-02-2024T11:48:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My Account_Payment/My Account page/Login Button")): Object: 'Object Repository/My Account_Payment/My Account page/Login Button' is clicked on
+
+27-02-2024T11:48:04 - [MESSAGE][PASSED] - Object: 'Object Repository/My Account_Payment/My Account page/Login Button' is clicked on
+
+27-02-2024T11:48:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My Account_Payment/My Account page/My Account")): Object: 'Object Repository/My Account_Payment/My Account page/My Account' is clicked on
+
+27-02-2024T11:48:10 - [MESSAGE][PASSED] - Object: 'Object Repository/My Account_Payment/My Account page/My Account' is clicked on
+
+27-02-2024T11:48:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My Account_Payment/My Account page/My Haboom Account")): Object: 'Object Repository/My Account_Payment/My Account page/My Haboom Account' is clicked on
+
+27-02-2024T11:48:17 - [MESSAGE][PASSED] - Object: 'Object Repository/My Account_Payment/My Account page/My Haboom Account' is clicked on
+
+27-02-2024T11:48:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My Account_Payment/Deposit page/Payments")): Object: 'Object Repository/My Account_Payment/Deposit page/Payments' is clicked on
+
+27-02-2024T11:48:17 - [MESSAGE][PASSED] - Object: 'Object Repository/My Account_Payment/Deposit page/Payments' is clicked on
+
+27-02-2024T11:48:17 - [TEST_STEP][PASSED] - click(findTestObject("My Account_Payment/Deposit Bank Transfer/Bank transfer page/Deposit")): Object: 'Object Repository/My Account_Payment/Deposit Bank Transfer/Bank transfer page/Deposit' is clicked on
+
+27-02-2024T11:48:23 - [MESSAGE][PASSED] - Object: 'Object Repository/My Account_Payment/Deposit Bank Transfer/Bank transfer page/Deposit' is clicked on
+
+27-02-2024T11:48:23 - [TEST_STEP][PASSED] - click(findTestObject("My Account_Payment/Deposit page/Instant Page/Instant Methods")): Object: 'Object Repository/My Account_Payment/Deposit page/Instant Page/Instant Methods' is clicked on
+
+27-02-2024T11:48:24 - [MESSAGE][PASSED] - Object: 'Object Repository/My Account_Payment/Deposit page/Instant Page/Instant Methods' is clicked on
+
+27-02-2024T11:48:24 - [TEST_STEP][PASSED] - setText(findTestObject("My Account_Payment/Deposit page/deposit input field/input instant method"), "1000"): Text '1000' is set on object 'Object Repository/My Account_Payment/Deposit page/deposit input field/input instant method'
+
+27-02-2024T11:48:25 - [MESSAGE][PASSED] - Text '1000' is set on object 'Object Repository/My Account_Payment/Deposit page/deposit input field/input instant method'
+
+27-02-2024T11:48:25 - [TEST_STEP][PASSED] - click(findTestObject("My Account_Payment/Deposit page/Deposit Page/button_Deposit")): Object: 'Object Repository/My Account_Payment/Deposit page/Deposit Page/button_Deposit' is clicked on
+
+27-02-2024T11:48:26 - [MESSAGE][PASSED] - Object: 'Object Repository/My Account_Payment/Deposit page/Deposit Page/button_Deposit' is clicked on
+
+27-02-2024T11:48:26 - [TEST_STEP][PASSED] - switchToWindowTitle(""): Switched to window with title: ''
+
+27-02-2024T11:48:31 - [MESSAGE][PASSED] - Switched to window with title: ''
+
+27-02-2024T11:48:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/My Account_Payment/Transaction page/Transaction success button")): Object: 'Object Repository/My Account_Payment/Transaction page/Transaction success button' is clicked on
+
+27-02-2024T11:48:39 - [MESSAGE][PASSED] - Object: 'Object Repository/My Account_Payment/Transaction page/Transaction success button' is clicked on
+
+27-02-2024T11:48:39 - [TEST_STEP][PASSED] - takeFullPageScreenshot(): Taking screenshot successfully
+
+27-02-2024T11:48:39 - [MESSAGE][INFO] - 0 hidden object(s)
+
+27-02-2024T11:48:39 - [MESSAGE][PASSED] - Taking screenshot successfully
+[[ATTACHMENT|C:\\Users\\Deepa V\\git\\HaboomWBT\\Reports\\20240227_114735\\My Account\\20240227_114736\\1709014719257.png]]
+
+27-02-2024T11:48:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+27-02-2024T11:48:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[27-02-2024T11:47:39 - [TEST_SUITE][PASSED] - My Account: Test Cases/My Account/Payment_Deposit successful in Instant method]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
