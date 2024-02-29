@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Betting Activity</name>
+   <tag></tag>
+   <elementGuidId>84e8003a-593b-4308-9d0e-656b64c0297a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='Betting_Activity']/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#Betting_Activity > a.link-group</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>572f9be0-c384-46d0-8f06-6474a8bd465c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>link-group</value>
+      <webElementGuid>c5d43f63-e70d-4c7b-b28a-223b40779c93</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Betting Activity</value>
+      <webElementGuid>084e06b7-ec2a-4064-a678-cb00701df01e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;Betting_Activity&quot;)/a[@class=&quot;link-group&quot;]</value>
+      <webElementGuid>3c71ea27-1d1b-47b4-907f-90ce1a4d1245</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='Betting_Activity']/a</value>
+      <webElementGuid>b17c7dca-7c49-4c27-b606-d9765b949cf0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Betting Activity')]</value>
+      <webElementGuid>05e9c9de-8fbe-4201-a39c-6bce8ebd7dbe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Transfer Funds'])[1]/following::a[1]</value>
+      <webElementGuid>90d08a3f-00f9-47f7-a18e-bdb2c82efe8b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Withdraw'])[2]/following::a[2]</value>
+      <webElementGuid>5a30577c-7412-4ffe-b52c-090f605b6fd0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Exchange Bets'])[1]/preceding::a[1]</value>
+      <webElementGuid>289e98ea-e2b8-4bb4-a952-efeb1fd2b365</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Sportsbook Betting History'])[1]/preceding::a[2]</value>
+      <webElementGuid>d5fe3c32-5c24-4bf7-be6e-f12b6bab8fe7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Betting Activity']/parent::*</value>
+      <webElementGuid>70fd8cc1-2ebc-4dd7-88fb-e576a2a92655</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/ul/li[3]/a</value>
+      <webElementGuid>f8d31879-190c-4cad-9974-980886b84f6a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'Betting Activity' or . = 'Betting Activity')]</value>
+      <webElementGuid>2eb8499f-edaf-478a-b01e-dcfed0667036</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Add new query</name>
+   <tag></tag>
+   <elementGuidId>3f11341f-92f8-4df9-9705-cba0eca4a8e5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//header[@id='ssc-header-placeholder']/div[15]/div/div/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.add-new-query</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>b740958b-82f4-4b58-98c0-98d267815998</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>add-new-query</value>
+      <webElementGuid>14077957-db39-45f8-b81e-1124827d7783</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>javascript:void(0);</value>
+      <webElementGuid>99939192-95b2-4211-be6d-83c80b01a6ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Add new query</value>
+      <webElementGuid>59665855-2b84-4315-b9d3-0dfea812faf7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ssc-header-placeholder&quot;)/div[@class=&quot;raise-your-ticket-sec&quot;]/div[@class=&quot;ticket-section ticket_sec1&quot;]/div[@class=&quot;cls-page-header d-flex&quot;]/a[@class=&quot;add-new-query&quot;]</value>
+      <webElementGuid>22322124-6cfd-4aad-aae5-75c37348eb6c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//header[@id='ssc-header-placeholder']/div[15]/div/div/a</value>
+      <webElementGuid>7ad4e011-1adf-4f4a-9a34-e9e1f0ddc051</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Add new query')]</value>
+      <webElementGuid>73540f0e-659f-40c9-8332-65ea701de600</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='tickets'])[1]/following::a[1]</value>
+      <webElementGuid>9220efa0-170e-4a19-a42f-d0f0eae77419</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Refer and Earn'])[1]/following::a[1]</value>
+      <webElementGuid>dcfd0b4c-5eb2-48a1-a833-05a72051402c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Issue'])[1]/preceding::a[1]</value>
+      <webElementGuid>f64c978c-2302-4636-b6e7-1c4cda6c932c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reference Number'])[1]/preceding::a[1]</value>
+      <webElementGuid>1687cbf0-a780-4291-bdf0-1798429aba2f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Add new query']/parent::*</value>
+      <webElementGuid>f3401417-b122-4fbb-aac5-3191e975555d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, 'javascript:void(0);')])[2]</value>
+      <webElementGuid>c058492c-3ddb-4825-92d0-77aff0e1f501</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[15]/div/div/a</value>
+      <webElementGuid>5afcd012-fd0e-4735-bb3d-051c5dd37573</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'javascript:void(0);' and (text() = 'Add new query' or . = 'Add new query')]</value>
+      <webElementGuid>8f3901fe-b829-4ed6-b967-b21eb87e81ca</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

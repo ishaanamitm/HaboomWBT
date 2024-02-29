@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Expected Result:To check the user is able to raise the ticket succesfully&#xd;
+Actual Result: The user is able to raise the ticket</description>
+   <name>Betting Activity_Ticket raised successful</name>
+   <tag>Tickets</tag>
+   <comment></comment>
+   <testCaseGuid>7fc5ab38-810c-4934-8d31-7f18deea3b09</testCaseGuid>
+</TestCaseEntity>

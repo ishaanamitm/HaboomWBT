@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description>Expected Result: To check whether the user is able to deposit using &quot;Instant Method&quot;..&#xd;
-Actual Result:The user is able to deposit using &quot;Instant  Method&quot;.</description>
-   <name>Payment_Deposit</name>
-   <tag>Payment</tag>
-   <comment></comment>
-   <testCaseGuid>266d169e-1def-40b2-96f2-de125081fabe</testCaseGuid>
-</TestCaseEntity>

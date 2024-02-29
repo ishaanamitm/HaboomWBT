@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+My Account,Chrome 122.0.0.0,,,27-02-2024 11:47:39,27-02-2024 11:48:39,1m - 0.312s,PASSED
+,,,,,,,
+Test Cases/My Account/Payment_Deposit successful in Instant method,Chrome 122.0.0.0,"Expected Result: To check whether the user is able to deposit using ""Instant Method""..
+Actual Result:The user is able to deposit using ""Instant  Method"".",Payment,27-02-2024 11:47:39,27-02-2024 11:48:39,1m - 0.177s,PASSED
+"openBrowser("""")",Chrome 122.0.0.0,,,27-02-2024 11:47:39,27-02-2024 11:47:41,1.211s,PASSED
+"navigateToUrl(""https://haboom.com/"")",Chrome 122.0.0.0,,,27-02-2024 11:47:41,27-02-2024 11:47:57,16.782s,PASSED
+"setText(findTestObject(""Object Repository/My Account_Payment/My Account page/Login Username""), ""Sherlock"")",Chrome 122.0.0.0,,,27-02-2024 11:47:57,27-02-2024 11:48:01,3.466s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/My Account_Payment/My Account page/Login Password""), ""Ae2KZyjYBr0MQlyqU7ThAA=="")",Chrome 122.0.0.0,,,27-02-2024 11:48:01,27-02-2024 11:48:02,1.549s,PASSED
+"click(findTestObject(""Object Repository/My Account_Payment/My Account page/Login Button""))",Chrome 122.0.0.0,,,27-02-2024 11:48:02,27-02-2024 11:48:04,1.305s,PASSED
+"click(findTestObject(""Object Repository/My Account_Payment/My Account page/My Account""))",Chrome 122.0.0.0,,,27-02-2024 11:48:04,27-02-2024 11:48:10,6.725s,PASSED
+"click(findTestObject(""Object Repository/My Account_Payment/My Account page/My Haboom Account""))",Chrome 122.0.0.0,,,27-02-2024 11:48:10,27-02-2024 11:48:17,6.245s,PASSED
+"click(findTestObject(""Object Repository/My Account_Payment/Deposit page/Payments""))",Chrome 122.0.0.0,,,27-02-2024 11:48:17,27-02-2024 11:48:17,0.512s,PASSED
+"click(findTestObject(""My Account_Payment/Deposit Bank Transfer/Bank transfer page/Deposit""))",Chrome 122.0.0.0,,,27-02-2024 11:48:17,27-02-2024 11:48:23,5.840s,PASSED
+"click(findTestObject(""My Account_Payment/Deposit page/Instant Page/Instant Methods""))",Chrome 122.0.0.0,,,27-02-2024 11:48:23,27-02-2024 11:48:24,0.941s,PASSED
+"setText(findTestObject(""My Account_Payment/Deposit page/deposit input field/input instant method""), ""1000"")",Chrome 122.0.0.0,,,27-02-2024 11:48:24,27-02-2024 11:48:25,0.600s,PASSED
+"click(findTestObject(""My Account_Payment/Deposit page/Deposit Page/button_Deposit""))",Chrome 122.0.0.0,,,27-02-2024 11:48:25,27-02-2024 11:48:26,1.764s,PASSED
+"switchToWindowTitle("""")",Chrome 122.0.0.0,,,27-02-2024 11:48:26,27-02-2024 11:48:31,5.077s,PASSED
+"click(findTestObject(""Object Repository/My Account_Payment/Transaction page/Transaction success button""))",Chrome 122.0.0.0,,,27-02-2024 11:48:31,27-02-2024 11:48:39,7.394s,PASSED
+takeFullPageScreenshot(),Chrome 122.0.0.0,,,27-02-2024 11:48:39,27-02-2024 11:48:39,0.389s,PASSED
+closeBrowser(),Chrome 122.0.0.0,,,27-02-2024 11:48:39,27-02-2024 11:48:39,0.133s,PASSED
