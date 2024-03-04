@@ -19,14 +19,14 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://haboom.com/')
+WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Login Page/Login email field'), 'jabbi')
+WebUI.setText(findTestObject('Login Page/Login email field'), GlobalVariable.Username)
 
 WebUI.click(findTestObject('Login Page/login button'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Warning message without enter password/without password warning message Please enter password'), 
+WebUI.verifyElementText(findTestObject('Object Repository/Login Page/without password warning message Please enter password'), 
     'Please enter password')
 
