@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Tennis</name>
+   <tag></tag>
+   <elementGuidId>20b13a59-e945-4d29-aba6-c7f78c1b9aa8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='zone-left-col']/div[2]/div/div/div/li[3]/a/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>901aed86-0e4d-498c-800b-2ee4456800b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>9a71320b-9be3-4ab0-8959-deef832b5369</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Tennis</value>
+      <webElementGuid>1bd3ef83-c092-4e1c-9055-ebcd92691851</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;zone-left-main-right&quot;)/div[@class=&quot;grid-1&quot;]/div[@id=&quot;zone-left-col&quot;]/div[@class=&quot;grid-1&quot;]/div[@class=&quot;quicklinks-inner-container&quot;]/div[@class=&quot;quicklinks-section&quot;]/div[@class=&quot;quicklinks-list cls_sp_nameql&quot;]/li[@class=&quot;featured-link cl-featured-link cls_sp_redt gotoInplayDesktop&quot;]/a[@class=&quot;ui-nav ui-top ui-gtm-click-defer&quot;]/span[@class=&quot;label&quot;]</value>
+      <webElementGuid>373d8e50-3c8b-46ad-adbb-26cbed63794c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='zone-left-col']/div[2]/div/div/div/li[3]/a/span</value>
+      <webElementGuid>ddefbe46-df70-4676-ade2-14497ba2ef3e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Soccer'])[2]/following::span[2]</value>
+      <webElementGuid>43ea9f38-ad73-49ac-9198-abd8465456c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Cricket'])[2]/following::span[4]</value>
+      <webElementGuid>23e0981e-b3fe-4a47-ac22-fb0dde6f3117</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Basketball'])[2]/preceding::span[2]</value>
+      <webElementGuid>65f7d947-3870-4a5e-a9a3-995142924ef6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Rugby'])[2]/preceding::span[4]</value>
+      <webElementGuid>3fae7b56-dfb8-48dc-9b94-c4f577275dd4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/li[3]/a/span</value>
+      <webElementGuid>b8dee362-9b79-48ce-b3af-8bc6fd0d0cf0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Tennis' or . = 'Tennis')]</value>
+      <webElementGuid>c731a59b-7fdb-4e04-af98-16158a1e2ec5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

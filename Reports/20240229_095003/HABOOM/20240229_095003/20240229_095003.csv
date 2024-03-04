@@ -1,0 +1,113 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+HABOOM,Chrome 122.0.0.0,,,29-02-2024 09:50:08,29-02-2024 10:03:33,13m - 25.256s,FAILED
+,,,,,,,
+Test Cases/Sportsbook/Long term Bets,Chrome 122.0.0.0,"Expected: The user should be able to place long-term bets successfully.
+Actual: The user is able to place long-term bets successfully.",Long term Bets,29-02-2024 09:50:08,29-02-2024 09:51:41,1m - 33.378s,FAILED
+"openBrowser("""")",Chrome 122.0.0.0,,,29-02-2024 09:50:08,29-02-2024 09:50:10,1.931s,PASSED
+maximizeWindow(),Chrome 122.0.0.0,,,29-02-2024 09:50:10,29-02-2024 09:50:10,0.179s,PASSED
+"navigateToUrl(""https://haboom.com/"")",Chrome 122.0.0.0,,,29-02-2024 09:50:10,29-02-2024 09:50:28,17.344s,PASSED
+"setText(findTestObject(""sportsbook/Long-Term Bets/input_Help_username""), ""rock"")",Chrome 122.0.0.0,,,29-02-2024 09:50:28,29-02-2024 09:50:31,3.430s,PASSED
+"setEncryptedText(findTestObject(""sportsbook/Long-Term Bets/input_Help_password""), ""Ae2KZyjYBr3zjExtfoMITg=="")",Chrome 122.0.0.0,,,29-02-2024 09:50:31,29-02-2024 09:50:34,2.455s,PASSED
+"click(findTestObject(""sportsbook/Long-Term Bets/input_Help_submitLogForm""))",Chrome 122.0.0.0,,,29-02-2024 09:50:34,29-02-2024 09:50:35,1.563s,PASSED
+"click(findTestObject(""sportsbook/Long-Term Bets/a_Sportsbook""))",Chrome 122.0.0.0,,,29-02-2024 09:50:35,29-02-2024 09:51:01,25.450s,PASSED
+"click(findTestObject(""sportsbook/Long-Term Bets/span_Long Term Bets""))",Chrome 122.0.0.0,,,29-02-2024 09:51:01,29-02-2024 09:51:02,1.921s,PASSED
+"click(findTestObject(""sportsbook/Long-Term Bets/span_UEFA EURO 2024, Qualification""))",Chrome 122.0.0.0,,,29-02-2024 09:51:02,29-02-2024 09:51:07,4.589s,PASSED
+"click(findTestObject(""sportsbook/Long-Term Bets/span_Ukraine""))",Chrome 122.0.0.0,,,29-02-2024 09:51:07,29-02-2024 09:51:08,1.007s,PASSED
+"setText(findTestObject(""sportsbook/Long-Term Bets/input_Betslip_stake_input slip_stake_single""), ""9"")",Chrome 122.0.0.0,,,29-02-2024 09:51:08,29-02-2024 09:51:09,1.185s,PASSED
+"click(findTestObject(""Object Repository/sportsbook/Long-Term Bets/button_Place Bet""))",Chrome 122.0.0.0,,,29-02-2024 09:51:09,29-02-2024 09:51:10,0.634s,PASSED
+"verifyElementPresent(findTestObject(""sportsbook/Long-Term Bets/div_Minimum stake allowed is 10""), 0)",Chrome 122.0.0.0,,,29-02-2024 09:51:10,29-02-2024 09:51:41,31.341s,FAILED
+,,,,,,,
+Test Cases/Sportsbook/Basketball Sb Bets,Chrome 122.0.0.0,"Expected Result -  The user should be able to place Basketball bets successfully.
+Actual Result -The user is able to place Basketball bets successfully.",Basketball Sb Bets,29-02-2024 09:51:41,29-02-2024 09:54:04,2m - 22.552s,FAILED
+"openBrowser("""")",Chrome 122.0.0.0,,,29-02-2024 09:51:41,29-02-2024 09:51:43,1.412s,PASSED
+"navigateToUrl(""https://haboom.com/"")",Chrome 122.0.0.0,,,29-02-2024 09:51:43,29-02-2024 09:51:58,15.063s,PASSED
+"setText(findTestObject(""sportsbook/Basketball/input_Help_username""), ""rock"")",Chrome 122.0.0.0,,,29-02-2024 09:51:58,29-02-2024 09:52:01,3.241s,PASSED
+"setEncryptedText(findTestObject(""sportsbook/Basketball/input_Help_password""), ""Ae2KZyjYBr3zjExtfoMITg=="")",Chrome 122.0.0.0,,,29-02-2024 09:52:01,29-02-2024 09:52:04,3.169s,PASSED
+"click(findTestObject(""sportsbook/Basketball/input_Help_submitLogForm""))",Chrome 122.0.0.0,,,29-02-2024 09:52:04,29-02-2024 09:52:06,1.974s,PASSED
+"click(findTestObject(""sportsbook/Basketball/a_Sportsbook""))",Chrome 122.0.0.0,,,29-02-2024 09:52:06,29-02-2024 09:53:01,54.430s,PASSED
+"click(findTestObject(""sportsbook/Basketball/span_Basketball""))",Chrome 122.0.0.0,,,29-02-2024 09:53:01,29-02-2024 09:53:14,13.402s,PASSED
+"click(findTestObject(""sportsbook/Basketball/li_Today""))",Chrome 122.0.0.0,,,29-02-2024 09:53:14,29-02-2024 09:53:20,5.377s,PASSED
+"click(findTestObject(""sportsbook/Basketball/span_Rapla KK""))",Chrome 122.0.0.0,,,29-02-2024 09:53:20,29-02-2024 09:53:24,4.306s,PASSED
+"click(findTestObject(""sportsbook/Basketball/span_Rapla KK (70)""))",Chrome 122.0.0.0,,,29-02-2024 09:53:24,29-02-2024 09:53:25,1.118s,PASSED
+delay(2),Chrome 122.0.0.0,,,29-02-2024 09:53:25,29-02-2024 09:53:27,2.037s,PASSED
+"click(findTestObject(""sportsbook/Basketball/button_Place Bet""))",Chrome 122.0.0.0,,,29-02-2024 09:53:27,29-02-2024 09:53:27,0.006s,NOT_RUN
+back(),Chrome 122.0.0.0,,,29-02-2024 09:53:27,29-02-2024 09:53:27,0.320s,PASSED
+"click(findTestObject(""sportsbook/Basketball/li_Today""))",Chrome 122.0.0.0,,,29-02-2024 09:53:27,29-02-2024 09:53:30,2.158s,PASSED
+"click(findTestObject(""sportsbook/Basketball/span_BK Liepaja - Copy""))",Chrome 122.0.0.0,,,29-02-2024 09:53:30,29-02-2024 09:54:04,34.319s,FAILED
+,,,,,,,
+Test Cases/Sportsbook/Cricket SB Bets,Chrome 122.0.0.0,"Expected: The user should be able to place Cricket bets successfully.
+Actual: The user is able to place Cricket bets successfully.",Cricket SB Bets,29-02-2024 09:54:04,29-02-2024 09:59:20,5m - 16.135s,FAILED
+"openBrowser("""")",Chrome 122.0.0.0,,,29-02-2024 09:54:04,29-02-2024 09:54:06,2.281s,PASSED
+maximizeWindow(),Chrome 122.0.0.0,,,29-02-2024 09:54:06,29-02-2024 09:54:06,0.144s,PASSED
+"navigateToUrl(""https://haboom.com/"")",Chrome 122.0.0.0,,,29-02-2024 09:54:06,29-02-2024 09:57:06,2m - 59.166s,PASSED
+"setText(findTestObject(""sportsbook/Cricket Bets/input_Help_username""), ""rock"")",Chrome 122.0.0.0,,,29-02-2024 09:57:06,29-02-2024 09:57:09,3.533s,PASSED
+"setEncryptedText(findTestObject(""sportsbook/Cricket Bets/input_Help_password""), ""Ae2KZyjYBr3zjExtfoMITg=="")",Chrome 122.0.0.0,,,29-02-2024 09:57:09,29-02-2024 09:57:11,2.064s,PASSED
+"click(findTestObject(""sportsbook/Cricket Bets/input_Help_submitLogForm""))",Chrome 122.0.0.0,,,29-02-2024 09:57:11,29-02-2024 09:57:13,1.839s,PASSED
+"click(findTestObject(""sportsbook/Cricket Bets/a_Sportsbook""))",Chrome 122.0.0.0,,,29-02-2024 09:57:13,29-02-2024 09:57:28,15.190s,PASSED
+"click(findTestObject(""sportsbook/Cricket Bets/span_Jinnah Brescia - Copy""))",Chrome 122.0.0.0,,,29-02-2024 09:57:28,29-02-2024 09:57:32,3.939s,PASSED
+"click(findTestObject(""sportsbook/Cricket Bets/span_Jinnah Brescia""))",Chrome 122.0.0.0,,,29-02-2024 09:57:32,29-02-2024 09:58:27,54.664s,PASSED
+"click(findTestObject(""sportsbook/Cricket Bets/button_Place Bet""))",Chrome 122.0.0.0,,,29-02-2024 09:58:27,29-02-2024 09:58:27,0.003s,NOT_RUN
+back(),Chrome 122.0.0.0,,,29-02-2024 09:58:27,29-02-2024 09:58:27,0.143s,PASSED
+"click(findTestObject(""sportsbook/Cricket Bets/span_Rajasthan Royals SRL - Copy""))",Chrome 122.0.0.0,,,29-02-2024 09:58:27,29-02-2024 09:59:20,53.005s,FAILED
+,,,,,,,
+Test Cases/Sportsbook/Long term Bets,Chrome 122.0.0.0,"Expected: The user should be able to place long-term bets successfully.
+Actual: The user is able to place long-term bets successfully.",Long term Bets,29-02-2024 09:59:20,29-02-2024 10:00:44,1m - 23.907s,FAILED
+"openBrowser("""")",Chrome 122.0.0.0,,,29-02-2024 09:59:20,29-02-2024 09:59:22,1.977s,PASSED
+maximizeWindow(),Chrome 122.0.0.0,,,29-02-2024 09:59:22,29-02-2024 09:59:22,0.182s,PASSED
+"navigateToUrl(""https://haboom.com/"")",Chrome 122.0.0.0,,,29-02-2024 09:59:22,29-02-2024 09:59:29,6.624s,PASSED
+"setText(findTestObject(""sportsbook/Long-Term Bets/input_Help_username""), ""rock"")",Chrome 122.0.0.0,,,29-02-2024 09:59:29,29-02-2024 09:59:34,5.238s,PASSED
+"setEncryptedText(findTestObject(""sportsbook/Long-Term Bets/input_Help_password""), ""Ae2KZyjYBr3zjExtfoMITg=="")",Chrome 122.0.0.0,,,29-02-2024 09:59:34,29-02-2024 09:59:38,4.190s,PASSED
+"click(findTestObject(""sportsbook/Long-Term Bets/input_Help_submitLogForm""))",Chrome 122.0.0.0,,,29-02-2024 09:59:38,29-02-2024 09:59:42,3.433s,PASSED
+"click(findTestObject(""sportsbook/Long-Term Bets/a_Sportsbook""))",Chrome 122.0.0.0,,,29-02-2024 09:59:42,29-02-2024 10:00:03,21.717s,PASSED
+"click(findTestObject(""sportsbook/Long-Term Bets/span_Long Term Bets""))",Chrome 122.0.0.0,,,29-02-2024 10:00:03,29-02-2024 10:00:05,1.629s,PASSED
+"click(findTestObject(""sportsbook/Long-Term Bets/span_UEFA EURO 2024, Qualification""))",Chrome 122.0.0.0,,,29-02-2024 10:00:05,29-02-2024 10:00:08,3.037s,PASSED
+"click(findTestObject(""sportsbook/Long-Term Bets/span_Ukraine""))",Chrome 122.0.0.0,,,29-02-2024 10:00:08,29-02-2024 10:00:10,1.546s,PASSED
+"setText(findTestObject(""sportsbook/Long-Term Bets/input_Betslip_stake_input slip_stake_single""), ""9"")",Chrome 122.0.0.0,,,29-02-2024 10:00:10,29-02-2024 10:00:11,1.174s,PASSED
+"click(findTestObject(""Object Repository/sportsbook/Long-Term Bets/button_Place Bet""))",Chrome 122.0.0.0,,,29-02-2024 10:00:11,29-02-2024 10:00:12,0.858s,PASSED
+"verifyElementPresent(findTestObject(""sportsbook/Long-Term Bets/div_Minimum stake allowed is 10""), 0)",Chrome 122.0.0.0,,,29-02-2024 10:00:12,29-02-2024 10:00:44,32.211s,FAILED
+,,,,,,,
+Test Cases/Sportsbook/Soccer SB Bets,Chrome 122.0.0.0,"Expected Result -  The user should be able to place Soccer bets successfully.
+Actual Result -The user is able to place Soccer bets successfully.",Soccer SB Bets,29-02-2024 10:00:44,29-02-2024 10:02:23,1m - 38.713s,FAILED
+"openBrowser("""")",Chrome 122.0.0.0,,,29-02-2024 10:00:44,29-02-2024 10:00:47,3.156s,PASSED
+"navigateToUrl(""https://haboom.com/"")",Chrome 122.0.0.0,,,29-02-2024 10:00:47,29-02-2024 10:00:52,4.861s,PASSED
+"setText(findTestObject(""sportsbook/Soccer/input_Help_username""), ""rock"")",Chrome 122.0.0.0,,,29-02-2024 10:00:52,29-02-2024 10:00:59,7.329s,PASSED
+"setEncryptedText(findTestObject(""sportsbook/Soccer/input_Help_password""), ""Ae2KZyjYBr3zjExtfoMITg=="")",Chrome 122.0.0.0,,,29-02-2024 10:00:59,29-02-2024 10:01:04,4.471s,PASSED
+"click(findTestObject(""sportsbook/Soccer/input_Help_submitLogForm""))",Chrome 122.0.0.0,,,29-02-2024 10:01:04,29-02-2024 10:01:06,2.314s,PASSED
+"click(findTestObject(""sportsbook/Soccer/a_Sportsbook""))",Chrome 122.0.0.0,,,29-02-2024 10:01:06,29-02-2024 10:01:18,12.269s,PASSED
+"click(findTestObject(""sportsbook/Soccer/span_Soccer""))",Chrome 122.0.0.0,,,29-02-2024 10:01:18,29-02-2024 10:01:20,1.312s,PASSED
+"click(findTestObject(""sportsbook/Soccer/li_Today""))",Chrome 122.0.0.0,,,29-02-2024 10:01:20,29-02-2024 10:01:21,1.412s,PASSED
+"click(findTestObject(""sportsbook/Soccer/span_Assam FT""))",Chrome 122.0.0.0,,,29-02-2024 10:01:21,29-02-2024 10:01:23,2.060s,PASSED
+"click(findTestObject(""sportsbook/Soccer/span_Assam FT or draw""))",Chrome 122.0.0.0,,,29-02-2024 10:01:23,29-02-2024 10:01:24,0.946s,PASSED
+delay(3),Chrome 122.0.0.0,,,29-02-2024 10:01:24,29-02-2024 10:01:27,3.033s,PASSED
+"click(findTestObject(""sportsbook/Soccer/button_Place Bet""))",Chrome 122.0.0.0,,,29-02-2024 10:01:27,29-02-2024 10:01:27,0.006s,NOT_RUN
+back(),Chrome 122.0.0.0,,,29-02-2024 10:01:27,29-02-2024 10:01:28,0.297s,PASSED
+"click(findTestObject(""sportsbook/Soccer/li_Today""))",Chrome 122.0.0.0,,,29-02-2024 10:01:28,29-02-2024 10:01:29,1.466s,PASSED
+"click(findTestObject(""sportsbook/Soccer/span_Prachuap FC""))",Chrome 122.0.0.0,,,29-02-2024 10:01:29,29-02-2024 10:02:09,40.372s,PASSED
+"click(findTestObject(""sportsbook/Soccer/span_Prachuap FCdraw  yes""))",Chrome 122.0.0.0,,,29-02-2024 10:02:09,29-02-2024 10:02:13,3.488s,PASSED
+back(STOP_ON_FAILURE),Chrome 122.0.0.0,,,29-02-2024 10:02:13,29-02-2024 10:02:13,0.057s,PASSED
+"click(findTestObject(""sportsbook/Soccer/li_Today""))",Chrome 122.0.0.0,,,29-02-2024 10:02:13,29-02-2024 10:02:15,1.947s,PASSED
+"click(findTestObject(""sportsbook/Soccer/span_Samut Sakhon City FC""))",Chrome 122.0.0.0,,,29-02-2024 10:02:15,29-02-2024 10:02:17,2.404s,PASSED
+"click(findTestObject(""sportsbook/Soccer/span_draw""))",Chrome 122.0.0.0,,,29-02-2024 10:02:17,29-02-2024 10:02:19,1.857s,PASSED
+delay(3),Chrome 122.0.0.0,,,29-02-2024 10:02:19,29-02-2024 10:02:22,3.012s,PASSED
+"click(findTestObject(""sportsbook/Soccer/p_Combo""))",Chrome 122.0.0.0,,,29-02-2024 10:02:22,29-02-2024 10:02:23,0.457s,FAILED
+,,,,,,,
+Test Cases/Sportsbook/Tennis SB Bets,Chrome 122.0.0.0,"Expected Result -  The user should be able to place Tennis bets successfully.
+Actual Result -The user is able to place Tennis bets successfully.",Tennis SB Bets,29-02-2024 10:02:23,29-02-2024 10:03:33,1m - 10.286s,FAILED
+"openBrowser("""")",Chrome 122.0.0.0,,,29-02-2024 10:02:23,29-02-2024 10:02:25,2.515s,PASSED
+"navigateToUrl(""https://haboom.com/"")",Chrome 122.0.0.0,,,29-02-2024 10:02:25,29-02-2024 10:02:32,6.751s,PASSED
+"setText(findTestObject(""Object Repository/sportsbook/Tennis/input_Help_username""), ""rock"")",Chrome 122.0.0.0,,,29-02-2024 10:02:32,29-02-2024 10:02:37,5.067s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/sportsbook/Tennis/input_Help_password""), ""Ae2KZyjYBr3zjExtfoMITg=="")",Chrome 122.0.0.0,,,29-02-2024 10:02:37,29-02-2024 10:02:39,2.085s,PASSED
+"click(findTestObject(""Object Repository/sportsbook/Tennis/input_Help_submitLogForm""))",Chrome 122.0.0.0,,,29-02-2024 10:02:39,29-02-2024 10:02:41,1.528s,PASSED
+"click(findTestObject(""Object Repository/sportsbook/Tennis/a_Sportsbook""))",Chrome 122.0.0.0,,,29-02-2024 10:02:41,29-02-2024 10:02:53,12.526s,PASSED
+"click(findTestObject(""Object Repository/sportsbook/Tennis/span_Tennis""))",Chrome 122.0.0.0,,,29-02-2024 10:02:53,29-02-2024 10:02:55,1.965s,PASSED
+"click(findTestObject(""Object Repository/sportsbook/Tennis/li_Today""))",Chrome 122.0.0.0,,,29-02-2024 10:02:55,29-02-2024 10:02:56,0.965s,PASSED
+"click(findTestObject(""sportsbook/Tennis/span_Bouquet, Lucas""))",Chrome 122.0.0.0,,,29-02-2024 10:02:56,29-02-2024 10:02:59,2.414s,PASSED
+"click(findTestObject(""sportsbook/Tennis/span_yes""))",Chrome 122.0.0.0,,,29-02-2024 10:02:59,29-02-2024 10:03:00,1.108s,PASSED
+"click(findTestObject(""Object Repository/sportsbook/Tennis/button_Place Bet""))",Chrome 122.0.0.0,,,29-02-2024 10:03:00,29-02-2024 10:03:00,0.006s,NOT_RUN
+back(),Chrome 122.0.0.0,,,29-02-2024 10:03:00,29-02-2024 10:03:00,0.368s,PASSED
+"click(findTestObject(""Object Repository/sportsbook/Tennis/li_Today""))",Chrome 122.0.0.0,,,29-02-2024 10:03:00,29-02-2024 10:03:01,1.190s,PASSED
+"click(findTestObject(""sportsbook/Tennis/span_Andre, Seydina""))",Chrome 122.0.0.0,,,29-02-2024 10:03:01,29-02-2024 10:03:03,1.991s,PASSED
+"click(findTestObject(""sportsbook/Tennis/span_over 9.5""))",Chrome 122.0.0.0,,,29-02-2024 10:03:03,29-02-2024 10:03:04,0.963s,PASSED
+back(),Chrome 122.0.0.0,,,29-02-2024 10:03:04,29-02-2024 10:03:04,0.032s,PASSED
+"click(findTestObject(""Object Repository/sportsbook/Tennis/li_Today""))",Chrome 122.0.0.0,,,29-02-2024 10:03:04,29-02-2024 10:03:06,1.640s,PASSED
+"click(findTestObject(""sportsbook/Tennis/span_Szajrych, Jasza""))",Chrome 122.0.0.0,,,29-02-2024 10:03:06,29-02-2024 10:03:33,26.931s,FAILED

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>My Account</name>
+   <tag></tag>
+   <elementGuidId>56c4b71a-a0c5-49f0-abe9-fe5786e242fd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.ssc-aru.ssc-arus.ssc-sprite</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='acco_arr']/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>0a7a1834-94b8-446c-93cd-a05290ce2c16</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ssc-aru ssc-arus ssc-sprite</value>
+      <webElementGuid>1ba1a95a-8165-4aac-a57d-a91ee4d31891</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>e4fb083e-18aa-4a08-b58e-1c961c1e6a5a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;acco_arr&quot;)/span[@class=&quot;ssc-aru ssc-arus ssc-sprite&quot;]</value>
+      <webElementGuid>016d0c22-b8ba-495a-b904-e891c9d14775</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='acco_arr']/span</value>
+      <webElementGuid>806a4250-376e-4f7c-8fc9-d2a59c175c1b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Account'])[1]/following::span[2]</value>
+      <webElementGuid>2ceabb9b-4718-40da-989a-dba3a317a356</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Help'])[1]/following::span[6]</value>
+      <webElementGuid>19c0ac7e-b03d-4c3b-821b-866ae34d8941</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/span</value>
+      <webElementGuid>81a0d34e-a368-4aa8-a0fc-e5c97e77e364</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -55,6 +55,15 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+<<<<<<< HEAD
+      <initValue>'rock'</initValue>
+      <name>dhamousername</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Eternals@12'</initValue>
+      <name>dhamopassword</name>
+=======
       <initValue>'6366763704'</initValue>
       <name>Usernamethilak</name>
    </GlobalVariableEntity>
@@ -62,6 +71,7 @@
       <description></description>
       <initValue>'123Qwe@'</initValue>
       <name>passwordthilak</name>
+>>>>>>> branch 'main' of https://github.com/ishaanamitm/HaboomWBT.git
    </GlobalVariableEntity>
 </GlobalVariableEntities>
 >>>>>>> branch 'main' of https://github.com/ishaanamitm/HaboomWBT.git
