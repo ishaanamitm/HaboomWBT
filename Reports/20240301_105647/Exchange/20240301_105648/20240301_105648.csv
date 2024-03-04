@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Exchange,Chrome 121.0.0.0,,,01-03-2024 10:56:50,01-03-2024 10:57:30,39.472s,PASSED
+,,,,,,,
+Test Cases/Exchange/Place exchange_cricket bet,Chrome 121.0.0.0,,,01-03-2024 10:56:50,01-03-2024 10:57:30,39.329s,PASSED
+Start setup action : setupTestCase,Chrome 121.0.0.0,,,01-03-2024 10:56:50,01-03-2024 10:57:04,13.637s,PASSED
+"click(findTestObject(""Object Repository/Exchange Page/Exchange_menu""))",Chrome 121.0.0.0,,,01-03-2024 10:57:04,01-03-2024 10:57:10,5.701s,PASSED
+"click(findTestObject(""Object Repository/Exchange Page/Cricket_menu""))",Chrome 121.0.0.0,,,01-03-2024 10:57:10,01-03-2024 10:57:12,2.149s,PASSED
+delay(5),Chrome 121.0.0.0,,,01-03-2024 10:57:12,01-03-2024 10:57:17,5.031s,PASSED
+"game1 = getWebDriver().findElement(By.xpath(""(//section[@class='mod-event-line ng-scope ng-isolate-scope'])[1]/ul[1]/li[1]""))",Chrome 121.0.0.0,,,01-03-2024 10:57:17,01-03-2024 10:57:17,0.254s,PASSED
+game1.click(),Chrome 121.0.0.0,,,01-03-2024 10:57:17,01-03-2024 10:57:18,0.914s,PASSED
+delay(5),Chrome 121.0.0.0,,,01-03-2024 10:57:18,01-03-2024 10:57:23,5.026s,PASSED
+"teamAback = getWebDriver().findElement(By.xpath(""(//tr[@class='runner-line ng-scope'])[1]/td[4]/button""))",Chrome 121.0.0.0,,,01-03-2024 10:57:23,01-03-2024 10:57:24,0.264s,PASSED
+teamAback.click(),Chrome 121.0.0.0,,,01-03-2024 10:57:24,01-03-2024 10:57:24,0.051s,PASSED
+"getvalue = getWebDriver().findElement(By.xpath(""(//tr[@class='runner-line ng-scope'])[1]/td[4]/button/div/span[1]""))",Chrome 121.0.0.0,,,01-03-2024 10:57:24,01-03-2024 10:57:25,1.167s,PASSED
+oddvalue = getvalue.getText(),Chrome 121.0.0.0,,,01-03-2024 10:57:25,01-03-2024 10:57:25,0.012s,PASSED
+println(oddvalue),Chrome 121.0.0.0,,,01-03-2024 10:57:25,01-03-2024 10:57:25,0.000s,PASSED
+"str = ""123""",Chrome 121.0.0.0,,,01-03-2024 10:57:25,01-03-2024 10:57:25,0.004s,PASSED
+intValue = str.toInteger(),Chrome 121.0.0.0,,,01-03-2024 10:57:25,01-03-2024 10:57:25,0.000s,PASSED
+println(intValue),Chrome 121.0.0.0,,,01-03-2024 10:57:25,01-03-2024 10:57:25,0.000s,PASSED
+delay(5),Chrome 121.0.0.0,,,01-03-2024 10:57:25,01-03-2024 10:57:30,5.021s,PASSED

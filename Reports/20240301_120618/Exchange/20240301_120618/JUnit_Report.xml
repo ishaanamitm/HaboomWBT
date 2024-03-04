@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Exchange" time="51.702" tests="1" failures="0" errors="0">
+   <testsuite name="Exchange" tests="1" failures="0" errors="0" time="51.702" skipped="0" timestamp="01-03-2024T12:06:21" hostname="M Gokul Jayanth - LAPTOP-QCN9K3GM" id="Test Suites/Exchange">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\M Gokul Jayanth\\git\\KatalonAutomation\\HaboomWBT\\Reports\\20240301_120618\\Exchange\\20240301_120618"/>
+         <property name="logFiles" value="C:\\Users\\M Gokul Jayanth\\git\\KatalonAutomation\\HaboomWBT\\Reports\\20240301_120618\\Exchange\\20240301_120618\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="M Gokul Jayanth - LAPTOP-QCN9K3GM"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.3.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.8"/>
+         <property name="sessionId" value="d364a0a5e3ea9430946091f6e7bf3a34"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Exchange/Place exchange_cricket bet" time="51.541" classname="Test Cases/Exchange/Place exchange_cricket bet" status="PASSED">
+         <system-out><![CDATA[01-03-2024T12:06:21 - [TEST_CASE][PASSED] - Test Cases/Exchange/Place exchange_cricket bet: Test Cases/Exchange/Place exchange_cricket bet
+
+01-03-2024T12:06:21 - [TEST_STEP][PASSED] - Start setup action : setupTestCase: Method 'setupTestCase' complete successfully
+
+01-03-2024T12:06:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+01-03-2024T12:06:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+01-03-2024T12:06:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+01-03-2024T12:06:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+01-03-2024T12:06:22 - [TEST_STEP][PASSED] - navigateToUrl("https://haboom.com/"): Navigate to 'https://haboom.com/' successfully
+
+01-03-2024T12:06:40 - [MESSAGE][PASSED] - Navigate to 'https://haboom.com/' successfully
+
+01-03-2024T12:06:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+01-03-2024T12:06:41 - [MESSAGE][PASSED] - Current window maximized
+
+01-03-2024T12:06:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page/Login email field"), "MartinGarrix"): Text 'MartinGarrix' is set on object 'Object Repository/Login Page/Login email field'
+
+01-03-2024T12:06:43 - [MESSAGE][PASSED] - Text 'MartinGarrix' is set on object 'Object Repository/Login Page/Login email field'
+
+01-03-2024T12:06:43 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login Page/Login Password"), "Test@1234"): Text 'Test@1234' is set on object 'Object Repository/Login Page/Login Password'
+
+01-03-2024T12:06:45 - [MESSAGE][PASSED] - Text 'Test@1234' is set on object 'Object Repository/Login Page/Login Password'
+
+01-03-2024T12:06:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login Page/login button")): Object: 'Object Repository/Login Page/login button' is clicked on
+
+01-03-2024T12:06:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Login Page/login button' is clicked on
+
+01-03-2024T12:06:45 - [MESSAGE][PASSED] - Method 'setupTestCase' complete successfully
+
+01-03-2024T12:06:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Exchange Page/Exchange_menu")): Object: 'Object Repository/Exchange Page/Exchange_menu' is clicked on
+
+01-03-2024T12:06:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Exchange Page/Exchange_menu' is clicked on
+
+01-03-2024T12:06:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Exchange Page/Cricket_menu")): Object: 'Object Repository/Exchange Page/Cricket_menu' is clicked on
+
+01-03-2024T12:06:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Exchange Page/Cricket_menu' is clicked on
+
+01-03-2024T12:06:54 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+01-03-2024T12:06:59 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+01-03-2024T12:06:59 - [TEST_STEP][PASSED] - game1 = getWebDriver().findElement(By.xpath("(//section[@class='mod-event-line ng-scope ng-isolate-scope'])[1]/ul[1]/li[1]")): null
+
+01-03-2024T12:06:59 - [TEST_STEP][PASSED] - game1.click(): null
+
+01-03-2024T12:07:01 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+01-03-2024T12:07:06 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+01-03-2024T12:07:06 - [TEST_STEP][PASSED] - teamAback = getWebDriver().findElement(By.xpath("(//tr[@class='runner-line ng-scope'])[1]/td[4]/button")): null
+
+01-03-2024T12:07:06 - [TEST_STEP][PASSED] - teamAback.click(): null
+
+01-03-2024T12:07:06 - [TEST_STEP][PASSED] - getvalue = getWebDriver().findElement(By.xpath("(//tr[@class='runner-line ng-scope'])[1]/td[4]/button/div/span[1]")): null
+
+01-03-2024T12:07:07 - [TEST_STEP][PASSED] - stringoddvalue = getvalue.getText(): null
+
+01-03-2024T12:07:07 - [TEST_STEP][PASSED] - println(stringoddvalue): null
+
+01-03-2024T12:07:07 - [TEST_STEP][PASSED] - try: null
+
+01-03-2024T12:07:07 - [TEST_STEP][PASSED] - floatoddvalue = stringoddvalue.toFloat(): null
+
+01-03-2024T12:07:07 - [TEST_STEP][PASSED] - println(floatoddvalue): null
+
+01-03-2024T12:07:07 - [TEST_STEP][PASSED] - newoddvalue = floatoddvalue + 0.20: null
+
+01-03-2024T12:07:07 - [TEST_STEP][PASSED] - println(newoddvalue): null
+
+01-03-2024T12:07:07 - [TEST_STEP][PASSED] - delay(5): Delayed 5 second(s)
+
+01-03-2024T12:07:12 - [MESSAGE][PASSED] - Delayed 5 second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[01-03-2024T12:06:21 - [TEST_SUITE][PASSED] - Exchange: Test Cases/Exchange/Place exchange_cricket bet]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

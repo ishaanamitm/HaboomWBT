@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Exchange,Chrome 122.0.0.0,,,02-03-2024 14:54:16,02-03-2024 14:54:41,25.002s,ERROR
+,,,,,,,
+Test Cases/Exchange/Place exchange_soccer bet,Chrome 122.0.0.0,,,02-03-2024 14:54:17,02-03-2024 14:54:41,24.854s,ERROR
+Start setup action : setupTestCase,Chrome 122.0.0.0,,,02-03-2024 14:54:17,02-03-2024 14:54:30,13.378s,PASSED
+"click(findTestObject(""Object Repository/Exchange Page/Exchange_menu""))",Chrome 122.0.0.0,,,02-03-2024 14:54:30,02-03-2024 14:54:34,4.027s,PASSED
+"click(findTestObject(""Object Repository/Exchange Page/Football_menu""))",Chrome 122.0.0.0,,,02-03-2024 14:54:34,02-03-2024 14:54:36,2.209s,PASSED
+delay(5),Chrome 122.0.0.0,,,02-03-2024 14:54:36,02-03-2024 14:54:41,5.039s,PASSED
+"game1 = getWebDriver().findElement(By.xpath(""(//section[@class='mod-event-line ng-scope ng-isolate-scope'])[1]/ul[1]/li[1]""))",Chrome 122.0.0.0,,,02-03-2024 14:54:41,02-03-2024 14:54:41,0.048s,ERROR

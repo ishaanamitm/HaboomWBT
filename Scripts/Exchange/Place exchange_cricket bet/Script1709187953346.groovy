@@ -28,29 +28,49 @@ teamAback.click()
 
 WebElement getvalue = DriverFactory.getWebDriver().findElement(By.xpath("(//tr[@class='runner-line ng-scope'])[1]/td[4]/button/div/span[1]"))
 
-String oddvalue = getvalue.getText()
+String stringoddvalue = getvalue.getText()
 
-println(oddvalue)
+println(stringoddvalue)
 
-WebUI.closeBrowser()
+//convert string to float code
+	float floatoddvalue = stringoddvalue.toFloat()
+	
+	println(floatoddvalue)
+	
+	if(floatoddvalue > 5) {
+		
+		println("since odd value is greater than 5, bet cannot be placed")
+	}
+	
+	else {
+	
+	float newoddvalue = floatoddvalue + 0.10
+	
+	println(newoddvalue)
+	
+	
+	
+//convert float to string
+	
+	String newstringoddvalue = newoddvalue.floatValue()
+	
+	String roundoffvalue = newstringoddvalue.substring(0, 4)
+	
+	println(roundoffvalue)
+	
+	
+WebUI.setText(findTestObject('Object Repository/Exchange Page/oddvalue_field'), roundoffvalue)
 
-//int oddvalueint = oddvalue.toInteger()
+WebUI.click(findTestObject('Object Repository/Exchange Page/Placebet_button'))
 
-
- 
- 
-//int value = oddvalue as Integer
-   
-   
-//println(value)
- 
-//int passvalue = value + 0.10
-
-//println(passvalue)
-
-//println(passvalue)
 
 WebUI.delay(5)
 
+WebUI.verifyElementClickable(findTestObject('Object Repository/Exchange Page/cancelallunmatchedbet_button'))
+
+println("bet placed successfully")
+
+WebUI.click(findTestObject('Object Repository/Exchange Page/cancelallunmatchedbet_button'))
 
 
+	}
