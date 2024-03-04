@@ -51,17 +51,18 @@ def tearDown() {
 def setupTestCase() {
 	WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://haboom.com/')
+    WebUI.navigateToUrl(GlobalVariable.url)
 
 
-WebUI.maximizeWindow()
-WebUI.setText(findTestObject('Object Repository/Login Page/Login email field'), 
-    'MartinGarrix')
+    WebUI.maximizeWindow()
+	
+    WebUI.setText(findTestObject('Object Repository/Login Page/Login email field'), 
+    GlobalVariable.username)
 
-WebUI.setText(findTestObject('Object Repository/Login Page/Login Password'), 
-    'Test@1234')
+    WebUI.setText(findTestObject('Object Repository/Login Page/Login Password'), 
+    GlobalVariable.password)
 
-WebUI.click(findTestObject('Object Repository/Login Page/login button'))
+    WebUI.click(findTestObject('Object Repository/Login Page/login button'))
 
 
 }

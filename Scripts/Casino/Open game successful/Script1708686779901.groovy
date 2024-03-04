@@ -96,6 +96,7 @@ for (int i = 1; i < provider.size(); i++) {
 			                         if(title.contains("notavailable")) {
 								  
 								              println("Failed")
+											  
 				                              println("Game number -" + j +"- Failed to open")
 				
 			                         }

@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Exchange,Chrome 121.0.0.0,,,01-03-2024 11:05:50,01-03-2024 11:06:26,36.003s,ERROR
+,,,,,,,
+Test Cases/Exchange/Place exchange_cricket bet,Chrome 121.0.0.0,,,01-03-2024 11:05:50,01-03-2024 11:06:26,35.870s,ERROR
+Start setup action : setupTestCase,Chrome 121.0.0.0,,,01-03-2024 11:05:50,01-03-2024 11:06:05,14.236s,PASSED
+"click(findTestObject(""Object Repository/Exchange Page/Exchange_menu""))",Chrome 121.0.0.0,,,01-03-2024 11:06:05,01-03-2024 11:06:12,7.126s,PASSED
+"click(findTestObject(""Object Repository/Exchange Page/Cricket_menu""))",Chrome 121.0.0.0,,,01-03-2024 11:06:12,01-03-2024 11:06:14,2.323s,PASSED
+delay(5),Chrome 121.0.0.0,,,01-03-2024 11:06:14,01-03-2024 11:06:19,5.021s,PASSED
+"game1 = getWebDriver().findElement(By.xpath(""(//section[@class='mod-event-line ng-scope ng-isolate-scope'])[1]/ul[1]/li[1]""))",Chrome 121.0.0.0,,,01-03-2024 11:06:19,01-03-2024 11:06:19,0.279s,PASSED
+game1.click(),Chrome 121.0.0.0,,,01-03-2024 11:06:19,01-03-2024 11:06:20,0.961s,PASSED
+delay(5),Chrome 121.0.0.0,,,01-03-2024 11:06:20,01-03-2024 11:06:25,5.012s,PASSED
+"teamAback = getWebDriver().findElement(By.xpath(""(//tr[@class='runner-line ng-scope'])[1]/td[4]/button""))",Chrome 121.0.0.0,,,01-03-2024 11:06:25,01-03-2024 11:06:26,0.276s,PASSED
+teamAback.click(),Chrome 121.0.0.0,,,01-03-2024 11:06:26,01-03-2024 11:06:26,0.040s,PASSED
+"getvalue = getWebDriver().findElement(By.xpath(""(//tr[@class='runner-line ng-scope'])[1]/td[4]/button/div/span[1]""))",Chrome 121.0.0.0,,,01-03-2024 11:06:26,01-03-2024 11:06:26,0.477s,PASSED
+oddvalue = getvalue.getText(),Chrome 121.0.0.0,,,01-03-2024 11:06:26,01-03-2024 11:06:26,0.014s,PASSED
+println(oddvalue),Chrome 121.0.0.0,,,01-03-2024 11:06:26,01-03-2024 11:06:26,0.003s,PASSED
+oddvalue2 = oddvalue,Chrome 121.0.0.0,,,01-03-2024 11:06:26,01-03-2024 11:06:26,0.001s,PASSED
+str = oddvalue2,Chrome 121.0.0.0,,,01-03-2024 11:06:26,01-03-2024 11:06:26,0.000s,PASSED
+intValue = str.toInteger(),Chrome 121.0.0.0,,,01-03-2024 11:06:26,01-03-2024 11:06:26,0.009s,ERROR

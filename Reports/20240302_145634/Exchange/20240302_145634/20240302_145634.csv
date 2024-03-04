@@ -1,0 +1,20 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Exchange,Chrome 122.0.0.0,,,02-03-2024 14:56:36,02-03-2024 14:58:07,1m - 30.713s,PASSED
+,,,,,,,
+Test Cases/Exchange/Place exchange_soccer bet,Chrome 122.0.0.0,,,02-03-2024 14:56:36,02-03-2024 14:58:07,1m - 30.592s,PASSED
+Start setup action : setupTestCase,Chrome 122.0.0.0,,,02-03-2024 14:56:36,02-03-2024 14:56:58,21.778s,PASSED
+"click(findTestObject(""Object Repository/Exchange Page/Exchange_menu""))",Chrome 122.0.0.0,,,02-03-2024 14:56:58,02-03-2024 14:57:43,45.086s,PASSED
+"click(findTestObject(""Object Repository/Exchange Page/Football_menu""))",Chrome 122.0.0.0,,,02-03-2024 14:57:43,02-03-2024 14:57:45,1.969s,PASSED
+delay(5),Chrome 122.0.0.0,,,02-03-2024 14:57:45,02-03-2024 14:57:50,5.063s,PASSED
+"game1 = getWebDriver().findElement(By.xpath(""(//section[@class='mod-event-line ng-scope ng-isolate-scope'])[1]/ul[1]/li[1]""))",Chrome 122.0.0.0,,,02-03-2024 14:57:50,02-03-2024 14:57:51,0.299s,PASSED
+game1.click(),Chrome 122.0.0.0,,,02-03-2024 14:57:51,02-03-2024 14:57:53,2.085s,PASSED
+delay(5),Chrome 122.0.0.0,,,02-03-2024 14:57:53,02-03-2024 14:57:58,5.011s,PASSED
+"teamAback = getWebDriver().findElement(By.xpath(""(//tr[@class='runner-line ng-scope'])[1]/td[4]/button""))",Chrome 122.0.0.0,,,02-03-2024 14:57:58,02-03-2024 14:57:58,0.255s,PASSED
+teamAback.click(),Chrome 122.0.0.0,,,02-03-2024 14:57:58,02-03-2024 14:57:58,0.068s,PASSED
+"getvalue = getWebDriver().findElement(By.xpath(""(//tr[@class='runner-line ng-scope'])[1]/td[4]/button/div/span[1]""))",Chrome 122.0.0.0,,,02-03-2024 14:57:58,02-03-2024 14:57:59,1.001s,PASSED
+stringoddvalue = getvalue.getText(),Chrome 122.0.0.0,,,02-03-2024 14:57:59,02-03-2024 14:57:59,0.016s,PASSED
+println(stringoddvalue),Chrome 122.0.0.0,,,02-03-2024 14:57:59,02-03-2024 14:57:59,0.016s,PASSED
+floatoddvalue = stringoddvalue.toFloat(),Chrome 122.0.0.0,,,02-03-2024 14:57:59,02-03-2024 14:57:59,0.003s,PASSED
+println(floatoddvalue),Chrome 122.0.0.0,,,02-03-2024 14:57:59,02-03-2024 14:57:59,0.013s,PASSED
+if (floatoddvalue > 5),Chrome 122.0.0.0,,,02-03-2024 14:57:59,02-03-2024 14:57:59,0.002s,PASSED
+else,Chrome 122.0.0.0,,,02-03-2024 14:57:59,02-03-2024 14:58:07,7.806s,PASSED

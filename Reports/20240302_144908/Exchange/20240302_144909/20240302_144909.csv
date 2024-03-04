@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Exchange,Chrome 122.0.0.0,,,02-03-2024 14:49:12,02-03-2024 14:49:22,10.196s,FAILED
+,,,,,,,
+Test Cases/Exchange/Place exchange_soccer bet,Chrome 122.0.0.0,,,02-03-2024 14:49:12,02-03-2024 14:49:22,10.073s,FAILED
+Start setup action : setupTestCase,Chrome 122.0.0.0,,,02-03-2024 14:49:12,02-03-2024 14:49:20,7.710s,PASSED
+"click(findTestObject(""Object Repository/Exchange Page/Exchange_menu""))",Chrome 122.0.0.0,,,02-03-2024 14:49:20,02-03-2024 14:49:22,2.237s,FAILED
