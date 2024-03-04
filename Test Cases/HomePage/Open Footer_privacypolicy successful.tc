@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Expected title - user should able to open the privacy policy link successfully&#xd;
+
+Actual - user can open the privacy policy link</description>
+   <name>Open Footer_privacypolicy successful</name>
+   <tag>Privacy policy</tag>
+   <comment></comment>
+   <testCaseGuid>fbb0ced2-d295-4659-8d92-d3acf854c5eb</testCaseGuid>
+</TestCaseEntity>

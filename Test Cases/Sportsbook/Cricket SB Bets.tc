@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Expected: The user should be able to place Cricket bets successfully.&#xd;
+Actual: The user is able to place Cricket bets successfully.</description>
+   <name>Cricket SB Bets</name>
+   <tag>Cricket SB Bets</tag>
+   <comment></comment>
+   <testCaseGuid>cd3f2e4d-9560-4369-9b16-364bc08270b1</testCaseGuid>
+</TestCaseEntity>

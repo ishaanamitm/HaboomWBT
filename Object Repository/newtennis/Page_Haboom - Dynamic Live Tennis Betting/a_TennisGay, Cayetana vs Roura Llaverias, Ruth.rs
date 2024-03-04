@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_TennisGay, Cayetana vs Roura Llaverias, Ruth</name>
+   <tag></tag>
+   <elementGuidId>465f6030-44b9-4220-a484-7bec370adb72</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='mod-inplaysports-1002']/div[3]/div/div[2]/div/div/li[66]/ul/li[2]/div/div[2]/div[2]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>cb3bbf8c-0a54-4918-9247-dfc39c714573</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-nav event-team-container ui-top event-link ui-gtm-click cls_tr_name cl_ui_event gotoEventAllMarketsDesktop</value>
+      <webElementGuid>e9ab884b-c03c-4338-88fb-65e6896102b8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-event_id</name>
+      <type>Main</type>
+      <value>sr:match:48156737</value>
+      <webElementGuid>cca37a8a-2fa6-4e14-9729-b746d6781ecf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>TennisGay, Cayetana vs Roura Llaverias, Ruth</value>
+      <webElementGuid>217ce93f-9b8b-4363-a40d-86ddb41f555e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mod-inplaysports-1002&quot;)/div[@class=&quot;list-multipickavb&quot;]/div[@class=&quot;sport-container sport-container-1 football-tab visible&quot;]/div[@class=&quot;sport-1 liveFixtureListMain&quot;]/div[@class=&quot;sport_container sb_sport_container cl_sport_container sbSportContainer&quot;]/div[@class=&quot;section-list  all_tournament_container&quot;]/li[@class=&quot;section tournament_block tournament_block_srtournament21492_13&quot;]/ul[@class=&quot;matchholder cl_matchholder&quot;]/li[@class=&quot;com-coupon-line avb-row market-1x2 sb_event_box large tmt cl_com_coupon&quot;]/div[@class=&quot;event-information ui-inplay ui-has-score ui-event&quot;]/div[@class=&quot;details-event&quot;]/div[@class=&quot;event-name-info ui-market  ui-inplay ui-no-status-message ui-market-open&quot;]/a[@class=&quot;ui-nav event-team-container ui-top event-link ui-gtm-click cls_tr_name cl_ui_event gotoEventAllMarketsDesktop&quot;]</value>
+      <webElementGuid>6af93814-1838-4e0b-8642-85b92bf8377b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='mod-inplaysports-1002']/div[3]/div/div[2]/div/div/li[66]/ul/li[2]/div/div[2]/div[2]/a</value>
+      <webElementGuid>1f6c01e1-6ee3-42a6-850b-23b4813afeb0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Fernandez Rincon, Constanza'])[1]/following::a[4]</value>
+      <webElementGuid>66cd1149-cd24-409f-8814-0b8e8f78d454</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='vs'])[103]/following::a[4]</value>
+      <webElementGuid>3a33acc9-5bd6-44ae-8d02-6b2b7cd25edc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[66]/ul/li[2]/div/div[2]/div[2]/a</value>
+      <webElementGuid>27b31301-86ef-4bfb-b4fc-5060db911129</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'TennisGay, Cayetana vs Roura Llaverias, Ruth' or . = 'TennisGay, Cayetana vs Roura Llaverias, Ruth')]</value>
+      <webElementGuid>6acb9521-5ea1-4304-a390-1c2036bc572e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

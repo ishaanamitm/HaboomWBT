@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Minimum stake allowed is 10</name>
+   <tag></tag>
+   <elementGuidId>18062697-33d2-4b2a-8318-c27c748e08f3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//body[@id='yui_3_5_0_1_1608199694213_5961']/div[13]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.snackbar-container.snackbar-pos.top-right</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>fd2bf46e-e2e1-47fa-a417-c5c9ab9fcfe3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>snackbar-container  snackbar-pos top-right</value>
+      <webElementGuid>b1d6e761-084e-45f6-ad3a-3552f8b0b3d9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Minimum stake allowed is 10</value>
+      <webElementGuid>21517c18-4013-46d7-a234-77ba4f7cbf71</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;yui_3_5_0_1_1608199694213_5961&quot;)/div[@class=&quot;snackbar-container  snackbar-pos top-right&quot;]</value>
+      <webElementGuid>24ab9792-e02b-457c-a3bd-bcf78d934778</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//body[@id='yui_3_5_0_1_1608199694213_5961']/div[13]</value>
+      <webElementGuid>cdeb8f5d-ba48-4601-a271-1fe1596bb338</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Place Bet'])[1]/following::div[10]</value>
+      <webElementGuid>f7c71784-cd86-45fe-b5b4-2ccf1f3385a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remove All'])[1]/following::div[10]</value>
+      <webElementGuid>671900e0-762f-4716-bd9d-206f70db3c17</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[13]</value>
+      <webElementGuid>f95e6941-a611-41cd-b98c-f5b8a9159410</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Minimum stake allowed is 10' or . = 'Minimum stake allowed is 10')]</value>
+      <webElementGuid>603bd201-47b1-4c22-978d-9f7f8fc51ce4</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

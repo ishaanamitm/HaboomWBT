@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Exchange,,,,29-02-2024 12:06:57,29-02-2024 12:06:58,0.615s,FAILED
+,,,,,,,
+Test Cases/Exchange/Place exchange_cricket bet,,,,29-02-2024 12:06:58,29-02-2024 12:06:58,0.058s,FAILED
+"click(findTestObject(""Object Repository/Exchange Page/Exchange_menu""))",,,,29-02-2024 12:06:58,29-02-2024 12:06:58,0.026s,FAILED

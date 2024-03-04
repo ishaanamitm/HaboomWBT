@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description>Expected title - user should able to open the help menu successfully&#xd;
-Actual - user can open the help menu</description>
+   <description>Expected title - user should able to open the FAQ menu successfully&#xd;
+Actual - user can open the FAQ menu</description>
    <name>Open Footer_FAQ successfuk</name>
    <tag>FAQ</tag>
    <comment></comment>

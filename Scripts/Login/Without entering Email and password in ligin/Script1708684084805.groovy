@@ -19,9 +19,9 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('https://haboom.com/')
+WebUI.navigateToUrl(GlobalVariable.URL)
 
 WebUI.click(findTestObject('Object Repository/Login Page/login button'))
 
-WebUI.verifyElementText(findTestObject('Object Repository/Warning Message login/warning message Enter EmailUsername'), 'Please enter Email/Username')
+WebUI.verifyElementText(findTestObject('Object Repository/Login Page/warning message Enter EmailUsername'), 'Please enter Email/Username')
 

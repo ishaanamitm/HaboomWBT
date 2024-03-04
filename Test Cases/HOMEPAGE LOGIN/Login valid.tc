@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Expected: With valid credentials, the user should be able to log in to the homepage.&#xd;
+Actual: With valid credentials, the user is logged in to the homepage.</description>
+   <name>Login valid</name>
+   <tag>Login</tag>
+   <comment></comment>
+   <testCaseGuid>e670b499-c8ce-43c6-ab36-981d7009a5af</testCaseGuid>
+</TestCaseEntity>

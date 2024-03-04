@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Expected: With valid credentials, the user should be able to register and enter the homepage.&#xd;
+Actual: With valid credentials, the user is able to register and enter the homepage.</description>
+   <name>Joinnow valid</name>
+   <tag>Joinnow</tag>
+   <comment></comment>
+   <testCaseGuid>f2390fe4-389f-4716-b920-23376177205d</testCaseGuid>
+</TestCaseEntity>
