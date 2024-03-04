@@ -1,0 +1,18 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Exchange,Chrome 121.0.0.0,,,01-03-2024 12:06:21,01-03-2024 12:07:12,51.702s,PASSED
+,,,,,,,
+Test Cases/Exchange/Place exchange_cricket bet,Chrome 121.0.0.0,,,01-03-2024 12:06:21,01-03-2024 12:07:12,51.541s,PASSED
+Start setup action : setupTestCase,Chrome 121.0.0.0,,,01-03-2024 12:06:21,01-03-2024 12:06:45,24.446s,PASSED
+"click(findTestObject(""Object Repository/Exchange Page/Exchange_menu""))",Chrome 121.0.0.0,,,01-03-2024 12:06:45,01-03-2024 12:06:51,5.952s,PASSED
+"click(findTestObject(""Object Repository/Exchange Page/Cricket_menu""))",Chrome 121.0.0.0,,,01-03-2024 12:06:51,01-03-2024 12:06:54,2.507s,PASSED
+delay(5),Chrome 121.0.0.0,,,01-03-2024 12:06:54,01-03-2024 12:06:59,5.024s,PASSED
+"game1 = getWebDriver().findElement(By.xpath(""(//section[@class='mod-event-line ng-scope ng-isolate-scope'])[1]/ul[1]/li[1]""))",Chrome 121.0.0.0,,,01-03-2024 12:06:59,01-03-2024 12:06:59,0.282s,PASSED
+game1.click(),Chrome 121.0.0.0,,,01-03-2024 12:06:59,01-03-2024 12:07:01,1.513s,PASSED
+delay(5),Chrome 121.0.0.0,,,01-03-2024 12:07:01,01-03-2024 12:07:06,5.017s,PASSED
+"teamAback = getWebDriver().findElement(By.xpath(""(//tr[@class='runner-line ng-scope'])[1]/td[4]/button""))",Chrome 121.0.0.0,,,01-03-2024 12:07:06,01-03-2024 12:07:06,0.269s,PASSED
+teamAback.click(),Chrome 121.0.0.0,,,01-03-2024 12:07:06,01-03-2024 12:07:06,0.060s,PASSED
+"getvalue = getWebDriver().findElement(By.xpath(""(//tr[@class='runner-line ng-scope'])[1]/td[4]/button/div/span[1]""))",Chrome 121.0.0.0,,,01-03-2024 12:07:06,01-03-2024 12:07:07,1.204s,PASSED
+stringoddvalue = getvalue.getText(),Chrome 121.0.0.0,,,01-03-2024 12:07:07,01-03-2024 12:07:07,0.012s,PASSED
+println(stringoddvalue),Chrome 121.0.0.0,,,01-03-2024 12:07:07,01-03-2024 12:07:07,0.000s,PASSED
+try,Chrome 121.0.0.0,,,01-03-2024 12:07:07,01-03-2024 12:07:07,0.026s,PASSED
+delay(5),Chrome 121.0.0.0,,,01-03-2024 12:07:07,01-03-2024 12:07:12,5.010s,PASSED

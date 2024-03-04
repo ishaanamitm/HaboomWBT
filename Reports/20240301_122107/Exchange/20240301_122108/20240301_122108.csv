@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Exchange,Chrome 121.0.0.0,,,01-03-2024 12:21:12,01-03-2024 12:22:03,50.846s,ERROR
+,,,,,,,
+Test Cases/Exchange/Place exchange_cricket bet,Chrome 121.0.0.0,,,01-03-2024 12:21:12,01-03-2024 12:22:03,50.596s,ERROR
+Start setup action : setupTestCase,Chrome 121.0.0.0,,,01-03-2024 12:21:12,01-03-2024 12:21:34,21.590s,PASSED
+"click(findTestObject(""Object Repository/Exchange Page/Exchange_menu""))",Chrome 121.0.0.0,,,01-03-2024 12:21:34,01-03-2024 12:21:41,7.019s,PASSED
+"click(findTestObject(""Object Repository/Exchange Page/Cricket_menu""))",Chrome 121.0.0.0,,,01-03-2024 12:21:41,01-03-2024 12:21:44,3.150s,PASSED
+delay(5),Chrome 121.0.0.0,,,01-03-2024 12:21:44,01-03-2024 12:21:49,5.054s,PASSED
+"game1 = getWebDriver().findElement(By.xpath(""(//section[@class='mod-event-line ng-scope ng-isolate-scope'])[1]/ul[1]/li[1]""))",Chrome 121.0.0.0,,,01-03-2024 12:21:49,01-03-2024 12:21:49,0.356s,PASSED
+game1.click(),Chrome 121.0.0.0,,,01-03-2024 12:21:49,01-03-2024 12:21:53,3.691s,PASSED
+delay(5),Chrome 121.0.0.0,,,01-03-2024 12:21:53,01-03-2024 12:21:58,5.022s,PASSED
+"teamAback = getWebDriver().findElement(By.xpath(""(//tr[@class='runner-line ng-scope'])[1]/td[4]/button""))",Chrome 121.0.0.0,,,01-03-2024 12:21:58,01-03-2024 12:21:59,1.111s,PASSED
+teamAback.click(),Chrome 121.0.0.0,,,01-03-2024 12:21:59,01-03-2024 12:21:59,0.091s,PASSED
+"getvalue = getWebDriver().findElement(By.xpath(""(//tr[@class='runner-line ng-scope'])[1]/td[4]/button/div/span[1]""))",Chrome 121.0.0.0,,,01-03-2024 12:21:59,01-03-2024 12:22:01,1.529s,PASSED
+stringoddvalue = getvalue.getText(),Chrome 121.0.0.0,,,01-03-2024 12:22:01,01-03-2024 12:22:01,0.039s,PASSED
+println(stringoddvalue),Chrome 121.0.0.0,,,01-03-2024 12:22:01,01-03-2024 12:22:01,0.007s,PASSED
+floatoddvalue = stringoddvalue.toFloat(),Chrome 121.0.0.0,,,01-03-2024 12:22:01,01-03-2024 12:22:01,0.005s,PASSED
+println(floatoddvalue),Chrome 121.0.0.0,,,01-03-2024 12:22:01,01-03-2024 12:22:01,0.015s,PASSED
+newoddvalue = floatoddvalue + 0.20,Chrome 121.0.0.0,,,01-03-2024 12:22:01,01-03-2024 12:22:01,0.033s,PASSED
+println(newoddvalue),Chrome 121.0.0.0,,,01-03-2024 12:22:01,01-03-2024 12:22:01,0.000s,PASSED
+"passvalue = getWebDriver().findElement(By.xpath(""(//input[@type='text'])[4]""))",Chrome 121.0.0.0,,,01-03-2024 12:22:01,01-03-2024 12:22:03,1.602s,PASSED
+passvalue.clear(),Chrome 121.0.0.0,,,01-03-2024 12:22:03,01-03-2024 12:22:03,0.065s,PASSED
+passvalue.sendKeys(newoddvalue),Chrome 121.0.0.0,,,01-03-2024 12:22:03,01-03-2024 12:22:03,0.023s,ERROR

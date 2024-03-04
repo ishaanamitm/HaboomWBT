@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Exchange,Chrome 122.0.0.0,,,02-03-2024 14:49:36,02-03-2024 14:49:47,10.588s,ERROR
+,,,,,,,
+Test Cases/Exchange/Place exchange_soccer bet,Chrome 122.0.0.0,,,02-03-2024 14:49:36,02-03-2024 14:49:47,10.457s,ERROR
+Start setup action : setupTestCase,Chrome 122.0.0.0,,,02-03-2024 14:49:36,02-03-2024 14:49:47,10.393s,ERROR

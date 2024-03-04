@@ -1,0 +1,27 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Exchange,Chrome 121.0.0.0,,,01-03-2024 13:00:31,01-03-2024 13:01:14,42.900s,PASSED
+,,,,,,,
+Test Cases/Exchange/Place exchange_cricket bet,Chrome 121.0.0.0,,,01-03-2024 13:00:31,01-03-2024 13:01:14,42.776s,PASSED
+Start setup action : setupTestCase,Chrome 121.0.0.0,,,01-03-2024 13:00:32,01-03-2024 13:00:45,13.954s,PASSED
+"click(findTestObject(""Object Repository/Exchange Page/Exchange_menu""))",Chrome 121.0.0.0,,,01-03-2024 13:00:46,01-03-2024 13:00:51,5.660s,PASSED
+"click(findTestObject(""Object Repository/Exchange Page/Cricket_menu""))",Chrome 121.0.0.0,,,01-03-2024 13:00:51,01-03-2024 13:00:53,2.005s,PASSED
+delay(5),Chrome 121.0.0.0,,,01-03-2024 13:00:53,01-03-2024 13:00:58,5.022s,PASSED
+"game1 = getWebDriver().findElement(By.xpath(""(//section[@class='mod-event-line ng-scope ng-isolate-scope'])[1]/ul[1]/li[1]""))",Chrome 121.0.0.0,,,01-03-2024 13:00:58,01-03-2024 13:00:59,0.271s,PASSED
+game1.click(),Chrome 121.0.0.0,,,01-03-2024 13:00:59,01-03-2024 13:01:00,1.318s,PASSED
+delay(5),Chrome 121.0.0.0,,,01-03-2024 13:01:00,01-03-2024 13:01:05,5.004s,PASSED
+"teamAback = getWebDriver().findElement(By.xpath(""(//tr[@class='runner-line ng-scope'])[1]/td[4]/button""))",Chrome 121.0.0.0,,,01-03-2024 13:01:05,01-03-2024 13:01:05,0.267s,PASSED
+teamAback.click(),Chrome 121.0.0.0,,,01-03-2024 13:01:05,01-03-2024 13:01:05,0.063s,PASSED
+"getvalue = getWebDriver().findElement(By.xpath(""(//tr[@class='runner-line ng-scope'])[1]/td[4]/button/div/span[1]""))",Chrome 121.0.0.0,,,01-03-2024 13:01:05,01-03-2024 13:01:06,1.049s,PASSED
+stringoddvalue = getvalue.getText(),Chrome 121.0.0.0,,,01-03-2024 13:01:06,01-03-2024 13:01:06,0.017s,PASSED
+println(stringoddvalue),Chrome 121.0.0.0,,,01-03-2024 13:01:06,01-03-2024 13:01:06,0.011s,PASSED
+floatoddvalue = stringoddvalue.toFloat(),Chrome 121.0.0.0,,,01-03-2024 13:01:06,01-03-2024 13:01:06,0.000s,PASSED
+println(floatoddvalue),Chrome 121.0.0.0,,,01-03-2024 13:01:06,01-03-2024 13:01:06,0.008s,PASSED
+newoddvalue = floatoddvalue + 0.10,Chrome 121.0.0.0,,,01-03-2024 13:01:06,01-03-2024 13:01:06,0.009s,PASSED
+println(newoddvalue),Chrome 121.0.0.0,,,01-03-2024 13:01:06,01-03-2024 13:01:06,0.000s,PASSED
+newstringoddvalue = newoddvalue.floatValue(),Chrome 121.0.0.0,,,01-03-2024 13:01:06,01-03-2024 13:01:06,0.000s,PASSED
+"setText(findTestObject(""Object Repository/Exchange Page/oddvalue_field""), newstringoddvalue)",Chrome 121.0.0.0,,,01-03-2024 13:01:06,01-03-2024 13:01:08,1.589s,PASSED
+"click(findTestObject(""Object Repository/Exchange Page/Placebet_button""))",Chrome 121.0.0.0,,,01-03-2024 13:01:08,01-03-2024 13:01:08,0.549s,PASSED
+delay(5),Chrome 121.0.0.0,,,01-03-2024 13:01:08,01-03-2024 13:01:13,5.016s,PASSED
+"verifyElementClickable(findTestObject(""Object Repository/Exchange Page/cancelallunmatchedbet_button""))",Chrome 121.0.0.0,,,01-03-2024 13:01:13,01-03-2024 13:01:14,0.524s,PASSED
+"println(""bet placed successfully"")",Chrome 121.0.0.0,,,01-03-2024 13:01:14,01-03-2024 13:01:14,0.000s,PASSED
+"click(findTestObject(""Object Repository/Exchange Page/cancelallunmatchedbet_button""))",Chrome 121.0.0.0,,,01-03-2024 13:01:14,01-03-2024 13:01:14,0.321s,PASSED

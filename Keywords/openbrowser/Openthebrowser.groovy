@@ -28,6 +28,6 @@ public class Openthebrowser {
 		WebUI.maximizeWindow()
 		WebUI.setText(findTestObject('Object Repository/Login Page/Login email field'), GlobalVariable.Username)
 
-		WebUI.setText(findTestObject('Object Repository/Login Page/Login Password'), GlobalVariable.Password)
+		WebUI.setText(findTestObject('Object Repository/Login Page/Login Password'), GlobalVariable.password)
 	}
 }

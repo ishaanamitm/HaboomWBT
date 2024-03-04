@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>cancelallunmatchedbet_button</name>
+   <tag></tag>
+   <elementGuidId>dd74efaa-c5b1-49f3-bd4f-092740b1ebfd</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[5]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button._37j6E._2va2z._1J2hg.yrTTP.cancel_all_unmatched</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>1730cdfa-aa3a-4765-8097-2a1a0ccab882</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>37143524-ffa3-472f-8a24-ad9747dcb352</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>_37j6E _2va2z _1J2hg yrTTP cancel_all_unmatched</value>
+      <webElementGuid>8a57d67d-3d00-4b0e-9b94-b1a8c33bb865</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Cancel all unmatched</value>
+      <webElementGuid>a5f15601-94b7-451e-b123-034fe8f459e0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;open_bet_pot&quot;)/div[@class=&quot;cls_openBetsdetails  cls_openbets__rk&quot;]/div[@class=&quot;lazy-load-directive ng-scope c&quot;]/div[@class=&quot;ng-scope&quot;]/section[@class=&quot;ng-scope&quot;]/open[@class=&quot;ng-scope ng-isolate-scope&quot;]/section[1]/form[@class=&quot;ng-pristine ng-valid ng-scope form-height&quot;]/betslip-open-footer[@class=&quot;ng-isolate-scope&quot;]/footer[@class=&quot;betslip-footer open-footer&quot;]/div[@class=&quot;open-footer__actions ng-scope&quot;]/ours-button[@class=&quot;open-footer__action ng-scope ng-isolate-scope&quot;]/button[@class=&quot;_37j6E _2va2z _1J2hg yrTTP cancel_all_unmatched&quot;]</value>
+      <webElementGuid>563938b5-ba7f-4267-8549-82b476804494</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[5]</value>
+      <webElementGuid>1aeb6280-ae00-4d0e-af8a-10713112fa7e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='open_bet_pot']/div/div/div/section/open/section/form/betslip-open-footer/footer/div/ours-button/button</value>
+      <webElementGuid>d053545a-a63e-4586-a26a-3d66a9fdce19</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Matched bets'])[1]/preceding::button[1]</value>
+      <webElementGuid>5827f094-6bf8-4c4d-a9a2-69aa9cfd7cfb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Cancel all unmatched']/parent::*</value>
+      <webElementGuid>5eba0019-63c6-43c9-861d-c3997a7f9c7e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//ours-button/button</value>
+      <webElementGuid>ba181fa3-4ac5-45ac-b4ee-02d304c6e2e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'Cancel all unmatched' or . = 'Cancel all unmatched')]</value>
+      <webElementGuid>954226fe-e463-4242-90b2-6b7c43bd6207</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
