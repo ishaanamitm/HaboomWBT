@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_Combo</name>
+   <tag></tag>
+   <elementGuidId>4a2ea8a6-18f3-4dc5-9b1f-c627d8a37a61</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='zone-container']/div[3]/div/div/div[2]/div/div/div/ul/li[2]/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>a50f7f9a-ba61-4557-b9cf-9027e58ab14e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Combo</value>
+      <webElementGuid>9d14b629-0440-44e3-bcaa-e10be1c42d85</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;zone-container&quot;)/div[@class=&quot;bet_slip_section  betslip_logged_in&quot;]/div[@class=&quot;bet_slip_toggle_sec desktp_bet_slip open&quot;]/div[@class=&quot;bet_slip_toggle_body bet_slip_open&quot;]/div[@class=&quot;tab_overflow&quot;]/div[@class=&quot;slip_tab_content&quot;]/div[@class=&quot;tab-content active slip_contents&quot;]/div[@class=&quot;bets_tab&quot;]/ul[1]/li[@class=&quot;slip_tab sb_sliptype_sel&quot;]/p[1]</value>
+      <webElementGuid>91b482a1-82e2-4ce3-bdb5-8bde0d6be324</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='zone-container']/div[3]/div/div/div[2]/div/div/div/ul/li[2]/p</value>
+      <webElementGuid>cbcff77c-0005-4308-b4bd-53306308fab2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Betslip'])[1]/following::p[2]</value>
+      <webElementGuid>c9083255-d664-4554-92a2-7bf485cf50ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ok, I get it'])[1]/following::p[2]</value>
+      <webElementGuid>d04ac4da-0771-4085-916e-f47c33409a2f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='₹'])[1]/preceding::p[15]</value>
+      <webElementGuid>9c67914c-c604-4726-b5a3-084293904f26</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='POTENTIAL WIN:'])[1]/preceding::p[16]</value>
+      <webElementGuid>d48298ea-1974-4764-a7d9-cad97029f371</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Combo']/parent::*</value>
+      <webElementGuid>bb27af36-bc4a-418d-a3cc-26eb899e890b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/p</value>
+      <webElementGuid>ef478b86-02b4-4702-966a-923126cee87a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = 'Combo' or . = 'Combo')]</value>
+      <webElementGuid>4571fa74-5ba8-4fc9-a26d-4225c7fcb233</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Expected: With invalid credentials, the user should not be able to register, and it should throw an error popup.&#xd;
+Actual: With invalid credentials, the user is not able to register, and it throws an error popup.</description>
+   <name>Joinnow invalid</name>
+   <tag>Joinnow invalid</tag>
+   <comment></comment>
+   <testCaseGuid>48eb7e6e-67eb-4233-af12-0cc21ee11a80</testCaseGuid>
+</TestCaseEntity>

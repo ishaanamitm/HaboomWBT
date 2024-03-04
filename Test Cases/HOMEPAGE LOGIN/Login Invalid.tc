@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Expected: With invalid credentials, the user should be redirected to another login page with an error popup message.&#xd;
+Actual: With invalid credentials, the user is redirected to another login page with an error popup message.</description>
+   <name>Login Invalid</name>
+   <tag>Login Invalid</tag>
+   <comment></comment>
+   <testCaseGuid>e0355d56-fddc-447d-923d-930caa162238</testCaseGuid>
+</TestCaseEntity>
