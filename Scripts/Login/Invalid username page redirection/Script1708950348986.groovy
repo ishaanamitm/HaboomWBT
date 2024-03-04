@@ -19,9 +19,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl(GlobalVariable.URL)
 
-WebUI.click(findTestObject('Object Repository/Login Page/login button'))
+WebUI.setText(findTestObject('Login Page/Login email field'), 'fghdftghdfg')
 
-WebUI.verifyElementText(findTestObject('Object Repository/Login Page/warning message Enter EmailUsername'), 'Please enter Email/Username')
+WebUI.setEncryptedText(findTestObject('Login Page/Login Password'), '/j24O84AXdY58OnrYDccxQ==')
+
+WebUI.click(findTestObject('Login Page/login button'))
+
+WebUI.verifyElementText(findTestObject('Object Repository/Login Page/User not found. Not to worry, you can try'), 'User not found. Not to worry, you can try again or you can reset your password or contact us.')
 
